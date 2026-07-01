@@ -17,7 +17,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 1.2
+Version: 1.3
 
 Status: Active
 
@@ -45,6 +45,7 @@ Phase 0 - Information Collection remains open during the entire project.
 - Nine new source files were added to `data/source_inventory.tsv`.
 - Seven new administrative people records were entered in `docs/phase1/1A_People.md`.
 - The People database now contains fourteen stable person records.
+- Academic merit fellowships were verified from Lattes headers and prize/title sections.
 - No CPF values from the team page were stored in the repository.
 - No scientific competencies, objectives, work packages, or proposal text have
   been created.
@@ -53,8 +54,9 @@ Phase 0 - Information Collection remains open during the entire project.
 
 - Validate the fourteen entered people records with the project owner.
 - Resolve missing or ambiguous fields, especially research group, ORCID,
-  current career stage, and departmental discrepancies between CVs and the team
-  page.
+  current career stage, departmental discrepancies between CVs and the team
+  page, and whether historical merit fellowships should be separated from
+  current merit fellowships.
 - Continue collecting participant information for any researchers not yet in
   the CV folder or team page.
 - Preserve stable person IDs and never renumber existing records.
@@ -67,6 +69,10 @@ Phase 0 - Information Collection remains open during the entire project.
 - Files in Dropbox `CVs/` folder: 16
 - Phase 1A people records: 14
 - Institutions recorded in Phase 1A: 4
+- CNPq Productivity Research Fellows identified from Lattes headers: 5
+- FAPESB/CNPq Productivity Research Fellows identified from Lattes headers: 1
+- People with FAPERJ Cientista do Nosso Estado records: 1
+- People with FAPERJ Jovem Cientista do Nosso Estado or related young-scientist merit records: 4
 - Publications linked to people records: 0, pending Phase 1B registry
 - Previous projects linked to people records: 0, pending Phase 1C registry
 
@@ -77,6 +83,7 @@ fields without moving to Phase 1B.
 
 ## Recent updates
 
+- 2026-07-01: Verified academic merit fellowships in Phase 1A records, including CNPq Productivity, FAPESB/CNPq Productivity, FAPERJ Cientista do Nosso Estado, and FAPERJ Jovem Cientista records.
 - 2026-07-01: Refreshed the Dropbox support-document folder after user update.
 - 2026-07-01: Added nine new source files to `data/source_inventory.tsv`,
   preserving all existing `SRC-000x` identifiers.

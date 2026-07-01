@@ -17,7 +17,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/00_Project_Status.md`, and
 Completion criteria: Every known participant has a stable ID and a complete
 record with the required fields listed below.
 
-Version: 1.2
+Version: 1.3
 
 Status: Active
 
@@ -52,6 +52,7 @@ Each researcher record must include:
 - Current status
 - Research group
 - Career stage
+- Academic merit fellowships
 - Related publications
 - Related projects
 - Notes
@@ -63,6 +64,13 @@ project links remain pending until Phase 1B and Phase 1C are opened.
 
 Direct personal identifiers that are not required by the People database, such
 as CPF values present in source documents, are intentionally not stored here.
+
+Academic merit fellowships records CNPq Productivity Research Fellowships and
+FAPERJ Cientista do Nosso Estado, Jovem Cientista do Nosso Estado, or related
+merit fellowships only when explicitly present in the source CV or team page.
+Ordinary training scholarships, such as undergraduate, master, doctoral, CAPES,
+PIBIC, or technological-initiation scholarships, are not classified here as
+academic merit fellowships.
 
 ## People database
 
@@ -81,6 +89,7 @@ as CPF values present in source documents, are intentionally not stored here.
 - Current status: Mestrado em andamento in 2026; source CV last updated 2026-05-01
 - Research group: Not specified in source CV
 - Career stage: Mestrando
+- Academic merit fellowships: None found in source CVs or team page.
 - Related publications: Pending Phase 1B registry
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0001`, `SRC-0042`, and `SRC-0047`; CV also states current teaching activity at Colégio De AaZ.
@@ -97,7 +106,8 @@ as CPF values present in source documents, are intentionally not stored here.
 - ORCID: Not found in source CV
 - Current status: Professor Associado; source CV last updated 2026-06-17
 - Research group: Not specified in source CV
-- Career stage: Professor Associado; Bolsista de Produtividade em Pesquisa do CNPq - Nível 2
+- Career stage: Professor Associado
+- Academic merit fellowships: CNPq Productivity Research Fellow, Level 2, stated in source CV header; FAPERJ Jovem Cientista do Nosso Estado listed in source CV Prêmios e títulos for 2022, 2018, and 2015.
 - Related publications: Pending Phase 1B registry
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0002` and `SRC-0047`; departmental discrepancy requires validation.
@@ -114,7 +124,8 @@ as CPF values present in source documents, are intentionally not stored here.
 - ORCID: Not found in source CV
 - Current status: Professora Associada; source CV last updated 2026-06-17
 - Research group: Not specified in source CV
-- Career stage: Professora Associada; Bolsista de Produtividade em Pesquisa do CNPq - Nível 2
+- Career stage: Professora Associada
+- Academic merit fellowships: CNPq Productivity Research Fellow, Level 2, stated in source CV header and Prêmios e títulos; FAPERJ Jovem Cientista do Nosso Estado listed for 2022; FAPERJ Jovem Cientista Mulher with vínculo em ICTs do Estado do RJ listed for 2024.
 - Related publications: Pending Phase 1B registry
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0004` and `SRC-0047`; departmental discrepancy requires validation.
@@ -131,7 +142,8 @@ as CPF values present in source documents, are intentionally not stored here.
 - ORCID: Not found in source CV
 - Current status: Professor Titular; source CV last updated 2025-10-03
 - Research group: Not specified in source CV
-- Career stage: Professor Titular; Bolsista de Produtividade em Pesquisa do CNPq - Nível 1C
+- Career stage: Professor Titular
+- Academic merit fellowships: CNPq Productivity Research Fellow, Level 1C, stated in source CV header; no FAPERJ CNE/JCNE entry found in the reviewed source CV.
 - Related publications: Pending Phase 1B registry
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0005` and `SRC-0047`.
@@ -148,7 +160,8 @@ as CPF values present in source documents, are intentionally not stored here.
 - ORCID: https://orcid.org/0000-0003-4887-9264
 - Current status: Professor Associado; source CV last updated 2026-05-21
 - Research group: Not specified in source CV
-- Career stage: Professor Associado; Bolsista de Produtividade em Pesquisa do CNPq - Nível C
+- Career stage: Professor Associado
+- Academic merit fellowships: CNPq Productivity Research Fellow, Level C, stated in source CV header; source CV Prêmios e títulos also lists CNPq PQ2 in 2022, 2018, and 2015; FAPERJ Jovem Cientista do Nosso Estado listed for 2016.
 - Related publications: Pending Phase 1B registry
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0007` and `SRC-0047`; CV also lists 2023-current UFRJ and Ames National Laboratory links that require validation before canonical use.
@@ -166,6 +179,7 @@ as CPF values present in source documents, are intentionally not stored here.
 - Current status: Doutorado em andamento at UERJ; source CV last updated 2026-05-20
 - Research group: Not specified in source CV
 - Career stage: Doutorando
+- Academic merit fellowships: None found in source CV or team page.
 - Related publications: Pending Phase 1B registry
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0039` and `SRC-0047`.
@@ -183,6 +197,7 @@ as CPF values present in source documents, are intentionally not stored here.
 - Current status: Mestrando according to team page; source CV last updated 2026-02-24
 - Research group: Not specified in source CV
 - Career stage: Mestrando
+- Academic merit fellowships: None found in source CV or team page.
 - Related publications: Pending Phase 1B registry
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0041` and `SRC-0047`; current academic status should be validated because the source CV and team page differ in level of detail.
@@ -201,7 +216,8 @@ as CPF values present in source documents, are intentionally not stored here.
 - ORCID: Not found in source CV
 - Current status: Professor at UFF; source CV last updated 2025-10-19
 - Research group: LAFMAT membership stated in source CV
-- Career stage: Professor; Bolsista de Produtividade em Pesquisa do CNPq - Nível 1C
+- Career stage: Professor
+- Academic merit fellowships: CNPq Productivity Research Fellow, Level 1C, stated in source CV header; FAPERJ Cientista do Nosso Estado stated in source CV summary and listed in Prêmios e títulos for 2024, 2019, and 2016; FAPERJ Jovem Cientista do Nosso Estado listed for 2012.
 - Related publications: Pending Phase 1B registry
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0003` and `SRC-0047`; CV also states Cientista do Nosso Estado-FAPERJ.
@@ -219,6 +235,7 @@ as CPF values present in source documents, are intentionally not stored here.
 - Current status: Servidor público at UFF since 2025; source CV last updated 2026-05-20
 - Research group: Not specified in source CV
 - Career stage: Docente; pós-doutorado completed before current UFF appointment
+- Academic merit fellowships: No CNPq Productivity or FAPERJ CNE/JCNE merit fellowship found in reviewed sources.
 - Related publications: Pending Phase 1B registry
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0006` and `SRC-0047`.
@@ -237,7 +254,8 @@ as CPF values present in source documents, are intentionally not stored here.
 - ORCID: https://orcid.org/0000-0003-3318-1111
 - Current status: Servidor público at UFOB since 2018; source CV last updated 2026-05-19
 - Research group: Grupo de Informação Quântica e Física Estatística
-- Career stage: Professor; Bolsista de Produtividade em Pesquisa FAPESB/CNPq - Nível C
+- Career stage: Professor
+- Academic merit fellowships: FAPESB/CNPq Productivity Research Fellow, Level C, stated in source CV header; no FAPERJ CNE/JCNE entry found in reviewed sources.
 - Related publications: Pending Phase 1B registry
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0040` and `SRC-0047`.
@@ -255,6 +273,7 @@ as CPF values present in source documents, are intentionally not stored here.
 - Current status: Graduação em andamento at UFOB; source CV last updated 2026-04-09
 - Research group: Not specified in source CV
 - Career stage: Graduando
+- Academic merit fellowships: No CNPq Productivity or FAPERJ CNE/JCNE merit fellowship found; source CV header lists CNPq technological-initiation fellowship, which is not classified here as a productivity/merit fellowship.
 - Related publications: Pending Phase 1B registry
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0043` and `SRC-0047`.
@@ -272,6 +291,7 @@ as CPF values present in source documents, are intentionally not stored here.
 - Current status: Mestrado em andamento at UFOB; source CV last updated 2026-04-02
 - Research group: Not specified in source CV
 - Career stage: Mestranda
+- Academic merit fellowships: None found in source CV or team page.
 - Related publications: Pending Phase 1B registry
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0045` and `SRC-0047`.
@@ -289,6 +309,7 @@ as CPF values present in source documents, are intentionally not stored here.
 - Current status: Servidor público at UFOB since 2015; doutorado em andamento at UFF; source CV last updated 2026-03-27
 - Research group: Not specified in source CV
 - Career stage: Professor; doutorando
+- Academic merit fellowships: No CNPq Productivity or FAPERJ CNE/JCNE merit fellowship found in reviewed sources.
 - Related publications: Pending Phase 1B registry
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0046` and `SRC-0047`; source CV summary states Professor Assistente while vínculo section states Professor Adjunto B1.
@@ -308,6 +329,7 @@ as CPF values present in source documents, are intentionally not stored here.
 - Current status: Pesquisador PDI at SENAI/DR/BA since 2024; source CV last updated 2026-06-24
 - Research group: Quantum Industrial Innovation (QuIIN)
 - Career stage: Pesquisador PDI; pós-doutorado
+- Academic merit fellowships: No CNPq Productivity or FAPERJ CNE/JCNE merit fellowship found in reviewed sources.
 - Related publications: Pending Phase 1B registry
 - Related projects: Pending Phase 1C registry
 - Notes: Source `SRC-0044`; team page `SRC-0047` lists name only, with no additional administrative fields extracted.
