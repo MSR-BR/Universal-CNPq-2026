@@ -17,7 +17,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 1.1
+Version: 1.2
 
 Status: Active
 
@@ -33,6 +33,7 @@ Phase 0 - Information Collection remains open during the entire project.
 
 - Repository structure setup.
 - Initial Dropbox support-document inventory.
+- First Dropbox refresh inventory for Phase 1A.
 
 ## Current progress
 
@@ -40,39 +41,49 @@ Phase 0 - Information Collection remains open during the entire project.
 - The frozen development methodology has been recorded.
 - The methodology improvement protocol has been recorded.
 - The current working phase has been set to Phase 1A - People.
-- A source inventory was generated from the Dropbox support-document folder.
-- Seven CV files were identified as Phase 1A sources.
-- Seven administrative people records were entered in `docs/phase1/1A_People.md`.
+- A source inventory was generated and refreshed from the Dropbox support-document folder.
+- Nine new source files were added to `data/source_inventory.tsv`.
+- Seven new administrative people records were entered in `docs/phase1/1A_People.md`.
+- The People database now contains fourteen stable person records.
+- No CPF values from the team page were stored in the repository.
 - No scientific competencies, objectives, work packages, or proposal text have
   been created.
 
 ## Pending tasks
 
-- Validate the seven entered people records with the project owner.
-- Resolve missing or ambiguous fields, especially research group, ORCID, and
-  secondary institutional links.
+- Validate the fourteen entered people records with the project owner.
+- Resolve missing or ambiguous fields, especially research group, ORCID,
+  current career stage, and departmental discrepancies between CVs and the team
+  page.
 - Continue collecting participant information for any researchers not yet in
-  the CV folder.
+  the CV folder or team page.
 - Preserve stable person IDs and never renumber existing records.
 - Remain in Phase 1A until the People database meets its completion criteria.
 
 ## Repository statistics
 
 - Controlled Markdown documents in `docs/`: 18
-- Source files inventoried from Dropbox: 38
-- CV files identified for Phase 1A: 7
-- Phase 1A people records: 7
-- Institutions recorded in Phase 1A: 2
+- Source files inventoried from Dropbox: 47
+- Files in Dropbox `CVs/` folder: 16
+- Phase 1A people records: 14
+- Institutions recorded in Phase 1A: 4
 - Publications linked to people records: 0, pending Phase 1B registry
 - Previous projects linked to people records: 0, pending Phase 1C registry
 
 ## Next action
 
-Validate the seven Phase 1A people records and fill missing administrative
+Validate the fourteen Phase 1A people records and fill missing administrative
 fields without moving to Phase 1B.
 
 ## Recent updates
 
+- 2026-07-01: Refreshed the Dropbox support-document folder after user update.
+- 2026-07-01: Added nine new source files to `data/source_inventory.tsv`,
+  preserving all existing `SRC-000x` identifiers.
+- 2026-07-01: Added seven new stable person records, `P-0008` through
+  `P-0014`, to `docs/phase1/1A_People.md`.
+- 2026-07-01: Updated existing records with the new team-page source where
+  relevant, without storing CPF values.
 - 2026-07-01: Dropbox support-document folder downloaded to a temporary
   workspace and inventoried in `data/source_inventory.tsv`.
 - 2026-07-01: Seven CVs were processed for Phase 1A administrative people
