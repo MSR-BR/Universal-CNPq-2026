@@ -6,20 +6,20 @@ Objective: Maintain the authoritative operational status of the research
 program repository.
 
 Inputs: Repository methodology, roadmap, document inventory, source inventory,
-Phase 1A people records, Phase 1B publication records, and recent project
-updates.
+Phase 1A people records, Phase 1B publication records, Phase 1C previous-project
+records, and recent project updates.
 
 Outputs: Current phase, completed phases, current progress, pending tasks,
 repository statistics, next action, and recent updates.
 
 Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
-`docs/phase1/1A_People.md`, `docs/phase1/1B_Publications.md`, and
-`data/source_inventory.tsv`.
+`docs/phase1/1A_People.md`, `docs/phase1/1B_Publications.md`,
+`docs/phase1/1C_PreviousProjects.md`, and `data/source_inventory.tsv`.
 
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 1.8
+Version: 1.9
 
 Status: Active
 
@@ -27,9 +27,11 @@ Last update: 2026-07-01
 
 ## Current phase
 
-Phase 1B - Scientific Publications.
+Phase 1C - Previous Projects.
 
 Phase 0 - Information Collection remains open during the entire project.
+Phase 1A and Phase 1B remain available for deferred final manual refinement,
+but they no longer block Phase 1C factual work.
 
 ## Completed phases
 
@@ -37,56 +39,52 @@ Phase 0 - Information Collection remains open during the entire project.
 - Initial Dropbox support-document inventory.
 - First Dropbox refresh inventory for Phase 1A.
 - Phase 1A people baseline accepted for progression to Phase 1B.
+- Phase 1B automated publication validation completed sufficiently to open
+  Phase 1C, with final manual publication review deferred.
 
 ## Current progress
 
 - The permanent repository structure has been initialized.
 - The frozen development methodology has been recorded.
 - The methodology improvement protocol has been recorded.
-- The current working phase has been set to Phase 1B - Scientific
-  Publications.
 - A source inventory was generated and refreshed from the Dropbox support-document folder.
 - Nine new source files were added to `data/source_inventory.tsv`.
-- Seven new administrative people records were entered in `docs/phase1/1A_People.md`.
-- The People database now contains fourteen stable person records.
-- The Phase 1A people baseline was accepted by the project owner as sufficient
-  to open Phase 1B, with future manual refinements allowed.
+- The People database contains fourteen stable person records.
 - Academic merit fellowships were verified from Lattes headers and prize/title sections.
-- Academic merit fellowships were split into current/header-confirmed and
-  historical/recorded information inside each person record.
-- Phase 1B was opened in `docs/phase1/1B_Publications.md`.
-- Twenty-two stable publication records were created from twenty-three
-  publication source files, with one duplicate pair merged.
-- One additional theme-related publication was added from the Mario de Souza
-  Reis Junior CV publication section.
-- Participant CV publication sections were mined for 2016-2026 theme-related
-  journal articles across metal complexes, caloric effects, spin crossover,
-  quantum thermodynamics, quantum batteries, quantum heat engines, molecular
-  magnetism, and related functional magnetic materials.
-- Seventy-six additional CV-derived publication records were added to Phase 1B,
-  with ambiguous title/formula extractions explicitly marked for manual
-  validation.
-- Eight existing publication records were updated or cross-checked with
-  final metadata found in CV publication sections.
+- Phase 1B contains ninety-nine stable publication records.
 - Crossref automated bibliographic validation was run for Phase 1B publication
   records; 95 records now have DOI metadata verified or added, with manual
   publication review deferred to the project-wide final review.
+- Phase 1C was opened in `docs/phase1/1C_PreviousProjects.md`.
+- Seven previous-project/proposal PDF sources were reviewed for Phase 1C.
+- Fourteen participant CV records were included in the automated first-pass
+  scan for Phase 1C, using fifteen CV text sources because one participant had
+  two extracted CV sources.
+- Twenty-nine stable previous-project records were created in Phase 1C.
+- E-mail sources `SRC-0037` and `SRC-0038` were treated as supporting evidence
+  for PDSE/barocaloric/spin-crossover work rather than as independent project
+  records.
 - No CPF values from the team page were stored in the repository.
 - No scientific competencies, objectives, gaps, work packages, or proposal text
   have been created.
 
 ## Pending tasks
 
-- Defer project-owner/manual review of Phase 1B publication metadata until the
-  project-wide final review.
-- Confirm the author list for `PUB-0001` during final manual review.
-- Keep Phase 1B open for deferred final manual review, but do not block the
-  next factual phase on manual publication checks.
-- Keep `PUB-0010` as arXiv-only unless a final DOI is later found.
-- Preserve stable publication IDs and never renumber existing records.
-- Keep Phase 1A open for future manual refinements without blocking Phase 1C.
-- Open Phase 1C - Previous Projects as the next factual information-collection
-  phase.
+- Continue Phase 1C factual project registry refinement if new project files or
+  official award/result documents are supplied.
+- Defer project-owner/manual review of Phase 1A people records, Phase 1B
+  publication metadata, and Phase 1C project links until the project-wide final
+  review.
+- Confirm funding outcomes for proposal-document records `PRJ-0001`,
+  `PRJ-0003`, and `PRJ-0004` if official result documents are later supplied.
+- Confirm whether `PRJ-0025` and `PRJ-0026` should remain separate or be
+  treated as related/renewal records.
+- Add explicit publication cross-links from Phase 1B to Phase 1C after final
+  manual validation.
+- Preserve stable person, publication, and project IDs and never renumber
+  existing records.
+- Open Phase 1D - Infrastructure as the next factual information-collection
+  phase after this initial Phase 1C registry pass.
 
 ## Repository statistics
 
@@ -102,20 +100,28 @@ Phase 0 - Information Collection remains open during the entire project.
 - Publication records with DOI verified or added through Crossref: 95
 - Publication records with at least one Phase 1A person link: 98
 - Phase 1A people linked to at least one Phase 1B publication: 10
+- Phase 1C previous-project records: 29
+- Previous-project/proposal PDF sources reviewed in Phase 1C: 7
+- Participant CV records scanned in Phase 1C: 14
+- CV text source files checked in Phase 1C: 15
+- Previous-project records with at least one Phase 1A person link: 29
 - Institutions recorded in Phase 1A: 4
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
 - FAPESB/CNPq Productivity Research Fellows identified from Lattes headers: 1
 - People with FAPERJ Cientista do Nosso Estado records: 1
 - People with FAPERJ Jovem Cientista do Nosso Estado or related young-scientist merit records: 4
-- Previous projects linked to people records: 0, pending Phase 1C registry
 
 ## Next action
 
-Open Phase 1C - Previous Projects while keeping Phase 1B available for
-deferred final manual review.
+Proceed to Phase 1D - Infrastructure while keeping Phase 1C open for deferred
+manual refinement and future official project-result documents.
 
 ## Recent updates
 
+- 2026-07-01: Opened Phase 1C - Previous Projects and created twenty-nine
+  stable previous-project records from proposal PDFs and Lattes project sections.
+- 2026-07-01: Classified `SRC-0037` and `SRC-0038` as supporting evidence for
+  PDSE/barocaloric/spin-crossover work rather than independent project records.
 - 2026-07-01: Ran automated Crossref bibliographic validation for Phase 1B; 95
   publication records now have DOI metadata verified or added, and final manual
   publication review is deferred to the project-wide final review.

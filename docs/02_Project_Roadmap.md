@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 1.0
+Version: 1.1
 
 Status: Active
 
@@ -25,10 +25,10 @@ Last update: 2026-07-01
 | Phase | Name | Status | Authoritative document |
 | --- | --- | --- | --- |
 | 0 | Information Collection | Open throughout the project | `docs/00_Project_Status.md` |
-| 1A | People | Active | `docs/phase1/1A_People.md` |
-| 1B | Scientific Publications | Locked until 1A is complete | `docs/phase1/1B_Publications.md` |
-| 1C | Previous Projects | Locked until 1B is opened | `docs/phase1/1C_PreviousProjects.md` |
-| 1D | Infrastructure | Locked until 1C is opened | `docs/phase1/1D_Infrastructure.md` |
+| 1A | People | Baseline accepted; manual refinements deferred | `docs/phase1/1A_People.md` |
+| 1B | Scientific Publications | Automated validation complete; final manual review deferred | `docs/phase1/1B_Publications.md` |
+| 1C | Previous Projects | Active | `docs/phase1/1C_PreviousProjects.md` |
+| 1D | Infrastructure | Locked until 1C initial registry pass is complete | `docs/phase1/1D_Infrastructure.md` |
 | 1E | Collaborations | Locked until 1D is opened | `docs/phase1/1E_Collaborations.md` |
 | 1F | Preliminary Results | Locked until 1E is opened | `docs/phase1/1F_PreliminaryResults.md` |
 | 1G | Ideas | Locked until 1F is opened | `docs/phase1/1G_Ideas.md` |
@@ -43,4 +43,10 @@ Last update: 2026-07-01
 
 ## Current gate
 
-The repository must remain in Phase 1A until the People database is complete.
+The repository is in Phase 1C - Previous Projects.
+
+Allowed work now: factual registration of previous/current project records,
+project source notes, and links to stable people/publication IDs.
+
+Still prohibited: scientific gap analysis, project strategy, work packages, and
+CNPq proposal writing.
