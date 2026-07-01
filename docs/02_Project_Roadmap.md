@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 1.1
+Version: 1.2
 
 Status: Active
 
@@ -27,9 +27,9 @@ Last update: 2026-07-01
 | 0 | Information Collection | Open throughout the project | `docs/00_Project_Status.md` |
 | 1A | People | Baseline accepted; manual refinements deferred | `docs/phase1/1A_People.md` |
 | 1B | Scientific Publications | Automated validation complete; final manual review deferred | `docs/phase1/1B_Publications.md` |
-| 1C | Previous Projects | Active | `docs/phase1/1C_PreviousProjects.md` |
-| 1D | Infrastructure | Locked until 1C initial registry pass is complete | `docs/phase1/1D_Infrastructure.md` |
-| 1E | Collaborations | Locked until 1D is opened | `docs/phase1/1E_Collaborations.md` |
+| 1C | Previous Projects | Initial factual registry complete; manual refinements deferred | `docs/phase1/1C_PreviousProjects.md` |
+| 1D | Infrastructure | Active; initial factual registry populated | `docs/phase1/1D_Infrastructure.md` |
+| 1E | Collaborations | Locked until 1D is accepted for progression | `docs/phase1/1E_Collaborations.md` |
 | 1F | Preliminary Results | Locked until 1E is opened | `docs/phase1/1F_PreliminaryResults.md` |
 | 1G | Ideas | Locked until 1F is opened | `docs/phase1/1G_Ideas.md` |
 | 1H | Bibliography | Locked until 1G is opened | `docs/phase1/1H_Bibliography.md` |
@@ -43,10 +43,10 @@ Last update: 2026-07-01
 
 ## Current gate
 
-The repository is in Phase 1C - Previous Projects.
+The repository is in Phase 1D - Infrastructure.
 
-Allowed work now: factual registration of previous/current project records,
-project source notes, and links to stable people/publication IDs.
+Allowed work now: factual registration and refinement of infrastructure
+records, source notes, and links to stable people/project/publication IDs.
 
 Still prohibited: scientific gap analysis, project strategy, work packages, and
 CNPq proposal writing.

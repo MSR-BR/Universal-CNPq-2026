@@ -7,19 +7,20 @@ program repository.
 
 Inputs: Repository methodology, roadmap, document inventory, source inventory,
 Phase 1A people records, Phase 1B publication records, Phase 1C previous-project
-records, and recent project updates.
+records, Phase 1D infrastructure records, and recent project updates.
 
 Outputs: Current phase, completed phases, current progress, pending tasks,
 repository statistics, next action, and recent updates.
 
 Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 `docs/phase1/1A_People.md`, `docs/phase1/1B_Publications.md`,
-`docs/phase1/1C_PreviousProjects.md`, and `data/source_inventory.tsv`.
+`docs/phase1/1C_PreviousProjects.md`, `docs/phase1/1D_Infrastructure.md`,
+and `data/source_inventory.tsv`.
 
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 1.9
+Version: 2.0
 
 Status: Active
 
@@ -27,11 +28,11 @@ Last update: 2026-07-01
 
 ## Current phase
 
-Phase 1C - Previous Projects.
+Phase 1D - Infrastructure.
 
 Phase 0 - Information Collection remains open during the entire project.
-Phase 1A and Phase 1B remain available for deferred final manual refinement,
-but they no longer block Phase 1C factual work.
+Phase 1A, Phase 1B, and Phase 1C remain available for deferred final manual
+refinement, but they no longer block Phase 1D factual work.
 
 ## Completed phases
 
@@ -41,6 +42,8 @@ but they no longer block Phase 1C factual work.
 - Phase 1A people baseline accepted for progression to Phase 1B.
 - Phase 1B automated publication validation completed sufficiently to open
   Phase 1C, with final manual publication review deferred.
+- Phase 1C initial previous-project registry completed sufficiently to open
+  Phase 1D, with final manual project review deferred.
 
 ## Current progress
 
@@ -55,36 +58,34 @@ but they no longer block Phase 1C factual work.
 - Crossref automated bibliographic validation was run for Phase 1B publication
   records; 95 records now have DOI metadata verified or added, with manual
   publication review deferred to the project-wide final review.
-- Phase 1C was opened in `docs/phase1/1C_PreviousProjects.md`.
-- Seven previous-project/proposal PDF sources were reviewed for Phase 1C.
-- Fourteen participant CV records were included in the automated first-pass
-  scan for Phase 1C, using fifteen CV text sources because one participant had
-  two extracted CV sources.
-- Twenty-nine stable previous-project records were created in Phase 1C.
-- E-mail sources `SRC-0037` and `SRC-0038` were treated as supporting evidence
-  for PDSE/barocaloric/spin-crossover work rather than as independent project
-  records.
+- Phase 1C contains twenty-nine stable previous-project records.
+- Phase 1D was opened in `docs/phase1/1D_Infrastructure.md`.
+- Six proposal/project PDF sources and six CV/Lattes text sources were reviewed
+  for Phase 1D infrastructure facts.
+- Sixteen stable infrastructure records were created in Phase 1D.
+- Infrastructure records include computational infrastructure, quantum-technology
+  platforms, external large-scale facilities, synthesis/characterization
+  equipment, partner laboratories, and collaboration/training infrastructure.
 - No CPF values from the team page were stored in the repository.
 - No scientific competencies, objectives, gaps, work packages, or proposal text
   have been created.
 
 ## Pending tasks
 
-- Continue Phase 1C factual project registry refinement if new project files or
-  official award/result documents are supplied.
+- Continue Phase 1D factual infrastructure registry refinement if new equipment
+  lists, official laboratory inventories, or access documents are supplied.
 - Defer project-owner/manual review of Phase 1A people records, Phase 1B
-  publication metadata, and Phase 1C project links until the project-wide final
-  review.
-- Confirm funding outcomes for proposal-document records `PRJ-0001`,
-  `PRJ-0003`, and `PRJ-0004` if official result documents are later supplied.
-- Confirm whether `PRJ-0025` and `PRJ-0026` should remain separate or be
-  treated as related/renewal records.
-- Add explicit publication cross-links from Phase 1B to Phase 1C after final
-  manual validation.
-- Preserve stable person, publication, and project IDs and never renumber
-  existing records.
-- Open Phase 1D - Infrastructure as the next factual information-collection
-  phase after this initial Phase 1C registry pass.
+  publication metadata, Phase 1C project links, and Phase 1D infrastructure
+  host mapping until the project-wide final review.
+- Confirm host/ownership mapping for the detailed equipment list in `INF-0009`.
+- Confirm exact laboratory names and access conditions for `INF-0012` and
+  `INF-0013`.
+- Decide during final review whether infrastructure-development records linked
+  to `INF-0010` and `INF-0016` should be promoted to Phase 1C project records.
+- Preserve stable person, publication, project, and infrastructure IDs and never
+  renumber existing records.
+- Open Phase 1E - Collaborations as the next factual information-collection
+  phase after this initial Phase 1D registry pass.
 
 ## Repository statistics
 
@@ -105,6 +106,11 @@ but they no longer block Phase 1C factual work.
 - Participant CV records scanned in Phase 1C: 14
 - CV text source files checked in Phase 1C: 15
 - Previous-project records with at least one Phase 1A person link: 29
+- Phase 1D infrastructure records: 16
+- Proposal/project PDF sources reviewed in Phase 1D: 6
+- CV/Lattes text sources reviewed in Phase 1D: 6
+- Infrastructure records with at least one Phase 1A person link: 12
+- Infrastructure records linked to at least one Phase 1C project: 14
 - Institutions recorded in Phase 1A: 4
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
 - FAPESB/CNPq Productivity Research Fellows identified from Lattes headers: 1
@@ -113,11 +119,16 @@ but they no longer block Phase 1C factual work.
 
 ## Next action
 
-Proceed to Phase 1D - Infrastructure while keeping Phase 1C open for deferred
-manual refinement and future official project-result documents.
+Proceed to Phase 1E - Collaborations while keeping Phase 1D open for deferred
+manual refinement and future official infrastructure inventories.
 
 ## Recent updates
 
+- 2026-07-01: Opened Phase 1D - Infrastructure and created sixteen stable
+  infrastructure records from proposal PDFs and CV/Lattes infrastructure entries.
+- 2026-07-01: Registered computational, quantum-technology, experimental,
+  partner-facility, and cooperation/prototyping infrastructure without assigning
+  strategic roles or work packages.
 - 2026-07-01: Opened Phase 1C - Previous Projects and created twenty-nine
   stable previous-project records from proposal PDFs and Lattes project sections.
 - 2026-07-01: Classified `SRC-0037` and `SRC-0038` as supporting evidence for
