@@ -5,7 +5,8 @@
 Objective: Freeze the development methodology for the permanent research
 program knowledge base.
 
-Inputs: Project architecture instructions.
+Inputs: Project architecture instructions and approved governance
+instructions.
 
 Outputs: Authoritative phase model, repository rules, and phase-gating
 constraints.
@@ -15,7 +16,7 @@ Dependencies: None.
 Completion criteria: The methodology is recorded and remains unchanged unless
 an explicit future instruction requests a change.
 
-Version: 1.0
+Version: 1.1
 
 Status: Frozen
 
@@ -74,6 +75,22 @@ Do not move to Phase 1B until Phase 1A is completed.
 5. Do not start writing the CNPq proposal before Phase 6 - Master Project.
 6. Every controlled document must contain Objective, Inputs, Outputs,
    Dependencies, Completion criteria, Version, Status, and Last update.
+7. If repository work suggests that the methodology should change, do not
+   change it directly. Instead, open a GitHub issue named exactly
+   `Methodology Improvement Proposal` and wait for explicit approval.
+
+## Methodology improvement protocol
+
+The methodology is frozen. Future contributors or agents may identify possible
+improvements, but those improvements must not be applied directly.
+
+Required process:
+
+1. Open a GitHub issue named exactly `Methodology Improvement Proposal`.
+2. Describe the proposed change, rationale, affected documents, and expected
+   consequences.
+3. Wait for explicit approval before editing `docs/01_Methodology.md` or any
+   phase-gating rule.
 
 ## Work style
 

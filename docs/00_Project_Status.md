@@ -63,6 +63,9 @@ Begin collecting and entering participant records in
 
 ## Recent updates
 
+- 2026-07-01: Methodology improvement protocol added: possible methodology
+  changes must be proposed through a GitHub issue named
+  `Methodology Improvement Proposal` and await approval.
 - 2026-07-01: Repository purpose updated from single proposal workspace to
   permanent research-program knowledge base.
 - 2026-07-01: Methodology frozen and current phase set to Phase 1A - People.
