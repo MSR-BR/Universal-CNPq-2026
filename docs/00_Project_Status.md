@@ -8,7 +8,8 @@ program repository.
 Inputs: Repository methodology, roadmap, document inventory, source inventory,
 Phase 1A people records, Phase 1B publication records, Phase 1C previous-project
 records, Phase 1D infrastructure records, Phase 1E collaboration records, Phase
-1F preliminary-result records, and recent project updates.
+1F preliminary-result records, Phase 1G idea-seed records, and recent project
+updates.
 
 Outputs: Current phase, completed phases, current progress, pending tasks,
 repository statistics, next action, and recent updates.
@@ -17,12 +18,12 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 `docs/phase1/1A_People.md`, `docs/phase1/1B_Publications.md`,
 `docs/phase1/1C_PreviousProjects.md`, `docs/phase1/1D_Infrastructure.md`,
 `docs/phase1/1E_Collaborations.md`, `docs/phase1/1F_PreliminaryResults.md`,
-and `data/source_inventory.tsv`.
+`docs/phase1/1G_Ideas.md`, and `data/source_inventory.tsv`.
 
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.4
+Version: 2.5
 
 Status: Active
 
@@ -30,12 +31,12 @@ Last update: 2026-07-01
 
 ## Current phase
 
-Phase 1F - Preliminary Results.
+Phase 1G - Ideas.
 
 Phase 0 - Information Collection remains open during the entire project.
-Phase 1A, Phase 1B, Phase 1C, Phase 1D, and Phase 1E remain available for
-deferred final manual refinement, but they no longer block Phase 1F factual
-work.
+Phase 1A, Phase 1B, Phase 1C, Phase 1D, Phase 1E, and Phase 1F remain
+available for deferred final manual refinement, but they no longer block Phase
+1G idea-seed work.
 
 ## Completed phases
 
@@ -51,6 +52,8 @@ work.
   Phase 1E, with final manual infrastructure review deferred.
 - Phase 1E initial collaboration registry completed sufficiently to open
   Phase 1F, with final manual collaboration review deferred.
+- Phase 1F preliminary-results registry reviewed sufficiently to open
+  Phase 1G, with final manual scientific review deferred.
 
 ## Current progress
 
@@ -89,6 +92,10 @@ work.
   99 Phase 1B publication records and added three previously uncited thematic
   records to the preliminary-results registry.
 - Phase 1F explicitly preserves the distinction between preliminary evidence and proposal argument.
+- Phase 1G was opened in `docs/phase1/1G_Ideas.md`.
+- Four controlled Phase 1 registries were reviewed for the initial Phase 1G idea-seed pass.
+- Ten stable idea-seed records were created in Phase 1G.
+- Phase 1G records are explicitly unselected, non-objective idea seeds for later analysis.
 - No CPF values from the team page were stored in the repository.
 - No scientific competencies, objectives, gaps, work packages, or proposal text
   have been created.
@@ -110,13 +117,15 @@ work.
 - Decide during final review whether infrastructure-development records linked
   to `INF-0010` and `INF-0016` should be promoted to Phase 1C project records.
 - Preserve stable person, publication, project, infrastructure, collaboration,
-  and preliminary-result IDs and never renumber existing records.
+  preliminary-result, and idea IDs and never renumber existing records.
 - Continue Phase 1E factual collaboration registry refinement if new collaboration agreements, institutional letters, or manually validated collaborator lists are supplied.
 - Keep external collaborators and LAFMAT partner institutions out of project team status unless Phase 1A is explicitly updated.
 - Add explicit publication cross-links from Phase 1B to Phase 1E after final manual validation.
 - Continue Phase 1F factual preliminary-result registry refinement if new figures, datasets, reports, presentations, or manually selected outputs are supplied.
 - Keep Phase 1F records factual; do not convert evidence clusters into proposal objectives, gaps, or work packages.
-- Open Phase 1G - Ideas only after the project owner accepts the Phase 1F baseline as sufficient for progression.
+- Continue Phase 1G idea-seed refinement if new meeting notes, emails, conceptual sketches, or project-owner comments are supplied.
+- Keep Phase 1G records unselected and non-objective; do not convert idea seeds into objectives, gaps, strategy, work packages, or proposal text.
+- Open Phase 1H - Bibliography only after the project owner accepts the Phase 1G baseline as sufficient for progression.
 
 ## Repository statistics
 
@@ -154,6 +163,10 @@ work.
 - Phase 1F coverage review passes completed: 1
 - Phase 1F records linked to Phase 1B publications: 13
 - Phase 1F records linked to at least one Phase 1C project: 13
+- Phase 1G idea-seed records: 10
+- Phase 1G controlled registries reviewed: 4
+- Phase 1G records linked to Phase 1F preliminary results: 10
+- Phase 1G records explicitly marked unselected and non-objective: 10
 - Institutions recorded in Phase 1A: 4
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
 - FAPESB/CNPq Productivity Research Fellows identified from Lattes headers: 1
@@ -162,11 +175,12 @@ work.
 
 ## Next action
 
-Continue Phase 1F - Preliminary Results refinement while keeping Phase 1E open
-for deferred manual refinement and future official collaboration evidence.
+Continue Phase 1G - Ideas refinement while keeping Phase 1A through Phase 1F
+open for deferred manual refinement.
 
 ## Recent updates
 
+- 2026-07-01: Opened Phase 1G - Ideas and created ten stable, unselected, non-objective idea-seed records from Phase 1F, 1E, 1D, and 1C evidence.
 - 2026-07-01: Reviewed Phase 1F publication coverage against Phase 1B and added `PUB-0047`, `PUB-0064`, and `PUB-0067` to the preliminary-results evidence map.
 - 2026-07-01: Opened Phase 1F - Preliminary Results and created twelve stable preliminary-result records from Phase 1B, 1C, 1D, and 1E evidence.
 - 2026-07-01: Recorded preliminary evidence clusters for metal complexes, barocaloric and spin-crossover systems, quantum thermodynamics, quantum batteries, quantum resources, magnetocaloric and multicaloric materials, and review/outlook articles.
