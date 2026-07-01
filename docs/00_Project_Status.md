@@ -20,7 +20,7 @@ and `data/source_inventory.tsv`.
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.0
+Version: 2.1
 
 Status: Active
 
@@ -60,12 +60,15 @@ refinement, but they no longer block Phase 1D factual work.
   publication review deferred to the project-wide final review.
 - Phase 1C contains twenty-nine stable previous-project records.
 - Phase 1D was opened in `docs/phase1/1D_Infrastructure.md`.
-- Six proposal/project PDF sources and six CV/Lattes text sources were reviewed
-  for Phase 1D infrastructure facts.
-- Sixteen stable infrastructure records were created in Phase 1D.
-- Infrastructure records include computational infrastructure, quantum-technology
-  platforms, external large-scale facilities, synthesis/characterization
-  equipment, partner laboratories, and collaboration/training infrastructure.
+- Phase 1D was corrected after the project owner clarified that active
+  infrastructure must be limited to institutions represented in Phase 1A.
+- Seven proposal/project PDF or CV/Lattes sources currently support active
+  Phase 1D infrastructure records.
+- Eight stable infrastructure records remain active in Phase 1D.
+- Eight previously created infrastructure IDs were retired from active scope
+  because they referred to LAFMAT partner institutions, external collaborators,
+  external facilities, or equipment with unconfirmed Phase 1A host mapping.
+- Active infrastructure records include only UERJ, UFF, UFOB, and SENAI CIMATEC resources.
 - No CPF values from the team page were stored in the repository.
 - No scientific competencies, objectives, gaps, work packages, or proposal text
   have been created.
@@ -73,13 +76,17 @@ refinement, but they no longer block Phase 1D factual work.
 ## Pending tasks
 
 - Continue Phase 1D factual infrastructure registry refinement if new equipment
-  lists, official laboratory inventories, or access documents are supplied.
+  lists, official laboratory inventories, or access documents are supplied for
+  UERJ, UFF, UFOB, or SENAI CIMATEC.
 - Defer project-owner/manual review of Phase 1A people records, Phase 1B
   publication metadata, Phase 1C project links, and Phase 1D infrastructure
   host mapping until the project-wide final review.
-- Confirm host/ownership mapping for the detailed equipment list in `INF-0009`.
-- Confirm exact laboratory names and access conditions for `INF-0012` and
-  `INF-0013`.
+- Keep retired infrastructure IDs out of use and do not reuse `INF-0005`,
+  `INF-0006`, `INF-0009`, `INF-0011`, `INF-0012`, `INF-0013`, `INF-0014`, or
+  `INF-0015`.
+- Confirm whether any equipment from the detailed `SRC-0034` list is hosted by
+  a Phase 1A institution and should be added as a new in-scope infrastructure
+  record.
 - Decide during final review whether infrastructure-development records linked
   to `INF-0010` and `INF-0016` should be promoted to Phase 1C project records.
 - Preserve stable person, publication, project, and infrastructure IDs and never
@@ -106,11 +113,12 @@ refinement, but they no longer block Phase 1D factual work.
 - Participant CV records scanned in Phase 1C: 14
 - CV text source files checked in Phase 1C: 15
 - Previous-project records with at least one Phase 1A person link: 29
-- Phase 1D infrastructure records: 16
-- Proposal/project PDF sources reviewed in Phase 1D: 6
-- CV/Lattes text sources reviewed in Phase 1D: 6
-- Infrastructure records with at least one Phase 1A person link: 12
-- Infrastructure records linked to at least one Phase 1C project: 14
+- Phase 1D active infrastructure records: 8
+- Phase 1D retired infrastructure IDs after scope correction: 8
+- Proposal/project PDF sources supporting active Phase 1D records: 3
+- CV/Lattes text sources supporting active Phase 1D records: 4
+- Active infrastructure records with at least one Phase 1A person link: 8
+- Active infrastructure records linked to at least one Phase 1C project: 6
 - Institutions recorded in Phase 1A: 4
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
 - FAPESB/CNPq Productivity Research Fellows identified from Lattes headers: 1
@@ -124,11 +132,15 @@ manual refinement and future official infrastructure inventories.
 
 ## Recent updates
 
-- 2026-07-01: Opened Phase 1D - Infrastructure and created sixteen stable
-  infrastructure records from proposal PDFs and CV/Lattes infrastructure entries.
-- 2026-07-01: Registered computational, quantum-technology, experimental,
-  partner-facility, and cooperation/prototyping infrastructure without assigning
-  strategic roles or work packages.
+- 2026-07-01: Corrected Phase 1D scope so the active infrastructure registry
+  lists only resources hosted by institutions represented in Phase 1A.
+- 2026-07-01: Retired eight infrastructure IDs from active scope after removing
+  LAFMAT partner institutions, external collaborators, external facilities, and
+  equipment with unconfirmed Phase 1A host mapping.
+- 2026-07-01: Opened Phase 1D - Infrastructure and created the initial stable
+  infrastructure registry from proposal PDFs and CV/Lattes infrastructure entries.
+- 2026-07-01: Registered computational, quantum-technology, experimental, and
+  prototyping infrastructure without assigning strategic roles or work packages.
 - 2026-07-01: Opened Phase 1C - Previous Projects and created twenty-nine
   stable previous-project records from proposal PDFs and Lattes project sections.
 - 2026-07-01: Classified `SRC-0037` and `SRC-0038` as supporting evidence for
