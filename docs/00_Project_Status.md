@@ -6,18 +6,20 @@ Objective: Maintain the authoritative operational status of the research
 program repository.
 
 Inputs: Repository methodology, roadmap, document inventory, source inventory,
-Phase 1A people records, and recent project updates.
+Phase 1A people records, Phase 1B publication records, and recent project
+updates.
 
 Outputs: Current phase, completed phases, current progress, pending tasks,
 repository statistics, next action, and recent updates.
 
 Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
-`docs/phase1/1A_People.md`, and `data/source_inventory.tsv`.
+`docs/phase1/1A_People.md`, `docs/phase1/1B_Publications.md`, and
+`data/source_inventory.tsv`.
 
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 1.4
+Version: 1.5
 
 Status: Active
 
@@ -25,7 +27,7 @@ Last update: 2026-07-01
 
 ## Current phase
 
-Phase 1A - People.
+Phase 1B - Scientific Publications.
 
 Phase 0 - Information Collection remains open during the entire project.
 
@@ -34,34 +36,42 @@ Phase 0 - Information Collection remains open during the entire project.
 - Repository structure setup.
 - Initial Dropbox support-document inventory.
 - First Dropbox refresh inventory for Phase 1A.
+- Phase 1A people baseline accepted for progression to Phase 1B.
 
 ## Current progress
 
 - The permanent repository structure has been initialized.
 - The frozen development methodology has been recorded.
 - The methodology improvement protocol has been recorded.
-- The current working phase has been set to Phase 1A - People.
+- The current working phase has been set to Phase 1B - Scientific
+  Publications.
 - A source inventory was generated and refreshed from the Dropbox support-document folder.
 - Nine new source files were added to `data/source_inventory.tsv`.
 - Seven new administrative people records were entered in `docs/phase1/1A_People.md`.
 - The People database now contains fourteen stable person records.
+- The Phase 1A people baseline was accepted by the project owner as sufficient
+  to open Phase 1B, with future manual refinements allowed.
 - Academic merit fellowships were verified from Lattes headers and prize/title sections.
 - Academic merit fellowships were split into current/header-confirmed and
   historical/recorded information inside each person record.
+- Phase 1B was opened in `docs/phase1/1B_Publications.md`.
+- Twenty-two stable publication records were created from twenty-three
+  publication source files, with one duplicate pair merged.
 - No CPF values from the team page were stored in the repository.
-- No scientific competencies, objectives, work packages, or proposal text have
-  been created.
+- No scientific competencies, objectives, gaps, work packages, or proposal text
+  have been created.
 
 ## Pending tasks
 
-- Validate the fourteen entered people records with the project owner.
-- Resolve missing or ambiguous fields, especially research group, ORCID,
-  current career stage, departmental discrepancies between CVs and the team
-  page, and manual confirmation of current versus historical merit fellowships.
-- Continue collecting participant information for any researchers not yet in
-  the CV folder or team page.
-- Preserve stable person IDs and never renumber existing records.
-- Remain in Phase 1A until the People database meets its completion criteria.
+- Validate Phase 1B publication metadata with the project owner and/or manual
+  source review.
+- Confirm the author list for `PUB-0001`.
+- Verify final publication status for arXiv preprints and records marked for
+  manual validation in `docs/phase1/1B_Publications.md`.
+- Preserve stable publication IDs and never renumber existing records.
+- Keep Phase 1A open for future manual refinements without blocking Phase 1B.
+- Remain in Phase 1B until the publication registry meets its completion
+  criteria.
 
 ## Repository statistics
 
@@ -69,21 +79,32 @@ Phase 0 - Information Collection remains open during the entire project.
 - Source files inventoried from Dropbox: 47
 - Files in Dropbox `CVs/` folder: 16
 - Phase 1A people records: 14
+- Phase 1B publication records: 22
+- Publication source files reviewed in Phase 1B: 23
+- Publication source duplicate pairs merged: 1
+- Publication records with at least one Phase 1A person link: 21
+- Phase 1A people linked to at least one Phase 1B publication: 10
 - Institutions recorded in Phase 1A: 4
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
 - FAPESB/CNPq Productivity Research Fellows identified from Lattes headers: 1
 - People with FAPERJ Cientista do Nosso Estado records: 1
 - People with FAPERJ Jovem Cientista do Nosso Estado or related young-scientist merit records: 4
-- Publications linked to people records: 0, pending Phase 1B registry
 - Previous projects linked to people records: 0, pending Phase 1C registry
 
 ## Next action
 
-Validate the fourteen Phase 1A people records and fill missing administrative
-fields without moving to Phase 1B.
+Validate and refine the Phase 1B publication registry, especially entries with
+missing authors, arXiv-only status, screenshot-only evidence, source duplicates,
+or name variants.
 
 ## Recent updates
 
+- 2026-07-01: Opened Phase 1B - Scientific Publications after project-owner
+  acceptance of the Phase 1A baseline.
+- 2026-07-01: Created twenty-two stable publication records in
+  `docs/phase1/1B_Publications.md` from twenty-three publication source files.
+- 2026-07-01: Marked the duplicate publication source pair `SRC-0016` and
+  `SRC-0017` as one publication record.
 - 2026-07-01: Refined Phase 1A academic merit fellowship notes into
   current/header-confirmed and historical/recorded information.
 - 2026-07-01: Verified academic merit fellowships in Phase 1A records, including CNPq Productivity, FAPESB/CNPq Productivity, FAPERJ Cientista do Nosso Estado, and FAPERJ Jovem Cientista records.

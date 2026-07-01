@@ -17,9 +17,9 @@ Dependencies: `docs/01_Methodology.md`, `docs/00_Project_Status.md`, and
 Completion criteria: Every known participant has a stable ID and a complete
 record with the required fields listed below.
 
-Version: 1.4
+Version: 1.5
 
-Status: Active
+Status: Baseline accepted for Phase 1B; future refinements pending
 
 Last update: 2026-07-01
 
@@ -29,6 +29,12 @@ This document is only a People database.
 
 Do not analyse scientific competencies here. Do not create work packages. Do
 not assign responsibilities. Do not define scientific objectives.
+
+## Phase gate note
+
+The project owner accepted this Phase 1A baseline as sufficient to open Phase
+1B on 2026-07-01. Future manual refinements remain allowed, but stable person
+IDs must be preserved.
 
 ## Stable ID policy
 
@@ -59,8 +65,9 @@ Each researcher record must include:
 
 ## Source policy
 
-Source IDs refer to `data/source_inventory.tsv`. Detailed publication and
-project links remain pending until Phase 1B and Phase 1C are opened.
+Source IDs refer to `data/source_inventory.tsv`. Detailed publication links
+are maintained in `docs/phase1/1B_Publications.md`; detailed project links
+remain pending until Phase 1C is opened.
 
 Direct personal identifiers that are not required by the People database, such
 as CPF values present in source documents, are intentionally not stored here.
@@ -94,7 +101,7 @@ header or explicitly described as current in the source summary. Use
 - Research group: Not specified in source CV
 - Career stage: Mestrando
 - Academic merit fellowships: Current/header-confirmed: none found. Historical/recorded: none found.
-- Related publications: Pending Phase 1B registry
+- Related publications: See `docs/phase1/1B_Publications.md`.
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0001`, `SRC-0042`, and `SRC-0047`; CV also states current teaching activity at Colégio De AaZ.
 
@@ -112,7 +119,7 @@ header or explicitly described as current in the source summary. Use
 - Research group: Not specified in source CV
 - Career stage: Professor Associado
 - Academic merit fellowships: Current/header-confirmed: CNPq Productivity Research Fellow, Level 2, stated in source CV header. Historical/recorded: FAPERJ Jovem Cientista do Nosso Estado listed in source CV Prêmios e títulos for 2022, 2018, and 2015; CNPq Productivity Research Fellow, Level 2, also listed in Prêmios e títulos for 2021, 2018, and 2015.
-- Related publications: Pending Phase 1B registry
+- Related publications: See `docs/phase1/1B_Publications.md`.
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0002` and `SRC-0047`; departmental discrepancy requires validation.
 
@@ -130,7 +137,7 @@ header or explicitly described as current in the source summary. Use
 - Research group: Not specified in source CV
 - Career stage: Professora Associada
 - Academic merit fellowships: Current/header-confirmed: CNPq Productivity Research Fellow, Level 2, stated in source CV header. Historical/recorded: CNPq Productivity Research Fellow, Level 2, listed in Prêmios e títulos for 2024 and 2021; FAPERJ Jovem Cientista do Nosso Estado listed for 2022; FAPERJ Jovem Cientista Mulher with vínculo em ICTs do Estado do RJ listed for 2024.
-- Related publications: Pending Phase 1B registry
+- Related publications: See `docs/phase1/1B_Publications.md`.
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0004` and `SRC-0047`; departmental discrepancy requires validation.
 
@@ -148,7 +155,7 @@ header or explicitly described as current in the source summary. Use
 - Research group: Not specified in source CV
 - Career stage: Professor Titular
 - Academic merit fellowships: Current/header-confirmed: CNPq Productivity Research Fellow, Level 1C, stated in source CV header. Historical/recorded: no FAPERJ CNE/JCNE entry found in the reviewed source CV.
-- Related publications: Pending Phase 1B registry
+- Related publications: See `docs/phase1/1B_Publications.md`.
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0005` and `SRC-0047`.
 
@@ -166,7 +173,7 @@ header or explicitly described as current in the source summary. Use
 - Research group: Not specified in source CV
 - Career stage: Professor Associado
 - Academic merit fellowships: Current/header-confirmed: CNPq Productivity Research Fellow, Level C, stated in source CV header. Historical/recorded: CNPq PQ2 listed in source CV Prêmios e títulos for 2022, 2018, and 2015; FAPERJ Jovem Cientista do Nosso Estado listed for 2016.
-- Related publications: Pending Phase 1B registry
+- Related publications: See `docs/phase1/1B_Publications.md`.
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0007` and `SRC-0047`; CV also lists 2023-current UFRJ and Ames National Laboratory links that require validation before canonical use.
 
@@ -184,7 +191,7 @@ header or explicitly described as current in the source summary. Use
 - Research group: Not specified in source CV
 - Career stage: Doutorando
 - Academic merit fellowships: Current/header-confirmed: none found. Historical/recorded: none found.
-- Related publications: Pending Phase 1B registry
+- Related publications: See `docs/phase1/1B_Publications.md`.
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0039` and `SRC-0047`.
 
@@ -202,7 +209,7 @@ header or explicitly described as current in the source summary. Use
 - Research group: Not specified in source CV
 - Career stage: Mestrando
 - Academic merit fellowships: Current/header-confirmed: none found. Historical/recorded: none found.
-- Related publications: Pending Phase 1B registry
+- Related publications: See `docs/phase1/1B_Publications.md`.
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0041` and `SRC-0047`; current academic status should be validated because the source CV and team page differ in level of detail.
 
@@ -222,7 +229,7 @@ header or explicitly described as current in the source summary. Use
 - Research group: LAFMAT membership stated in source CV
 - Career stage: Professor
 - Academic merit fellowships: Current/header-confirmed: CNPq Productivity Research Fellow, Level 1C, stated in source CV header; FAPERJ Cientista do Nosso Estado stated as current in source CV summary. Historical/recorded: FAPERJ Cientista do Nosso Estado listed in Prêmios e títulos for 2024, 2019, and 2016; FAPERJ Jovem Cientista do Nosso Estado listed for 2012.
-- Related publications: Pending Phase 1B registry
+- Related publications: See `docs/phase1/1B_Publications.md`.
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0003` and `SRC-0047`; CV also states Cientista do Nosso Estado-FAPERJ.
 
@@ -240,7 +247,7 @@ header or explicitly described as current in the source summary. Use
 - Research group: Not specified in source CV
 - Career stage: Docente; pós-doutorado completed before current UFF appointment
 - Academic merit fellowships: Current/header-confirmed: none found. Historical/recorded: no CNPq Productivity or FAPERJ CNE/JCNE merit fellowship found in reviewed sources.
-- Related publications: Pending Phase 1B registry
+- Related publications: See `docs/phase1/1B_Publications.md`.
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0006` and `SRC-0047`.
 
@@ -260,7 +267,7 @@ header or explicitly described as current in the source summary. Use
 - Research group: Grupo de Informação Quântica e Física Estatística
 - Career stage: Professor
 - Academic merit fellowships: Current/header-confirmed: FAPESB/CNPq Productivity Research Fellow, Level C, stated in source CV header. Historical/recorded: no FAPERJ CNE/JCNE entry found in reviewed sources.
-- Related publications: Pending Phase 1B registry
+- Related publications: See `docs/phase1/1B_Publications.md`.
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0040` and `SRC-0047`.
 
@@ -278,7 +285,7 @@ header or explicitly described as current in the source summary. Use
 - Research group: Not specified in source CV
 - Career stage: Graduando
 - Academic merit fellowships: Current/header-confirmed: none found for CNPq Productivity or FAPERJ CNE/JCNE; source CV header lists CNPq technological-initiation fellowship, which is not classified here as a productivity/merit fellowship. Historical/recorded: no CNPq Productivity or FAPERJ CNE/JCNE merit fellowship found in reviewed sources.
-- Related publications: Pending Phase 1B registry
+- Related publications: See `docs/phase1/1B_Publications.md`.
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0043` and `SRC-0047`.
 
@@ -296,7 +303,7 @@ header or explicitly described as current in the source summary. Use
 - Research group: Not specified in source CV
 - Career stage: Mestranda
 - Academic merit fellowships: Current/header-confirmed: none found. Historical/recorded: none found.
-- Related publications: Pending Phase 1B registry
+- Related publications: See `docs/phase1/1B_Publications.md`.
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0045` and `SRC-0047`.
 
@@ -314,7 +321,7 @@ header or explicitly described as current in the source summary. Use
 - Research group: Not specified in source CV
 - Career stage: Professor; doutorando
 - Academic merit fellowships: Current/header-confirmed: none found. Historical/recorded: no CNPq Productivity or FAPERJ CNE/JCNE merit fellowship found in reviewed sources.
-- Related publications: Pending Phase 1B registry
+- Related publications: See `docs/phase1/1B_Publications.md`.
 - Related projects: Pending Phase 1C registry
 - Notes: Sources `SRC-0046` and `SRC-0047`; source CV summary states Professor Assistente while vínculo section states Professor Adjunto B1.
 
@@ -334,6 +341,6 @@ header or explicitly described as current in the source summary. Use
 - Research group: Quantum Industrial Innovation (QuIIN)
 - Career stage: Pesquisador PDI; pós-doutorado
 - Academic merit fellowships: Current/header-confirmed: none found. Historical/recorded: no CNPq Productivity or FAPERJ CNE/JCNE merit fellowship found in reviewed sources.
-- Related publications: Pending Phase 1B registry
+- Related publications: See `docs/phase1/1B_Publications.md`.
 - Related projects: Pending Phase 1C registry
 - Notes: Source `SRC-0044`; team page `SRC-0047` lists name only, with no additional administrative fields extracted.
