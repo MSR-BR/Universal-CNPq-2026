@@ -17,7 +17,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 1.3
+Version: 1.4
 
 Status: Active
 
@@ -46,6 +46,8 @@ Phase 0 - Information Collection remains open during the entire project.
 - Seven new administrative people records were entered in `docs/phase1/1A_People.md`.
 - The People database now contains fourteen stable person records.
 - Academic merit fellowships were verified from Lattes headers and prize/title sections.
+- Academic merit fellowships were split into current/header-confirmed and
+  historical/recorded information inside each person record.
 - No CPF values from the team page were stored in the repository.
 - No scientific competencies, objectives, work packages, or proposal text have
   been created.
@@ -55,8 +57,7 @@ Phase 0 - Information Collection remains open during the entire project.
 - Validate the fourteen entered people records with the project owner.
 - Resolve missing or ambiguous fields, especially research group, ORCID,
   current career stage, departmental discrepancies between CVs and the team
-  page, and whether historical merit fellowships should be separated from
-  current merit fellowships.
+  page, and manual confirmation of current versus historical merit fellowships.
 - Continue collecting participant information for any researchers not yet in
   the CV folder or team page.
 - Preserve stable person IDs and never renumber existing records.
@@ -83,6 +84,8 @@ fields without moving to Phase 1B.
 
 ## Recent updates
 
+- 2026-07-01: Refined Phase 1A academic merit fellowship notes into
+  current/header-confirmed and historical/recorded information.
 - 2026-07-01: Verified academic merit fellowships in Phase 1A records, including CNPq Productivity, FAPESB/CNPq Productivity, FAPERJ Cientista do Nosso Estado, and FAPERJ Jovem Cientista records.
 - 2026-07-01: Refreshed the Dropbox support-document folder after user update.
 - 2026-07-01: Added nine new source files to `data/source_inventory.tsv`,
