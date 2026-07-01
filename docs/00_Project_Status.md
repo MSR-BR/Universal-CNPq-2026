@@ -19,7 +19,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 1.5
+Version: 1.6
 
 Status: Active
 
@@ -57,6 +57,8 @@ Phase 0 - Information Collection remains open during the entire project.
 - Phase 1B was opened in `docs/phase1/1B_Publications.md`.
 - Twenty-two stable publication records were created from twenty-three
   publication source files, with one duplicate pair merged.
+- One additional theme-related publication was added from the Mario de Souza
+  Reis Junior CV publication section.
 - No CPF values from the team page were stored in the repository.
 - No scientific competencies, objectives, gaps, work packages, or proposal text
   have been created.
@@ -66,6 +68,8 @@ Phase 0 - Information Collection remains open during the entire project.
 - Validate Phase 1B publication metadata with the project owner and/or manual
   source review.
 - Confirm the author list for `PUB-0001`.
+- Continue mining participant CV publication sections for additional
+  theme-related publications not present in the Dropbox article PDFs.
 - Verify final publication status for arXiv preprints and records marked for
   manual validation in `docs/phase1/1B_Publications.md`.
 - Preserve stable publication IDs and never renumber existing records.
@@ -79,10 +83,11 @@ Phase 0 - Information Collection remains open during the entire project.
 - Source files inventoried from Dropbox: 47
 - Files in Dropbox `CVs/` folder: 16
 - Phase 1A people records: 14
-- Phase 1B publication records: 22
+- Phase 1B publication records: 23
 - Publication source files reviewed in Phase 1B: 23
 - Publication source duplicate pairs merged: 1
-- Publication records with at least one Phase 1A person link: 21
+- CV-derived publication records added after initial publication-source pass: 1
+- Publication records with at least one Phase 1A person link: 22
 - Phase 1A people linked to at least one Phase 1B publication: 10
 - Institutions recorded in Phase 1A: 4
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
@@ -105,6 +110,8 @@ or name variants.
   `docs/phase1/1B_Publications.md` from twenty-three publication source files.
 - 2026-07-01: Marked the duplicate publication source pair `SRC-0016` and
   `SRC-0017` as one publication record.
+- 2026-07-01: Added `PUB-0023`, the Coordination Chemistry Reviews article by
+  Mario S. Reis, from CV source `SRC-0003`.
 - 2026-07-01: Refined Phase 1A academic merit fellowship notes into
   current/header-confirmed and historical/recorded information.
 - 2026-07-01: Verified academic merit fellowships in Phase 1A records, including CNPq Productivity, FAPESB/CNPq Productivity, FAPERJ Cientista do Nosso Estado, and FAPERJ Jovem Cientista records.

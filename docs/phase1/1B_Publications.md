@@ -6,8 +6,8 @@ Objective: Maintain the authoritative registry of scientific publications
 after Phase 1A is complete.
 
 Inputs: Published papers, preprints, conference papers, books, book chapters,
-DOIs, bibliographic metadata, links to people records, and the source
-inventory in `data/source_inventory.tsv`.
+CV publication sections, DOIs, bibliographic metadata, links to people records,
+and the source inventory in `data/source_inventory.tsv`.
 
 Outputs: One reusable publication record per scientific work.
 
@@ -17,7 +17,7 @@ Completion criteria: Publications are recorded once, with stable IDs and links
 to related people records; duplicates and uncertain bibliographic fields are
 marked for manual validation.
 
-Version: 1.1
+Version: 1.2
 
 Status: Active
 
@@ -87,11 +87,12 @@ source context. Ambiguous links are marked in the notes for manual validation.
 - Publication source files reviewed: `SRC-0008` through `SRC-0030`.
 - PDF publication/manuscript source files reviewed: 22.
 - Screenshot source files reviewed: 1.
-- Publication records created: 22.
+- Publication records created: 23.
 - Duplicate source files merged into one publication record:
   `SRC-0016` and `SRC-0017`.
 - Manuscripts in progress recorded: 3.
 - Published/preprint records from `artigos publicados` recorded: 19.
+- Additional CV-derived publication records recorded: 1.
 
 ## Publication registry
 
@@ -454,9 +455,27 @@ source context. Ambiguous links are marked in the notes for manual validation.
 - Notes: Source filename states `not final version`; final citation should be
   manually verified.
 
+### PUB-0023 - Magnetocaloric and barocaloric effects of metal complexes for solid state cooling
+
+- Unique ID: PUB-0023
+- Title: Magnetocaloric and barocaloric effects of metal complexes for solid
+  state cooling: Review, trends and perspectives
+- Publication status: Published article
+- Venue or source type: Coordination Chemistry Reviews 417, 213357
+- Year or source date: 2020
+- DOI, arXiv ID, or other identifier: DOI `10.1016/j.ccr.2020.213357`
+- Authors as stated in source: Mario S. Reis
+- Related people: `P-0003` Mario de Souza Reis Junior
+- Source IDs: `SRC-0003`
+- Notes: Identified from Mario de Souza Reis Junior's source CV publication
+  section after project-owner reminder; DOI verified through Crossref metadata
+  lookup on 2026-07-01.
+
 ## Validation backlog
 
 - Confirm the author list for `PUB-0001`.
+- Continue mining participant CV publication sections for additional
+  theme-related articles not present in the Dropbox article PDFs.
 - Confirm name variants linked to `P-0008` and `P-0007` in draft manuscripts
   and ACS article records.
 - Verify final publication status for arXiv preprints `PUB-0005` through
