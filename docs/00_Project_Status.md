@@ -19,7 +19,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 1.6
+Version: 1.7
 
 Status: Active
 
@@ -59,6 +59,15 @@ Phase 0 - Information Collection remains open during the entire project.
   publication source files, with one duplicate pair merged.
 - One additional theme-related publication was added from the Mario de Souza
   Reis Junior CV publication section.
+- Participant CV publication sections were mined for 2016-2026 theme-related
+  journal articles across metal complexes, caloric effects, spin crossover,
+  quantum thermodynamics, quantum batteries, quantum heat engines, molecular
+  magnetism, and related functional magnetic materials.
+- Seventy-six additional CV-derived publication records were added to Phase 1B,
+  with ambiguous title/formula extractions explicitly marked for manual
+  validation.
+- Eight existing publication records were updated or cross-checked with
+  final metadata found in CV publication sections.
 - No CPF values from the team page were stored in the repository.
 - No scientific competencies, objectives, gaps, work packages, or proposal text
   have been created.
@@ -68,8 +77,8 @@ Phase 0 - Information Collection remains open during the entire project.
 - Validate Phase 1B publication metadata with the project owner and/or manual
   source review.
 - Confirm the author list for `PUB-0001`.
-- Continue mining participant CV publication sections for additional
-  theme-related publications not present in the Dropbox article PDFs.
+- Validate CV-derived Phase 1B publication metadata, especially DOI fields,
+  title/formula extraction artifacts, and final page/article numbers.
 - Verify final publication status for arXiv preprints and records marked for
   manual validation in `docs/phase1/1B_Publications.md`.
 - Preserve stable publication IDs and never renumber existing records.
@@ -83,11 +92,12 @@ Phase 0 - Information Collection remains open during the entire project.
 - Source files inventoried from Dropbox: 47
 - Files in Dropbox `CVs/` folder: 16
 - Phase 1A people records: 14
-- Phase 1B publication records: 23
+- Phase 1B publication records: 99
 - Publication source files reviewed in Phase 1B: 23
+- Participant CV publication sections reviewed in Phase 1B: 14
 - Publication source duplicate pairs merged: 1
-- CV-derived publication records added after initial publication-source pass: 1
-- Publication records with at least one Phase 1A person link: 22
+- CV-derived publication records added after initial publication-source pass: 77
+- Publication records with at least one Phase 1A person link: 98
 - Phase 1A people linked to at least one Phase 1B publication: 10
 - Institutions recorded in Phase 1A: 4
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
@@ -98,12 +108,18 @@ Phase 0 - Information Collection remains open during the entire project.
 
 ## Next action
 
-Validate and refine the Phase 1B publication registry, especially entries with
-missing authors, arXiv-only status, screenshot-only evidence, source duplicates,
-or name variants.
+Validate and refine the Phase 1B publication registry, especially CV-derived
+entries with missing DOI fields, arXiv-only source files, screenshot-only
+evidence, source duplicates, title/formula extraction artifacts, or name
+variants.
 
 ## Recent updates
 
+- 2026-07-01: Mined all participant CV publication sections for 2016-2026
+  theme-related journal articles and added seventy-six additional CV-derived
+  publication records to `docs/phase1/1B_Publications.md`.
+- 2026-07-01: Updated eight existing arXiv/screenshot publication records with
+  final journal metadata found in CV publication sections.
 - 2026-07-01: Opened Phase 1B - Scientific Publications after project-owner
   acceptance of the Phase 1A baseline.
 - 2026-07-01: Created twenty-two stable publication records in
