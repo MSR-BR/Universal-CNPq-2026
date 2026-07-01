@@ -22,7 +22,7 @@ and `data/source_inventory.tsv`.
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.3
+Version: 2.4
 
 Status: Active
 
@@ -83,8 +83,11 @@ work.
 - External collaborators and LAFMAT partner institutions are recorded as non-team collaboration context unless later added to Phase 1A.
 - Phase 1F was opened in `docs/phase1/1F_PreliminaryResults.md`.
 - Four controlled Phase 1 registries were reviewed for the initial Phase 1F preliminary-results pass.
-- Twelve stable preliminary-result records were created in Phase 1F.
+- Thirteen stable preliminary-result records were created in Phase 1F.
 - Phase 1F records evidence for metal complexes, barocaloric and spin-crossover systems, quantum thermodynamics, quantum batteries, quantum resources, magnetocaloric and multicaloric materials, and review/outlook articles.
+- Phase 1F coverage review checked thematic publication coverage against the
+  99 Phase 1B publication records and added three previously uncited thematic
+  records to the preliminary-results registry.
 - Phase 1F explicitly preserves the distinction between preliminary evidence and proposal argument.
 - No CPF values from the team page were stored in the repository.
 - No scientific competencies, objectives, gaps, work packages, or proposal text
@@ -146,10 +149,11 @@ work.
 - Phase 1E records with external/non-team collaboration context: 9
 - Phase 1E records linked to at least one Phase 1C project: 13
 - Phase 1E records linked to active Phase 1D infrastructure: 5
-- Phase 1F preliminary-result records: 12
+- Phase 1F preliminary-result records: 13
 - Phase 1F controlled registries reviewed: 4
-- Phase 1F records linked to Phase 1B publications: 12
-- Phase 1F records linked to at least one Phase 1C project: 12
+- Phase 1F coverage review passes completed: 1
+- Phase 1F records linked to Phase 1B publications: 13
+- Phase 1F records linked to at least one Phase 1C project: 13
 - Institutions recorded in Phase 1A: 4
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
 - FAPESB/CNPq Productivity Research Fellows identified from Lattes headers: 1
@@ -163,6 +167,7 @@ for deferred manual refinement and future official collaboration evidence.
 
 ## Recent updates
 
+- 2026-07-01: Reviewed Phase 1F publication coverage against Phase 1B and added `PUB-0047`, `PUB-0064`, and `PUB-0067` to the preliminary-results evidence map.
 - 2026-07-01: Opened Phase 1F - Preliminary Results and created twelve stable preliminary-result records from Phase 1B, 1C, 1D, and 1E evidence.
 - 2026-07-01: Recorded preliminary evidence clusters for metal complexes, barocaloric and spin-crossover systems, quantum thermodynamics, quantum batteries, quantum resources, magnetocaloric and multicaloric materials, and review/outlook articles.
 - 2026-07-01: Opened Phase 1E - Collaborations and created fourteen stable collaboration records, explicitly separating Phase 1A participants from external/non-team collaboration contexts.

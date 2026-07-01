@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 1.5
+Version: 1.6
 
 Status: Active
 
@@ -30,7 +30,7 @@ Last update: 2026-07-01
 | 1C | Previous Projects | Initial factual registry complete; manual refinements deferred | `docs/phase1/1C_PreviousProjects.md` |
 | 1D | Infrastructure | Initial factual registry complete; restricted to Phase 1A institutions | `docs/phase1/1D_Infrastructure.md` |
 | 1E | Collaborations | Initial factual registry complete; manual refinements deferred | `docs/phase1/1E_Collaborations.md` |
-| 1F | Preliminary Results | Active; initial factual registry populated | `docs/phase1/1F_PreliminaryResults.md` |
+| 1F | Preliminary Results | Active; initial factual registry reviewed | `docs/phase1/1F_PreliminaryResults.md` |
 | 1G | Ideas | Locked until 1F initial registry pass is complete | `docs/phase1/1G_Ideas.md` |
 | 1H | Bibliography | Locked until 1G is opened | `docs/phase1/1H_Bibliography.md` |
 | 2 | Team Book | Locked until Phase 1 is complete | `docs/phase2/2_TeamBook.md` |

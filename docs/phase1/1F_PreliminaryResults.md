@@ -19,9 +19,9 @@ Dependencies: `docs/phase1/1A_People.md`,
 Completion criteria: Preliminary results are recorded once, with stable IDs
 and links to supporting evidence.
 
-Version: 1.1
+Version: 1.2
 
-Status: Active; initial factual registry opened
+Status: Active; initial factual registry reviewed
 
 Last update: 2026-07-01
 
@@ -94,6 +94,11 @@ multicaloric materials, and review/outlook articles.
 Publication IDs are cited as evidence records, not as a final curated
 bibliography. Publication metadata remains subject to the deferred final
 manual review described in Phase 1B.
+
+Coverage review on 2026-07-01 compared Phase 1F publication links against the
+99 Phase 1B publication records. Three theme-matched publication records were
+not yet cited in Phase 1F: `PUB-0047`, `PUB-0064`, and `PUB-0067`. They were
+added in this version without changing the factual scope of the document.
 
 ## Preliminary result database
 
@@ -235,9 +240,9 @@ manual review described in Phase 1B.
 - Preliminary result label: Published evidence base on magnetocaloric, multicaloric, i-caloric, and elastocaloric materials
 - Evidence type: Publication cluster and related project cluster
 - Factual result statement: Phase 1B records many 2016-2026 publications on magnetocaloric, multicaloric, magnetothermal, elastocaloric, high-entropy, rare-earth, amorphous, intermetallic, and related functional materials.
-- Evidence basis: Representative records include `PUB-0024`, `PUB-0026`, `PUB-0028` through `PUB-0032`, `PUB-0034`, `PUB-0036` through `PUB-0039`, `PUB-0041`, `PUB-0042`, `PUB-0046`, `PUB-0051` through `PUB-0054`, `PUB-0058` through `PUB-0063`, `PUB-0068`, `PUB-0076`, and `PUB-0079` through `PUB-0098`.
+- Evidence basis: Representative records include `PUB-0024`, `PUB-0026`, `PUB-0028` through `PUB-0032`, `PUB-0034`, `PUB-0036` through `PUB-0039`, `PUB-0041`, `PUB-0042`, `PUB-0046`, `PUB-0047`, `PUB-0051` through `PUB-0054`, `PUB-0058` through `PUB-0064`, `PUB-0068`, `PUB-0076`, and `PUB-0079` through `PUB-0098`.
 - Verification status: Source-backed publication and project records; final manual scientific review deferred.
-- Related publications: `PUB-0024`, `PUB-0026`, `PUB-0028`, `PUB-0029`, `PUB-0030`, `PUB-0031`, `PUB-0032`, `PUB-0034`, `PUB-0036`, `PUB-0037`, `PUB-0038`, `PUB-0039`, `PUB-0041`, `PUB-0042`, `PUB-0046`, `PUB-0051`, `PUB-0052`, `PUB-0053`, `PUB-0054`, `PUB-0058`, `PUB-0059`, `PUB-0060`, `PUB-0061`, `PUB-0062`, `PUB-0063`, `PUB-0068`, `PUB-0076`, `PUB-0079`, `PUB-0080`, `PUB-0081`, `PUB-0086`, `PUB-0087`, `PUB-0088`, `PUB-0089`, `PUB-0090`, `PUB-0091`, `PUB-0092`, `PUB-0095`, `PUB-0096`, `PUB-0097`, `PUB-0098`
+- Related publications: `PUB-0024`, `PUB-0026`, `PUB-0028`, `PUB-0029`, `PUB-0030`, `PUB-0031`, `PUB-0032`, `PUB-0034`, `PUB-0036`, `PUB-0037`, `PUB-0038`, `PUB-0039`, `PUB-0041`, `PUB-0042`, `PUB-0046`, `PUB-0047`, `PUB-0051`, `PUB-0052`, `PUB-0053`, `PUB-0054`, `PUB-0058`, `PUB-0059`, `PUB-0060`, `PUB-0061`, `PUB-0062`, `PUB-0063`, `PUB-0064`, `PUB-0068`, `PUB-0076`, `PUB-0079`, `PUB-0080`, `PUB-0081`, `PUB-0086`, `PUB-0087`, `PUB-0088`, `PUB-0089`, `PUB-0090`, `PUB-0091`, `PUB-0092`, `PUB-0095`, `PUB-0096`, `PUB-0097`, `PUB-0098`
 - Related projects: `PRJ-0002`, `PRJ-0003`, `PRJ-0006`, `PRJ-0007`, `PRJ-0008`, `PRJ-0009`, `PRJ-0010`, `PRJ-0011`, `PRJ-0012`, `PRJ-0013`, `PRJ-0014`, `PRJ-0015`, `PRJ-0016`, `PRJ-0017`, `PRJ-0018`, `PRJ-0023`, `PRJ-0024`
 - Related people: `P-0001`, `P-0002`, `P-0003`, `P-0004`, `P-0005`, `P-0006`, `P-0007`, `P-0008`, `P-0010`
 - Related collaborations: `COL-0001`, `COL-0002`, `COL-0012`, `COL-0014`
@@ -294,6 +299,24 @@ manual review described in Phase 1B.
 - Related infrastructure: `INF-0007`, `INF-0008`
 - Source IDs: `SRC-0003`, `SRC-0006`, `SRC-0007`, `SRC-0034`, `SRC-0039`, `SRC-0040`
 - Notes: These outputs are preserved because they are adjacent factual evidence in the existing publication/project base; Phase 4 may later decide whether they are central or peripheral.
+
+### Additional review and outlook records
+
+#### RES-0013 - Caloric effects of quantum materials outlook
+
+- Unique ID: RES-0013
+- Preliminary result label: Published outlook on caloric effects of quantum materials
+- Evidence type: Published outlook article
+- Factual result statement: Phase 1B records the 2020 article `Caloric effects of quantum materials: An outlook`.
+- Evidence basis: `PUB-0067` is recorded as a published article in `Physics Open` and is linked to Mario Reis.
+- Verification status: Source-backed publication record; final manual scientific review deferred.
+- Related publications: `PUB-0067`
+- Related projects: `PRJ-0017`, `PRJ-0018`
+- Related people: `P-0003`
+- Related collaborations: None assigned in Phase 1E
+- Related infrastructure: `INF-0007`, `INF-0008`
+- Source IDs: `SRC-0003`
+- Notes: This record was added during the Phase 1F coverage review because it is a review/outlook item distinct from the metal-complex review in `RES-0011`.
 
 ## Manual review queue
 
