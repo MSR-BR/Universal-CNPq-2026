@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 1.4
+Version: 1.5
 
 Status: Active
 
@@ -29,9 +29,9 @@ Last update: 2026-07-01
 | 1B | Scientific Publications | Automated validation complete; final manual review deferred | `docs/phase1/1B_Publications.md` |
 | 1C | Previous Projects | Initial factual registry complete; manual refinements deferred | `docs/phase1/1C_PreviousProjects.md` |
 | 1D | Infrastructure | Initial factual registry complete; restricted to Phase 1A institutions | `docs/phase1/1D_Infrastructure.md` |
-| 1E | Collaborations | Active; initial factual registry populated | `docs/phase1/1E_Collaborations.md` |
-| 1F | Preliminary Results | Locked until 1E initial registry pass is complete | `docs/phase1/1F_PreliminaryResults.md` |
-| 1G | Ideas | Locked until 1F is opened | `docs/phase1/1G_Ideas.md` |
+| 1E | Collaborations | Initial factual registry complete; manual refinements deferred | `docs/phase1/1E_Collaborations.md` |
+| 1F | Preliminary Results | Active; initial factual registry populated | `docs/phase1/1F_PreliminaryResults.md` |
+| 1G | Ideas | Locked until 1F initial registry pass is complete | `docs/phase1/1G_Ideas.md` |
 | 1H | Bibliography | Locked until 1G is opened | `docs/phase1/1H_Bibliography.md` |
 | 2 | Team Book | Locked until Phase 1 is complete | `docs/phase2/2_TeamBook.md` |
 | 3 | Scientific Atlas | Locked until Phase 2 is complete | `docs/phase3/3_ScientificAtlas.md` |
@@ -43,11 +43,11 @@ Last update: 2026-07-01
 
 ## Current gate
 
-The repository is in Phase 1E - Collaborations.
+The repository is in Phase 1F - Preliminary Results.
 
-Allowed work now: factual registration and refinement of collaboration records,
-with explicit separation between Phase 1A project participants and external
-collaboration context.
+Allowed work now: factual registration and refinement of preliminary-result
+records, with links to people, publications, projects, collaborations,
+infrastructure, and source IDs.
 
-Still prohibited: scientific gap analysis, project strategy, work packages, and
-CNPq proposal writing.
+Still prohibited: scientific gap analysis, project strategy, work packages,
+and CNPq proposal writing.

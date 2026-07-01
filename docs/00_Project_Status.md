@@ -7,8 +7,8 @@ program repository.
 
 Inputs: Repository methodology, roadmap, document inventory, source inventory,
 Phase 1A people records, Phase 1B publication records, Phase 1C previous-project
-records, Phase 1D infrastructure records, Phase 1E collaboration records, and
-recent project updates.
+records, Phase 1D infrastructure records, Phase 1E collaboration records, Phase
+1F preliminary-result records, and recent project updates.
 
 Outputs: Current phase, completed phases, current progress, pending tasks,
 repository statistics, next action, and recent updates.
@@ -16,12 +16,13 @@ repository statistics, next action, and recent updates.
 Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 `docs/phase1/1A_People.md`, `docs/phase1/1B_Publications.md`,
 `docs/phase1/1C_PreviousProjects.md`, `docs/phase1/1D_Infrastructure.md`,
-`docs/phase1/1E_Collaborations.md`, and `data/source_inventory.tsv`.
+`docs/phase1/1E_Collaborations.md`, `docs/phase1/1F_PreliminaryResults.md`,
+and `data/source_inventory.tsv`.
 
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.2
+Version: 2.3
 
 Status: Active
 
@@ -29,11 +30,12 @@ Last update: 2026-07-01
 
 ## Current phase
 
-Phase 1E - Collaborations.
+Phase 1F - Preliminary Results.
 
 Phase 0 - Information Collection remains open during the entire project.
-Phase 1A, Phase 1B, Phase 1C, and Phase 1D remain available for deferred
-final manual refinement, but they no longer block Phase 1E factual work.
+Phase 1A, Phase 1B, Phase 1C, Phase 1D, and Phase 1E remain available for
+deferred final manual refinement, but they no longer block Phase 1F factual
+work.
 
 ## Completed phases
 
@@ -47,6 +49,8 @@ final manual refinement, but they no longer block Phase 1E factual work.
   Phase 1D, with final manual project review deferred.
 - Phase 1D corrected infrastructure registry completed sufficiently to open
   Phase 1E, with final manual infrastructure review deferred.
+- Phase 1E initial collaboration registry completed sufficiently to open
+  Phase 1F, with final manual collaboration review deferred.
 
 ## Current progress
 
@@ -77,6 +81,11 @@ final manual refinement, but they no longer block Phase 1E factual work.
 - Fourteen stable collaboration records were created in Phase 1E.
 - Phase 1E explicitly distinguishes Phase 1A project participants from external collaboration contexts.
 - External collaborators and LAFMAT partner institutions are recorded as non-team collaboration context unless later added to Phase 1A.
+- Phase 1F was opened in `docs/phase1/1F_PreliminaryResults.md`.
+- Four controlled Phase 1 registries were reviewed for the initial Phase 1F preliminary-results pass.
+- Twelve stable preliminary-result records were created in Phase 1F.
+- Phase 1F records evidence for metal complexes, barocaloric and spin-crossover systems, quantum thermodynamics, quantum batteries, quantum resources, magnetocaloric and multicaloric materials, and review/outlook articles.
+- Phase 1F explicitly preserves the distinction between preliminary evidence and proposal argument.
 - No CPF values from the team page were stored in the repository.
 - No scientific competencies, objectives, gaps, work packages, or proposal text
   have been created.
@@ -97,12 +106,14 @@ final manual refinement, but they no longer block Phase 1E factual work.
   record.
 - Decide during final review whether infrastructure-development records linked
   to `INF-0010` and `INF-0016` should be promoted to Phase 1C project records.
-- Preserve stable person, publication, project, infrastructure, and collaboration IDs and never
-  renumber existing records.
+- Preserve stable person, publication, project, infrastructure, collaboration,
+  and preliminary-result IDs and never renumber existing records.
 - Continue Phase 1E factual collaboration registry refinement if new collaboration agreements, institutional letters, or manually validated collaborator lists are supplied.
 - Keep external collaborators and LAFMAT partner institutions out of project team status unless Phase 1A is explicitly updated.
 - Add explicit publication cross-links from Phase 1B to Phase 1E after final manual validation.
-- Open Phase 1F - Preliminary Results as the next factual information-collection phase after this initial Phase 1E registry pass.
+- Continue Phase 1F factual preliminary-result registry refinement if new figures, datasets, reports, presentations, or manually selected outputs are supplied.
+- Keep Phase 1F records factual; do not convert evidence clusters into proposal objectives, gaps, or work packages.
+- Open Phase 1G - Ideas only after the project owner accepts the Phase 1F baseline as sufficient for progression.
 
 ## Repository statistics
 
@@ -135,6 +146,10 @@ final manual refinement, but they no longer block Phase 1E factual work.
 - Phase 1E records with external/non-team collaboration context: 9
 - Phase 1E records linked to at least one Phase 1C project: 13
 - Phase 1E records linked to active Phase 1D infrastructure: 5
+- Phase 1F preliminary-result records: 12
+- Phase 1F controlled registries reviewed: 4
+- Phase 1F records linked to Phase 1B publications: 12
+- Phase 1F records linked to at least one Phase 1C project: 12
 - Institutions recorded in Phase 1A: 4
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
 - FAPESB/CNPq Productivity Research Fellows identified from Lattes headers: 1
@@ -143,11 +158,13 @@ final manual refinement, but they no longer block Phase 1E factual work.
 
 ## Next action
 
-Proceed to Phase 1F - Preliminary Results while keeping Phase 1E open for
-deferred manual refinement and future official collaboration evidence.
+Continue Phase 1F - Preliminary Results refinement while keeping Phase 1E open
+for deferred manual refinement and future official collaboration evidence.
 
 ## Recent updates
 
+- 2026-07-01: Opened Phase 1F - Preliminary Results and created twelve stable preliminary-result records from Phase 1B, 1C, 1D, and 1E evidence.
+- 2026-07-01: Recorded preliminary evidence clusters for metal complexes, barocaloric and spin-crossover systems, quantum thermodynamics, quantum batteries, quantum resources, magnetocaloric and multicaloric materials, and review/outlook articles.
 - 2026-07-01: Opened Phase 1E - Collaborations and created fourteen stable collaboration records, explicitly separating Phase 1A participants from external/non-team collaboration contexts.
 - 2026-07-01: Recorded LAFMAT and external collaborators as collaboration context only, without adding their institutions to the CNPq project team.
 - 2026-07-01: Corrected Phase 1D scope so the active infrastructure registry
