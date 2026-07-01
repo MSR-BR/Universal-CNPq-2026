@@ -7,7 +7,8 @@ program repository.
 
 Inputs: Repository methodology, roadmap, document inventory, source inventory,
 Phase 1A people records, Phase 1B publication records, Phase 1C previous-project
-records, Phase 1D infrastructure records, and recent project updates.
+records, Phase 1D infrastructure records, Phase 1E collaboration records, and
+recent project updates.
 
 Outputs: Current phase, completed phases, current progress, pending tasks,
 repository statistics, next action, and recent updates.
@@ -15,12 +16,12 @@ repository statistics, next action, and recent updates.
 Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 `docs/phase1/1A_People.md`, `docs/phase1/1B_Publications.md`,
 `docs/phase1/1C_PreviousProjects.md`, `docs/phase1/1D_Infrastructure.md`,
-and `data/source_inventory.tsv`.
+`docs/phase1/1E_Collaborations.md`, and `data/source_inventory.tsv`.
 
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.1
+Version: 2.2
 
 Status: Active
 
@@ -28,11 +29,11 @@ Last update: 2026-07-01
 
 ## Current phase
 
-Phase 1D - Infrastructure.
+Phase 1E - Collaborations.
 
 Phase 0 - Information Collection remains open during the entire project.
-Phase 1A, Phase 1B, and Phase 1C remain available for deferred final manual
-refinement, but they no longer block Phase 1D factual work.
+Phase 1A, Phase 1B, Phase 1C, and Phase 1D remain available for deferred
+final manual refinement, but they no longer block Phase 1E factual work.
 
 ## Completed phases
 
@@ -44,6 +45,8 @@ refinement, but they no longer block Phase 1D factual work.
   Phase 1C, with final manual publication review deferred.
 - Phase 1C initial previous-project registry completed sufficiently to open
   Phase 1D, with final manual project review deferred.
+- Phase 1D corrected infrastructure registry completed sufficiently to open
+  Phase 1E, with final manual infrastructure review deferred.
 
 ## Current progress
 
@@ -69,6 +72,11 @@ refinement, but they no longer block Phase 1D factual work.
   because they referred to LAFMAT partner institutions, external collaborators,
   external facilities, or equipment with unconfirmed Phase 1A host mapping.
 - Active infrastructure records include only UERJ, UFF, UFOB, and SENAI CIMATEC resources.
+- Phase 1E was opened in `docs/phase1/1E_Collaborations.md`.
+- Seventeen source files were reviewed for the initial Phase 1E collaboration pass.
+- Fourteen stable collaboration records were created in Phase 1E.
+- Phase 1E explicitly distinguishes Phase 1A project participants from external collaboration contexts.
+- External collaborators and LAFMAT partner institutions are recorded as non-team collaboration context unless later added to Phase 1A.
 - No CPF values from the team page were stored in the repository.
 - No scientific competencies, objectives, gaps, work packages, or proposal text
   have been created.
@@ -89,10 +97,12 @@ refinement, but they no longer block Phase 1D factual work.
   record.
 - Decide during final review whether infrastructure-development records linked
   to `INF-0010` and `INF-0016` should be promoted to Phase 1C project records.
-- Preserve stable person, publication, project, and infrastructure IDs and never
+- Preserve stable person, publication, project, infrastructure, and collaboration IDs and never
   renumber existing records.
-- Open Phase 1E - Collaborations as the next factual information-collection
-  phase after this initial Phase 1D registry pass.
+- Continue Phase 1E factual collaboration registry refinement if new collaboration agreements, institutional letters, or manually validated collaborator lists are supplied.
+- Keep external collaborators and LAFMAT partner institutions out of project team status unless Phase 1A is explicitly updated.
+- Add explicit publication cross-links from Phase 1B to Phase 1E after final manual validation.
+- Open Phase 1F - Preliminary Results as the next factual information-collection phase after this initial Phase 1E registry pass.
 
 ## Repository statistics
 
@@ -119,6 +129,12 @@ refinement, but they no longer block Phase 1D factual work.
 - CV/Lattes text sources supporting active Phase 1D records: 4
 - Active infrastructure records with at least one Phase 1A person link: 8
 - Active infrastructure records linked to at least one Phase 1C project: 6
+- Phase 1E collaboration records: 14
+- Phase 1E source files reviewed: 17
+- Phase 1E records involving only Phase 1A institutions as active participants: 5
+- Phase 1E records with external/non-team collaboration context: 9
+- Phase 1E records linked to at least one Phase 1C project: 13
+- Phase 1E records linked to active Phase 1D infrastructure: 5
 - Institutions recorded in Phase 1A: 4
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
 - FAPESB/CNPq Productivity Research Fellows identified from Lattes headers: 1
@@ -127,11 +143,13 @@ refinement, but they no longer block Phase 1D factual work.
 
 ## Next action
 
-Proceed to Phase 1E - Collaborations while keeping Phase 1D open for deferred
-manual refinement and future official infrastructure inventories.
+Proceed to Phase 1F - Preliminary Results while keeping Phase 1E open for
+deferred manual refinement and future official collaboration evidence.
 
 ## Recent updates
 
+- 2026-07-01: Opened Phase 1E - Collaborations and created fourteen stable collaboration records, explicitly separating Phase 1A participants from external/non-team collaboration contexts.
+- 2026-07-01: Recorded LAFMAT and external collaborators as collaboration context only, without adding their institutions to the CNPq project team.
 - 2026-07-01: Corrected Phase 1D scope so the active infrastructure registry
   lists only resources hosted by institutions represented in Phase 1A.
 - 2026-07-01: Retired eight infrastructure IDs from active scope after removing

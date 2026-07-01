@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 1.3
+Version: 1.4
 
 Status: Active
 
@@ -28,9 +28,9 @@ Last update: 2026-07-01
 | 1A | People | Baseline accepted; manual refinements deferred | `docs/phase1/1A_People.md` |
 | 1B | Scientific Publications | Automated validation complete; final manual review deferred | `docs/phase1/1B_Publications.md` |
 | 1C | Previous Projects | Initial factual registry complete; manual refinements deferred | `docs/phase1/1C_PreviousProjects.md` |
-| 1D | Infrastructure | Active; restricted to Phase 1A institutions | `docs/phase1/1D_Infrastructure.md` |
-| 1E | Collaborations | Locked until 1D is accepted for progression | `docs/phase1/1E_Collaborations.md` |
-| 1F | Preliminary Results | Locked until 1E is opened | `docs/phase1/1F_PreliminaryResults.md` |
+| 1D | Infrastructure | Initial factual registry complete; restricted to Phase 1A institutions | `docs/phase1/1D_Infrastructure.md` |
+| 1E | Collaborations | Active; initial factual registry populated | `docs/phase1/1E_Collaborations.md` |
+| 1F | Preliminary Results | Locked until 1E initial registry pass is complete | `docs/phase1/1F_PreliminaryResults.md` |
 | 1G | Ideas | Locked until 1F is opened | `docs/phase1/1G_Ideas.md` |
 | 1H | Bibliography | Locked until 1G is opened | `docs/phase1/1H_Bibliography.md` |
 | 2 | Team Book | Locked until Phase 1 is complete | `docs/phase2/2_TeamBook.md` |
@@ -43,11 +43,11 @@ Last update: 2026-07-01
 
 ## Current gate
 
-The repository is in Phase 1D - Infrastructure.
+The repository is in Phase 1E - Collaborations.
 
-Allowed work now: factual registration and refinement of infrastructure
-records hosted by Phase 1A participant institutions, source notes, and links to
-stable people/project/publication IDs.
+Allowed work now: factual registration and refinement of collaboration records,
+with explicit separation between Phase 1A project participants and external
+collaboration context.
 
 Still prohibited: scientific gap analysis, project strategy, work packages, and
 CNPq proposal writing.
