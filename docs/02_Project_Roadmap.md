@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 1.7
+Version: 1.8
 
 Status: Active
 
@@ -31,8 +31,8 @@ Last update: 2026-07-01
 | 1D | Infrastructure | Initial factual registry complete; restricted to Phase 1A institutions | `docs/phase1/1D_Infrastructure.md` |
 | 1E | Collaborations | Initial factual registry complete; manual refinements deferred | `docs/phase1/1E_Collaborations.md` |
 | 1F | Preliminary Results | Initial factual registry reviewed; manual refinements deferred | `docs/phase1/1F_PreliminaryResults.md` |
-| 1G | Ideas | Active; initial idea-seed registry populated | `docs/phase1/1G_Ideas.md` |
-| 1H | Bibliography | Locked until 1G baseline is accepted | `docs/phase1/1H_Bibliography.md` |
+| 1G | Ideas | Initial idea-seed registry populated; manual refinements deferred | `docs/phase1/1G_Ideas.md` |
+| 1H | Bibliography | Active; initial bibliography map populated | `docs/phase1/1H_Bibliography.md` |
 | 2 | Team Book | Locked until Phase 1 is complete | `docs/phase2/2_TeamBook.md` |
 | 3 | Scientific Atlas | Locked until Phase 2 is complete | `docs/phase3/3_ScientificAtlas.md` |
 | 4 | Gap Analysis | Locked until Phase 3 is complete | `docs/phase4/4_GapAnalysis.md` |
@@ -43,11 +43,11 @@ Last update: 2026-07-01
 
 ## Current gate
 
-The repository is in Phase 1G - Ideas.
+The repository is in Phase 1H - Bibliography.
 
-Allowed work now: factual registration and refinement of unselected
-idea-seed records, with links to preliminary results, publications, projects,
-collaborations, infrastructure, people, and source IDs.
+Allowed work now: factual registration and refinement of bibliography-use
+records, with links to Phase 1B publications, Phase 1F preliminary results,
+Phase 1G idea seeds, and source IDs.
 
 Still prohibited: scientific objectives, scientific gap analysis, project
 strategy, work packages, and CNPq proposal writing.
