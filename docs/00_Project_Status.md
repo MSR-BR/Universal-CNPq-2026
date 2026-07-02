@@ -9,7 +9,7 @@ Inputs: Repository methodology, roadmap, document inventory, source inventory,
 Phase 1A people records, Phase 1B publication records, Phase 1C previous-project
 records, Phase 1D infrastructure records, Phase 1E collaboration records, Phase
 1F preliminary-result records, Phase 1G idea-seed records, Phase 1H
-bibliography records, and recent project updates.
+bibliography records, Phase 2 Team Book records, and recent project updates.
 
 Outputs: Current phase, completed phases, current progress, pending tasks,
 repository statistics, next action, and recent updates.
@@ -18,13 +18,13 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 `docs/phase1/1A_People.md`, `docs/phase1/1B_Publications.md`,
 `docs/phase1/1C_PreviousProjects.md`, `docs/phase1/1D_Infrastructure.md`,
 `docs/phase1/1E_Collaborations.md`, `docs/phase1/1F_PreliminaryResults.md`,
-`docs/phase1/1G_Ideas.md`, `docs/phase1/1H_Bibliography.md`, and
-`data/source_inventory.tsv`.
+`docs/phase1/1G_Ideas.md`, `docs/phase1/1H_Bibliography.md`,
+`docs/phase2/2_TeamBook.md`, and `data/source_inventory.tsv`.
 
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.7
+Version: 2.8
 
 Status: Active
 
@@ -32,12 +32,11 @@ Last update: 2026-07-01
 
 ## Current phase
 
-Phase 1H - Bibliography.
+Phase 2 - Team Book.
 
 Phase 0 - Information Collection remains open during the entire project.
-Phase 1A, Phase 1B, Phase 1C, Phase 1D, Phase 1E, Phase 1F, and Phase
-1G remain available for deferred final manual refinement, but they no longer
-block Phase 1H bibliography work.
+Phase 1A through Phase 1H remain available for deferred final manual
+refinement, but they no longer block Phase 2 Team Book work.
 
 ## Completed phases
 
@@ -57,6 +56,8 @@ block Phase 1H bibliography work.
   Phase 1G, with final manual scientific review deferred.
 - Phase 1G initial idea-seed registry completed sufficiently to open Phase 1H,
   with final manual idea review deferred.
+- Phase 1H bibliography baseline accepted sufficiently to open Phase 2, with
+  final bibliography review deferred.
 
 ## Current progress
 
@@ -107,9 +108,13 @@ block Phase 1H bibliography work.
 - One hundred seven stable bibliography records are recorded in Phase 1H, one
   for each Phase 1B publication record.
 - Phase 1H links bibliography records to Phase 1F preliminary results and Phase 1G idea seeds without duplicating full publication metadata.
+- Phase 2 was opened in `docs/phase2/2_TeamBook.md`.
+- The initial Phase 2 Team Book maps sixteen Phase 1A people across six
+  institutions and source-backed capability domains.
 - No CPF values from the team page were stored in the repository.
-- No scientific competencies, objectives, gaps, work packages, or proposal text
-  have been created.
+- Capability domains are now recorded only as factual Phase 2 synthesis.
+- No scientific objectives, gaps, work packages, responsibility assignments, or
+  proposal text have been created.
 
 ## Pending tasks
 
@@ -139,7 +144,9 @@ block Phase 1H bibliography work.
 - Keep Phase 1G records unselected and non-objective; do not convert idea seeds into objectives, gaps, strategy, work packages, or proposal text.
 - Continue Phase 1H bibliography refinement if external references, official citation lists, or manually selected bibliography additions are supplied.
 - Keep Phase 1H as a bibliography map; do not duplicate full publication metadata already recorded in Phase 1B.
-- Open Phase 2 - Team Book only after the project owner accepts the Phase 1H baseline as sufficient for progression.
+- Continue Phase 2 Team Book refinement using only stable Phase 1 evidence.
+- Keep Phase 2 synthesis factual; do not convert capability domains into
+  objectives, gaps, responsibilities, work packages, or proposal text.
 
 ## Repository statistics
 
@@ -185,6 +192,7 @@ block Phase 1H bibliography work.
 - Phase 1H records linked one-to-one to Phase 1B publications: 107
 - Phase 1H records with at least one Phase 1F preliminary-result link: 104
 - Phase 1H records with at least one Phase 1G idea-seed link: 47
+- Phase 2 Team Book documents opened: 1
 - Institutions recorded in Phase 1A: 6
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
 - FAPESB/CNPq Productivity Research Fellows identified from Lattes headers: 1
@@ -193,11 +201,12 @@ block Phase 1H bibliography work.
 
 ## Next action
 
-Continue Phase 1H - Bibliography refinement while keeping Phase 1A through
-Phase 1G open for deferred manual refinement.
+Continue Phase 2 - Team Book refinement while keeping Phase 1 records open
+for deferred manual refinement.
 
 ## Recent updates
 
+- 2026-07-01: Opened Phase 2 - Team Book and created the initial source-backed capability map in `docs/phase2/2_TeamBook.md`.
 - 2026-07-01: Added international collaborators `P-0015` Antonio dos Santos (ORNL) and `P-0016` Paula Brandão (Universidade de Aveiro) to Phase 1A from `SRC-0048` and `SRC-0049`.
 - 2026-07-01: Updated Phase 1B through Phase 1H to link Antonio/Paula, added eight theme-matched publications, four project records, two infrastructure records, and eight bibliography records.
 - 2026-07-01: Opened Phase 1H - Bibliography and initially created ninety-nine bibliography records, one for each Phase 1B publication record then available.

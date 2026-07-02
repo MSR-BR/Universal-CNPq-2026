@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 1.9
+Version: 2.0
 
 Status: Active
 
@@ -32,8 +32,8 @@ Last update: 2026-07-01
 | 1E | Collaborations | Initial factual registry complete; international collaborator links updated; manual refinements deferred | `docs/phase1/1E_Collaborations.md` |
 | 1F | Preliminary Results | Initial factual registry reviewed; international collaborator evidence linked; manual refinements deferred | `docs/phase1/1F_PreliminaryResults.md` |
 | 1G | Ideas | Initial idea-seed registry populated; international collaborator evidence linked; manual refinements deferred | `docs/phase1/1G_Ideas.md` |
-| 1H | Bibliography | Active; bibliography map updated to 107 publication records | `docs/phase1/1H_Bibliography.md` |
-| 2 | Team Book | Locked until Phase 1 is complete | `docs/phase2/2_TeamBook.md` |
+| 1H | Bibliography | Baseline accepted; manual refinements deferred | `docs/phase1/1H_Bibliography.md` |
+| 2 | Team Book | Active; initial Team Book and capability map opened | `docs/phase2/2_TeamBook.md` |
 | 3 | Scientific Atlas | Locked until Phase 2 is complete | `docs/phase3/3_ScientificAtlas.md` |
 | 4 | Gap Analysis | Locked until Phase 3 is complete | `docs/phase4/4_GapAnalysis.md` |
 | 5 | Project Matrix | Locked until Phase 4 is complete | `docs/phase5/5_ProjectMatrix.md` |
@@ -43,11 +43,11 @@ Last update: 2026-07-01
 
 ## Current gate
 
-The repository is in Phase 1H - Bibliography.
+The repository is in Phase 2 - Team Book.
 
-Allowed work now: factual registration and refinement of bibliography-use
-records, with links to Phase 1B publications, Phase 1F preliminary results,
-Phase 1G idea seeds, and source IDs.
+Allowed work now: factual synthesis of Phase 1 team information, including
+institutional roster, person profiles, capability domains, collaboration
+threads, infrastructure links, and source-backed evidence maps.
 
 Still prohibited: scientific objectives, scientific gap analysis, project
-strategy, work packages, and CNPq proposal writing.
+strategy, responsibility assignment, work packages, and CNPq proposal writing.
