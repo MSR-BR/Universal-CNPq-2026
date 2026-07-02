@@ -25,7 +25,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.14
+Version: 2.15
 
 Status: Active
 
@@ -129,6 +129,10 @@ refinement, but they no longer block Phase 2 Team Book work.
 - Phase 2D Person-Domain Matrix was refined with a domain-code key, marker
   system, 16-row person-domain matrix, 9-row domain-coverage table,
   person-domain detail index, and 2D checkpoint.
+- Phase 2E Collaboration and Infrastructure Map was refined with an
+  institution-infrastructure map, 14-row collaboration status map, 10-row active
+  infrastructure coverage map, 8 integrated collaboration-infrastructure
+  threads, boundary-context review table, and 2E checkpoint.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
 - No scientific objectives, gaps, work packages, responsibility assignments, or
@@ -229,6 +233,10 @@ refinement, but they no longer block Phase 2 Team Book work.
 - Phase 2D domain-code rows: 9
 - Phase 2D domain-coverage rows: 9
 - Phase 2D person-domain detail rows: 16
+- Phase 2E collaboration-status rows: 14
+- Phase 2E active-infrastructure coverage rows: 10
+- Phase 2E integrated collaboration-infrastructure threads: 8
+- Phase 2E boundary-context review rows: 8
 - Phase 2 evidence-bundle checklist rows: 9
 - Institutions recorded in Phase 1A: 6
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
@@ -238,12 +246,13 @@ refinement, but they no longer block Phase 2 Team Book work.
 
 ## Next action
 
-Continue Phase 2 with `2E_CollaborationInfrastructureMap.md`, using the
-refined 2A Team Roster, 2B Person Profiles, 2C Capability Domains, and 2D
-Person-Domain Matrix as factual baselines.
+Continue Phase 2 with `2F_EvidenceBundlesReview.md`, using the refined 2A Team
+Roster, 2B Person Profiles, 2C Capability Domains, 2D Person-Domain Matrix, and
+2E Collaboration and Infrastructure Map as factual baselines.
 
 ## Recent updates
 
+- 2026-07-01: Refined Phase 2E Collaboration and Infrastructure Map with institution-infrastructure map, collaboration status map, active infrastructure coverage, integrated threads, boundary-context review, and a 2E checkpoint.
 - 2026-07-01: Refined Phase 2D Person-Domain Matrix with domain-code key, marker system, person-domain matrix, domain coverage, person-domain detail index, and a 2D checkpoint.
 - 2026-07-01: Refined Phase 2C Capability Domains with domain registry, evidence-class coverage, domain detail notes, cross-domain overlap map, and a 2C checkpoint.
 - 2026-07-01: Refined Phase 2B Person Profiles with profile summary, academic merit index, evidence coverage by person, individual profile notes, and a 2B checkpoint.

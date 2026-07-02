@@ -26,9 +26,9 @@ Completion criteria: Every Phase 1A participant is represented once; capability
 domains are linked to Phase 1 evidence; no scientific objectives, gaps,
 work packages, proposal text, or team responsibilities are created.
 
-Version: 1.7
+Version: 1.8
 
-Status: Active; 2D Person-Domain Matrix refined
+Status: Active; 2E Collaboration and Infrastructure Map refined
 
 Last update: 2026-07-01
 
@@ -65,7 +65,7 @@ consolidated snapshot.
 | 2B | Person profiles and merit summaries | Refined | `docs/phase2/2B_PersonProfiles.md` |
 | 2C | Capability-domain map | Refined | `docs/phase2/2C_CapabilityDomains.md` |
 | 2D | Person-domain matrix | Refined | `docs/phase2/2D_PersonDomainMatrix.md` |
-| 2E | Collaboration and infrastructure map | Initial subsection opened | `docs/phase2/2E_CollaborationInfrastructureMap.md` |
+| 2E | Collaboration and infrastructure map | Refined | `docs/phase2/2E_CollaborationInfrastructureMap.md` |
 | 2F | Evidence bundles and review queue | Initial subsection opened | `docs/phase2/2F_EvidenceBundlesReview.md` |
 
 ## Phase gate note
@@ -110,6 +110,10 @@ rather than creating a new person or source fact here.
 - Phase 2D person-domain matrix rows refined: 16.
 - Phase 2D domain-code rows refined: 9.
 - Phase 2D domain-coverage rows refined: 9.
+- Phase 2E collaboration-status rows refined: 14.
+- Phase 2E active-infrastructure coverage rows refined: 10.
+- Phase 2E integrated collaboration-infrastructure threads refined: 8.
+- Phase 2E boundary-context review rows refined: 8.
 
 ## Team overview
 
@@ -232,14 +236,29 @@ strategic fit.
 
 ## Collaboration and infrastructure map
 
-| Collaboration or infrastructure thread | People links | Evidence links |
+This map records collaboration and infrastructure context only. It does not
+create institutional roles, access plans, responsibilities, work packages, or
+proposal text.
+
+| Phase 1A institution | Active infrastructure | Main collaboration context |
 | --- | --- | --- |
-| UERJ-UFF barocaloric/spin-crossover and ORNL/SNAP context | `P-0003`, `P-0007`, `P-0008`, `P-0015` | `COL-0002`, `COL-0007`, `INF-0017`, `PRJ-0005`, `PRJ-0022`, `RES-0007` |
-| UFF-UFOB quantum batteries and metal-complex energy-storage context | `P-0003`, `P-0006`, `P-0009`, `P-0014` | `COL-0003`, `PRJ-0001`, `PRJ-0025`, `PRJ-0026`, `RES-0001`, `RES-0002` |
-| UFOB-SENAI CIMATEC quantum computing and QuIIN/Kuatomu context | `P-0009`, `P-0012` | `COL-0004`, `COL-0005`, `INF-0003`, `INF-0004`, `PRJ-0027`, `PRJ-0028` |
-| Universidade de Aveiro synthesis/characterization context | `P-0003`, `P-0009`, `P-0016` | `COL-0010`, `INF-0018`, `PUB-0004`, `PUB-0102`-`PUB-0107` |
-| UFF magnetic and sample-preparation resources | `P-0003`, `P-0006` | `INF-0007`, `INF-0008`, `PRJ-0003`, `PRJ-0017`, `PRJ-0018` |
-| UERJ structural-characterization and i-caloric context | `P-0001`, `P-0002`, `P-0004`, `P-0005`, `P-0007`, `P-0008`, `P-0010` | `INF-0010`, `COL-0001`, `COL-0002`, `COL-0014` |
+| UERJ | `INF-0010` | `COL-0001`, `COL-0002`, `COL-0014`; ORNL link through `COL-0007` |
+| UFF | `INF-0007`, `INF-0008`, `INF-0016` | `COL-0002`, `COL-0003`, `COL-0006`, `COL-0007`, `COL-0008`, `COL-0009`, `COL-0010`, `COL-0011`, `COL-0012`, `COL-0013` |
+| UFOB | `INF-0001`, `INF-0002` | `COL-0003`, `COL-0004`, `COL-0006`, `COL-0008`, `COL-0009`, `COL-0010`, `COL-0011`, `COL-0013` |
+| Universidade SENAI CIMATEC | `INF-0003`, `INF-0004` | `COL-0004`, `COL-0005` |
+| ORNL | `INF-0017` | `COL-0007`; internal UERJ-UFF context in `COL-0002` |
+| Universidade de Aveiro | `INF-0018` | `COL-0010` |
+
+| Integrated thread | People links | Collaboration IDs | Active infrastructure IDs | Evidence links |
+| --- | --- | --- | --- | --- |
+| UERJ caloric-material and structural-characterization context | `P-0001`, `P-0002`, `P-0004`, `P-0005`, `P-0007`, `P-0008`, `P-0010` | `COL-0001`, `COL-0014` | `INF-0010` | `PRJ-0002`, `PRJ-0006`-`PRJ-0016`, `PRJ-0024`, `RES-0006`, `RES-0009` |
+| UERJ-UFF-ORNL barocaloric, spin-crossover, and pressure context | `P-0003`, `P-0007`, `P-0008`, `P-0015` | `COL-0002`, `COL-0007` | `INF-0017` | `PRJ-0005`, `PRJ-0022`, `RES-0007`, `PUB-0006`, `PUB-0100`, `PUB-0101` |
+| UFF magnetic, sample-preparation, and functional-material context | `P-0003`, `P-0006` | `COL-0003`, `COL-0009`, `COL-0012` | `INF-0007`, `INF-0008`, `INF-0016` | `PRJ-0003`, `PRJ-0017`, `PRJ-0018`, `RES-0012`, `PUB-0050` |
+| UFF-UFOB quantum batteries and metal-complex energy-storage context | `P-0003`, `P-0006`, `P-0009`, `P-0014` | `COL-0003`, `COL-0008`, `COL-0011`, `COL-0013` | `INF-0001`, `INF-0002` | `PRJ-0001`, `PRJ-0025`, `PRJ-0026`, `RES-0001`, `RES-0002`, `IDEA-0001` |
+| UFOB-SENAI CIMATEC scientific-computing and quantum-technology context | `P-0009`, `P-0012`, `P-0014` | `COL-0004`, `COL-0005` | `INF-0001`, `INF-0003`, `INF-0004` | `PRJ-0027`, `PRJ-0028`, `RES-0002`, `RES-0004`, `IDEA-0002` |
+| Universidade de Aveiro metal-complex synthesis and structural-characterization context | `P-0003`, `P-0009`, `P-0016` | `COL-0010` | `INF-0018` | `PRJ-0001`, `PRJ-0032`, `PRJ-0033`, `RES-0010`, `RES-0011`, `PUB-0102`-`PUB-0107` |
+| LAFMAT and broader external network context | `P-0003`, `P-0006`, `P-0009` | `COL-0006`, `COL-0013` | None assigned by these collaboration records | `PRJ-0004`, `SRC-0033` |
+| External measurement, synthesis, and community-event context | `P-0002`, `P-0003`, `P-0004`, `P-0005`, `P-0006`, `P-0007`, `P-0009` | `COL-0008`, `COL-0009`, `COL-0011`, `COL-0012`, `COL-0014` | None assigned by these collaboration records | `PRJ-0001`, `PRJ-0003`, `SRC-0002`, `SRC-0004`, `SRC-0034`, `SRC-0036` |
 
 ## Phase 2 checkpoint
 
@@ -248,6 +267,7 @@ strategic fit.
 | Every Phase 1A participant appears once in the Team Book | Satisfied for 16 people. |
 | Every Phase 1A institution appears in the institutional roster | Satisfied for 6 institutions. |
 | Capability domains are linked to Phase 1 evidence | Satisfied for 9 factual domains. |
+| Collaboration and infrastructure context is mapped without converting context into roles or access plans | Satisfied for 14 collaboration records and 10 active infrastructure records. |
 | Academic merit fellowship information is preserved from Phase 1A | Satisfied; Phase 1A remains authoritative. |
 | No scientific objectives, gap analysis, responsibilities, work packages, or CNPq proposal text are created | Satisfied in this document. |
 | Manual review items remain visible | Satisfied; see queue below. |
