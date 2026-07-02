@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 3.0
+Version: 3.1
 
 Status: Active
 
@@ -34,8 +34,8 @@ Last update: 2026-07-02
 | 1G | Ideas | Initial idea-seed registry populated; international collaborator evidence linked; manual refinements deferred | `docs/phase1/1G_Ideas.md` |
 | 1H | Bibliography | Baseline accepted; manual refinements deferred | `docs/phase1/1H_Bibliography.md` |
 | 2 | Team Book | Baseline accepted; manual refinements deferred | `docs/phase2/2_TeamBook.md` |
-| 3 | Scientific Atlas | Active; opened after Phase 2 acceptance | `docs/phase3/3_ScientificAtlas.md` |
-| 4 | Gap Analysis | Locked until Phase 3 is complete | `docs/phase4/4_GapAnalysis.md` |
+| 3 | Scientific Atlas | Active; detailed atlas developed; project-owner acceptance pending | `docs/phase3/3_ScientificAtlas.md` |
+| 4 | Gap Analysis | Locked until Phase 3 is accepted | `docs/phase4/4_GapAnalysis.md` |
 | 5 | Project Matrix | Locked until Phase 4 is complete | `docs/phase5/5_ProjectMatrix.md` |
 | 5.5 | Internal Approval and Budget Collection | Locked until Phase 5 is complete | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | 6 | Master Project | Locked until Phase 5.5 is complete | `docs/phase6/6_MasterProject.md` |
@@ -46,17 +46,17 @@ Last update: 2026-07-02
 
 The repository is in Phase 3 - Scientific Atlas.
 
-Allowed work now: scientific landscape mapping from the accepted Team Book and
-Phase 1 evidence base, including neutral scientific areas, evidence anchors,
-terminology notes, relationship maps, and manual-review items.
+Allowed work now: project-owner review or neutral factual refinement of the
+detailed Scientific Atlas baseline.
 
 Still prohibited: scientific gap analysis, project strategy, responsibility
 assignment, work packages, schedule, budget, facility-access commitments, and
 CNPq proposal writing.
 
 Phase 3 was opened on 2026-07-02 after the project owner accepted the Phase 2
-baseline. Phase 4 - Gap Analysis remains locked until the Scientific Atlas is
-complete and accepted.
+baseline. A detailed atlas pass was completed on 2026-07-02. Phase 4 - Gap
+Analysis remains locked until the project owner accepts the detailed Phase 3
+baseline.
 
 Approved later-phase checkpoint: after Phase 5 - Project Matrix and before
 Phase 6 - Master Project, Phase 5.5 must circulate a summarized project
@@ -74,7 +74,7 @@ items, values, and justifications.
 | 2E | Collaboration and Infrastructure Map | Accepted baseline; factual refinements deferred | `docs/phase2/2E_CollaborationInfrastructureMap.md` |
 | 2F | Evidence Bundles and Review Queue | Accepted baseline; review queue carried into Phase 3 | `docs/phase2/2F_EvidenceBundlesReview.md` |
 
-## Phase 3 starting map
+## Phase 3 detailed atlas map
 
 | Atlas area | Starting evidence route |
 | --- | --- |
@@ -87,6 +87,19 @@ items, values, and justifications.
 | Single-crystal X-ray diffraction and structural characterization | `D-07`, `EB-07`, `SA-07` |
 | Scientific computing and quantum-technology platforms | `D-08`, `EB-08`, `SA-08` |
 | Training and early-career capacity context | `D-09`, `EB-09`, `SA-09` |
+
+## Phase 3 developed outputs
+
+| Output class | Count | Location |
+| --- | ---: | --- |
+| Detailed scientific atlas areas | 9 | `docs/phase3/3_ScientificAtlas.md` |
+| Relationship routes | 6 | `docs/phase3/3_ScientificAtlas.md` |
+| Preliminary-result coverage rows | 13 | `docs/phase3/3_ScientificAtlas.md` |
+| Idea-seed coverage rows | 10 | `docs/phase3/3_ScientificAtlas.md` |
+| Bibliography routes | 7 | `docs/phase3/3_ScientificAtlas.md` |
+| Infrastructure/collaboration routes | 7 | `docs/phase3/3_ScientificAtlas.md` |
+| Terminology notes | 14 | `docs/phase3/3_ScientificAtlas.md` |
+| Manual-review carry-over categories | 8 | `docs/phase3/3_ScientificAtlas.md` |
 
 ## Final writing constraints
 

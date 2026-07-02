@@ -26,7 +26,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.18
+Version: 2.19
 
 Status: Active
 
@@ -147,6 +147,14 @@ manual refinement, but they no longer block Phase 3 Scientific Atlas work.
 - Phase 3 was opened in `docs/phase3/3_ScientificAtlas.md`.
 - Phase 3 initial atlas map records nine neutral atlas areas and six
   relationship seeds derived from Phase 2 domains and evidence bundles.
+- The project owner approved full Phase 3 development on 2026-07-02.
+- Phase 3 detailed atlas pass now records nine detailed scientific atlas
+  areas, six relationship routes, coverage of all thirteen Phase 1F
+  preliminary-result records, coverage of all ten Phase 1G idea seeds,
+  bibliography routes, infrastructure/collaboration routes, terminology notes,
+  manual-review carry-over, and a Phase 3 completion checkpoint.
+- Phase 3 detailed atlas baseline is ready for project-owner review and
+  acceptance before Phase 4 - Gap Analysis is opened.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
 - No scientific objectives, gaps, work packages, responsibility assignments, or
@@ -183,12 +191,12 @@ manual refinement, but they no longer block Phase 3 Scientific Atlas work.
 - Continue Phase 2 Team Book factual refinement only if the project owner
   requests deferred manual adjustments; the accepted baseline remains available
   for Phase 3 work.
-- Continue Phase 3 Scientific Atlas using stable Phase 1 and Phase 2 evidence,
-  including scientific areas, evidence anchors, terminology notes, relationship
-  seeds, and manual-review carry-over.
-- Keep Phase 3 atlas work neutral; do not convert scientific areas or
-  relationships into objectives, gaps, priorities, responsibilities, work
-  packages, schedule, budget, facility-access commitments, or proposal text.
+- Review and accept the detailed Phase 3 Scientific Atlas baseline before
+  opening Phase 4 - Gap Analysis.
+- If refinements are requested in Phase 3, keep atlas work neutral; do not
+  convert scientific areas or relationships into objectives, gaps, priorities,
+  responsibilities, work packages, schedule, budget, facility-access
+  commitments, or proposal text.
 - After Phase 5 is complete, run Phase 5.5 to circulate a summarized proposal
   to all project members, collect approval/comments, and collect budget items,
   values, and justifications before Phase 6 starts.
@@ -269,8 +277,14 @@ manual refinement, but they no longer block Phase 3 Scientific Atlas work.
 - Phase 2F idea-seed coverage rows: 10
 - Phase 2F manual-review categories: 8
 - Phase 3 Scientific Atlas documents opened: 1
-- Phase 3 initial atlas areas opened: 9
-- Phase 3 relationship seed rows opened: 6
+- Phase 3 detailed atlas areas developed: 9
+- Phase 3 relationship routes mapped: 6
+- Phase 3 preliminary-result coverage rows: 13
+- Phase 3 idea-seed coverage rows: 10
+- Phase 3 bibliography routes mapped: 7
+- Phase 3 infrastructure/collaboration routes mapped: 7
+- Phase 3 terminology notes: 14
+- Phase 3 manual-review carry-over categories: 8
 - Approved methodology checkpoint documents: 1
 - Institutions recorded in Phase 1A: 6
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
@@ -280,14 +294,16 @@ manual refinement, but they no longer block Phase 3 Scientific Atlas work.
 
 ## Next action
 
-Build the first detailed Phase 3 Scientific Atlas pass from the nine atlas
-areas now opened in `docs/phase3/3_ScientificAtlas.md`.
+Project owner should review and accept the detailed Phase 3 Scientific Atlas
+baseline in `docs/phase3/3_ScientificAtlas.md`. If accepted, the next
+controlled step is to open Phase 4 - Gap Analysis.
 
 Later in the roadmap, after Phase 5, the approved Phase 5.5 checkpoint must be
 completed before Phase 6 starts.
 
 ## Recent updates
 
+- 2026-07-02: Developed the full Phase 3 Scientific Atlas with nine detailed atlas areas, six relationship routes, bibliography routes, infrastructure/collaboration routes, terminology notes, manual-review carry-over, and a completion checkpoint.
 - 2026-07-02: Project owner accepted the Phase 2 baseline and Phase 3 - Scientific Atlas was opened with nine neutral atlas areas and six relationship seeds.
 - 2026-07-02: Approved and recorded the Methodology Improvement Proposal adding Phase 5.5 - Internal Approval and Budget Collection before final project writing.
 - 2026-07-01: Refined Phase 2F Evidence Bundles and Review Queue with evidence bundles, source-class coverage, idea-seed coverage, manual-review categories, and a Phase 2 baseline checkpoint.
