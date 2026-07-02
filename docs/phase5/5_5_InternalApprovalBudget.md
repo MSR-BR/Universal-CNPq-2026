@@ -10,7 +10,7 @@ Inputs: Accepted Project Matrix, Gap Analysis, Scientific Atlas, Team Book,
 Phase 1 knowledge-base records, and project-owner instructions.
 
 Outputs: Portuguese circulation packet for project-member review, PDF version
-for sending to collaborators, short member-response form, Git ingestion route,
+for sending to collaborators, expanded member-response form, Git ingestion route,
 member approval tracker, comment and adjustment register, budget item
 collection table, budget justification table, access/feasibility checklist,
 and readiness gate for Phase 6 - Master Project.
@@ -22,9 +22,9 @@ approval, comments, and required adjustments are recorded; budget items,
 values, and justifications are collected; access/feasibility issues are
 identified; and the project owner accepts the checkpoint as complete.
 
-Version: 1.4
+Version: 1.5
 
-Status: Active; Portuguese circulation packet and Git-backed response form prepared
+Status: Active; Portuguese circulation packet and Git-backed response form updated with CNPq budget fields
 
 Last update: 2026-07-02
 
@@ -73,7 +73,7 @@ or agent-control language and must be understandable by an external professor.
 | --- | --- | --- | --- |
 | Portuguese editable source | `docs/phase5/5_5_Proposta_Resumo_Aprovacao_Interna.md` | Source text for internal proposal evaluation by project members. | Prepared. |
 | Portuguese PDF for circulation | `output/pdf/Proposta_Universal_CNPq_2026_Aprovacao_Interna.pdf` | PDF to send to project members for assessment of the general proposal and budget collection. | Prepared. |
-| GitHub Issue Form | `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml` | Short electronic response form for approval, contribution axis, essential corrections, budget, and critical constraints. | Prepared. |
+| GitHub Issue Form | `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml` | Electronic response form for approval, contribution axis, suggestions, essential corrections, CNPq budget fields, and critical constraints. | Prepared. |
 | Git ingestion workflow | `.github/workflows/ingest_phase55_member_response.yml` | Automatically writes labeled form responses to `data/phase5_5_member_responses/`. | Prepared. |
 | Ingestion script | `.github/scripts/ingest_phase55_response.py` | Converts each labeled GitHub issue response into a versioned Markdown data file. | Prepared. |
 
@@ -157,34 +157,93 @@ Form URL:
 | `F-01` | General assessment | Approved as is, approved with minor adjustments, or needs discussion before final writing. |
 | `F-02` | Contribution axes | Selected scientific axis/axes or transversal support. |
 | `F-03` | Essential scientific adjustments | Essential corrections only; `none` if not applicable. |
-| `F-04` | Budget items | Item, estimated value, linked axis, justification, and priority; `no request` if not applicable. |
-| `F-05` | Critical feasibility constraints | Execution, access, schedule, sample, measurement, or computing constraints; `none` if not applicable. |
+| `F-04` | Optional suggestions and free comments | Suggestions on emphasis, wording, references, compounds, measurements, or priorities. |
+| `F-05` | CNPq budget fields | CNPq rubrica, item de dispendio, estimated value, Pt/En detailing where required, Pt/En justification where required, linked axis, institution/subgroup, and priority. |
+| `F-06` | Critical feasibility constraints | Execution, access, schedule, sample, measurement, or computing constraints; `none` if not applicable. |
+
+## CNPq Faixa C budget rules
+
+The proposal will compete in Faixa C of the 2026 CNPq Universal Call.
+
+Operational rule for this checkpoint: the team should collect budget demands
+by task/subgroup, but the final allocation must remain centralized and
+prioritized by scientific need. The budget is not an equal division among
+participants or institutions. Priority should be given to items that enable
+more than one scientific axis, unlock experimental or computational
+feasibility, or are required for sample preparation, pressure-linked
+measurements, quantum-model development, or student training.
+
+Key Faixa C constraints extracted from the call:
+
+| Rule | Implication for this proposal |
+| --- | --- |
+| Maximum budget | Up to R$ 250,000.00 in total. |
+| Budget composition | Custeio, capital, and/or at most one scholarship. |
+| Scholarship modalities | At most one IC, ITI, or AT scholarship for the whole project. |
+| Scholarship duration | Up to 36 months and never beyond the project term. |
+| PDJ/PDS scholarships | Not allowed in Faixa C. |
+| Coordinator scholarship | The coordinator cannot assign any scholarship modality to himself in Faixa C. |
+| Project term | Initial term limited to 36 months. |
+
+## Eligible budget items
+
+The form follows the CNPq budget screen fields shown by the project owner.
+
+| Rubrica | Item de dispendio | Value field | Detail field | Justification field | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Custeio | Despesas acessorias com importacao | Required | Pt and En | Pt and En | Use only when importation is directly linked to project execution. |
+| Custeio | Diarias (Total) | Required | Pt and En | Not required in CNPq screen | Must follow CNPq daily allowance rules. |
+| Custeio | Material de consumo | Required | Pt and En | Pt and En | Chemicals, sample preparation inputs, cryogens, lab supplies, pressure-cell consumables, and similar items. |
+| Custeio | Passagens (Total) | Required | Pt and En | Not required in CNPq screen | Travel for measurements, collaboration, facility access, or project activities. |
+| Custeio | Servicos de Terceiros (Total) | Required | Not required in CNPq screen | Not required in CNPq screen | Eventual services by individual or company, without employment relationship. |
+| Capital | Equipamentos e Material permanente | Required | Pt and En | Pt and En | Equipment or permanent material to be incorporated into the executing ICT's patrimony. |
+| Capital | Material bibliografico (Total) | Required | Not required in CNPq screen | Not required in CNPq screen | Use only if needed and justified as project support. |
+| Bolsa | IC, ITI, or AT | Required if requested | Modality, duration, quantity, unit value, total value | Justification | At most one scholarship in the whole Faixa C project. |
+
+## Non-eligible or restricted expenses
+
+The call forbids or restricts the following budget items. They should not be
+requested in the member response form unless the call explicitly allows the
+specific case and the justification is strong.
+
+| Restriction | Practical instruction |
+| --- | --- |
+| Certificates, decoration, receptions, food, shows, or artistic events | Do not request. |
+| Routine institutional expenses such as electricity, water, and phone | Do not request. |
+| Mail and reprography | Avoid; only possible if directly linked to project execution. |
+| Administration or management fees | Do not request. |
+| Civil works | Do not request, except justified installation/adaptation strictly needed for equipment operation. |
+| Purchase of motor vehicles | Do not request. |
+| Salaries, salary supplements, or advantages for public-institution staff | Do not request. |
+| Third-party services paid to active public agents | Do not request. |
+| Vehicle rental and fuel | Possible only if explicitly described and justified by project activities. |
 
 ## Budget collection template
 
 Budget values are not final in this document. They become proposal inputs only
 after member response, review, and project-owner acceptance.
 
-| Budget ID | Contributor/person | Institution | Linked task/layer | Category | Item description | Estimated value | Justification | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `BUD-0001` | Pending | Pending | `MT-01` | Pending | Pending member input | Pending | Pending | Open |
-| `BUD-0002` | Pending | Pending | `MT-02` | Pending | Pending member input | Pending | Pending | Open |
-| `BUD-0003` | Pending | Pending | `MT-03` | Pending | Pending member input | Pending | Pending | Open |
-| `BUD-0004` | Pending | Pending | `MT-04` | Pending | Pending member input | Pending | Pending | Open |
-| `BUD-0005` | Pending | Pending | `MT-05` | Pending | Pending member input | Pending | Pending | Open |
-| `BUD-0006` | Pending | Pending | `SL-01` | Pending | Pending member input | Pending | Pending | Open |
+| Budget ID | Contributor/person | Institution/subgroup | Linked task/layer | Rubrica CNPq | Item de dispendio | Estimated value | Detailing Pt/En | Justification Pt/En | Priority | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| `BUD-0001` | Pending | Pending | `MT-01` | Custeio | Material de consumo | Pending | Pending | Pending | Pending | Open |
+| `BUD-0002` | Pending | Pending | `MT-02` | Custeio | Diarias or passagens | Pending | Pending | Pending if required | Pending | Open |
+| `BUD-0003` | Pending | Pending | `MT-02`/`MT-05` | Custeio | Servicos de Terceiros | Pending | Not required in CNPq screen | Not required in CNPq screen | Pending | Open |
+| `BUD-0004` | Pending | Pending | `MT-01`/`MT-05` | Capital | Equipamentos e Material permanente | Pending | Pending | Pending | Pending | Open |
+| `BUD-0005` | Pending | Pending | `MT-03`/`MT-04` | Custeio or Capital | Computing-related eligible item | Pending | Pending where required | Pending where required | Pending | Open |
+| `BUD-0006` | Pending | Pending | `SL-01` | Bolsa | IC, ITI, or AT | Pending | Modality/duration/quantity/unit value/total value | Pending | Pending | Open |
 
-## Budget category guide
+## Allocation principle
 
-| Category | Use in budget collection |
-| --- | --- |
-| Equipment | Permanent equipment or upgrades needed for approved project execution. |
-| Consumables | Chemicals, sample-preparation inputs, cryogens, lab supplies, or similar consumables. |
-| Services | Third-party measurements, analysis, fabrication, publication-related services, or technical support. |
-| Travel | Travel for measurements, collaboration, project meetings, or field/facility use. |
-| Computing | Computing resources, software, cloud/HPC access, or quantum/algorithmic platform needs. |
-| Facility/access | Beamtime, instrument access, sample environment, pressure-cell use, or facility-related costs where applicable. |
-| Other | Items that do not fit the categories above and require clear justification. |
+The final budget should be assembled as one project budget for Faixa C. Member
+inputs will be used as a demand map, not as automatic allocations. A practical
+priority order is:
+
+1. items essential for execution of the five scientific axes;
+2. items serving multiple axes or multiple institutions;
+3. items needed to secure access to measurements, pressure routes, sample
+   preparation, characterization, computation, or training;
+4. lower-cost items that remove clear execution bottlenecks;
+5. optional or desirable items, only if they fit within the R$ 250,000.00 cap.
 
 ## Access and feasibility checklist
 

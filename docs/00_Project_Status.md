@@ -195,8 +195,9 @@ available for deferred final manual refinement, but they no longer block Phase
   2026-07-02.
 - Phase 5.5 was opened in `docs/phase5/5_5_InternalApprovalBudget.md`.
 - Phase 5.5 opening structure records an internal circulation summary, member
-  approval tracker, member response questions, budget collection template,
-  budget category guide, access/feasibility checklist, comment register, and
+  approval tracker, member response form, CNPq Faixa C budget rules, eligible
+  and restricted budget-item guide, budget collection template,
+  access/feasibility checklist, comment register, and
   Phase 6 readiness gate.
 - A Portuguese proposal-summary packet for member circulation has been prepared
   as editable Markdown and as a PDF-ready artifact for sending to all project
@@ -207,6 +208,10 @@ available for deferred final manual refinement, but they no longer block Phase
 - A short GitHub Issue Form was created for Phase 5.5 member responses, and a
   GitHub Actions ingestion workflow was added to write labeled responses into
   `data/phase5_5_member_responses/`.
+- The Phase 5.5 response form was expanded to include optional suggestions and
+  CNPq Faixa C budget fields matching the CNPq budget screen: rubrica, item de
+  dispendio, value, Pt/En detailing where required, Pt/En justification where
+  required, linked axis, institution/subgroup, and priority.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
 - No Phase 6 master-project text, CNPq proposal text, consolidated final PDF,
@@ -244,9 +249,10 @@ available for deferred final manual refinement, but they no longer block Phase
 - Continue Phase 2 Team Book factual refinement only if the project owner
   requests deferred manual adjustments; the accepted baseline remains available
   for Phase 3 work.
-- Review the Portuguese Phase 5.5 proposal-summary PDF and the electronic
-  response form, then circulate both to project members for approval,
-  essential corrections, budget items, and critical feasibility constraints.
+- Review the Portuguese Phase 5.5 proposal-summary PDF and the expanded
+  electronic response form, then circulate both to project members for approval,
+  essential corrections, optional suggestions, CNPq-formatted budget items, and
+  critical feasibility constraints.
 - Keep Phase 6 locked until Phase 5.5 responses, budget inputs, required
   adjustments, and project-owner acceptance are recorded.
 - In Phase 7, keep CNPq form blocks comfortably below character limits, using
@@ -363,9 +369,11 @@ available for deferred final manual refinement, but they no longer block Phase
 - Phase 5.5 handoff summary rows: 7
 - Phase 5.5 internal circulation summary task rows: 5
 - Phase 5.5 member approval tracker rows: 16
-- Phase 5.5 member response form fields: 5
+- Phase 5.5 member response form fields: 6
 - Phase 5.5 budget collection template rows: 6
-- Phase 5.5 budget category guide rows: 7
+- Phase 5.5 CNPq Faixa C budget rule rows: 7
+- Phase 5.5 eligible CNPq budget item rows: 8
+- Phase 5.5 restricted or non-eligible budget rows: 9
 - Phase 5.5 access and feasibility checklist rows: 9
 - Phase 5.5 phase 6 readiness gate rows: 13
 - Phase 5.5 Portuguese circulation artifacts prepared: 2
@@ -386,7 +394,8 @@ Project owner should review the Portuguese Phase 5.5 proposal-summary PDF in
 electronic response form at
 `https://github.com/MSR-BR/Universal-CNPq-2026/issues/new?template=phase5_5_member_response.yml`.
 After review, both can be sent to project members for approval, essential
-corrections, budget items, and critical feasibility constraints.
+corrections, optional suggestions, CNPq-formatted budget items, and critical
+feasibility constraints.
 
 Later in the roadmap, the active Phase 5.5 checkpoint must be
 completed before Phase 6 starts.
@@ -396,6 +405,7 @@ completed before Phase 6 starts.
 - 2026-07-02: Project owner accepted the completed Phase 5 Project Matrix and Phase 5.5 - Internal Approval and Budget Collection was opened with circulation, approval, budget, and feasibility templates.
 - 2026-07-02: Refined Phase 5 and the Portuguese circulation packet to add the explicit barocaloric spin-crossover axis in metal complexes, involving the UERJ-UFF-ORNL route.
 - 2026-07-02: Added a short GitHub Issue Form and ingestion workflow so Phase 5.5 member responses can be written into `data/phase5_5_member_responses/`.
+- 2026-07-02: Expanded the Phase 5.5 response form and Portuguese circulation packet with CNPq Faixa C budget limits, eligible/restricted budget items, optional suggestions, and CNPq-formatted budget fields.
 - 2026-07-02: Prepared the Portuguese proposal-summary packet and PDF target for member circulation, approval/comments, and budget collection.
 - 2026-07-02: Executed and refined the Phase 5 Project Matrix with five candidate tasks, three state-of-the-art support routes, six support/validation routes, model/evidence/capability matrices, and a Phase 5.5 handoff package.
 - 2026-07-02: Recorded the initial project-owner assessment of Phase 5 slots; the later barocaloric-axis refinement superseded the initial contextual handling of `PM-02`.

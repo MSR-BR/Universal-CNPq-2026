@@ -13,6 +13,10 @@ body:
         aprovar ou indicar ajuste essencial, informar seu eixo de contribuicao,
         registrar itens de orcamento e apontar restricoes criticas de viabilidade.
 
+        A proposta sera submetida na Faixa C da Chamada Universal CNPq 2026:
+        limite total de R$ 250.000,00 para custeio, capital e/ou no maximo
+        1 bolsa IC, ITI ou AT. Nao ha bolsa PDJ/PDS na Faixa C.
+
   - type: input
     id: nome
     attributes:
@@ -66,16 +70,47 @@ body:
       required: true
 
   - type: textarea
+    id: sugestoes
+    attributes:
+      label: Sugestoes e comentarios livres
+      description: Espaco opcional para sugestoes de texto, enfase cientifica, referencias, compostos, medidas ou prioridades.
+      placeholder: |
+        Sugestoes opcionais:
+        - item 1
+        - item 2
+
+  - type: textarea
     id: orcamento
     attributes:
-      label: Itens de orcamento
-      description: Informe apenas itens que voce considera necessarios ou recomendaveis. Se nao houver, escreva "sem demanda".
+      label: Orcamento - campos do CNPq para Faixa C
+      description: Informe apenas itens necessarios ou recomendaveis. Se nao houver demanda, escreva "sem demanda".
       placeholder: |
-        Item:
-        Valor estimado:
-        Eixo:
+        Limite da proposta na Faixa C: R$ 250.000,00 no total, somando custeio, capital e/ou no maximo 1 bolsa IC/ITI/AT.
+
+        Use uma linha por item. Mantenha os campos abaixo porque eles correspondem ao formulario CNPq.
+
+        | Rubrica CNPq | Item de dispendio | Valor total estimado (R$) | Detalhamento Pt | Detalhamento En | Justificativa Pt | Justificativa En | Eixo | Instituicao/Subgrupo | Prioridade |
+        | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+        | Custeio | Material de consumo | 0,00 |  |  |  |  | Eixo 1 |  | Alta/Media/Baixa |
+        | Custeio | Passagens (Total) | 0,00 |  |  |  |  | Eixo 2 |  | Alta/Media/Baixa |
+        | Custeio | Diarias (Total) | 0,00 |  |  |  |  | Eixo 2 |  | Alta/Media/Baixa |
+        | Custeio | Servicos de Terceiros (Total) | 0,00 | preenchimento nao requerido no formulario CNPq | preenchimento nao requerido no formulario CNPq | preenchimento nao requerido no formulario CNPq | preenchimento nao requerido no formulario CNPq |  |  |  |
+        | Custeio | Despesas acessorias com importacao | 0,00 |  |  |  |  |  |  |  |
+        | Capital | Equipamentos e Material permanente | 0,00 |  |  |  |  |  |  |  |
+        | Capital | Material bibliografico (Total) | 0,00 | preenchimento nao requerido no formulario CNPq | preenchimento nao requerido no formulario CNPq | preenchimento nao requerido no formulario CNPq | preenchimento nao requerido no formulario CNPq |  |  |  |
+
+        Bolsa, se houver proposta do subgrupo:
+        Modalidade IC/ITI/AT:
+        Duracao em meses:
+        Quantidade de bolsas:
+        Valor unitario estimado:
+        Valor total estimado:
         Justificativa:
-        Prioridade:
+
+        Observacoes:
+        - Na Faixa C so e permitida no maximo 1 bolsa IC, ITI ou AT no projeto inteiro.
+        - O coordenador nao pode atribuir bolsa a si mesmo.
+        - Valores finais serao consolidados pela coordenacao dentro do limite de R$ 250.000,00.
     validations:
       required: true
 

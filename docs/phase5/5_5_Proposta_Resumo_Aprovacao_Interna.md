@@ -19,8 +19,9 @@ formulario do CNPq.
 ## Como responder
 
 A arquitetura cientifica abaixo ja esta proposta como base de trabalho. A
-resposta dos integrantes deve ser objetiva e concentrada apenas em tres pontos:
-aprovacao geral, ajustes cientificos essenciais e itens de orcamento.
+resposta dos integrantes deve ser objetiva e concentrada apenas em pontos
+essenciais: aprovacao geral, eixo de contribuicao, ajustes cientificos
+essenciais, sugestoes livres, itens de orcamento e restricoes criticas.
 
 Formulario de resposta:
 
@@ -31,8 +32,9 @@ O formulario solicita somente:
 1. aprovacao geral da proposta;
 2. eixo ou eixos em que o integrante pretende contribuir;
 3. ajustes cientificos essenciais, se houver;
-4. itens de orcamento, se houver;
-5. restricoes criticas de viabilidade, se houver.
+4. sugestoes livres, se houver;
+5. itens de orcamento nos campos do CNPq, se houver;
+6. restricoes criticas de viabilidade, se houver.
 
 Se nao houver demanda de orcamento ou restricao critica, basta indicar isso no
 formulario. A proposta nao depende de uma lista extensa de sugestoes dos
@@ -302,29 +304,41 @@ Os resultados esperados incluem:
 
 ## Informacoes de orcamento
 
-O orcamento sera incorporado apenas quando houver demanda clara de integrante
-ou subgrupo. Nesta etapa, os valores podem ser estimativas, desde que
-acompanhados de justificativa curta.
+A proposta sera submetida na Faixa C da Chamada Universal CNPq 2026. Nessa
+faixa, o limite total e de R$ 250.000,00, somando custeio, capital e/ou no
+maximo uma bolsa IC, ITI ou AT. A vigencia inicial e limitada a 36 meses. Nao
+ha bolsa PDJ ou PDS na Faixa C, e o coordenador nao pode atribuir bolsa a si.
 
-| Categoria | Exemplos de itens |
-| --- | --- |
-| Equipamentos | Equipamentos permanentes, acessorios, atualizacoes instrumentais ou componentes de laboratorio. |
-| Consumiveis | Reagentes, materiais de sintese, amostras, criogenia, celulas, vidrarias, insumos de laboratorio e itens similares. |
-| Servicos | Medidas externas, analises, fabricacao, manutencao, servicos tecnicos ou apoio especializado. |
-| Viagens | Viagens para medidas, reunioes de colaboracao, uso de facilidades, apresentacao de resultados ou atividades de integracao. |
-| Computacao | Software, armazenamento, recursos de processamento, nuvem, HPC ou acesso a plataformas de simulacao. |
-| Facilidades | Custos associados a acesso instrumental, beamtime, ambientes de amostra, pressao, magnetometria ou caracterizacao especializada. |
-| Outros | Itens que nao se enquadrem nas categorias acima e que tenham justificativa clara. |
+O orcamento sera consolidado como orcamento unico do projeto. As demandas dos
+integrantes serao usadas como mapa de necessidades, nao como divisao automatica
+por pessoa ou instituicao. A prioridade sera dada a itens que viabilizem os
+eixos cientificos, atendam mais de um subgrupo, removam gargalos experimentais
+ou computacionais e estejam claramente vinculados a execucao da proposta.
 
-Para cada item, o formulario solicita:
+Itens elegiveis segundo a chamada:
 
-- descricao do item;
-- valor estimado;
-- eixo cientifico ao qual o item se vincula;
-- justificativa cientifica;
-- instituicao ou colaborador associado;
-- urgencia ou prioridade;
-- observacao sobre cotacao, disponibilidade ou restricao de uso.
+| Rubrica | Item de dispendio | Campos solicitados no formulario |
+| --- | --- | --- |
+| Custeio | Despesas acessorias com importacao | Valor total, detalhamento Pt/En e justificativa Pt/En. |
+| Custeio | Diarias (Total) | Valor total e detalhamento Pt/En. |
+| Custeio | Material de consumo | Valor total, detalhamento Pt/En e justificativa Pt/En. |
+| Custeio | Passagens (Total) | Valor total e detalhamento Pt/En. |
+| Custeio | Servicos de Terceiros (Total) | Valor total. |
+| Capital | Equipamentos e Material permanente | Valor total, detalhamento Pt/En e justificativa Pt/En. |
+| Capital | Material bibliografico (Total) | Valor total. |
+| Bolsa | IC, ITI ou AT | Modalidade, duracao, quantidade, valor unitario, valor total e justificativa. |
+
+O formulario de resposta inclui uma tabela para os integrantes preencherem
+diretamente essas rubricas. Os valores podem ser estimativas nesta etapa, mas
+devem vir acompanhados de justificativa curta sempre que o campo existir no
+formulario CNPq.
+
+Nao devem ser solicitados itens vedados pela chamada, incluindo alimentacao,
+recepcoes, despesas de rotina institucional, taxas de administracao, compra de
+veiculos, salarios ou complementacao salarial, obras civis sem relacao direta
+com instalacao de equipamento e servicos de terceiros pagos a agente publico
+da ativa. Locacao de veiculo e combustivel somente devem ser considerados se
+forem indispensaveis e muito bem justificados.
 
 ## Confirmacoes minimas
 
@@ -333,7 +347,8 @@ consulta. Assim, as confirmacoes solicitadas aos integrantes ficam restritas a:
 
 - correcao de algum erro cientifico essencial;
 - indicacao do eixo de contribuicao;
-- envio de itens de orcamento, se houver;
+- sugestoes ou comentarios livres, se houver;
+- envio de itens de orcamento nos campos CNPq, se houver;
 - indicacao de alguma restricao real de viabilidade, se houver.
 
 Decisoes finas sobre texto, prioridades e composicao final serao consolidadas
