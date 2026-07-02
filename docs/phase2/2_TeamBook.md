@@ -26,9 +26,9 @@ Completion criteria: Every Phase 1A participant is represented once; capability
 domains are linked to Phase 1 evidence; no scientific objectives, gaps,
 work packages, proposal text, or team responsibilities are created.
 
-Version: 1.6
+Version: 1.7
 
-Status: Active; 2C Capability Domains refined
+Status: Active; 2D Person-Domain Matrix refined
 
 Last update: 2026-07-01
 
@@ -64,7 +64,7 @@ consolidated snapshot.
 | 2A | Team roster and institutional map | Refined | `docs/phase2/2A_TeamRoster.md` |
 | 2B | Person profiles and merit summaries | Refined | `docs/phase2/2B_PersonProfiles.md` |
 | 2C | Capability-domain map | Refined | `docs/phase2/2C_CapabilityDomains.md` |
-| 2D | Person-domain matrix | Initial subsection opened | `docs/phase2/2D_PersonDomainMatrix.md` |
+| 2D | Person-domain matrix | Refined | `docs/phase2/2D_PersonDomainMatrix.md` |
 | 2E | Collaboration and infrastructure map | Initial subsection opened | `docs/phase2/2E_CollaborationInfrastructureMap.md` |
 | 2F | Evidence bundles and review queue | Initial subsection opened | `docs/phase2/2F_EvidenceBundlesReview.md` |
 
@@ -107,6 +107,9 @@ rather than creating a new person or source fact here.
 - Phase 2C evidence-class coverage rows refined: 9.
 - Phase 2C domain detail notes refined: 9.
 - Phase 2C cross-domain overlap rows refined: 6.
+- Phase 2D person-domain matrix rows refined: 16.
+- Phase 2D domain-code rows refined: 9.
+- Phase 2D domain-coverage rows refined: 9.
 
 ## Team overview
 
@@ -174,24 +177,40 @@ This matrix is a navigation index, not a ranking. It records which factual
 capability domains are already visible for each Phase 1A person and which
 source types support that visibility.
 
-| Person ID | Main factual domains | Source types represented | Manual-review note |
-| --- | --- | --- | --- |
-| `P-0001` | i-caloric and magnetocaloric student pipeline | Phase 1A record; projects; preliminary results | Evidence currently depends on team/project context rather than independent publication records. |
-| `P-0002` | i-caloric, magnetocaloric, multicaloric, and intermetallic materials | Phase 1A record; projects; infrastructure; preliminary results | No immediate Phase 2 blocker; final CV/profile review remains deferred. |
-| `P-0003` | multicaloric materials, molecular magnets, metal-complex reviews, quantum thermodynamics, collaboration network | Phase 1A record; publications; projects; infrastructure; collaborations; preliminary results; bibliography | No immediate Phase 2 blocker; final publication selection remains deferred. |
-| `P-0004` | i-caloric, spin-crossover, intermetallic, and barocaloric materials | Phase 1A record; projects; preliminary results | No immediate Phase 2 blocker; final CV/profile review remains deferred. |
-| `P-0005` | theoretical caloric effects, magnetocaloric modeling, and i-caloric modeling | Phase 1A record; projects; preliminary results | No immediate Phase 2 blocker; final CV/profile review remains deferred. |
-| `P-0006` | multicaloric synthesis/characterization context, Heusler systems, and functional materials | Phase 1A record; publication; project; collaboration; preliminary result | No immediate Phase 2 blocker; final project/publication review remains deferred. |
-| `P-0007` | spin-crossover, barocaloric systems, caloric materials, and pressure-linked molecular work | Phase 1A record; projects; collaborations; preliminary results | No immediate Phase 2 blocker; final ORNL/PDSE evidence review remains deferred. |
-| `P-0008` | barocaloric/spin-crossover doctoral work, pressure-linked molecular systems, and metal-complex manuscripts | Phase 1A record; publications; projects; preliminary results | Evidence includes manuscripts and ongoing work; final manual review remains deferred. |
-| `P-0009` | quantum batteries, quantum thermodynamics, quantum resources, metal-complex energy-storage context, and scientific computing | Phase 1A record; publications; projects; infrastructure; collaborations; preliminary results | No immediate Phase 2 blocker; final publication selection remains deferred. |
-| `P-0010` | i-caloric and magnetocaloric student pipeline | Phase 1A record; projects; preliminary results | Evidence currently depends on team/project context rather than independent publication records. |
-| `P-0011` | undergraduate training pipeline in UFOB context | Phase 1A record | Evidence currently limited to Phase 1A training context. |
-| `P-0012` | quantum technologies, VQA, quantum-battery simulation, QuIIN/Kuatomu context | Phase 1A record; publications; projects; infrastructure; collaborations; preliminary results | No immediate Phase 2 blocker; final CIMATEC platform description remains deferred. |
-| `P-0013` | materials-science student pipeline in UFOB context | Phase 1A record | Evidence currently limited to Phase 1A training context. |
-| `P-0014` | quantum energy-storage projects and UFOB team context | Phase 1A record; projects; idea seed | Evidence currently depends on project/team context; final manual review remains deferred. |
-| `P-0015` | high-pressure neutron scattering, SNAP beamline, barocaloric spin-crossover, and functional materials under pressure | Phase 1A record; publications; project; infrastructure; collaboration | Confirm preferred formal name spelling during manual review. |
-| `P-0016` | single-crystal X-ray diffraction, metal-complex synthesis/structure, molecular magnetism, and spin crossover | Phase 1A record; publications; infrastructure; collaboration | Confirm preferred formal name spelling during manual review. |
+Marker key: `E` = explicit person-domain evidence in the Phase 2C people list;
+`L` = linked/contextual connection named in a Phase 2C domain note; `-` = no
+source-backed connection recorded for this matrix.
+
+| Code | Capability domain |
+| --- | --- |
+| `D-01` | Metal complexes, synthesis, structure, and magnetism |
+| `D-02` | Barocaloric and spin-crossover systems |
+| `D-03` | Quantum thermodynamics and quantum batteries |
+| `D-04` | Quantum resources in molecular and metal-based systems |
+| `D-05` | Magnetocaloric, multicaloric, i-caloric, and intermetallic materials |
+| `D-06` | High-pressure neutron scattering and pressure-linked characterization |
+| `D-07` | Single-crystal X-ray diffraction and structural characterization |
+| `D-08` | Scientific computing and quantum-technology platforms |
+| `D-09` | Training pipeline and early-career participation |
+
+| Person ID | Institution | `D-01` | `D-02` | `D-03` | `D-04` | `D-05` | `D-06` | `D-07` | `D-08` | `D-09` |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| `P-0001` | UERJ | - | E | - | - | E | - | - | - | E |
+| `P-0002` | UERJ | - | E | - | - | E | - | - | - | - |
+| `P-0003` | UFF | E | E | E | E | E | E | L | L | - |
+| `P-0004` | UERJ | - | E | - | - | E | - | - | - | - |
+| `P-0005` | UERJ | - | E | - | - | E | - | - | - | - |
+| `P-0006` | UFF | - | - | E | - | E | - | - | - | - |
+| `P-0007` | UERJ | - | E | - | E | E | E | - | - | - |
+| `P-0008` | UERJ | E | E | - | E | E | E | L | - | E |
+| `P-0009` | UFOB | E | - | E | E | E | - | L | E | - |
+| `P-0010` | UERJ | - | E | - | - | E | - | - | - | E |
+| `P-0011` | UFOB | - | - | - | - | - | - | - | - | E |
+| `P-0012` | SENAI CIMATEC | - | - | E | E | - | - | - | E | - |
+| `P-0013` | UFOB | - | - | - | - | - | - | - | - | E |
+| `P-0014` | UFOB | - | - | E | - | - | - | - | E | E |
+| `P-0015` | ORNL | E | E | - | E | E | E | - | - | - |
+| `P-0016` | Universidade de Aveiro | E | E | - | - | - | - | E | - | - |
 
 ## Evidence-bundle checklist
 
