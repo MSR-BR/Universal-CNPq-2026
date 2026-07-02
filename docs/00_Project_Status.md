@@ -26,7 +26,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.26
+Version: 2.27
 
 Status: Active
 
@@ -178,15 +178,17 @@ available for deferred final manual refinement, but they no longer block Phase
 - Phase 5 opening structure records six candidate matrix slots, the
   metal-complex aggregator, accepted Phase 4 handoff groups, and a Phase 5
   opening checkpoint.
-- Phase 5 project-owner slot assessment now marks `PM-01`, `PM-03`, `PM-04`,
-  and `PM-05` as viable candidate tasks, marks `PM-02` as state-of-the-art and
-  introduction support rather than a project task, and keeps `PM-06` as a
+- Phase 5 project-owner slot assessment initially marked `PM-01`, `PM-03`,
+  `PM-04`, and `PM-05` as viable candidate tasks, marked `PM-02` as
+  state-of-the-art and introduction support, and kept `PM-06` as a
   support/validation layer.
+- A subsequent project-owner correction promoted `PM-02` into the explicit
+  `MT-05` barocaloric spin-crossover task involving the UERJ-UFF-ORNL route.
 - The project owner instructed execution of the full Phase 5 on 2026-07-02.
-- The completed Phase 5 Project Matrix records four candidate tasks, three
-  state-of-the-art support routes, six support/validation routes, five model
-  routes, five task-relationship rows, six atlas/gap coverage groups, ten
-  evidence-anchor rows, six capability routes, ten Phase 5.5 validation/review
+- The completed Phase 5 Project Matrix now records five candidate tasks, three
+  state-of-the-art support routes, six support/validation routes, six model
+  routes, seven task-relationship rows, seven atlas/gap coverage groups, ten
+  evidence-anchor rows, six capability routes, eleven Phase 5.5 validation/review
   items, six Phase 5.5 handoff-package rows, and a Phase 5 completion
   checkpoint.
 - The completed Phase 5 Project Matrix was accepted by the project owner on
@@ -199,6 +201,9 @@ available for deferred final manual refinement, but they no longer block Phase
 - A Portuguese proposal-summary packet for member circulation has been prepared
   as editable Markdown and as a PDF-ready artifact for sending to all project
   members.
+- The Portuguese circulation packet and Phase 5 Project Matrix were refined to
+  add the explicit barocaloric spin-crossover axis in metal complexes, linked
+  to the UERJ-UFF-ORNL route.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
 - No Phase 6 master-project text, CNPq proposal text, consolidated final PDF,
@@ -337,28 +342,28 @@ available for deferred final manual refinement, but they no longer block Phase
 - Phase 5 initial matrix slots: 6
 - Phase 5 accepted handoff groups carried forward: 6
 - Phase 5 matrix slots with project-owner task assessment: 6
-- Phase 5 viable candidate task slots: 4
-- Phase 5 state-of-the-art/background-only slots: 1
+- Phase 5 viable candidate task slots: 5
+- Phase 5 matrix slots kept only as state-of-the-art/background: 0
 - Phase 5 support/validation-layer slots: 1
-- Phase 5 candidate matrix tasks: 4
+- Phase 5 candidate matrix tasks: 5
 - Phase 5 state-of-the-art support routes: 3
 - Phase 5 support/validation routes: 6
-- Phase 5 model routes: 5
-- Phase 5 task relationship rows: 5
-- Phase 5 atlas/gap coverage rows: 6
+- Phase 5 model routes: 6
+- Phase 5 task relationship rows: 7
+- Phase 5 atlas/gap coverage rows: 7
 - Phase 5 evidence anchor rows: 10
 - Phase 5 capability route rows: 6
-- Phase 5 validation/review queue items for Phase 5.5: 10
+- Phase 5 validation/review queue items for Phase 5.5: 11
 - Phase 5.5 handoff package rows prepared in Phase 5: 6
 - Phase 5 completion checkpoint rows: 18
 - Phase 5.5 documents opened: 2
-- Phase 5.5 handoff summary rows: 6
-- Phase 5.5 internal circulation summary task rows: 4
+- Phase 5.5 handoff summary rows: 7
+- Phase 5.5 internal circulation summary task rows: 5
 - Phase 5.5 member approval tracker rows: 16
 - Phase 5.5 member response questions: 5
-- Phase 5.5 budget collection template rows: 5
+- Phase 5.5 budget collection template rows: 6
 - Phase 5.5 budget category guide rows: 7
-- Phase 5.5 access and feasibility checklist rows: 8
+- Phase 5.5 access and feasibility checklist rows: 9
 - Phase 5.5 phase 6 readiness gate rows: 11
 - Phase 5.5 Portuguese circulation artifacts prepared: 2
 - Approved methodology checkpoint documents: 1
@@ -381,9 +386,10 @@ completed before Phase 6 starts.
 ## Recent updates
 
 - 2026-07-02: Project owner accepted the completed Phase 5 Project Matrix and Phase 5.5 - Internal Approval and Budget Collection was opened with circulation, approval, budget, and feasibility templates.
+- 2026-07-02: Refined Phase 5 and the Portuguese circulation packet to add the explicit barocaloric spin-crossover axis in metal complexes, involving the UERJ-UFF-ORNL route.
 - 2026-07-02: Prepared the Portuguese proposal-summary packet and PDF target for member circulation, approval/comments, and budget collection.
-- 2026-07-02: Executed the full Phase 5 Project Matrix with four candidate tasks, three state-of-the-art support routes, six support/validation routes, model/evidence/capability matrices, and a Phase 5.5 handoff package.
-- 2026-07-02: Recorded project-owner assessment of Phase 5 slots: `PM-01`, `PM-03`, `PM-04`, and `PM-05` remain viable candidate tasks; `PM-02` moves to state-of-the-art/introduction support; `PM-06` remains a support/validation layer.
+- 2026-07-02: Executed and refined the Phase 5 Project Matrix with five candidate tasks, three state-of-the-art support routes, six support/validation routes, model/evidence/capability matrices, and a Phase 5.5 handoff package.
+- 2026-07-02: Recorded the initial project-owner assessment of Phase 5 slots; the later barocaloric-axis refinement superseded the initial contextual handling of `PM-02`.
 - 2026-07-02: Project owner accepted the refined Phase 4 Gap Analysis baseline and Phase 5 - Project Matrix was opened with six candidate matrix slots.
 - 2026-07-02: Refined Phase 4 Gap Analysis with project-owner clarifications for `GAP-01`, `GAP-03`, `GAP-06`, `GAP-08`, and `GAP-09`, while keeping Phase 5 locked until acceptance.
 - 2026-07-02: Project owner accepted the detailed Phase 3 Scientific Atlas baseline and Phase 4 - Gap Analysis was opened and developed in full with fifteen gap records, evidence-readiness mapping, and controlled handoff groups for Phase 5.

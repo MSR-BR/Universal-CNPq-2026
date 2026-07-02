@@ -31,18 +31,27 @@ Cada integrante e convidado a responder aos seguintes pontos:
 ## Sintese executiva
 
 A proposta usara complexos metalicos como plataforma integradora para conectar
-quatro frentes cientificas: sintese e caracterizacao de materiais moleculares,
-controle de interacoes magneticas por pressao, termodinamica quantica e
-baterias quanticas, e analise de recursos de informacao quantica.
+cinco frentes cientificas: sintese e caracterizacao de materiais moleculares,
+efeito barocalorico em transicoes spin crossover, controle de interacoes
+magneticas por pressao, termodinamica quantica e baterias quanticas, e analise
+de recursos de informacao quantica.
 
 A ideia central e que complexos metalicos oferecem uma combinacao rara de
 controle estrutural, diversidade quimica e propriedades magneticas ajustaveis.
-Pequenas mudancas de estrutura podem alterar a interacao de troca magnetica
-entre centros metalicos, usualmente representada pelo parametro J em modelos
-do tipo Heisenberg. A pressao fornece uma rota experimental para modificar a
-estrutura cristalina e, portanto, para variar J de modo controlado.
+Pequenas mudancas de estrutura podem alterar transicoes spin crossover e a
+interacao de troca magnetica entre centros metalicos, usualmente representada
+pelo parametro J em modelos do tipo Heisenberg. A pressao fornece uma rota
+experimental para modificar a estrutura cristalina, deslocar transicoes e
+variar parametros fisicos de modo controlado.
 
-Essa variacao de J e relevante para dois niveis do projeto. No nivel
+O novo eixo barocalorico foca transicoes spin crossover em complexos
+metalicos, envolvendo a rota UERJ-UFF-ORNL. A UERJ contribui com a experiencia
+em materiais caloricos, spin crossover e modelagem; a UFF contribui com
+complexos metalicos, magnetismo e caracterizacao; e ORNL contribui com o
+contexto de medidas sob pressao e, quando viavel, caracterizacao por neutrons
+ou tecnicas associadas.
+
+A variacao de J permanece relevante para dois niveis do projeto. No nivel
 experimental, ela conecta estrutura, magnetizacao, susceptibilidade magnetica,
 espalhamento de neutrons e calculos de estrutura eletronica. No nivel teorico,
 ela permite estudar como parametros fisicos de complexos metalicos influenciam
@@ -52,9 +61,9 @@ de recursos quanticos, como coerencia, correlacoes, emaranhamento e discordia.
 O projeto tambem se apoia na experiencia do grupo em efeitos caloricos,
 especialmente em complexos metalicos magnetocaloricos em temperaturas
 criogenicas e em sistemas moleculares associados a spin crossover e resposta
-barocalorica. Esse conjunto de resultados sera usado como estado da arte,
-motivacao e base de selecao de materiais, sem transformar cada tema calorico em
-uma tarefa independente.
+barocalorica. Dentro dessa base, o estudo do efeito barocalorico em transicoes
+spin crossover de complexos metalicos sera um eixo proprio, envolvendo a rota
+UERJ-UFF-ORNL.
 
 ## Contexto cientifico
 
@@ -73,22 +82,23 @@ resfriamento em baixas temperaturas.
 
 Ao mesmo tempo, a equipe possui producao recente em termodinamica quantica,
 baterias quanticas, maquinas termicas quanticas, recursos quanticos e
-simulacoes computacionais. A proposta pretende aproximar essas duas frentes:
-usar complexos metalicos reais ou realisticamente modelados como sistemas
-fisicos nos quais parametros magneticos podem ser conectados a propriedades
-termodinamicas e informacionais.
+simulacoes computacionais. A proposta aproxima essas frentes usando complexos
+metalicos reais ou realisticamente modelados como sistemas fisicos nos quais
+parametros estruturais, magneticos, caloricos e quanticos podem ser conectados.
 
 ## Pergunta cientifica central
 
 E possivel usar complexos metalicos como plataforma fisica para controlar,
-medir e modelar a relacao entre estrutura, interacao magnetica, termodinamica
-quantica, baterias quanticas e recursos de informacao quantica?
+medir e modelar a relacao entre estrutura, spin crossover, efeito
+barocalorico, interacao magnetica, termodinamica quantica, baterias quanticas e
+recursos de informacao quantica?
 
 Uma formulacao operacional dessa pergunta e:
 
-Como mudancas estruturais induzidas por pressao modificam a interacao de troca
-J em complexos metalicos, e como essa variacao afeta ciclos termodinamicos
-quanticos, desempenho de baterias quanticas e medidas de recursos quanticos?
+Como mudancas estruturais induzidas por pressao modificam transicoes spin
+crossover e a interacao de troca J em complexos metalicos, e como essas
+variacoes afetam resposta barocalorica, ciclos termodinamicos quanticos,
+desempenho de baterias quanticas e medidas de recursos quanticos?
 
 ## Hipotese de trabalho
 
@@ -98,13 +108,16 @@ moleculares e modelos de termodinamica quantica. A pressao pode alterar
 levemente a estrutura e modificar J; essa variacao pode ser caracterizada por
 medidas experimentais, estimada por calculos de DFT ou metodos correlatos, e
 incorporada em modelos efetivos para ciclos termodinamicos, baterias quanticas
-e analise de recursos quanticos.
+e analise de recursos quanticos. Em complexos metalicos com transicoes spin
+crossover, a pressao tambem pode deslocar a transicao e produzir resposta
+barocalorica mensuravel.
 
 ## Objetivo geral
 
 Desenvolver uma plataforma baseada em complexos metalicos para investigar como
-estrutura, pressao e interacoes magneticas controlam propriedades caloricas,
-termodinamicas e de informacao quantica em sistemas moleculares.
+estrutura, pressao, transicoes spin crossover e interacoes magneticas
+controlam propriedades caloricas, termodinamicas e de informacao quantica em
+sistemas moleculares.
 
 ## Objetivos especificos
 
@@ -114,14 +127,16 @@ termodinamicas e de informacao quantica em sistemas moleculares.
    modelos fisicos efetivos.
 3. Investigar como a pressao altera parametros estruturais e a interacao de
    troca J.
-4. Conectar medidas de magnetizacao, susceptibilidade, espalhamento de
+4. Estudar o efeito barocalorico em transicoes spin crossover de complexos
+   metalicos, articulando competencias da UERJ, UFF e ORNL.
+5. Conectar medidas de magnetizacao, susceptibilidade, espalhamento de
    neutrons e calculos de estrutura eletronica a modelos de Heisenberg ou
    modelos efetivos relacionados.
-5. Estudar ciclos de termodinamica quantica e protocolos de baterias quanticas
+6. Estudar ciclos de termodinamica quantica e protocolos de baterias quanticas
    usando parametros fisicos inspirados em complexos metalicos.
-6. Analisar recursos quanticos, como coerencia, correlacoes, emaranhamento e
+7. Analisar recursos quanticos, como coerencia, correlacoes, emaranhamento e
    discordia, em sistemas moleculares e metalicos sob controle externo.
-7. Formar estudantes e pesquisadores jovens em uma interface entre quimica de
+8. Formar estudantes e pesquisadores jovens em uma interface entre quimica de
    coordenacao, magnetismo, materiais funcionais, termodinamica quantica e
    informacao quantica.
 
@@ -132,7 +147,7 @@ termodinamicas e de informacao quantica em sistemas moleculares.
 Este eixo estabelece a base material do projeto. A proposta e selecionar,
 preparar ou utilizar complexos metalicos com estrutura conhecida ou
 determinavel, propriedades magneticas relevantes e potencial para estudos sob
-pressao ou modelagem quantica.
+pressao, resposta barocalorica ou modelagem quantica.
 
 Atividades previstas:
 
@@ -140,11 +155,31 @@ Atividades previstas:
 - caracterizacao estrutural, incluindo difracao de raios X de monocristal
   quando aplicavel;
 - caracterizacao magnetica inicial;
-- identificacao de sistemas candidatos para estudos de pressao, calculos e
-  modelos quanticos;
+- identificacao de sistemas candidatos para estudos barocaloricos, de pressao,
+  calculos e modelos quanticos;
 - organizacao de criterios de selecao de compostos.
 
-### Eixo 2 - Pressao, estrutura e interacao de troca J
+### Eixo 2 - Efeito barocalorico em transicoes spin crossover
+
+Este eixo estuda o efeito barocalorico associado a transicoes spin crossover
+em complexos metalicos. A pressao pode deslocar a transicao entre estados de
+spin, alterar a entropia e gerar resposta calorica mensuravel. A rota
+cientifica envolve o grupo da UERJ, a contribuicao da UFF em complexos
+metalicos, magnetismo e caracterizacao, e a colaboracao com ORNL para
+caracterizacao sob pressao e, quando viavel, medidas relacionadas a neutrons.
+
+Atividades previstas:
+
+- selecionar complexos metalicos com transicoes spin crossover adequadas ao
+  estudo barocalorico;
+- caracterizar propriedades magneticas, estruturais e termodinamicas
+  relevantes para a transicao;
+- estudar o deslocamento da transicao sob pressao;
+- estimar grandezas barocaloricas, como variacao de entropia e resposta
+  termica associada;
+- avaliar a viabilidade de medidas com e sem pressao no contexto UERJ-UFF-ORNL.
+
+### Eixo 3 - Pressao, estrutura e interacao de troca J
 
 Este eixo conecta controle experimental e modelagem. Em modelos magneticos,
 J representa a interacao de troca entre momentos magneticos. Em complexos
@@ -163,7 +198,7 @@ Atividades previstas:
 - usar DFT ou abordagens computacionais correlatas para estimar parametros de
   troca e validar tendencias.
 
-### Eixo 3 - Termodinamica quantica e baterias quanticas
+### Eixo 4 - Termodinamica quantica e baterias quanticas
 
 Este eixo usa parametros e modelos inspirados em complexos metalicos para
 estudar ciclos termodinamicos quanticos e baterias quanticas. O interesse
@@ -182,7 +217,7 @@ Atividades previstas:
 - comparar cenarios ideais e parametros fisicamente plausiveis para complexos
   metalicos.
 
-### Eixo 4 - Recursos quanticos e metricas de informacao
+### Eixo 5 - Recursos quanticos e metricas de informacao
 
 Este eixo investiga como recursos quanticos aparecem em sistemas moleculares e
 metalicos, e como podem se relacionar a desempenho termodinamico ou energetico.
@@ -209,10 +244,10 @@ sistemas spin crossover e resposta barocalorica. Esse contexto ajuda a mostrar
 que complexos metalicos sao uma classe realista e relevante para estudar
 acoplamentos entre estrutura, magnetismo e entropia.
 
-Na arquitetura atual, entretanto, o tema calorico entra como estado da arte,
-motivacao e ponte conceitual. A proposta principal se organiza em torno dos
-complexos metalicos e de seus subprojetos associados, evitando abrir uma tarefa
-independente apenas para cada familia de efeito calorico.
+Na arquitetura atual, o estudo barocalorico em transicoes spin crossover entra
+como eixo explicito. O restante da literatura calorica mais ampla sera usado
+como estado da arte, motivacao e apoio para selecionar materiais e interpretar
+resultados.
 
 ## Equipe e capacidades institucionais
 
@@ -223,7 +258,7 @@ infraestruturas serao confirmados apos a avaliacao dos integrantes.
 | Instituicao | Participantes previstos | Capacidades principais associadas |
 | --- | --- | --- |
 | UERJ | Gabriel Fernandes Silva; Bruno de Pinho Alho; Paula de Oliveira Ribeiro Alho; Pedro Jorge von Ranke Perlingeiro; Vinicius da Silva Ramos de Sousa; Alan Fillipe de Souza Almeida; Gabriel Batista de Souza | Materiais caloricos, spin crossover, barocalorico, magnetismo, modelagem, caracterizacao e formacao de estudantes. |
-| UFF | Mario de Souza Reis Junior; Vinicius Gomes de Paula | Complexos metalicos, magnetismo, materiais funcionais, termodinamica quantica, baterias quanticas e caracterizacao magnetica. |
+| UFF | Mario de Souza Reis Junior; Vinicius Gomes de Paula | Complexos metalicos, magnetismo, materiais funcionais, barocalorico/spin crossover, termodinamica quantica, baterias quanticas e caracterizacao magnetica. |
 | UFOB | Clebson dos Santos Cruz; Joao Vitor Almeida Tavares Cruz; Tatiana de Jesus Braga; Wanisson Silva Santana | Termodinamica quantica, baterias quanticas, recursos quanticos, computacao cientifica e formacao. |
 | SENAI CIMATEC | Maron Freitas Anka | Tecnologias quanticas, simulacao, plataformas computacionais e recursos quanticos. |
 | Oak Ridge National Laboratory | Antonio dos Santos | Medidas de neutrons, caracterizacao sob pressao e contexto de grandes facilidades experimentais. |
@@ -242,6 +277,8 @@ Os resultados esperados incluem:
 - selecao de familias de complexos metalicos adequadas aos objetivos do
   projeto;
 - caracterizacao estrutural e magnetica de sistemas selecionados;
+- analise do efeito barocalorico em transicoes spin crossover de complexos
+  metalicos;
 - mapas pressao-estrutura-J para compostos ou modelos representativos;
 - modelos efetivos para ciclos termodinamicos quanticos e baterias quanticas;
 - analise de recursos quanticos em sistemas moleculares ou metalicos;
@@ -287,6 +324,8 @@ Antes da redacao consolidada, precisamos confirmar:
 - quais amostras ja existem, quais podem ser preparadas e quais dependem de
   nova sintese;
 - quais medidas sob pressao sao realisticamente possiveis;
+- quais transicoes spin crossover e quais grandezas barocaloricas serao
+  priorizadas;
 - quais rotas de DFT e modelos de spin devem ser adotadas;
 - quais ciclos de termodinamica quantica e protocolos de baterias quanticas
   serao priorizados;

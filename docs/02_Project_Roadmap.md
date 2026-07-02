@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 4.5
+Version: 4.6
 
 Status: Active
 
@@ -37,7 +37,7 @@ Last update: 2026-07-02
 | 3 | Scientific Atlas | Accepted baseline; manual refinements deferred | `docs/phase3/3_ScientificAtlas.md` |
 | 4 | Gap Analysis | Accepted baseline; supports Phase 5 | `docs/phase4/4_GapAnalysis.md` |
 | 5 | Project Matrix | Accepted baseline; supports Phase 5.5 | `docs/phase5/5_ProjectMatrix.md` |
-| 5.5 | Internal Approval and Budget Collection | Active; Portuguese circulation PDF and collection templates prepared | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| 5.5 | Internal Approval and Budget Collection | Active; Portuguese circulation PDF refined with barocaloric axis | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | 6 | Master Project | Locked until Phase 5.5 is complete | `docs/phase6/6_MasterProject.md` |
 | 7 | CNPq Proposal | Locked until Phase 6 is complete | `docs/phase7/7_CNPqProposal.md` |
 | 8 | Final Review | Locked until Phase 7 is complete | `docs/phase8/8_FinalReview.md` |
@@ -123,15 +123,15 @@ items, values, and justifications.
 | Initial matrix slots | 6 | `docs/phase5/5_ProjectMatrix.md` |
 | Accepted Phase 4 handoff groups carried into Phase 5 | 6 | `docs/phase5/5_ProjectMatrix.md` |
 | Matrix-slot disposition rows | 6 | `docs/phase5/5_ProjectMatrix.md` |
-| Candidate task rows | 4 | `docs/phase5/5_ProjectMatrix.md` |
+| Candidate task rows | 5 | `docs/phase5/5_ProjectMatrix.md` |
 | State-of-the-art support rows | 3 | `docs/phase5/5_ProjectMatrix.md` |
 | Support and validation layer rows | 6 | `docs/phase5/5_ProjectMatrix.md` |
-| Model route rows | 5 | `docs/phase5/5_ProjectMatrix.md` |
-| Task relationship rows | 5 | `docs/phase5/5_ProjectMatrix.md` |
-| Atlas/gap coverage rows | 6 | `docs/phase5/5_ProjectMatrix.md` |
+| Model route rows | 6 | `docs/phase5/5_ProjectMatrix.md` |
+| Task relationship rows | 7 | `docs/phase5/5_ProjectMatrix.md` |
+| Atlas/gap coverage rows | 7 | `docs/phase5/5_ProjectMatrix.md` |
 | Evidence anchor rows | 10 | `docs/phase5/5_ProjectMatrix.md` |
 | Capability route rows | 6 | `docs/phase5/5_ProjectMatrix.md` |
-| Phase 5.5 validation/review queue rows | 10 | `docs/phase5/5_ProjectMatrix.md` |
+| Phase 5.5 validation/review queue rows | 11 | `docs/phase5/5_ProjectMatrix.md` |
 | Phase 5.5 handoff package rows | 6 | `docs/phase5/5_ProjectMatrix.md` |
 | Phase 5 completion checkpoint rows | 18 | `docs/phase5/5_ProjectMatrix.md` |
 
@@ -139,13 +139,13 @@ items, values, and justifications.
 
 | Output class | Count | Location |
 | --- | ---: | --- |
-| Phase 5 handoff summary rows | 6 | `docs/phase5/5_5_InternalApprovalBudget.md` |
-| Internal circulation summary task rows | 4 | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| Phase 5 handoff summary rows | 7 | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| Internal circulation summary task rows | 5 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Member approval tracker rows | 16 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Member response questions | 5 | `docs/phase5/5_5_InternalApprovalBudget.md` |
-| Budget collection template rows | 5 | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| Budget collection template rows | 6 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Budget category guide rows | 7 | `docs/phase5/5_5_InternalApprovalBudget.md` |
-| Access and feasibility checklist rows | 8 | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| Access and feasibility checklist rows | 9 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Phase 6 readiness gate rows | 11 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Portuguese circulation artifacts prepared | 2 | `docs/phase5/5_5_Proposta_Resumo_Aprovacao_Interna.md`; `output/pdf/Proposta_Universal_CNPq_2026_Aprovacao_Interna.pdf` |
 

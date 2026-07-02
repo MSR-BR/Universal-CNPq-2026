@@ -21,9 +21,9 @@ approval, comments, and required adjustments are recorded; budget items,
 values, and justifications are collected; access/feasibility issues are
 identified; and the project owner accepts the checkpoint as complete.
 
-Version: 1.2
+Version: 1.3
 
-Status: Active; Portuguese circulation packet prepared
+Status: Active; Portuguese circulation packet refined with barocaloric axis
 
 Last update: 2026-07-02
 
@@ -82,7 +82,8 @@ or agent-control language and must be understandable by an external professor.
 | Candidate task 2 | `MT-02` - Pressure-driven tuning of exchange interaction `J`. |
 | Candidate task 3 | `MT-03` - Quantum thermodynamic cycles and quantum batteries in metal-complex systems. |
 | Candidate task 4 | `MT-04` - Quantum resources and information metrics in metal-complex systems. |
-| Background only | `BG-01`-`BG-03` - Metal-complex caloric review, spin-crossover/barocaloric context, and broader caloric-material background. |
+| Candidate task 5 | `MT-05` - Barocaloric effects in spin-crossover transitions of metal complexes. |
+| Background and motivation | `BG-01`-`BG-03` - Metal-complex caloric review, spin-crossover/barocaloric context, and broader caloric-material background. |
 | Support layer | `SL-01` - Capability, validation, access, budget, and training context. |
 
 ## Internal circulation summary draft
@@ -91,11 +92,11 @@ This is an internal summary for project-member approval and budget collection.
 It is not final CNPq proposal text.
 
 The project will use metal complexes as the common platform connecting
-synthesis and structural characterization, pressure-tunable magnetic
-interactions, quantum thermodynamic cycles, quantum batteries, and
-quantum-resource analysis.
+synthesis and structural characterization, barocaloric spin-crossover response,
+pressure-tunable magnetic interactions, quantum thermodynamic cycles, quantum
+batteries, and quantum-resource analysis.
 
-The current project architecture contains four candidate scientific tasks:
+The current project architecture contains five candidate scientific tasks:
 
 | Summary item | Internal description |
 | --- | --- |
@@ -103,10 +104,11 @@ The current project architecture contains four candidate scientific tasks:
 | `MT-02` | Develop the pressure-structure-`J` route, using pressure-induced structural changes to tune the Heisenberg exchange interaction and connect measurements, DFT, and models. |
 | `MT-03` | Study quantum thermodynamic cycles and quantum batteries in metal-complex systems, including the possible use of the perturbative first-law approach as an analysis tool. |
 | `MT-04` | Analyse quantum resources and information metrics in molecular or metal-complex systems, relating coherence, correlations, entanglement, and discord to observables and performance metrics where appropriate. |
+| `MT-05` | Study barocaloric effects in spin-crossover transitions of metal complexes, using the UERJ-UFF-ORNL route for caloric, magnetic, pressure-linked, and neutron/structural feasibility where applicable. |
 
 The caloric and spin-crossover literature, including the metal-complex review
-in Coordination Chemistry Reviews, will support the state of the art and
-motivation. It will not be an independent project task at this stage.
+in Coordination Chemistry Reviews, will support the state of the art,
+motivation, and focused `MT-05` barocaloric/spin-crossover task.
 
 Members are asked to review the architecture, approve or comment on the task
 structure, identify any necessary adjustments, and provide budget items with
@@ -157,7 +159,8 @@ after member response, review, and project-owner acceptance.
 | `BUD-0002` | Pending | Pending | `MT-02` | Pending | Pending member input | Pending | Pending | Open |
 | `BUD-0003` | Pending | Pending | `MT-03` | Pending | Pending member input | Pending | Pending | Open |
 | `BUD-0004` | Pending | Pending | `MT-04` | Pending | Pending member input | Pending | Pending | Open |
-| `BUD-0005` | Pending | Pending | `SL-01` | Pending | Pending member input | Pending | Pending | Open |
+| `BUD-0005` | Pending | Pending | `MT-05` | Pending | Pending member input | Pending | Pending | Open |
+| `BUD-0006` | Pending | Pending | `SL-01` | Pending | Pending member input | Pending | Pending | Open |
 
 ## Budget category guide
 
@@ -183,6 +186,7 @@ after member response, review, and project-owner acceptance.
 | `AF-06` | Quantum-resource metrics | `MT-04` | Pending | Confirm core metrics and relation to observables or performance. |
 | `AF-07` | Training and early-career participation | `SL-01F` | Pending | Confirm whether training context should be included in the internal summary and later project. |
 | `AF-08` | Public wording for infrastructure and collaboration | `SL-01` | Pending | Confirm names, institutional wording, and boundaries before Phase 6. |
+| `AF-09` | Barocaloric spin-crossover task feasibility | `MT-05`, `SL-01B`, `SL-01C` | Pending | Confirm UERJ-UFF-ORNL scope, compound families, transition range, pressure route, observables, and budget needs. |
 
 ## Comment and adjustment register
 
