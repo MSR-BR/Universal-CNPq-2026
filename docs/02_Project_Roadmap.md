@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 4.0
+Version: 4.1
 
 Status: Active
 
@@ -35,8 +35,8 @@ Last update: 2026-07-02
 | 1H | Bibliography | Baseline accepted; manual refinements deferred | `docs/phase1/1H_Bibliography.md` |
 | 2 | Team Book | Baseline accepted; manual refinements deferred | `docs/phase2/2_TeamBook.md` |
 | 3 | Scientific Atlas | Accepted baseline; manual refinements deferred | `docs/phase3/3_ScientificAtlas.md` |
-| 4 | Gap Analysis | Active; full gap-analysis pass developed; project-owner acceptance pending | `docs/phase4/4_GapAnalysis.md` |
-| 5 | Project Matrix | Locked until Phase 4 is accepted | `docs/phase5/5_ProjectMatrix.md` |
+| 4 | Gap Analysis | Accepted baseline; supports Phase 5 | `docs/phase4/4_GapAnalysis.md` |
+| 5 | Project Matrix | Active; opened after Phase 4 acceptance | `docs/phase5/5_ProjectMatrix.md` |
 | 5.5 | Internal Approval and Budget Collection | Locked until Phase 5 is complete | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | 6 | Master Project | Locked until Phase 5.5 is complete | `docs/phase6/6_MasterProject.md` |
 | 7 | CNPq Proposal | Locked until Phase 6 is complete | `docs/phase7/7_CNPqProposal.md` |
@@ -44,20 +44,22 @@ Last update: 2026-07-02
 
 ## Current gate
 
-The repository is in Phase 4 - Gap Analysis.
+The repository is in Phase 5 - Project Matrix.
 
-Allowed work now: project-owner review or neutral refinement of the detailed
-Gap Analysis baseline.
+Allowed work now: project-matrix development from the accepted Gap Analysis,
+including candidate axes, evidence anchors, relationship routes, validation
+flags, and handoff items for Phase 5.5.
 
-Still prohibited: project strategy, final objective selection, responsibility
-assignment, work packages, schedule, budget, facility-access commitments, and
-CNPq proposal writing.
+Still prohibited: Phase 6 master-project writing, final CNPq proposal text,
+consolidated PDF project creation, final budget values or justifications,
+final schedule, facility-access commitments, and unapproved participant
+responsibility assignments.
 
 Phase 3 was opened on 2026-07-02 after the project owner accepted the Phase 2
 baseline. A detailed atlas pass was completed and accepted on 2026-07-02.
-Phase 4 - Gap Analysis was then opened and developed in full. Phase 5 - Project
-Matrix remains locked until the project owner accepts the detailed Phase 4
-baseline.
+Phase 4 - Gap Analysis was then opened, developed in full, refined with
+project-owner input, and accepted on 2026-07-02. Phase 5 - Project Matrix is
+now open.
 
 Approved later-phase checkpoint: after Phase 5 - Project Matrix and before
 Phase 6 - Master Project, Phase 5.5 must circulate a summarized project
@@ -111,6 +113,14 @@ items, values, and justifications.
 | Relationship-route gap coverage rows | 6 | `docs/phase4/4_GapAnalysis.md` |
 | Evidence-readiness rows | 15 | `docs/phase4/4_GapAnalysis.md` |
 | Controlled handoff groups for Phase 5 | 6 | `docs/phase4/4_GapAnalysis.md` |
+
+## Phase 5 opened outputs
+
+| Output class | Count | Location |
+| --- | ---: | --- |
+| Initial matrix slots | 6 | `docs/phase5/5_ProjectMatrix.md` |
+| Accepted Phase 4 handoff groups carried into Phase 5 | 6 | `docs/phase5/5_ProjectMatrix.md` |
+| Phase 5 opening checkpoint rows | 6 | `docs/phase5/5_ProjectMatrix.md` |
 
 ## Final writing constraints
 

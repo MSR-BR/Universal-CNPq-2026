@@ -26,7 +26,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.21
+Version: 2.22
 
 Status: Active
 
@@ -34,11 +34,12 @@ Last update: 2026-07-02
 
 ## Current phase
 
-Phase 4 - Gap Analysis.
+Phase 5 - Project Matrix.
 
 Phase 0 - Information Collection remains open during the entire project.
-Phase 1A through Phase 1H, Phase 2, and Phase 3 remain available for deferred
-final manual refinement, but they no longer block Phase 4 Gap Analysis work.
+Phase 1A through Phase 1H, Phase 2, Phase 3, and Phase 4 remain available for
+deferred final manual refinement, but they no longer block Phase 5 Project
+Matrix work.
 
 ## Completed phases
 
@@ -64,6 +65,8 @@ final manual refinement, but they no longer block Phase 4 Gap Analysis work.
   manual refinements deferred.
 - Phase 3 Scientific Atlas baseline accepted sufficiently to open Phase 4,
   with final manual refinements deferred.
+- Phase 4 Gap Analysis baseline accepted sufficiently to open Phase 5, with
+  final manual refinements deferred.
 
 ## Current progress
 
@@ -167,13 +170,17 @@ final manual refinement, but they no longer block Phase 4 Gap Analysis work.
   aggregator, pressure-driven variation of exchange interaction `J`, cryogenic
   magnetocaloric metal-complex scope, the synthesis-characterization-selection
   loop, and candidate capability routes.
-- Phase 4 detailed gap-analysis baseline is ready for project-owner review and
-  acceptance before Phase 5 - Project Matrix is opened.
+- The refined Phase 4 Gap Analysis baseline was accepted by the project owner
+  on 2026-07-02.
+- Phase 5 was opened in `docs/phase5/5_ProjectMatrix.md`.
+- Phase 5 opening structure records six candidate matrix slots, the
+  metal-complex aggregator, accepted Phase 4 handoff groups, and a Phase 5
+  opening checkpoint.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
-- No final scientific objectives, project priorities, work packages,
-  responsibility assignments, budget items, schedule, facility-access
-  commitments, or proposal text have been created.
+- No Phase 6 master-project text, CNPq proposal text, consolidated final PDF,
+  final budget values, final schedule, facility-access commitments, or final
+  participant responsibility assignments have been created.
 
 ## Pending tasks
 
@@ -206,11 +213,10 @@ final manual refinement, but they no longer block Phase 4 Gap Analysis work.
 - Continue Phase 2 Team Book factual refinement only if the project owner
   requests deferred manual adjustments; the accepted baseline remains available
   for Phase 3 work.
-- Review and accept the detailed Phase 4 Gap Analysis baseline before opening
-  Phase 5 - Project Matrix.
-- If refinements are requested in Phase 4, keep gap-analysis work neutral; do
-  not convert gaps into final objectives, priorities, responsibilities, work
-  packages, schedule, budget, facility-access commitments, or proposal text.
+- Develop the Phase 5 Project Matrix from the accepted Gap Analysis, keeping
+  matrix entries clearly marked as candidates until later internal approval.
+- Preserve Phase 5.5 as the required internal approval and budget collection
+  checkpoint before Phase 6 starts.
 - After Phase 5 is complete, run Phase 5.5 to circulate a summarized proposal
   to all project members, collect approval/comments, and collect budget items,
   values, and justifications before Phase 6 starts.
@@ -306,6 +312,9 @@ final manual refinement, but they no longer block Phase 4 Gap Analysis work.
 - Phase 4 evidence-readiness rows: 15
 - Phase 4 controlled handoff groups for Phase 5: 6
 - Phase 4 gap records refined by project-owner input: 5
+- Phase 5 Project Matrix documents opened: 1
+- Phase 5 initial matrix slots: 6
+- Phase 5 accepted handoff groups carried forward: 6
 - Approved methodology checkpoint documents: 1
 - Institutions recorded in Phase 1A: 6
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
@@ -315,15 +324,16 @@ final manual refinement, but they no longer block Phase 4 Gap Analysis work.
 
 ## Next action
 
-Project owner should review and accept the detailed Phase 4 Gap Analysis
-baseline in `docs/phase4/4_GapAnalysis.md`. If accepted, the next controlled
-step is to open Phase 5 - Project Matrix.
+Develop the Phase 5 Project Matrix in `docs/phase5/5_ProjectMatrix.md`,
+refining the six opening matrix slots into a coherent candidate project
+architecture.
 
 Later in the roadmap, after Phase 5, the approved Phase 5.5 checkpoint must be
 completed before Phase 6 starts.
 
 ## Recent updates
 
+- 2026-07-02: Project owner accepted the refined Phase 4 Gap Analysis baseline and Phase 5 - Project Matrix was opened with six candidate matrix slots.
 - 2026-07-02: Refined Phase 4 Gap Analysis with project-owner clarifications for `GAP-01`, `GAP-03`, `GAP-06`, `GAP-08`, and `GAP-09`, while keeping Phase 5 locked until acceptance.
 - 2026-07-02: Project owner accepted the detailed Phase 3 Scientific Atlas baseline and Phase 4 - Gap Analysis was opened and developed in full with fifteen gap records, evidence-readiness mapping, and controlled handoff groups for Phase 5.
 - 2026-07-02: Developed the full Phase 3 Scientific Atlas with nine detailed atlas areas, six relationship routes, bibliography routes, infrastructure/collaboration routes, terminology notes, manual-review carry-over, and a completion checkpoint.

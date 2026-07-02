@@ -19,10 +19,9 @@ with evidence, without creating final objectives, priorities, work packages,
 responsibility assignments, budget items, schedule, facility-access
 commitments, or CNPq proposal text.
 
-Version: 1.2
+Version: 1.3
 
-Status: Active; refined with project-owner input; project-owner acceptance
-pending
+Status: Accepted baseline; supports Phase 5
 
 Last update: 2026-07-02
 
@@ -63,6 +62,9 @@ On 2026-07-02 the project owner supplied targeted scientific and capability
 clarifications for `GAP-01`, `GAP-03`, `GAP-06`, `GAP-08`, and `GAP-09`.
 These clarifications are recorded here as Phase 4 refinements and handoff
 constraints, not as final Phase 5 matrix decisions.
+
+On 2026-07-02 the project owner accepted the refined Phase 4 baseline and
+instructed the repository to open Phase 5 - Project Matrix.
 
 ## Gap-analysis method
 
@@ -432,11 +434,10 @@ the project owner accepts this Phase 4 baseline.
 | Evidence-readiness matrix created | Satisfied for 15 gap records. |
 | Controlled handoff to Phase 5 created | Satisfied for 6 neutral handoff groups. |
 | Project-owner refinements for `GAP-01`, `GAP-03`, `GAP-06`, `GAP-08`, and `GAP-09` recorded | Satisfied on 2026-07-02. |
-| Phase 5 Project Matrix remains locked | Satisfied. |
+| Phase 5 Project Matrix opened after project-owner acceptance | Satisfied on 2026-07-02. |
 | No final objectives, priorities, responsibilities, work packages, budget, schedule, facility-access commitments, or CNPq proposal text created | Satisfied in this document. |
 
 ## Next controlled action
 
-Project owner review and acceptance of this detailed Phase 4 gap-analysis
-baseline. If accepted, the next controlled step is to open Phase 5 - Project
+Use this accepted Phase 4 gap-analysis baseline as input for Phase 5 - Project
 Matrix.
