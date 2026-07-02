@@ -19,9 +19,9 @@ with evidence, without creating final objectives, priorities, work packages,
 responsibility assignments, budget items, schedule, facility-access
 commitments, or CNPq proposal text.
 
-Version: 1.1
+Version: 1.2
 
-Status: Active; full gap-analysis pass completed; project-owner acceptance
+Status: Active; refined with project-owner input; project-owner acceptance
 pending
 
 Last update: 2026-07-02
@@ -59,6 +59,11 @@ On 2026-07-02 the project owner asked to develop Phase 4 completely in one
 pass. This document records that detailed pass. It does not open Phase 5
 automatically.
 
+On 2026-07-02 the project owner supplied targeted scientific and capability
+clarifications for `GAP-01`, `GAP-03`, `GAP-06`, `GAP-08`, and `GAP-09`.
+These clarifications are recorded here as Phase 4 refinements and handoff
+constraints, not as final Phase 5 matrix decisions.
+
 ## Gap-analysis method
 
 Gap records use local `GAP-*` codes. These codes do not replace stable Phase 1
@@ -80,15 +85,15 @@ Gap handling rule: Phase 4 can describe the gap and its evidence basis. Phase
 
 | Gap ID | Gap label | Gap type | Atlas anchors | Evidence anchors | Phase 4 statement |
 | --- | --- | --- | --- | --- | --- |
-| `GAP-01` | Metal-complex bridge across caloric and quantum themes | Scientific integration | `SA-01`, `SA-03`, `SA-05`, `RR-03`, `RR-05` | `RES-0001`, `RES-0002`, `RES-0004`, `RES-0011`, `IDEA-0001`, `IDEA-0006` | The evidence shows a bridge between metal complexes, caloric materials, and quantum energy-storage/thermodynamics, but the shared scientific variables are not yet analysed. |
+| `GAP-01` | Metal-complex bridge across caloric and quantum themes | Scientific integration | `SA-01`, `SA-03`, `SA-05`, `RR-03`, `RR-05` | `RES-0001`, `RES-0002`, `RES-0004`, `RES-0011`, `IDEA-0001`, `IDEA-0006` | Project-owner input clarifies that metal complexes are the intended aggregating element, with later subprojects around metal-complex systems such as barocaloric spin-crossover systems, quantum batteries, and quantum-thermodynamic cycles. Phase 5 must still translate this into matrix structure. |
 | `GAP-02` | Spin-crossover/barocaloric evidence separation | Evidence validation | `SA-02`, `SA-06`, `RR-02`, `RR-04` | `RES-0006`, `RES-0007`, `PUB-0003`, `PUB-0100`, `PUB-0101`, `IDEA-0004`, `IDEA-0009` | Published, manuscript, and ongoing ORNL-linked evidence are grouped in the atlas and need separation before proposal-level use. |
-| `GAP-03` | Pressure as a common control variable | Scientific integration | `SA-02`, `SA-04`, `SA-06`, `RR-02` | `RES-0005`, `RES-0007`, `PUB-0006`, `PUB-0083`, `PUB-0100`, `INF-0017` | Pressure connects barocaloric, spin-crossover, quantum-resource, and neutron-scattering evidence, but a common variable map is not yet defined. |
+| `GAP-03` | Pressure as a common control variable | Scientific integration | `SA-02`, `SA-04`, `SA-06`, `RR-02` | `RES-0005`, `RES-0007`, `PUB-0006`, `PUB-0083`, `PUB-0100`, `INF-0017` | Project-owner input clarifies pressure as a route to tune structure and the Heisenberg exchange interaction `J`, linking quantum-battery/quantum-thermodynamics models, magnetization/susceptibility/neutron measurements, and DFT calculations. Phase 5 must define the variable map. |
 | `GAP-04` | Quantum thermodynamics versus quantum battery boundary | Boundary definition | `SA-03`, `SA-08`, `RR-03` | `RES-0001`, `RES-0002`, `RES-0003`, `RES-0004`, `IDEA-0002`, `IDEA-0010` | Quantum thermodynamics, quantum heat engines, quantum batteries, and VQA simulation are linked but not yet separated into later project-design categories. |
 | `GAP-05` | Quantum-resource relation to energy-storage and caloric themes | Scientific integration | `SA-03`, `SA-04`, `SA-06`, `RR-02`, `RR-03` | `RES-0005`, `RES-0007`, `PUB-0001`, `PUB-0057`, `PUB-0083`, `PUB-0093`, `IDEA-0003` | Quantum coherence, discord, entanglement, and correlations are visible, but their relation to energy-storage or caloric evidence remains an analysis gap. |
-| `GAP-06` | Broad caloric and functional-material scope | Boundary definition | `SA-05`, `RR-04` | `RES-0008`, `RES-0009`, `RES-0012`, `RES-0013`, `IDEA-0005`, `IDEA-0006` | Magnetocaloric, multicaloric, i-caloric, Heusler, all-d-metal, intermetallic, polymer, graphene, and quantum-material records are too broad for direct Phase 5 use without boundary decisions. |
+| `GAP-06` | Broad caloric and functional-material scope | Boundary definition | `SA-05`, `RR-04` | `RES-0008`, `RES-0009`, `RES-0012`, `RES-0013`, `IDEA-0005`, `IDEA-0006` | Project-owner input clarifies metal complexes as core materials for cryogenic magnetocaloric effects, supported by the Mario Reis Coordination Chemistry Reviews review and group work. Phase 5 must still separate core metal-complex scope from broader contextual caloric materials. |
 | `GAP-07` | Review/outlook translation to current-state map | Evidence validation | `SA-01`, `SA-05`, `RR-04` | `RES-0011`, `RES-0013`, `BIB-0023`, `BIB-0067`, `IDEA-0006` | Review/outlook articles are visible but have not yet been translated into a controlled current-state map for Phase 5. |
-| `GAP-08` | Synthesis-structure-property loop granularity | Scientific integration | `SA-01`, `SA-02`, `SA-07`, `SA-08`, `RR-01`, `RR-05` | `RES-0010`, `RES-0006`, `RES-0004`, `IDEA-0007`, `INF-0018`, `COL-0010` | The atlas shows synthesis, structure, magnetic/property evidence, and computation, but not a selected compound-family or measurement-model loop. |
-| `GAP-09` | Infrastructure context versus access plan | Boundary definition | `SA-06`, `SA-07`, `SA-08`, `RR-02`, `RR-05` | `INF-0001`, `INF-0003`, `INF-0004`, `INF-0007`, `INF-0008`, `INF-0010`, `INF-0017`, `INF-0018` | Infrastructure is recorded as factual context, but access, availability, and use commitments are not validated and should not be inferred in Phase 4. |
+| `GAP-08` | Synthesis-structure-property loop granularity | Scientific integration | `SA-01`, `SA-02`, `SA-07`, `SA-08`, `RR-01`, `RR-05` | `RES-0010`, `RES-0006`, `RES-0004`, `IDEA-0007`, `INF-0018`, `COL-0010` | Project-owner input clarifies an established route in which Paula Brandao prepares samples, the group characterizes them, and selected systems move to deeper thermodynamics and quantum-information studies. Phase 5 must define the loop granularity without creating final assignments in Phase 4. |
+| `GAP-09` | Infrastructure context versus access plan | Boundary definition | `SA-06`, `SA-07`, `SA-08`, `RR-02`, `RR-05` | `INF-0001`, `INF-0003`, `INF-0004`, `INF-0007`, `INF-0008`, `INF-0010`, `INF-0017`, `INF-0018` | Project-owner input clarifies candidate capability routes: sample preparation in Portugal, magnetization/susceptibility/neutron measurements with and without pressure in the USA, and theoretical/computational work at UERJ and UFF. Formal access, availability, and commitments remain for later validation. |
 | `GAP-10` | External collaboration and team boundary | Boundary definition | All `SA-*`, `RR-06` | `COL-0006`, `COL-0008`, `COL-0009`, `COL-0011`, `COL-0012`, `COL-0013`, boundary parts of `COL-0010` and `COL-0014` | External collaborators and networks are useful context, but team membership boundaries remain controlled by Phase 1A. |
 | `GAP-11` | Bibliography selection for later project argument | Evidence validation | All `SA-*` | `BIB-0001`-`BIB-0107` | The bibliography map is broad and evidence-linked, but no final proposal bibliography or citation set has been selected. |
 | `GAP-12` | Figure, table, dataset, and source-object selection | Evidence validation | All `SA-*` | Phase 1F manual-review queue; `REV-08` | The atlas uses publication and record anchors, but proposal-ready figures, tables, datasets, or source objects have not been selected. |
@@ -107,13 +112,19 @@ quantum batteries, caloric effects, and metal-complex reviews through `SA-01`,
 Evidence basis: `RES-0001`, `RES-0002`, `RES-0004`, `RES-0011`,
 `IDEA-0001`, and `IDEA-0006`.
 
-Gap statement: The bridge is visible, but the common scientific variables have
-not yet been analysed. Possible variables include structure, spin state,
-magnetic coupling, thermodynamic response, work extraction, and caloric
-response. Phase 4 does not choose which variables become central.
+Project-owner clarification: Metal complexes are the intended aggregating
+element of the project. Later subprojects may address different themes, but all
+should remain connected through metal-complex systems. Examples supplied by the
+project owner include barocaloric effects using spin crossover as a property of
+metal complexes, and quantum batteries or quantum-thermodynamic cycles using
+metal complexes.
 
-Handoff question for Phase 5: Which bridge, if any, should be represented in
-the Project Matrix?
+Refined gap statement: The central aggregator is now clear, but the Phase 5
+matrix still needs to define how subprojects, shared variables, and evidence
+routes are represented without fragmenting the proposal.
+
+Handoff question for Phase 5: How should metal-complex-based subprojects be
+structured around one coherent project matrix?
 
 ### GAP-02 - Spin-crossover/barocaloric evidence separation
 
@@ -138,13 +149,21 @@ quantum-resource evidence, and high-pressure neutron scattering.
 Evidence basis: `RES-0005`, `RES-0007`, `PUB-0006`, `PUB-0083`,
 `PUB-0100`, and `INF-0017`.
 
-Gap statement: Pressure is visible as a common control variable, but the atlas
-does not yet define whether it is a theoretical variable, experimental
-condition, structural perturbation, thermodynamic field, or facility-context
-marker in each record.
+Project-owner clarification: In relevant quantum-battery and quantum
+thermodynamics models, the exchange interaction `J` in a Heisenberg-type
+description can be used as a variable. Experimentally, this route requires
+pressure because pressure slightly changes structure and therefore changes the
+exchange interaction. This motivates measurements and DFT calculations in which
+`J` varies.
 
-Handoff question for Phase 5: Should pressure be treated as an organizing
-scientific bridge, a characterization context, both, or neither?
+Refined gap statement: Pressure is no longer only a broad context; it is a
+candidate bridge between structural perturbation, exchange interaction,
+magnetization/susceptibility/neutron evidence, and quantum models. The exact
+Phase 5 map among pressure, structure, `J`, measurements, and DFT remains to be
+defined.
+
+Handoff question for Phase 5: How should pressure-driven variation of `J` be
+represented across experimental, DFT, and quantum-model subprojects?
 
 ### GAP-04 - Quantum thermodynamics versus quantum battery boundary
 
@@ -186,8 +205,14 @@ records.
 Evidence basis: `RES-0008`, `RES-0009`, `RES-0012`, `RES-0013`,
 `IDEA-0005`, and `IDEA-0006`.
 
-Gap statement: The area is evidence-rich but too broad to pass directly into
-project design without boundary decisions.
+Project-owner clarification: Metal complexes are excellent materials for the
+magnetocaloric effect at cryogenic temperatures. The Mario Reis Coordination
+Chemistry Reviews review and group publications provide support for this route.
+
+Refined gap statement: The core caloric route is now clearer: cryogenic
+magnetocaloric effects in metal complexes. Broader caloric and functional
+material records remain useful context, but Phase 5 must decide which parts are
+core, supporting background, or outside the matrix.
 
 Handoff question for Phase 5: Which parts of `SA-05` are core, contextual, or
 outside the later matrix?
@@ -215,11 +240,18 @@ magnetic/property evidence, VQA, modeling, and computation.
 Evidence basis: `RES-0010`, `RES-0006`, `RES-0004`, `IDEA-0007`,
 `INF-0018`, and `COL-0010`.
 
-Gap statement: The loop is visible, but the atlas does not define a specific
-compound-family, measurement, model, or response route.
+Project-owner clarification: There is an established synthesis-characterization
+route in which Paula Brandao prepares samples, the group characterizes them, and
+selected compounds are chosen for deeper studies in quantum thermodynamics and
+quantum information. The 2026 article with Alan, Paula, Mario, and coauthors is
+one example, alongside several earlier collaborations.
 
-Handoff question for Phase 5: Should the synthesis-structure-property loop be
-represented as a matrix bridge or remain supporting context?
+Refined gap statement: The existence of the loop is no longer the main gap. The
+remaining gap is granularity: which compound families, characterization steps,
+selection criteria, and modeling routes should enter the Phase 5 matrix.
+
+Handoff question for Phase 5: Which synthesis-characterization-selection loop
+should be made explicit in the Project Matrix?
 
 ### GAP-09 - Infrastructure context versus access plan
 
@@ -229,11 +261,18 @@ CIMATEC, UFF, UERJ, ORNL, and Universidade de Aveiro.
 Evidence basis: `INF-0001`, `INF-0003`, `INF-0004`, `INF-0007`,
 `INF-0008`, `INF-0010`, `INF-0017`, and `INF-0018`.
 
-Gap statement: Infrastructure is documented as factual context, but access
-conditions, scheduling, cost, and commitments are not validated.
+Project-owner clarification: Candidate capability routes include sample
+preparation by Paula Brandao in Portugal; magnetization, susceptibility, and
+neutron measurements with and without pressure by Antonio dos Santos in the USA;
+and theoretical and computational modeling by the UERJ and UFF groups.
 
-Handoff question for Phase 5: Which infrastructure routes need later
-confirmation before they can support matrix entries?
+Refined gap statement: The capability map is clearer, but Phase 4 must still
+avoid converting these routes into final commitments. Access conditions,
+scheduling, cost, participant approval, and formal responsibility assignments
+remain later validation items.
+
+Handoff question for Phase 5: Which candidate capability routes can be
+converted into approved matrix entries after participant and access validation?
 
 ### GAP-10 - External collaboration and team boundary
 
@@ -346,15 +385,15 @@ without final manual correction, and which must stay flagged?
 
 | Gap ID | Evidence visibility | Manual review need | Phase 5 readiness note |
 | --- | --- | --- | --- |
-| `GAP-01` | High | Medium | Needs bridge definition before matrix use. |
+| `GAP-01` | High | Low | Metal-complex aggregator clarified; needs matrix granularity. |
 | `GAP-02` | High | High | Needs publication/status separation before matrix use. |
-| `GAP-03` | Medium | Medium | Needs pressure taxonomy before matrix use. |
+| `GAP-03` | High | Medium | Pressure/structure/`J` route clarified; needs experiment-DFT-model map. |
 | `GAP-04` | High | Medium | Needs quantum-subtheme boundary decision. |
 | `GAP-05` | Medium | Medium | Needs conceptual relation decision. |
-| `GAP-06` | High | High | Needs scope narrowing or contextualization. |
+| `GAP-06` | High | Medium | Core cryogenic magnetocaloric metal-complex route clarified; broader scope still needs boundaries. |
 | `GAP-07` | Medium | Medium | Needs review/outlook use rule. |
-| `GAP-08` | High | Medium | Needs granularity decision. |
-| `GAP-09` | High | High | Needs infrastructure wording and access-boundary care. |
+| `GAP-08` | High | Medium | Established synthesis-characterization-selection loop clarified; needs matrix granularity. |
+| `GAP-09` | High | High | Candidate capability routes clarified; formal access and commitments still need validation. |
 | `GAP-10` | High | High | Needs collaboration/team boundary preservation. |
 | `GAP-11` | High | High | Needs bibliography selection before proposal writing. |
 | `GAP-12` | Medium | High | Needs source-object selection later. |
@@ -372,10 +411,10 @@ the project owner accepts this Phase 4 baseline.
 
 | Handoff group | Gap IDs | Phase 5 question |
 | --- | --- | --- |
-| Cross-theme scientific bridges | `GAP-01`, `GAP-03`, `GAP-05`, `GAP-08` | Which bridges should enter the Project Matrix, and at what granularity? |
-| Area-boundary decisions | `GAP-04`, `GAP-06`, `GAP-07` | Which themes remain grouped, split, contextual, or deferred? |
+| Cross-theme scientific bridges | `GAP-01`, `GAP-03`, `GAP-05`, `GAP-08` | How should the metal-complex aggregator split into coherent subprojects, including pressure-driven `J` variation and synthesis-characterization-selection loops? |
+| Area-boundary decisions | `GAP-04`, `GAP-06`, `GAP-07` | Which caloric and quantum themes become core metal-complex subprojects, and which remain contextual or deferred? |
 | Evidence readiness and validation | `GAP-02`, `GAP-11`, `GAP-12`, `GAP-15` | Which evidence records can support matrix construction, and which remain flagged? |
-| Infrastructure and collaboration boundaries | `GAP-09`, `GAP-10` | Which infrastructure and collaboration contexts can be referenced without creating commitments or roles? |
+| Infrastructure and collaboration boundaries | `GAP-09`, `GAP-10` | Which candidate capability routes can later become approved access or collaboration statements without premature commitments? |
 | Language and terminology | `GAP-13` | Which labels must be stabilized before later public-facing text? |
 | Capacity and training context | `GAP-14` | How should training and early-career capacity be represented without assigning responsibilities prematurely? |
 
@@ -392,6 +431,7 @@ the project owner accepts this Phase 4 baseline.
 | Relationship-route coverage created | Satisfied for 6 relationship routes. |
 | Evidence-readiness matrix created | Satisfied for 15 gap records. |
 | Controlled handoff to Phase 5 created | Satisfied for 6 neutral handoff groups. |
+| Project-owner refinements for `GAP-01`, `GAP-03`, `GAP-06`, `GAP-08`, and `GAP-09` recorded | Satisfied on 2026-07-02. |
 | Phase 5 Project Matrix remains locked | Satisfied. |
 | No final objectives, priorities, responsibilities, work packages, budget, schedule, facility-access commitments, or CNPq proposal text created | Satisfied in this document. |
 

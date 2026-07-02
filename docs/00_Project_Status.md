@@ -26,7 +26,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.20
+Version: 2.21
 
 Status: Active
 
@@ -162,6 +162,11 @@ final manual refinement, but they no longer block Phase 4 Gap Analysis work.
   coverage rows, six relationship-route coverage rows, fifteen
   evidence-readiness rows, six controlled handoff groups for Phase 5, and a
   Phase 4 completion checkpoint.
+- Phase 4 project-owner refinements have clarified `GAP-01`, `GAP-03`,
+  `GAP-06`, `GAP-08`, and `GAP-09`, including metal complexes as the project
+  aggregator, pressure-driven variation of exchange interaction `J`, cryogenic
+  magnetocaloric metal-complex scope, the synthesis-characterization-selection
+  loop, and candidate capability routes.
 - Phase 4 detailed gap-analysis baseline is ready for project-owner review and
   acceptance before Phase 5 - Project Matrix is opened.
 - No CPF values from the team page were stored in the repository.
@@ -300,6 +305,7 @@ final manual refinement, but they no longer block Phase 4 Gap Analysis work.
 - Phase 4 relationship-route coverage rows: 6
 - Phase 4 evidence-readiness rows: 15
 - Phase 4 controlled handoff groups for Phase 5: 6
+- Phase 4 gap records refined by project-owner input: 5
 - Approved methodology checkpoint documents: 1
 - Institutions recorded in Phase 1A: 6
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
@@ -318,6 +324,7 @@ completed before Phase 6 starts.
 
 ## Recent updates
 
+- 2026-07-02: Refined Phase 4 Gap Analysis with project-owner clarifications for `GAP-01`, `GAP-03`, `GAP-06`, `GAP-08`, and `GAP-09`, while keeping Phase 5 locked until acceptance.
 - 2026-07-02: Project owner accepted the detailed Phase 3 Scientific Atlas baseline and Phase 4 - Gap Analysis was opened and developed in full with fifteen gap records, evidence-readiness mapping, and controlled handoff groups for Phase 5.
 - 2026-07-02: Developed the full Phase 3 Scientific Atlas with nine detailed atlas areas, six relationship routes, bibliography routes, infrastructure/collaboration routes, terminology notes, manual-review carry-over, and a completion checkpoint.
 - 2026-07-02: Project owner accepted the Phase 2 baseline and Phase 3 - Scientific Atlas was opened with nine neutral atlas areas and six relationship seeds.
