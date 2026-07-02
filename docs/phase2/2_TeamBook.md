@@ -26,9 +26,9 @@ Completion criteria: Every Phase 1A participant is represented once; capability
 domains are linked to Phase 1 evidence; no scientific objectives, gaps,
 work packages, proposal text, or team responsibilities are created.
 
-Version: 1.8
+Version: 1.9
 
-Status: Active; 2E Collaboration and Infrastructure Map refined
+Status: Active; 2F Evidence Bundles and Review Queue refined
 
 Last update: 2026-07-01
 
@@ -66,7 +66,7 @@ consolidated snapshot.
 | 2C | Capability-domain map | Refined | `docs/phase2/2C_CapabilityDomains.md` |
 | 2D | Person-domain matrix | Refined | `docs/phase2/2D_PersonDomainMatrix.md` |
 | 2E | Collaboration and infrastructure map | Refined | `docs/phase2/2E_CollaborationInfrastructureMap.md` |
-| 2F | Evidence bundles and review queue | Initial subsection opened | `docs/phase2/2F_EvidenceBundlesReview.md` |
+| 2F | Evidence bundles and review queue | Refined | `docs/phase2/2F_EvidenceBundlesReview.md` |
 
 ## Phase gate note
 
@@ -114,6 +114,10 @@ rather than creating a new person or source fact here.
 - Phase 2E active-infrastructure coverage rows refined: 10.
 - Phase 2E integrated collaboration-infrastructure threads refined: 8.
 - Phase 2E boundary-context review rows refined: 8.
+- Phase 2F evidence-bundle rows refined: 9.
+- Phase 2F source-class coverage rows refined: 9.
+- Phase 2F idea-seed coverage rows refined: 10.
+- Phase 2F manual-review categories refined: 8.
 
 ## Team overview
 
@@ -216,23 +220,23 @@ source-backed connection recorded for this matrix.
 | `P-0015` | ORNL | E | E | - | E | E | E | - | - | - |
 | `P-0016` | Universidade de Aveiro | E | E | - | - | - | - | E | - | - |
 
-## Evidence-bundle checklist
+## Evidence bundles and review queue
 
-This checklist records whether each capability domain is already supported by
-multiple Phase 1 source types. It does not measure importance, priority, or
-strategic fit.
+This checklist records whether each capability domain has a visible evidence
+bundle. It does not measure importance, priority, novelty, or final proposal
+use.
 
-| Capability domain | Publications | Projects/results | Infrastructure/collaboration | Idea or bibliography links | Phase 2 note |
-| --- | --- | --- | --- | --- | --- |
-| Metal complexes, synthesis, structure, and magnetism | Present | Present | Present | Present | Cross-linked across Phase 1B, 1E, 1F, 1G, and 1H records. |
-| Barocaloric and spin-crossover systems | Present | Present | Present | Present | Includes UERJ-UFF-ORNL-Aveiro evidence threads; no objective selected. |
-| Quantum thermodynamics and quantum batteries | Present | Present | Present | Present | Includes UFOB, SENAI CIMATEC, and UFF-linked evidence; no work package selected. |
-| Quantum resources in molecular and metal-based systems | Present | Present | Context present | Present | Preserve as factual bridge between quantum information and molecular/metal systems. |
-| Magnetocaloric, multicaloric, i-caloric, and intermetallic materials | Present | Present | Present | Present | Broad caloric-material base retained as evidence, not as a selected proposal axis. |
-| High-pressure neutron scattering and pressure-linked characterization | Present | Present | Present | Present | ORNL/SNAP context is represented through international collaborator and infrastructure records. |
-| Single-crystal X-ray diffraction and structural characterization | Present | Context present | Present | Present | Universidade de Aveiro context is represented through international collaborator and infrastructure records. |
-| Scientific computing and quantum-technology platforms | Present | Present | Present | Present | UFOB and SENAI CIMATEC computational/quantum-technology context is visible. |
-| Training pipeline and early-career participation | Context present | Present | Context present | Context present | Student and early-career roles remain factual profile information only. |
+| Bundle code | Linked domain code | Evidence bundle label | Main evidence anchors | Phase 2F review focus |
+| --- | --- | --- | --- | --- |
+| `EB-01` | `D-01` | Metal complexes, synthesis, structure, and magnetism | `RES-0010`, `RES-0011`, `IDEA-0001`, `IDEA-0007`, `INF-0018`, `COL-0010` | Confirm manuscript status, external synthesis/characterization context, and name variants. |
+| `EB-02` | `D-02` | Barocaloric and spin-crossover systems | `RES-0006`, `RES-0007`, `IDEA-0004`, `IDEA-0009`, `INF-0017`, `INF-0018` | Separate published records from manuscripts and ongoing ORNL-linked work. |
+| `EB-03` | `D-03` | Quantum thermodynamics and quantum batteries | `RES-0001`, `RES-0002`, `RES-0003`, `RES-0004`, `IDEA-0001`, `IDEA-0002` | Check later whether quantum-battery and quantum-thermodynamics records stay grouped. |
+| `EB-04` | `D-04` | Quantum resources in molecular and metal-based systems | `RES-0005`, `RES-0007`, `IDEA-0003`, `INF-0001`, `INF-0003`, `INF-0017` | Keep quantum-resource evidence distinct from later scientific argument. |
+| `EB-05` | `D-05` | Magnetocaloric, multicaloric, i-caloric, and intermetallic materials | `RES-0008`, `RES-0009`, `RES-0012`, `RES-0013`, `IDEA-0005`, `IDEA-0006` | Decide later whether broad caloric and intermetallic clusters should be split. |
+| `EB-06` | `D-06` | High-pressure neutron scattering and pressure-linked characterization | `RES-0007`, `IDEA-0003`, `IDEA-0009`, `INF-0017`, `COL-0007` | Preserve narrow SNAP/ORNL scope. |
+| `EB-07` | `D-07` | Single-crystal X-ray diffraction and structural characterization | `RES-0010`, `IDEA-0007`, `IDEA-0008`, `INF-0018`, `COL-0010` | Confirm structural-characterization wording and `P-0016` preferred name. |
+| `EB-08` | `D-08` | Scientific computing and quantum-technology platforms | `RES-0002`, `RES-0004`, `IDEA-0002`, `IDEA-0008`, `INF-0001`, `INF-0003`, `INF-0004` | Confirm LAQCC, KUATOMU, QuIIN, and UFOB computing wording. |
+| `EB-09` | `D-09` | Training pipeline and early-career participation | Phase 1A records, `PRJ-0005`, `PRJ-0022`, `PRJ-0024`, `PRJ-0025`, `PRJ-0026` | Keep as team-capacity context only. |
 
 ## Collaboration and infrastructure map
 
@@ -268,6 +272,7 @@ proposal text.
 | Every Phase 1A institution appears in the institutional roster | Satisfied for 6 institutions. |
 | Capability domains are linked to Phase 1 evidence | Satisfied for 9 factual domains. |
 | Collaboration and infrastructure context is mapped without converting context into roles or access plans | Satisfied for 14 collaboration records and 10 active infrastructure records. |
+| Evidence bundles and manual-review categories are visible | Satisfied for 9 evidence bundles and 8 manual-review categories. |
 | Academic merit fellowship information is preserved from Phase 1A | Satisfied; Phase 1A remains authoritative. |
 | No scientific objectives, gap analysis, responsibilities, work packages, or CNPq proposal text are created | Satisfied in this document. |
 | Manual review items remain visible | Satisfied; see queue below. |
@@ -286,5 +291,6 @@ the project owner explicitly accepts the baseline.
   Portuguese, or bilingual form.
 - Confirm whether the capability domains should remain broad or be split into
   finer subdomains before Phase 3 - Scientific Atlas.
+- Review the 2F manual-review categories before opening Phase 3.
 - Keep this document as a capability synthesis only; do not convert capability
   domains into objectives, gaps, or work packages.

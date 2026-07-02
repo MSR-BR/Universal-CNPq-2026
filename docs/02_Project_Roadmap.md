@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 2.7
+Version: 2.8
 
 Status: Active
 
@@ -33,7 +33,7 @@ Last update: 2026-07-01
 | 1F | Preliminary Results | Initial factual registry reviewed; international collaborator evidence linked; manual refinements deferred | `docs/phase1/1F_PreliminaryResults.md` |
 | 1G | Ideas | Initial idea-seed registry populated; international collaborator evidence linked; manual refinements deferred | `docs/phase1/1G_Ideas.md` |
 | 1H | Bibliography | Baseline accepted; manual refinements deferred | `docs/phase1/1H_Bibliography.md` |
-| 2 | Team Book | Active; 2A-2E refined; 2F opened | `docs/phase2/2_TeamBook.md` |
+| 2 | Team Book | Active; 2A-2F refined; project-owner acceptance pending | `docs/phase2/2_TeamBook.md` |
 | 3 | Scientific Atlas | Locked until Phase 2 is complete | `docs/phase3/3_ScientificAtlas.md` |
 | 4 | Gap Analysis | Locked until Phase 3 is complete | `docs/phase4/4_GapAnalysis.md` |
 | 5 | Project Matrix | Locked until Phase 4 is complete | `docs/phase5/5_ProjectMatrix.md` |
@@ -53,6 +53,10 @@ evidence maps.
 Still prohibited: scientific objectives, scientific gap analysis, project
 strategy, responsibility assignment, work packages, and CNPq proposal writing.
 
+Phase 2 baseline is ready for project-owner review after the 2F evidence-bundle
+pass. Phase 3 remains locked until the project owner explicitly accepts the
+Phase 2 baseline.
+
 ## Phase 2 subsection map
 
 | Subsection | Name | Status | Authoritative document |
@@ -62,4 +66,4 @@ strategy, responsibility assignment, work packages, and CNPq proposal writing.
 | 2C | Capability Domains | Active; capability domains refined | `docs/phase2/2C_CapabilityDomains.md` |
 | 2D | Person-Domain Matrix | Active; person-domain matrix refined | `docs/phase2/2D_PersonDomainMatrix.md` |
 | 2E | Collaboration and Infrastructure Map | Active; collaboration-infrastructure map refined | `docs/phase2/2E_CollaborationInfrastructureMap.md` |
-| 2F | Evidence Bundles and Review Queue | Active; initial subsection opened | `docs/phase2/2F_EvidenceBundlesReview.md` |
+| 2F | Evidence Bundles and Review Queue | Active; evidence bundles and review queue refined | `docs/phase2/2F_EvidenceBundlesReview.md` |

@@ -25,7 +25,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.15
+Version: 2.16
 
 Status: Active
 
@@ -133,6 +133,11 @@ refinement, but they no longer block Phase 2 Team Book work.
   institution-infrastructure map, 14-row collaboration status map, 10-row active
   infrastructure coverage map, 8 integrated collaboration-infrastructure
   threads, boundary-context review table, and 2E checkpoint.
+- Phase 2F Evidence Bundles and Review Queue was refined with 9 evidence
+  bundles, 9 source-class coverage rows, 10 idea-seed coverage rows, 8
+  manual-review categories, and a Phase 2 baseline checkpoint.
+- Phase 2 baseline is ready for project-owner review but is not marked complete
+  until explicitly accepted.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
 - No scientific objectives, gaps, work packages, responsibility assignments, or
@@ -166,9 +171,10 @@ refinement, but they no longer block Phase 2 Team Book work.
 - Keep Phase 1G records unselected and non-objective; do not convert idea seeds into objectives, gaps, strategy, work packages, or proposal text.
 - Continue Phase 1H bibliography refinement if external references, official citation lists, or manually selected bibliography additions are supplied.
 - Keep Phase 1H as a bibliography map; do not duplicate full publication metadata already recorded in Phase 1B.
-- Continue Phase 2 Team Book refinement using only stable Phase 1 evidence.
-- Build Phase 2 through the controlled subsections `2A` through `2F`, keeping
-  `2_TeamBook.md` as the master index and consolidated snapshot.
+- Continue Phase 2 Team Book refinement using only stable Phase 1 evidence if
+  the project owner requests changes before accepting the Phase 2 baseline.
+- Project owner review is needed before Phase 2 is marked complete and Phase 3
+  is opened.
 - Keep Phase 2 synthesis factual; do not convert capability domains into
   objectives, gaps, responsibilities, work packages, or proposal text.
 
@@ -237,7 +243,11 @@ refinement, but they no longer block Phase 2 Team Book work.
 - Phase 2E active-infrastructure coverage rows: 10
 - Phase 2E integrated collaboration-infrastructure threads: 8
 - Phase 2E boundary-context review rows: 8
-- Phase 2 evidence-bundle checklist rows: 9
+- Phase 2F evidence-bundle rows: 9
+- Phase 2F source-class coverage rows: 9
+- Phase 2F preliminary-result coverage rows: 9
+- Phase 2F idea-seed coverage rows: 10
+- Phase 2F manual-review categories: 8
 - Institutions recorded in Phase 1A: 6
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
 - FAPESB/CNPq Productivity Research Fellows identified from Lattes headers: 1
@@ -246,12 +256,13 @@ refinement, but they no longer block Phase 2 Team Book work.
 
 ## Next action
 
-Continue Phase 2 with `2F_EvidenceBundlesReview.md`, using the refined 2A Team
-Roster, 2B Person Profiles, 2C Capability Domains, 2D Person-Domain Matrix, and
-2E Collaboration and Infrastructure Map as factual baselines.
+Project owner should review the Phase 2 baseline in `2_TeamBook.md` and
+`2F_EvidenceBundlesReview.md`. If accepted, the next controlled step is to open
+Phase 3 - Scientific Atlas.
 
 ## Recent updates
 
+- 2026-07-01: Refined Phase 2F Evidence Bundles and Review Queue with evidence bundles, source-class coverage, idea-seed coverage, manual-review categories, and a Phase 2 baseline checkpoint.
 - 2026-07-01: Refined Phase 2E Collaboration and Infrastructure Map with institution-infrastructure map, collaboration status map, active infrastructure coverage, integrated threads, boundary-context review, and a 2E checkpoint.
 - 2026-07-01: Refined Phase 2D Person-Domain Matrix with domain-code key, marker system, person-domain matrix, domain coverage, person-domain detail index, and a 2D checkpoint.
 - 2026-07-01: Refined Phase 2C Capability Domains with domain registry, evidence-class coverage, domain detail notes, cross-domain overlap map, and a 2C checkpoint.
