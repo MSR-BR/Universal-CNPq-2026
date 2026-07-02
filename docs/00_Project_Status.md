@@ -214,9 +214,9 @@ available for deferred final manual refinement, but they no longer block Phase
   required, linked axis, institution/subgroup, and priority.
 - A single-page web form was then prepared as the primary distribution format,
   with a concise proposal summary, restricted respondent dropdown, dynamic CNPq
-  budget table, and one general-comment field. The web form generates a
-  pre-filled GitHub issue, and the existing workflow records the issue content
-  in `data/phase5_5_member_responses/`.
+  budget table, one general-comment field, and one `Gravar resposta` button.
+  A Vercel Function creates a public GitHub issue server-side, and the existing
+  workflow records the issue content in `data/phase5_5_member_responses/`.
 - The target respondent dropdown excludes ORNL, Universidade de Aveiro, and
   student participants for this circulation round.
 - No CPF values from the team page were stored in the repository.
@@ -256,9 +256,11 @@ available for deferred final manual refinement, but they no longer block Phase
 - Continue Phase 2 Team Book factual refinement only if the project owner
   requests deferred manual adjustments; the accepted baseline remains available
   for Phase 3 work.
-- Review the Phase 5.5 single-page web form, then circulate it to the target
-  project members for approval, contribution axes, CNPq-formatted budget items,
-  and general comments. The longer PDF remains only a support artifact.
+- Review and deploy the Phase 5.5 Vercel-backed single-page web form, configure
+  the `GITHUB_ISSUE_TOKEN` environment variable in Vercel, then circulate the
+  deployed link to target project members for approval, contribution axes,
+  CNPq-formatted budget items, and general comments. The longer PDF remains
+  only a support artifact.
 - Keep Phase 6 locked until Phase 5.5 responses, budget inputs, required
   adjustments, and project-owner acceptance are recorded.
 - In Phase 7, keep CNPq form blocks comfortably below character limits, using
@@ -385,6 +387,8 @@ available for deferred final manual refinement, but they no longer block Phase
 - Phase 5.5 phase 6 readiness gate rows: 13
 - Phase 5.5 Portuguese circulation artifacts prepared: 3
 - Phase 5.5 electronic response forms prepared: 2
+- Phase 5.5 Vercel API functions prepared: 1
+- Phase 5.5 Vercel routing configs prepared: 1
 - Phase 5.5 GitHub Pages support files prepared: 1
 - Phase 5.5 Git ingestion workflows prepared: 1
 - Phase 5.5 response data directories prepared: 1
@@ -397,12 +401,11 @@ available for deferred final manual refinement, but they no longer block Phase
 
 ## Next action
 
-Project owner should review the Phase 5.5 single-page web form in
-`docs/phase5/5_5_Formulario_Aprovacao_Interna.html`. If GitHub Pages is
-enabled from the `docs/` folder, the expected public URL is
-`https://msr-br.github.io/Universal-CNPq-2026/phase5/5_5_Formulario_Aprovacao_Interna.html`.
-After review, this page can be sent to target project members for approval,
-contribution axes, CNPq-formatted budget items, and general comments.
+Project owner should review the Phase 5.5 Vercel-backed single-page web form
+in `docs/phase5/5_5_Formulario_Aprovacao_Interna.html`. After Vercel
+deployment and `GITHUB_ISSUE_TOKEN` configuration, the deployed link can be
+sent to target project members for approval, contribution axes,
+CNPq-formatted budget items, and general comments.
 
 Later in the roadmap, the active Phase 5.5 checkpoint must be
 completed before Phase 6 starts.
@@ -414,6 +417,7 @@ completed before Phase 6 starts.
 - 2026-07-02: Added a short GitHub Issue Form and ingestion workflow so Phase 5.5 member responses can be written into `data/phase5_5_member_responses/`.
 - 2026-07-02: Expanded the Phase 5.5 response form and Portuguese circulation packet with CNPq Faixa C budget limits, eligible/restricted budget items, optional suggestions, and CNPq-formatted budget fields.
 - 2026-07-02: Added a single-page web form for Phase 5.5 circulation with restricted respondent dropdown, dynamic CNPq budget table, and GitHub issue-based saving.
+- 2026-07-02: Added Vercel API-backed one-button saving for the Phase 5.5 web form, creating public GitHub issues server-side without exposing a token in the browser.
 - 2026-07-02: Prepared the Portuguese proposal-summary packet and PDF target for member circulation, approval/comments, and budget collection.
 - 2026-07-02: Executed and refined the Phase 5 Project Matrix with five candidate tasks, three state-of-the-art support routes, six support/validation routes, model/evidence/capability matrices, and a Phase 5.5 handoff package.
 - 2026-07-02: Recorded the initial project-owner assessment of Phase 5 slots; the later barocaloric-axis refinement superseded the initial contextual handling of `PM-02`.

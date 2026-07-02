@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 4.9
+Version: 5.0
 
 Status: Active
 
@@ -37,7 +37,7 @@ Last update: 2026-07-02
 | 3 | Scientific Atlas | Accepted baseline; manual refinements deferred | `docs/phase3/3_ScientificAtlas.md` |
 | 4 | Gap Analysis | Accepted baseline; supports Phase 5 | `docs/phase4/4_GapAnalysis.md` |
 | 5 | Project Matrix | Accepted baseline; supports Phase 5.5 | `docs/phase5/5_ProjectMatrix.md` |
-| 5.5 | Internal Approval and Budget Collection | Active; single-page web form and Git-backed CNPq budget collection prepared | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| 5.5 | Internal Approval and Budget Collection | Active; Vercel-backed single-page web form and Git-backed CNPq budget collection prepared | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | 6 | Master Project | Locked until Phase 5.5 is complete | `docs/phase6/6_MasterProject.md` |
 | 7 | CNPq Proposal | Locked until Phase 6 is complete | `docs/phase7/7_CNPqProposal.md` |
 | 8 | Final Review | Locked until Phase 7 is complete | `docs/phase8/8_FinalReview.md` |
@@ -46,8 +46,8 @@ Last update: 2026-07-02
 
 The repository is in Phase 5.5 - Internal Approval and Budget Collection.
 
-Allowed work now: project-owner review and circulation of the single-page web
-form, collection of concise member approval, contribution axes,
+Allowed work now: project-owner review and deployment of the Vercel-backed
+single-page web form, collection of concise member approval, contribution axes,
 CNPq-formatted budget items, and general comments from the restricted target
 respondent list.
 
@@ -68,8 +68,9 @@ Approved later-phase checkpoint: after Phase 5 - Project Matrix and before
 Phase 6 - Master Project, Phase 5.5 must circulate a summarized project
 proposal to project members, collect approvals/comments, and collect budget
 items, values, and justifications in the CNPq Faixa C budget fields.
-The current implementation uses a GitHub Pages-compatible web form that opens
-a pre-filled GitHub issue; the repository workflow then ingests the response.
+The current implementation uses a Vercel-backed web form with one visible save
+button. The Vercel Function creates a public GitHub issue server-side, and the
+repository workflow then ingests the response.
 
 ## Phase 2 subsection map
 
@@ -155,6 +156,8 @@ a pre-filled GitHub issue; the repository workflow then ingests the response.
 | Phase 6 readiness gate rows | 13 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Portuguese circulation artifacts prepared | 3 | `docs/phase5/5_5_Proposta_Resumo_Aprovacao_Interna.md`; `docs/phase5/5_5_Formulario_Aprovacao_Interna.html`; `output/pdf/Proposta_Universal_CNPq_2026_Aprovacao_Interna.pdf` |
 | Electronic response forms | 2 | `docs/phase5/5_5_Formulario_Aprovacao_Interna.html`; `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml` |
+| Vercel API functions | 1 | `api/phase55-response.js` |
+| Vercel routing configs | 1 | `vercel.json` |
 | GitHub Pages support files | 1 | `docs/.nojekyll` |
 | Git ingestion workflow | 1 | `.github/workflows/ingest_phase55_member_response.yml` |
 | Response data directory | 1 | `data/phase5_5_member_responses/` |

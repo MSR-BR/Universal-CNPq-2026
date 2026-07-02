@@ -314,15 +314,17 @@
       font-weight: 700;
     }
 
-    .generated {
-      display: none;
-      margin-top: 12px;
+    .success {
+      color: var(--green);
+      font-weight: 700;
     }
 
-    .generated textarea {
-      min-height: 180px;
-      font-family: "SFMono-Regular", Consolas, monospace;
-      font-size: 0.82rem;
+    .hp {
+      position: absolute;
+      left: -9999px;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
     }
 
     @media (max-width: 820px) {
@@ -440,22 +442,20 @@
         <textarea id="comments" rows="6" placeholder="Indique correções científicas essenciais, sugestões de ênfase, observações de orçamento ou restrições críticas de viabilidade. A coordenação fará a separação por seção depois."></textarea>
       </div>
 
-      <div class="actions">
-        <button class="primary" type="submit">Abrir resposta no GitHub</button>
-        <button class="secondary" type="button" id="copy-response">Copiar resposta</button>
-        <button class="secondary" type="button" id="download-response">Baixar resposta .md</button>
-        <p class="status" id="status">Ao abrir a resposta no GitHub, revise e clique em "Submit new issue" para salvar.</p>
+      <div class="hp" aria-hidden="true">
+        <label for="website">Não preencher</label>
+        <input id="website" autocomplete="off" tabindex="-1">
       </div>
 
-      <div class="generated" id="generated">
-        <label for="generated-response">Resposta gerada</label>
-        <textarea id="generated-response" readonly></textarea>
+      <div class="actions">
+        <button class="primary" id="save-response" type="submit">Gravar resposta</button>
+        <p class="status" id="status">Ao gravar, a resposta será salva como issue pública do GitHub e registrada no repositório.</p>
       </div>
     </form>
   </main>
 
   <script>
-    const repoIssueUrl = "https://github.com/MSR-BR/Universal-CNPq-2026/issues/new";
+    const apiEndpoint = "/api/phase55-response";
 
     const members = [
       { id: "P-0002", name: "Bruno de Pinho Alho", institution: "UERJ" },
@@ -492,8 +492,7 @@
     const memberSelect = document.getElementById("member");
     const budgetBody = document.getElementById("budget-body");
     const statusEl = document.getElementById("status");
-    const generated = document.getElementById("generated");
-    const generatedResponse = document.getElementById("generated-response");
+    const saveButton = document.getElementById("save-response");
 
     members.forEach((member) => {
       const option = document.createElement("option");
@@ -563,110 +562,60 @@
       });
     }
 
-    function buildMarkdown() {
+    function responsePayload() {
       const member = selectedMember();
       const axes = selectedAxes();
       const budgets = budgetRows();
       const assessment = document.getElementById("assessment").value;
-      const comments = document.getElementById("comments").value.trim() || "Sem comentários gerais.";
+      const comments = document.getElementById("comments").value.trim();
+      const website = document.getElementById("website").value.trim();
 
-      const lines = [];
-      lines.push("# Resposta Fase 5.5 - Aprovação interna");
-      lines.push("");
-      lines.push("## Integrante");
-      lines.push("");
-      lines.push(`- Pessoa: ${member ? member.name : "Não selecionado"}`);
-      lines.push(`- ID: ${member ? member.id : "Não selecionado"}`);
-      lines.push(`- Instituição: ${member ? member.institution : "Não selecionada"}`);
-      lines.push("");
-      lines.push("## Avaliação geral");
-      lines.push("");
-      lines.push(assessment);
-      lines.push("");
-      lines.push("## Eixos de contribuição direta");
-      lines.push("");
-      if (axes.length) {
-        axes.forEach((axis) => lines.push(`- ${axis}`));
-      } else {
-        lines.push("- Nenhum eixo selecionado.");
-      }
-      lines.push("");
-      lines.push("## Orçamento");
-      lines.push("");
-      if (budgets.length) {
-        lines.push("| Rubrica CNPq | Item de dispêndio | Valor total estimado (R$) | Detalhamento Pt | Detalhamento En | Justificativa Pt | Justificativa En | Eixo | Prioridade |");
-        lines.push("| --- | --- | ---: | --- | --- | --- | --- | --- | --- |");
-        budgets.forEach((row) => {
-          lines.push(`| ${row.rubrica} | ${row.item} | ${row.valor || "0,00"} | ${row.detalhamentoPt || ""} | ${row.detalhamentoEn || ""} | ${row.justificativaPt || ""} | ${row.justificativaEn || ""} | ${row.eixo} | ${row.prioridade} |`);
-        });
-      } else {
-        lines.push("Sem demanda de orçamento informada.");
-      }
-      lines.push("");
-      lines.push("## Comentários gerais");
-      lines.push("");
-      lines.push(comments);
-      lines.push("");
-      lines.push("## Observação de processamento");
-      lines.push("");
-      lines.push("Comentários gerais serão separados posteriormente pela coordenação e apontados para as seções correspondentes da proposta.");
-      return lines.join("\n");
+      return {
+        memberId: member ? member.id : "",
+        assessment,
+        axes,
+        budget: budgets,
+        comments,
+        website
+      };
     }
 
-    function updateGenerated() {
-      const body = buildMarkdown();
-      generatedResponse.value = body;
-      generated.style.display = "block";
-      return body;
-    }
-
-    function issueUrl(body) {
-      const member = selectedMember();
-      const title = member ? `Resposta Fase 5.5 - ${member.name}` : "Resposta Fase 5.5";
-      const params = new URLSearchParams({
-        title,
-        labels: "phase-5-5-response",
-        body
-      });
-      return `${repoIssueUrl}?${params.toString()}`;
-    }
-
-    document.getElementById("response-form").addEventListener("submit", (event) => {
+    document.getElementById("response-form").addEventListener("submit", async (event) => {
       event.preventDefault();
       if (!memberSelect.value) {
-        statusEl.textContent = "Selecione o integrante antes de abrir a resposta.";
+        statusEl.textContent = "Selecione o integrante antes de gravar a resposta.";
         statusEl.className = "status warning";
         return;
       }
-      const body = updateGenerated();
-      const url = issueUrl(body);
-      if (url.length > 7800) {
-        statusEl.textContent = "A resposta ficou longa. Copie o texto gerado e cole manualmente em uma nova issue do GitHub.";
+
+      saveButton.disabled = true;
+      saveButton.textContent = "Gravando...";
+      statusEl.textContent = "Gravando resposta no GitHub...";
+      statusEl.className = "status";
+
+      try {
+        const response = await fetch(apiEndpoint, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(responsePayload())
+        });
+        const data = await response.json();
+
+        if (!response.ok || !data.ok) {
+          throw new Error(data.error || "Não foi possível gravar a resposta.");
+        }
+
+        statusEl.innerHTML = `Resposta gravada com sucesso. <a href="${data.issueUrl}" target="_blank" rel="noopener noreferrer">Abrir registro #${data.issueNumber}</a>.`;
+        statusEl.className = "status success";
+      } catch (error) {
+        statusEl.textContent = `${error.message} Se estiver usando o arquivo local, abra o formulário pelo link da Vercel.`;
         statusEl.className = "status warning";
-        return;
+      } finally {
+        saveButton.disabled = false;
+        saveButton.textContent = "Gravar resposta";
       }
-      window.open(url, "_blank", "noopener,noreferrer");
-      statusEl.textContent = "A resposta foi aberta no GitHub. Revise e clique em Submit new issue para salvar.";
-      statusEl.className = "status";
-    });
-
-    document.getElementById("copy-response").addEventListener("click", async () => {
-      const body = updateGenerated();
-      await navigator.clipboard.writeText(body);
-      statusEl.textContent = "Resposta copiada.";
-      statusEl.className = "status";
-    });
-
-    document.getElementById("download-response").addEventListener("click", () => {
-      const body = updateGenerated();
-      const member = selectedMember();
-      const safeName = (member ? member.name : "resposta").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "").toLowerCase();
-      const blob = new Blob([body], { type: "text/markdown;charset=utf-8" });
-      const link = document.createElement("a");
-      link.href = URL.createObjectURL(blob);
-      link.download = `fase-5-5-${safeName}.md`;
-      link.click();
-      URL.revokeObjectURL(link.href);
     });
   </script>
 </body>

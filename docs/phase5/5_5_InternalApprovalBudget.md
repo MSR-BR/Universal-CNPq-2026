@@ -24,7 +24,7 @@ identified; and the project owner accepts the checkpoint as complete.
 
 Version: 1.6
 
-Status: Active; single-page web response form prepared for CNPq Faixa C budget collection
+Status: Active; Vercel-backed single-page response form prepared for CNPq Faixa C budget collection
 
 Last update: 2026-07-02
 
@@ -66,14 +66,18 @@ It does not complete Phase 5.5 and does not start Phase 6.
 ## Circulation artifacts
 
 The project-owner later requested a more compact distribution format than the
-multi-page PDF. The primary circulation artifact is now a single-page web form
-with a concise proposal summary, budget table, and general-comment box. The
-PDF remains as a support artifact, not the preferred response interface.
+multi-page PDF and a single save action for participants. The primary
+circulation artifact is now a Vercel-backed single-page web form with a concise
+proposal summary, budget table, general-comment box, and one `Gravar resposta`
+button. The PDF remains as a support artifact, not the preferred response
+interface.
 
 | Artifact | Path | Purpose | Status |
 | --- | --- | --- | --- |
 | Single-page web form | `docs/phase5/5_5_Formulario_Aprovacao_Interna.html` | Primary circulation interface: compact proposal summary, member dropdown, contribution axes, CNPq budget table, and general comments. | Prepared. |
-| GitHub Pages support | `docs/.nojekyll` | Allows GitHub Pages to serve underscored filenames from `docs/` without Jekyll filtering. | Prepared. |
+| Vercel API function | `api/phase55-response.js` | Receives the web-form payload and creates a public GitHub issue through a server-side token stored in Vercel. | Prepared. |
+| Vercel routing config | `vercel.json` | Serves the form at `/`, `/fase-5-5`, and `/phase5/formulario` while keeping `/api/phase55-response` available. | Prepared. |
+| GitHub Pages support | `docs/.nojekyll` | Kept as optional static-file support; not the preferred save path after Vercel integration. | Prepared. |
 | Portuguese editable source | `docs/phase5/5_5_Proposta_Resumo_Aprovacao_Interna.md` | Source text for internal proposal evaluation by project members. | Prepared. |
 | Portuguese PDF support version | `output/pdf/Proposta_Universal_CNPq_2026_Aprovacao_Interna.pdf` | Support PDF; not the preferred distribution format after the web-form refinement. | Prepared. |
 | GitHub Issue Form fallback | `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml` | Fallback form using a restricted member dropdown, contribution axes, CNPq budget fields, and a general-comment field. | Prepared. |
@@ -149,18 +153,26 @@ Approval status values: `Pending`, `Approved`, `Approved with comments`,
 
 The proposal architecture should depend as little as possible on additional
 discussion. Member response is therefore collected through a single-page web
-form. The page itself cannot write directly to the repository because a static
-GitHub Pages site must not expose a write token. Instead, it generates a
-pre-filled GitHub issue; the existing GitHub Actions workflow then records the
-response in `data/phase5_5_member_responses/`.
+form. A static GitHub Pages site cannot safely expose a write token, so the
+save action is handled by a Vercel Function. The form sends the payload to
+`/api/phase55-response`; the function creates a public GitHub issue; the
+existing GitHub Actions workflow then records the response in
+`data/phase5_5_member_responses/`.
 
 Primary web-form path:
 
 `docs/phase5/5_5_Formulario_Aprovacao_Interna.html`
 
-Expected GitHub Pages URL if Pages is enabled from the `docs/` folder:
+Preferred Vercel paths after deployment:
 
-`https://msr-br.github.io/Universal-CNPq-2026/phase5/5_5_Formulario_Aprovacao_Interna.html`
+- `/`
+- `/fase-5-5`
+- `/phase5/formulario`
+
+Required Vercel environment variable:
+
+`GITHUB_ISSUE_TOKEN` - GitHub token with permission to create issues in
+`MSR-BR/Universal-CNPq-2026`.
 
 Fallback GitHub Issue Form URL:
 

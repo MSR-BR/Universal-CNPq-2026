@@ -1,0 +1,27 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/docs/phase5/5_5_Formulario_Aprovacao_Interna.html"
+    },
+    {
+      "source": "/fase-5-5",
+      "destination": "/docs/phase5/5_5_Formulario_Aprovacao_Interna.html"
+    },
+    {
+      "source": "/phase5/formulario",
+      "destination": "/docs/phase5/5_5_Formulario_Aprovacao_Interna.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ]
+}
