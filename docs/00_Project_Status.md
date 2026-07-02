@@ -26,7 +26,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.22
+Version: 2.23
 
 Status: Active
 
@@ -176,6 +176,10 @@ Matrix work.
 - Phase 5 opening structure records six candidate matrix slots, the
   metal-complex aggregator, accepted Phase 4 handoff groups, and a Phase 5
   opening checkpoint.
+- Phase 5 project-owner slot assessment now marks `PM-01`, `PM-03`, `PM-04`,
+  and `PM-05` as viable candidate tasks, marks `PM-02` as state-of-the-art and
+  introduction support rather than a project task, and keeps `PM-06` as a
+  support/validation layer.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
 - No Phase 6 master-project text, CNPq proposal text, consolidated final PDF,
@@ -315,6 +319,10 @@ Matrix work.
 - Phase 5 Project Matrix documents opened: 1
 - Phase 5 initial matrix slots: 6
 - Phase 5 accepted handoff groups carried forward: 6
+- Phase 5 matrix slots with project-owner task assessment: 6
+- Phase 5 viable candidate task slots: 4
+- Phase 5 state-of-the-art/background-only slots: 1
+- Phase 5 support/validation-layer slots: 1
 - Approved methodology checkpoint documents: 1
 - Institutions recorded in Phase 1A: 6
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
@@ -333,6 +341,7 @@ completed before Phase 6 starts.
 
 ## Recent updates
 
+- 2026-07-02: Recorded project-owner assessment of Phase 5 slots: `PM-01`, `PM-03`, `PM-04`, and `PM-05` remain viable candidate tasks; `PM-02` moves to state-of-the-art/introduction support; `PM-06` remains a support/validation layer.
 - 2026-07-02: Project owner accepted the refined Phase 4 Gap Analysis baseline and Phase 5 - Project Matrix was opened with six candidate matrix slots.
 - 2026-07-02: Refined Phase 4 Gap Analysis with project-owner clarifications for `GAP-01`, `GAP-03`, `GAP-06`, `GAP-08`, and `GAP-09`, while keeping Phase 5 locked until acceptance.
 - 2026-07-02: Project owner accepted the detailed Phase 3 Scientific Atlas baseline and Phase 4 - Gap Analysis was opened and developed in full with fifteen gap records, evidence-readiness mapping, and controlled handoff groups for Phase 5.

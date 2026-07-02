@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 4.1
+Version: 4.2
 
 Status: Active
 
@@ -120,7 +120,9 @@ items, values, and justifications.
 | --- | ---: | --- |
 | Initial matrix slots | 6 | `docs/phase5/5_ProjectMatrix.md` |
 | Accepted Phase 4 handoff groups carried into Phase 5 | 6 | `docs/phase5/5_ProjectMatrix.md` |
-| Phase 5 opening checkpoint rows | 6 | `docs/phase5/5_ProjectMatrix.md` |
+| Project-owner slot assessment rows | 5 | `docs/phase5/5_ProjectMatrix.md` |
+| Candidate task status rows | 6 | `docs/phase5/5_ProjectMatrix.md` |
+| Phase 5 opening checkpoint rows | 7 | `docs/phase5/5_ProjectMatrix.md` |
 
 ## Final writing constraints
 
