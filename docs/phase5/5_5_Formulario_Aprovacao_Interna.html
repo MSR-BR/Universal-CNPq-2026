@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Universal CNPq 2026 - Avaliação interna</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172033;
+      --muted: #5f6b7a;
+      --line: #cfd8e3;
+      --soft: #f5f7fa;
+      --blue: #1d5fbf;
+      --blue-dark: #124078;
+      --green: #18794e;
+      --white: #ffffff;
+      --warn: #8a4b00;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      background: #eef2f6;
+      color: var(--ink);
+      line-height: 1.45;
+    }
+
+    main {
+      width: min(1120px, calc(100% - 32px));
+      margin: 24px auto 48px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: 0 18px 48px rgba(31, 45, 61, 0.12);
+      overflow: hidden;
+    }
+
+    header {
+      padding: 24px 28px 18px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    }
+
+    h1 {
+      margin: 0 0 6px;
+      font-size: clamp(1.5rem, 2.8vw, 2.2rem);
+      line-height: 1.15;
+      color: var(--blue-dark);
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.04rem;
+      color: var(--blue-dark);
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 0 0 8px;
+      font-size: 0.98rem;
+      color: var(--ink);
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 10px;
+    }
+
+    .meta {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .proposal {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+      gap: 20px;
+      padding: 22px 28px 12px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .summary, .budget-note {
+      min-width: 0;
+    }
+
+    .axis-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .axis {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 12px;
+      background: var(--soft);
+      min-height: 72px;
+    }
+
+    .axis strong {
+      display: block;
+      color: var(--blue-dark);
+      font-size: 0.92rem;
+      margin-bottom: 3px;
+    }
+
+    .axis span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+
+    .callout {
+      border: 1px solid #bcd2f0;
+      background: #f3f8ff;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+
+    .callout strong {
+      color: var(--blue-dark);
+    }
+
+    .eligible-list {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    form {
+      padding: 20px 28px 28px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .field {
+      min-width: 0;
+    }
+
+    label, legend {
+      display: block;
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: var(--ink);
+    }
+
+    select, input, textarea, button {
+      font: inherit;
+    }
+
+    select, input, textarea {
+      width: 100%;
+      border: 1px solid #aeb9c6;
+      border-radius: 6px;
+      background: #ffffff;
+      color: var(--ink);
+      padding: 9px 10px;
+      min-height: 40px;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    fieldset {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      margin: 0 0 16px;
+      background: #fbfcfe;
+    }
+
+    .checks {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px 12px;
+    }
+
+    .check {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      color: var(--ink);
+      font-weight: 500;
+    }
+
+    .check input {
+      width: auto;
+      min-height: auto;
+      margin-top: 3px;
+    }
+
+    .budget-tools {
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
+      align-items: center;
+      margin: 6px 0 10px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #ffffff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 1180px;
+    }
+
+    th, td {
+      border-bottom: 1px solid var(--line);
+      border-right: 1px solid var(--line);
+      padding: 8px;
+      vertical-align: top;
+      text-align: left;
+    }
+
+    th:last-child, td:last-child {
+      border-right: 0;
+    }
+
+    th {
+      background: #e7f0fb;
+      color: var(--blue-dark);
+      font-size: 0.84rem;
+    }
+
+    td select, td input, td textarea {
+      min-height: 34px;
+      padding: 7px;
+      font-size: 0.88rem;
+    }
+
+    td textarea {
+      min-height: 54px;
+    }
+
+    .narrow {
+      min-width: 110px;
+    }
+
+    .wide {
+      min-width: 170px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+      align-items: center;
+    }
+
+    button, .button-link {
+      border: 1px solid transparent;
+      border-radius: 6px;
+      padding: 10px 14px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: 700;
+      min-height: 42px;
+    }
+
+    .primary {
+      color: #ffffff;
+      background: var(--blue);
+    }
+
+    .secondary {
+      color: var(--blue-dark);
+      background: #ffffff;
+      border-color: #98b8df;
+    }
+
+    .danger {
+      color: #7a1f1f;
+      background: #fff5f5;
+      border-color: #e7b2b2;
+      padding: 7px 9px;
+      min-height: 34px;
+      font-size: 0.85rem;
+    }
+
+    .status {
+      width: 100%;
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .warning {
+      color: var(--warn);
+      font-weight: 700;
+    }
+
+    .generated {
+      display: none;
+      margin-top: 12px;
+    }
+
+    .generated textarea {
+      min-height: 180px;
+      font-family: "SFMono-Regular", Consolas, monospace;
+      font-size: 0.82rem;
+    }
+
+    @media (max-width: 820px) {
+      main {
+        width: min(100% - 18px, 1120px);
+        margin-top: 9px;
+      }
+
+      header, .proposal, form {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+
+      .proposal, .form-grid, .axis-grid, .checks {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Universal CNPq 2026</h1>
+      <p class="meta">Avaliação interna da proposta resumida e coleta de orçamento - Faixa C</p>
+    </header>
+
+    <section class="proposal" aria-labelledby="proposal-title">
+      <div class="summary">
+        <h2 id="proposal-title">Proposta enxuta</h2>
+        <p>A proposta usa <strong>complexos metálicos</strong> como plataforma comum para integrar síntese e caracterização, transições spin crossover, resposta barocalórica, pressão, interação de troca <em>J</em>, termodinâmica quântica, baterias quânticas e recursos de informação quântica.</p>
+        <p>A pergunta central é como mudanças estruturais induzidas por pressão modificam transições spin crossover e a interação de troca em complexos metálicos, e como essas mudanças afetam resposta calórica, ciclos termodinâmicos, protocolos de bateria quântica e métricas de recursos quânticos.</p>
+        <div class="axis-grid" aria-label="Eixos científicos">
+          <div class="axis"><strong>Eixo 1</strong><span>Complexos metálicos: seleção, síntese, estrutura e caracterização.</span></div>
+          <div class="axis"><strong>Eixo 2</strong><span>Barocalórico em transições spin crossover.</span></div>
+          <div class="axis"><strong>Eixo 3</strong><span>Pressão, estrutura e variação da interação de troca J.</span></div>
+          <div class="axis"><strong>Eixo 4</strong><span>Termodinâmica quântica e baterias quânticas.</span></div>
+          <div class="axis"><strong>Eixo 5</strong><span>Recursos quânticos e métricas de informação.</span></div>
+          <div class="axis"><strong>Camada transversal</strong><span>Infraestrutura, medidas, computação, formação e gestão científica.</span></div>
+        </div>
+      </div>
+      <aside class="budget-note" aria-labelledby="budget-title">
+        <h2 id="budget-title">Orçamento Faixa C</h2>
+        <div class="callout">
+          <p><strong>Limite total:</strong> até R$ 250.000,00, somando custeio, capital e/ou no máximo 1 bolsa IC, ITI ou AT.</p>
+          <p><strong>Divisão:</strong> orçamento único do projeto, priorizado por necessidade científica, não por cota individual.</p>
+        </div>
+        <h3>Elegível</h3>
+        <ul class="eligible-list">
+          <li>Material de consumo, serviços de terceiros, importação, passagens e diárias.</li>
+          <li>Equipamentos/material permanente e material bibliográfico.</li>
+          <li>No máximo 1 bolsa IC, ITI ou AT no projeto inteiro.</li>
+        </ul>
+      </aside>
+    </section>
+
+    <form id="response-form">
+      <div class="form-grid">
+        <div class="field">
+          <label for="member">Integrante</label>
+          <select id="member" required>
+            <option value="">Selecione</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="assessment">Avaliação geral</label>
+          <select id="assessment" required>
+            <option value="Aprovada como está">Aprovada como está</option>
+            <option value="Aprovada com ajustes menores">Aprovada com ajustes menores</option>
+            <option value="Precisa de discussão antes da redação final">Precisa de discussão antes da redação final</option>
+          </select>
+        </div>
+      </div>
+
+      <fieldset>
+        <legend>Eixos de contribuição direta</legend>
+        <div class="checks">
+          <label class="check"><input type="checkbox" name="axis" value="Eixo 1 - Plataforma de complexos metálicos">Eixo 1 - Complexos metálicos</label>
+          <label class="check"><input type="checkbox" name="axis" value="Eixo 2 - Barocalórico em spin crossover">Eixo 2 - Barocalórico em spin crossover</label>
+          <label class="check"><input type="checkbox" name="axis" value="Eixo 3 - Pressão, estrutura e J">Eixo 3 - Pressão, estrutura e J</label>
+          <label class="check"><input type="checkbox" name="axis" value="Eixo 4 - Termodinâmica quântica e baterias quânticas">Eixo 4 - Termodinâmica quântica e baterias quânticas</label>
+          <label class="check"><input type="checkbox" name="axis" value="Eixo 5 - Recursos quânticos e informação">Eixo 5 - Recursos quânticos e informação</label>
+          <label class="check"><input type="checkbox" name="axis" value="Apoio transversal">Apoio transversal</label>
+        </div>
+      </fieldset>
+
+      <section aria-labelledby="budget-form-title">
+        <h2 id="budget-form-title">Quadro de orçamento</h2>
+        <div class="budget-tools">
+          <span>Preencha apenas itens necessários ou recomendáveis. Valores podem ser estimativas.</span>
+          <button class="secondary" type="button" id="add-row">Adicionar item</button>
+        </div>
+        <div class="table-wrap">
+          <table id="budget-table">
+            <thead>
+              <tr>
+                <th>Rubrica CNPq</th>
+                <th>Item de dispêndio</th>
+                <th>Valor total estimado (R$)</th>
+                <th>Detalhamento Pt</th>
+                <th>Detalhamento En</th>
+                <th>Justificativa Pt</th>
+                <th>Justificativa En</th>
+                <th>Eixo</th>
+                <th>Prioridade</th>
+                <th>Ação</th>
+              </tr>
+            </thead>
+            <tbody id="budget-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <div class="field" style="margin-top:16px">
+        <label for="comments">Comentários gerais</label>
+        <textarea id="comments" rows="6" placeholder="Indique correções científicas essenciais, sugestões de ênfase, observações de orçamento ou restrições críticas de viabilidade. A coordenação fará a separação por seção depois."></textarea>
+      </div>
+
+      <div class="actions">
+        <button class="primary" type="submit">Abrir resposta no GitHub</button>
+        <button class="secondary" type="button" id="copy-response">Copiar resposta</button>
+        <button class="secondary" type="button" id="download-response">Baixar resposta .md</button>
+        <p class="status" id="status">Ao abrir a resposta no GitHub, revise e clique em "Submit new issue" para salvar.</p>
+      </div>
+
+      <div class="generated" id="generated">
+        <label for="generated-response">Resposta gerada</label>
+        <textarea id="generated-response" readonly></textarea>
+      </div>
+    </form>
+  </main>
+
+  <script>
+    const repoIssueUrl = "https://github.com/MSR-BR/Universal-CNPq-2026/issues/new";
+
+    const members = [
+      { id: "P-0002", name: "Bruno de Pinho Alho", institution: "UERJ" },
+      { id: "P-0004", name: "Paula de Oliveira Ribeiro Alho", institution: "UERJ" },
+      { id: "P-0005", name: "Pedro Jorge von Ranke Perlingeiro", institution: "UERJ" },
+      { id: "P-0007", name: "Vinícius da Silva Ramos de Sousa", institution: "UERJ" },
+      { id: "P-0003", name: "Mario de Souza Reis Junior", institution: "UFF" },
+      { id: "P-0006", name: "Vinícius Gomes de Paula", institution: "UFF" },
+      { id: "P-0009", name: "Clebson dos Santos Cruz", institution: "UFOB" },
+      { id: "P-0014", name: "Wanisson Silva Santana", institution: "UFOB" },
+      { id: "P-0012", name: "Maron Freitas Anka", institution: "SENAI CIMATEC" }
+    ];
+
+    const dispendioOptions = [
+      "Material de consumo",
+      "Passagens (Total)",
+      "Diárias (Total)",
+      "Serviços de Terceiros (Total)",
+      "Despesas acessórias com importação",
+      "Equipamentos e Material permanente",
+      "Material bibliográfico (Total)",
+      "Bolsa IC/ITI/AT"
+    ];
+
+    const axisOptions = [
+      "Eixo 1",
+      "Eixo 2",
+      "Eixo 3",
+      "Eixo 4",
+      "Eixo 5",
+      "Transversal"
+    ];
+
+    const memberSelect = document.getElementById("member");
+    const budgetBody = document.getElementById("budget-body");
+    const statusEl = document.getElementById("status");
+    const generated = document.getElementById("generated");
+    const generatedResponse = document.getElementById("generated-response");
+
+    members.forEach((member) => {
+      const option = document.createElement("option");
+      option.value = member.id;
+      option.textContent = `${member.name} - ${member.institution}`;
+      memberSelect.appendChild(option);
+    });
+
+    function optionList(options, selected = "") {
+      return options.map((value) => {
+        const attr = value === selected ? " selected" : "";
+        return `<option value="${value}"${attr}>${value}</option>`;
+      }).join("");
+    }
+
+    function makeBudgetRow(defaultItem = "") {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td class="narrow">
+          <select data-field="rubrica">
+            <option value="Custeio">Custeio</option>
+            <option value="Capital">Capital</option>
+            <option value="Bolsa">Bolsa</option>
+          </select>
+        </td>
+        <td class="wide"><select data-field="item">${optionList(dispendioOptions, defaultItem)}</select></td>
+        <td class="narrow"><input data-field="valor" inputmode="decimal" placeholder="0,00"></td>
+        <td class="wide"><textarea data-field="detalhamentoPt" placeholder="Quando requerido"></textarea></td>
+        <td class="wide"><textarea data-field="detalhamentoEn" placeholder="When required"></textarea></td>
+        <td class="wide"><textarea data-field="justificativaPt" placeholder="Quando requerida"></textarea></td>
+        <td class="wide"><textarea data-field="justificativaEn" placeholder="When required"></textarea></td>
+        <td class="narrow"><select data-field="eixo">${optionList(axisOptions)}</select></td>
+        <td class="narrow">
+          <select data-field="prioridade">
+            <option value="Alta">Alta</option>
+            <option value="Média">Média</option>
+            <option value="Baixa">Baixa</option>
+          </select>
+        </td>
+        <td><button class="danger" type="button">Remover</button></td>
+      `;
+      tr.querySelector("button").addEventListener("click", () => tr.remove());
+      budgetBody.appendChild(tr);
+    }
+
+    ["Material de consumo", "Passagens (Total)", "Equipamentos e Material permanente"].forEach(makeBudgetRow);
+
+    document.getElementById("add-row").addEventListener("click", () => makeBudgetRow());
+
+    function selectedMember() {
+      return members.find((member) => member.id === memberSelect.value);
+    }
+
+    function selectedAxes() {
+      return Array.from(document.querySelectorAll("input[name='axis']:checked")).map((input) => input.value);
+    }
+
+    function budgetRows() {
+      return Array.from(budgetBody.querySelectorAll("tr")).map((row) => {
+        const data = {};
+        row.querySelectorAll("[data-field]").forEach((field) => {
+          data[field.dataset.field] = field.value.trim();
+        });
+        return data;
+      }).filter((row) => {
+        return row.valor || row.detalhamentoPt || row.detalhamentoEn || row.justificativaPt || row.justificativaEn;
+      });
+    }
+
+    function buildMarkdown() {
+      const member = selectedMember();
+      const axes = selectedAxes();
+      const budgets = budgetRows();
+      const assessment = document.getElementById("assessment").value;
+      const comments = document.getElementById("comments").value.trim() || "Sem comentários gerais.";
+
+      const lines = [];
+      lines.push("# Resposta Fase 5.5 - Aprovação interna");
+      lines.push("");
+      lines.push("## Integrante");
+      lines.push("");
+      lines.push(`- Pessoa: ${member ? member.name : "Não selecionado"}`);
+      lines.push(`- ID: ${member ? member.id : "Não selecionado"}`);
+      lines.push(`- Instituição: ${member ? member.institution : "Não selecionada"}`);
+      lines.push("");
+      lines.push("## Avaliação geral");
+      lines.push("");
+      lines.push(assessment);
+      lines.push("");
+      lines.push("## Eixos de contribuição direta");
+      lines.push("");
+      if (axes.length) {
+        axes.forEach((axis) => lines.push(`- ${axis}`));
+      } else {
+        lines.push("- Nenhum eixo selecionado.");
+      }
+      lines.push("");
+      lines.push("## Orçamento");
+      lines.push("");
+      if (budgets.length) {
+        lines.push("| Rubrica CNPq | Item de dispêndio | Valor total estimado (R$) | Detalhamento Pt | Detalhamento En | Justificativa Pt | Justificativa En | Eixo | Prioridade |");
+        lines.push("| --- | --- | ---: | --- | --- | --- | --- | --- | --- |");
+        budgets.forEach((row) => {
+          lines.push(`| ${row.rubrica} | ${row.item} | ${row.valor || "0,00"} | ${row.detalhamentoPt || ""} | ${row.detalhamentoEn || ""} | ${row.justificativaPt || ""} | ${row.justificativaEn || ""} | ${row.eixo} | ${row.prioridade} |`);
+        });
+      } else {
+        lines.push("Sem demanda de orçamento informada.");
+      }
+      lines.push("");
+      lines.push("## Comentários gerais");
+      lines.push("");
+      lines.push(comments);
+      lines.push("");
+      lines.push("## Observação de processamento");
+      lines.push("");
+      lines.push("Comentários gerais serão separados posteriormente pela coordenação e apontados para as seções correspondentes da proposta.");
+      return lines.join("\n");
+    }
+
+    function updateGenerated() {
+      const body = buildMarkdown();
+      generatedResponse.value = body;
+      generated.style.display = "block";
+      return body;
+    }
+
+    function issueUrl(body) {
+      const member = selectedMember();
+      const title = member ? `Resposta Fase 5.5 - ${member.name}` : "Resposta Fase 5.5";
+      const params = new URLSearchParams({
+        title,
+        labels: "phase-5-5-response",
+        body
+      });
+      return `${repoIssueUrl}?${params.toString()}`;
+    }
+
+    document.getElementById("response-form").addEventListener("submit", (event) => {
+      event.preventDefault();
+      if (!memberSelect.value) {
+        statusEl.textContent = "Selecione o integrante antes de abrir a resposta.";
+        statusEl.className = "status warning";
+        return;
+      }
+      const body = updateGenerated();
+      const url = issueUrl(body);
+      if (url.length > 7800) {
+        statusEl.textContent = "A resposta ficou longa. Copie o texto gerado e cole manualmente em uma nova issue do GitHub.";
+        statusEl.className = "status warning";
+        return;
+      }
+      window.open(url, "_blank", "noopener,noreferrer");
+      statusEl.textContent = "A resposta foi aberta no GitHub. Revise e clique em Submit new issue para salvar.";
+      statusEl.className = "status";
+    });
+
+    document.getElementById("copy-response").addEventListener("click", async () => {
+      const body = updateGenerated();
+      await navigator.clipboard.writeText(body);
+      statusEl.textContent = "Resposta copiada.";
+      statusEl.className = "status";
+    });
+
+    document.getElementById("download-response").addEventListener("click", () => {
+      const body = updateGenerated();
+      const member = selectedMember();
+      const safeName = (member ? member.name : "resposta").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "").toLowerCase();
+      const blob = new Blob([body], { type: "text/markdown;charset=utf-8" });
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = `fase-5-5-${safeName}.md`;
+      link.click();
+      URL.revokeObjectURL(link.href);
+    });
+  </script>
+</body>
+</html>

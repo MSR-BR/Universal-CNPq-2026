@@ -9,11 +9,11 @@ before final project writing.
 Inputs: Accepted Project Matrix, Gap Analysis, Scientific Atlas, Team Book,
 Phase 1 knowledge-base records, and project-owner instructions.
 
-Outputs: Portuguese circulation packet for project-member review, PDF version
-for sending to collaborators, expanded member-response form, Git ingestion route,
-member approval tracker, comment and adjustment register, budget item
-collection table, budget justification table, access/feasibility checklist,
-and readiness gate for Phase 6 - Master Project.
+Outputs: Portuguese circulation packet for project-member review, single-page
+web response form, PDF support version, Git ingestion route, member approval
+tracker, comment and adjustment register, budget item collection table, budget
+justification table, access/feasibility checklist, and readiness gate for
+Phase 6 - Master Project.
 
 Dependencies: Project-owner acceptance of Phase 5 - Project Matrix.
 
@@ -22,9 +22,9 @@ approval, comments, and required adjustments are recorded; budget items,
 values, and justifications are collected; access/feasibility issues are
 identified; and the project owner accepts the checkpoint as complete.
 
-Version: 1.5
+Version: 1.6
 
-Status: Active; Portuguese circulation packet and Git-backed response form updated with CNPq budget fields
+Status: Active; single-page web response form prepared for CNPq Faixa C budget collection
 
 Last update: 2026-07-02
 
@@ -65,15 +65,18 @@ It does not complete Phase 5.5 and does not start Phase 6.
 
 ## Circulation artifacts
 
-The project-owner requested a Portuguese, external-reader-friendly PDF for
-sending to all project members. The document must not use internal repository
-or agent-control language and must be understandable by an external professor.
+The project-owner later requested a more compact distribution format than the
+multi-page PDF. The primary circulation artifact is now a single-page web form
+with a concise proposal summary, budget table, and general-comment box. The
+PDF remains as a support artifact, not the preferred response interface.
 
 | Artifact | Path | Purpose | Status |
 | --- | --- | --- | --- |
+| Single-page web form | `docs/phase5/5_5_Formulario_Aprovacao_Interna.html` | Primary circulation interface: compact proposal summary, member dropdown, contribution axes, CNPq budget table, and general comments. | Prepared. |
+| GitHub Pages support | `docs/.nojekyll` | Allows GitHub Pages to serve underscored filenames from `docs/` without Jekyll filtering. | Prepared. |
 | Portuguese editable source | `docs/phase5/5_5_Proposta_Resumo_Aprovacao_Interna.md` | Source text for internal proposal evaluation by project members. | Prepared. |
-| Portuguese PDF for circulation | `output/pdf/Proposta_Universal_CNPq_2026_Aprovacao_Interna.pdf` | PDF to send to project members for assessment of the general proposal and budget collection. | Prepared. |
-| GitHub Issue Form | `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml` | Electronic response form for approval, contribution axis, suggestions, essential corrections, CNPq budget fields, and critical constraints. | Prepared. |
+| Portuguese PDF support version | `output/pdf/Proposta_Universal_CNPq_2026_Aprovacao_Interna.pdf` | Support PDF; not the preferred distribution format after the web-form refinement. | Prepared. |
+| GitHub Issue Form fallback | `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml` | Fallback form using a restricted member dropdown, contribution axes, CNPq budget fields, and a general-comment field. | Prepared. |
 | Git ingestion workflow | `.github/workflows/ingest_phase55_member_response.yml` | Automatically writes labeled form responses to `data/phase5_5_member_responses/`. | Prepared. |
 | Ingestion script | `.github/scripts/ingest_phase55_response.py` | Converts each labeled GitHub issue response into a versioned Markdown data file. | Prepared. |
 
@@ -145,21 +148,46 @@ Approval status values: `Pending`, `Approved`, `Approved with comments`,
 ## Member response form
 
 The proposal architecture should depend as little as possible on additional
-discussion. Member response is therefore collected through a short form, not a
-long questionnaire.
+discussion. Member response is therefore collected through a single-page web
+form. The page itself cannot write directly to the repository because a static
+GitHub Pages site must not expose a write token. Instead, it generates a
+pre-filled GitHub issue; the existing GitHub Actions workflow then records the
+response in `data/phase5_5_member_responses/`.
 
-Form URL:
+Primary web-form path:
+
+`docs/phase5/5_5_Formulario_Aprovacao_Interna.html`
+
+Expected GitHub Pages URL if Pages is enabled from the `docs/` folder:
+
+`https://msr-br.github.io/Universal-CNPq-2026/phase5/5_5_Formulario_Aprovacao_Interna.html`
+
+Fallback GitHub Issue Form URL:
 
 `https://github.com/MSR-BR/Universal-CNPq-2026/issues/new?template=phase5_5_member_response.yml`
 
+Target respondents for this distribution round exclude ORNL, Universidade de
+Aveiro, and students. The dropdown includes:
+
+| Person ID | Name | Institution |
+| --- | --- | --- |
+| `P-0002` | Bruno de Pinho Alho | UERJ |
+| `P-0004` | Paula de Oliveira Ribeiro Alho | UERJ |
+| `P-0005` | Pedro Jorge von Ranke Perlingeiro | UERJ |
+| `P-0007` | Vinicius da Silva Ramos de Sousa | UERJ |
+| `P-0003` | Mario de Souza Reis Junior | UFF |
+| `P-0006` | Vinicius Gomes de Paula | UFF |
+| `P-0009` | Clebson dos Santos Cruz | UFOB |
+| `P-0014` | Wanisson Silva Santana | UFOB |
+| `P-0012` | Maron Freitas Anka | SENAI CIMATEC |
+
 | Field ID | Form field | Expected response |
 | --- | --- | --- |
-| `F-01` | General assessment | Approved as is, approved with minor adjustments, or needs discussion before final writing. |
-| `F-02` | Contribution axes | Selected scientific axis/axes or transversal support. |
-| `F-03` | Essential scientific adjustments | Essential corrections only; `none` if not applicable. |
-| `F-04` | Optional suggestions and free comments | Suggestions on emphasis, wording, references, compounds, measurements, or priorities. |
-| `F-05` | CNPq budget fields | CNPq rubrica, item de dispendio, estimated value, Pt/En detailing where required, Pt/En justification where required, linked axis, institution/subgroup, and priority. |
-| `F-06` | Critical feasibility constraints | Execution, access, schedule, sample, measurement, or computing constraints; `none` if not applicable. |
+| `F-01` | Restricted member dropdown | One selected respondent from the target list above. |
+| `F-02` | General assessment | Approved as is, approved with minor adjustments, or needs discussion before final writing. |
+| `F-03` | Contribution axes | Selected scientific axis/axes or transversal support. |
+| `F-04` | CNPq budget table | CNPq rubrica, item de dispendio, estimated value, Pt/En detailing where required, Pt/En justification where required, linked axis, and priority. |
+| `F-05` | General comments | Corrections, suggestions, budget observations, or critical feasibility constraints in one free-text field; later separated by the coordinator and mapped to proposal sections. |
 
 ## CNPq Faixa C budget rules
 

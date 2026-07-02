@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 4.8
+Version: 4.9
 
 Status: Active
 
@@ -37,7 +37,7 @@ Last update: 2026-07-02
 | 3 | Scientific Atlas | Accepted baseline; manual refinements deferred | `docs/phase3/3_ScientificAtlas.md` |
 | 4 | Gap Analysis | Accepted baseline; supports Phase 5 | `docs/phase4/4_GapAnalysis.md` |
 | 5 | Project Matrix | Accepted baseline; supports Phase 5.5 | `docs/phase5/5_ProjectMatrix.md` |
-| 5.5 | Internal Approval and Budget Collection | Active; Portuguese circulation PDF and Git-backed CNPq budget response form prepared | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| 5.5 | Internal Approval and Budget Collection | Active; single-page web form and Git-backed CNPq budget collection prepared | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | 6 | Master Project | Locked until Phase 5.5 is complete | `docs/phase6/6_MasterProject.md` |
 | 7 | CNPq Proposal | Locked until Phase 6 is complete | `docs/phase7/7_CNPqProposal.md` |
 | 8 | Final Review | Locked until Phase 7 is complete | `docs/phase8/8_FinalReview.md` |
@@ -46,10 +46,10 @@ Last update: 2026-07-02
 
 The repository is in Phase 5.5 - Internal Approval and Budget Collection.
 
-Allowed work now: project-owner review and circulation of the Portuguese
-proposal-summary PDF and electronic response form, collection of concise member
-approval, essential corrections, optional suggestions, CNPq-formatted budget
-items, and critical feasibility constraints.
+Allowed work now: project-owner review and circulation of the single-page web
+form, collection of concise member approval, contribution axes,
+CNPq-formatted budget items, and general comments from the restricted target
+respondent list.
 
 Still prohibited: Phase 6 master-project writing, final CNPq proposal text,
 consolidated PDF project creation, final budget values or justifications,
@@ -68,6 +68,8 @@ Approved later-phase checkpoint: after Phase 5 - Project Matrix and before
 Phase 6 - Master Project, Phase 5.5 must circulate a summarized project
 proposal to project members, collect approvals/comments, and collect budget
 items, values, and justifications in the CNPq Faixa C budget fields.
+The current implementation uses a GitHub Pages-compatible web form that opens
+a pre-filled GitHub issue; the repository workflow then ingests the response.
 
 ## Phase 2 subsection map
 
@@ -143,15 +145,17 @@ items, values, and justifications in the CNPq Faixa C budget fields.
 | Phase 5 handoff summary rows | 7 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Internal circulation summary task rows | 5 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Member approval tracker rows | 16 | `docs/phase5/5_5_InternalApprovalBudget.md` |
-| Member response form fields | 6 | `docs/phase5/5_5_InternalApprovalBudget.md`; `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml` |
+| Member response form fields | 5 | `docs/phase5/5_5_InternalApprovalBudget.md`; `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml`; `docs/phase5/5_5_Formulario_Aprovacao_Interna.html` |
+| Restricted response dropdown rows | 9 | `docs/phase5/5_5_InternalApprovalBudget.md`; `docs/phase5/5_5_Formulario_Aprovacao_Interna.html` |
 | Budget collection template rows | 6 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | CNPq Faixa C budget rule rows | 7 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Eligible CNPq budget item rows | 8 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Restricted or non-eligible budget rows | 9 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Access and feasibility checklist rows | 9 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Phase 6 readiness gate rows | 13 | `docs/phase5/5_5_InternalApprovalBudget.md` |
-| Portuguese circulation artifacts prepared | 2 | `docs/phase5/5_5_Proposta_Resumo_Aprovacao_Interna.md`; `output/pdf/Proposta_Universal_CNPq_2026_Aprovacao_Interna.pdf` |
-| Electronic response form | 1 | `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml` |
+| Portuguese circulation artifacts prepared | 3 | `docs/phase5/5_5_Proposta_Resumo_Aprovacao_Interna.md`; `docs/phase5/5_5_Formulario_Aprovacao_Interna.html`; `output/pdf/Proposta_Universal_CNPq_2026_Aprovacao_Interna.pdf` |
+| Electronic response forms | 2 | `docs/phase5/5_5_Formulario_Aprovacao_Interna.html`; `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml` |
+| GitHub Pages support files | 1 | `docs/.nojekyll` |
 | Git ingestion workflow | 1 | `.github/workflows/ingest_phase55_member_response.yml` |
 | Response data directory | 1 | `data/phase5_5_member_responses/` |
 

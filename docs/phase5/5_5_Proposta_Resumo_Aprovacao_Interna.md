@@ -23,7 +23,15 @@ resposta dos integrantes deve ser objetiva e concentrada apenas em pontos
 essenciais: aprovacao geral, eixo de contribuicao, ajustes cientificos
 essenciais, sugestoes livres, itens de orcamento e restricoes criticas.
 
-Formulario de resposta:
+Formulario web de resposta:
+
+docs/phase5/5_5_Formulario_Aprovacao_Interna.html
+
+URL esperada no GitHub Pages, se habilitado a partir da pasta `docs/`:
+
+https://msr-br.github.io/Universal-CNPq-2026/phase5/5_5_Formulario_Aprovacao_Interna.html
+
+Formulario GitHub de fallback:
 
 https://github.com/MSR-BR/Universal-CNPq-2026/issues/new?template=phase5_5_member_response.yml
 
@@ -365,9 +373,10 @@ pela coordenacao do projeto a partir desta arquitetura.
 
 ## Pedido de resposta
 
-Solicita-se que cada integrante responda pelo formulario eletronico. Cada
-resposta sera registrada como uma entrada padronizada no repositorio, reduzindo
-troca de mensagens e evitando perda de informacao.
+Solicita-se que cada integrante responda pelo formulario web. A pagina gera
+uma resposta padronizada e abre uma issue do GitHub para salvamento. Cada
+resposta sera registrada no repositorio pelo fluxo de ingestao, reduzindo troca
+de mensagens e evitando perda de informacao.
 
 Essas respostas serao usadas para consolidar a proposta final e evitar que o
 projeto avance com atribuicoes, custos ou expectativas nao validadas pela
