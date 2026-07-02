@@ -29,11 +29,11 @@ docs/phase5/5_5_Formulario_Aprovacao_Interna.html
 
 URL de circulacao esperada apos deploy na Vercel:
 
-/
+https://universal-cnpq-2026.vercel.app/
 
 ou
 
-/fase-5-5
+https://universal-cnpq-2026.vercel.app/fase-5-5
 
 Formulario GitHub de fallback:
 

@@ -24,7 +24,7 @@ identified; and the project owner accepts the checkpoint as complete.
 
 Version: 1.6
 
-Status: Active; Vercel-backed single-page response form prepared for CNPq Faixa C budget collection
+Status: Active; Vercel-backed single-page response form deployed; GitHub issue token pending
 
 Last update: 2026-07-02
 
@@ -77,6 +77,7 @@ interface.
 | Single-page web form | `docs/phase5/5_5_Formulario_Aprovacao_Interna.html` | Primary circulation interface: compact proposal summary, member dropdown, contribution axes, CNPq budget table, and general comments. | Prepared. |
 | Vercel API function | `api/phase55-response.js` | Receives the web-form payload and creates a public GitHub issue through a server-side token stored in Vercel. | Prepared. |
 | Vercel routing config | `vercel.json` | Serves the form at `/`, `/fase-5-5`, and `/phase5/formulario` while keeping `/api/phase55-response` available. | Prepared. |
+| Vercel production deployment | `https://universal-cnpq-2026.vercel.app/` | Public form URL for circulation after `GITHUB_ISSUE_TOKEN` is configured. | Deployed; token pending. |
 | GitHub Pages support | `docs/.nojekyll` | Kept as optional static-file support; not the preferred save path after Vercel integration. | Prepared. |
 | Portuguese editable source | `docs/phase5/5_5_Proposta_Resumo_Aprovacao_Interna.md` | Source text for internal proposal evaluation by project members. | Prepared. |
 | Portuguese PDF support version | `output/pdf/Proposta_Universal_CNPq_2026_Aprovacao_Interna.pdf` | Support PDF; not the preferred distribution format after the web-form refinement. | Prepared. |
@@ -165,9 +166,9 @@ Primary web-form path:
 
 Preferred Vercel paths after deployment:
 
-- `/`
-- `/fase-5-5`
-- `/phase5/formulario`
+- `https://universal-cnpq-2026.vercel.app/`
+- `https://universal-cnpq-2026.vercel.app/fase-5-5`
+- `https://universal-cnpq-2026.vercel.app/phase5/formulario`
 
 Required Vercel environment variable:
 

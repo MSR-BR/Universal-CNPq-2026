@@ -37,7 +37,7 @@ Last update: 2026-07-02
 | 3 | Scientific Atlas | Accepted baseline; manual refinements deferred | `docs/phase3/3_ScientificAtlas.md` |
 | 4 | Gap Analysis | Accepted baseline; supports Phase 5 | `docs/phase4/4_GapAnalysis.md` |
 | 5 | Project Matrix | Accepted baseline; supports Phase 5.5 | `docs/phase5/5_ProjectMatrix.md` |
-| 5.5 | Internal Approval and Budget Collection | Active; Vercel-backed single-page web form and Git-backed CNPq budget collection prepared | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| 5.5 | Internal Approval and Budget Collection | Active; Vercel-backed single-page web form deployed; GitHub token pending | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | 6 | Master Project | Locked until Phase 5.5 is complete | `docs/phase6/6_MasterProject.md` |
 | 7 | CNPq Proposal | Locked until Phase 6 is complete | `docs/phase7/7_CNPqProposal.md` |
 | 8 | Final Review | Locked until Phase 7 is complete | `docs/phase8/8_FinalReview.md` |
@@ -46,10 +46,10 @@ Last update: 2026-07-02
 
 The repository is in Phase 5.5 - Internal Approval and Budget Collection.
 
-Allowed work now: project-owner review and deployment of the Vercel-backed
-single-page web form, collection of concise member approval, contribution axes,
-CNPq-formatted budget items, and general comments from the restricted target
-respondent list.
+Allowed work now: configure the Vercel `GITHUB_ISSUE_TOKEN`, then circulate
+the deployed single-page web form for concise member approval, contribution
+axes, CNPq-formatted budget items, and general comments from the restricted
+target respondent list.
 
 Still prohibited: Phase 6 master-project writing, final CNPq proposal text,
 consolidated PDF project creation, final budget values or justifications,
@@ -158,6 +158,8 @@ repository workflow then ingests the response.
 | Electronic response forms | 2 | `docs/phase5/5_5_Formulario_Aprovacao_Interna.html`; `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml` |
 | Vercel API functions | 1 | `api/phase55-response.js` |
 | Vercel routing configs | 1 | `vercel.json` |
+| Vercel production deployments | 1 | `https://universal-cnpq-2026.vercel.app/` |
+| Vercel environment variables pending | 1 | `GITHUB_ISSUE_TOKEN` |
 | GitHub Pages support files | 1 | `docs/.nojekyll` |
 | Git ingestion workflow | 1 | `.github/workflows/ingest_phase55_member_response.yml` |
 | Response data directory | 1 | `data/phase5_5_member_responses/` |
