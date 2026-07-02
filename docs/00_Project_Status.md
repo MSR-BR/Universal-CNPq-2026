@@ -24,7 +24,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.6
+Version: 2.7
 
 Status: Active
 
@@ -64,43 +64,48 @@ block Phase 1H bibliography work.
 - The frozen development methodology has been recorded.
 - The methodology improvement protocol has been recorded.
 - A source inventory was generated and refreshed from the Dropbox support-document folder.
-- Nine new source files were added to `data/source_inventory.tsv`.
-- The People database contains fourteen stable person records.
+- Eleven new source files were added to `data/source_inventory.tsv`, including
+  two international collaborator CVs.
+- The People database contains sixteen stable person records.
 - Academic merit fellowships were verified from Lattes headers and prize/title sections.
-- Phase 1B contains ninety-nine stable publication records.
+- Phase 1B contains one hundred seven stable publication records.
 - Crossref automated bibliographic validation was run for Phase 1B publication
   records; 95 records now have DOI metadata verified or added, with manual
   publication review deferred to the project-wide final review.
-- Phase 1C contains twenty-nine stable previous-project records.
+- Phase 1C contains thirty-three stable previous-project records.
 - Phase 1D was opened in `docs/phase1/1D_Infrastructure.md`.
 - Phase 1D was corrected after the project owner clarified that active
   infrastructure must be limited to institutions represented in Phase 1A.
-- Seven proposal/project PDF or CV/Lattes sources currently support active
+- Nine proposal/project PDF or CV/Lattes sources currently support active
   Phase 1D infrastructure records.
-- Eight stable infrastructure records remain active in Phase 1D.
+- Ten stable infrastructure records remain active in Phase 1D.
 - Eight previously created infrastructure IDs were retired from active scope
   because they referred to LAFMAT partner institutions, external collaborators,
   external facilities, or equipment with unconfirmed Phase 1A host mapping.
-- Active infrastructure records include only UERJ, UFF, UFOB, and SENAI CIMATEC resources.
+- Active infrastructure records include UERJ, UFF, UFOB, SENAI CIMATEC, ORNL,
+  and Universidade de Aveiro resources represented by Phase 1A people.
 - Phase 1E was opened in `docs/phase1/1E_Collaborations.md`.
-- Seventeen source files were reviewed for the initial Phase 1E collaboration pass.
+- Nineteen source files have been reviewed across Phase 1E collaboration passes.
 - Fourteen stable collaboration records were created in Phase 1E.
 - Phase 1E explicitly distinguishes Phase 1A project participants from external collaboration contexts.
-- External collaborators and LAFMAT partner institutions are recorded as non-team collaboration context unless later added to Phase 1A.
+- Remaining external collaborators and LAFMAT partner institutions are recorded
+  as non-team collaboration context unless later added to Phase 1A; Antonio dos
+  Santos and Paula Brandão are now Phase 1A international collaborators.
 - Phase 1F was opened in `docs/phase1/1F_PreliminaryResults.md`.
 - Four controlled Phase 1 registries were reviewed for the initial Phase 1F preliminary-results pass.
 - Thirteen stable preliminary-result records were created in Phase 1F.
 - Phase 1F records evidence for metal complexes, barocaloric and spin-crossover systems, quantum thermodynamics, quantum batteries, quantum resources, magnetocaloric and multicaloric materials, and review/outlook articles.
 - Phase 1F coverage review checked thematic publication coverage against the
-  99 Phase 1B publication records and added three previously uncited thematic
-  records to the preliminary-results registry.
+  Phase 1B publication registry and added previously uncited thematic records
+  to the preliminary-results registry.
 - Phase 1F explicitly preserves the distinction between preliminary evidence and proposal argument.
 - Phase 1G was opened in `docs/phase1/1G_Ideas.md`.
 - Four controlled Phase 1 registries were reviewed for the initial Phase 1G idea-seed pass.
 - Ten stable idea-seed records were created in Phase 1G.
 - Phase 1G records are explicitly unselected, non-objective idea seeds for later analysis.
 - Phase 1H was opened in `docs/phase1/1H_Bibliography.md`.
-- Ninety-nine stable bibliography records were created in Phase 1H, one for each Phase 1B publication record.
+- One hundred seven stable bibliography records are recorded in Phase 1H, one
+  for each Phase 1B publication record.
 - Phase 1H links bibliography records to Phase 1F preliminary results and Phase 1G idea seeds without duplicating full publication metadata.
 - No CPF values from the team page were stored in the repository.
 - No scientific competencies, objectives, gaps, work packages, or proposal text
@@ -110,7 +115,7 @@ block Phase 1H bibliography work.
 
 - Continue Phase 1D factual infrastructure registry refinement if new equipment
   lists, official laboratory inventories, or access documents are supplied for
-  UERJ, UFF, UFOB, or SENAI CIMATEC.
+  UERJ, UFF, UFOB, SENAI CIMATEC, ORNL, or Universidade de Aveiro.
 - Defer project-owner/manual review of Phase 1A people records, Phase 1B
   publication metadata, Phase 1C project links, and Phase 1D infrastructure
   host mapping until the project-wide final review.
@@ -125,7 +130,8 @@ block Phase 1H bibliography work.
 - Preserve stable person, publication, project, infrastructure, collaboration,
   preliminary-result, idea, and bibliography IDs and never renumber existing records.
 - Continue Phase 1E factual collaboration registry refinement if new collaboration agreements, institutional letters, or manually validated collaborator lists are supplied.
-- Keep external collaborators and LAFMAT partner institutions out of project team status unless Phase 1A is explicitly updated.
+- Keep remaining external collaborators and LAFMAT partner institutions out of
+  project team status unless Phase 1A is explicitly updated.
 - Add explicit publication cross-links from Phase 1B to Phase 1E after final manual validation.
 - Continue Phase 1F factual preliminary-result registry refinement if new figures, datasets, reports, presentations, or manually selected outputs are supplied.
 - Keep Phase 1F records factual; do not convert evidence clusters into proposal objectives, gaps, or work packages.
@@ -138,34 +144,34 @@ block Phase 1H bibliography work.
 ## Repository statistics
 
 - Controlled Markdown documents in `docs/`: 18
-- Source files inventoried from Dropbox: 47
-- Files in Dropbox `CVs/` folder: 16
-- Phase 1A people records: 14
-- Phase 1B publication records: 99
+- Source files inventoried from Dropbox: 49
+- Files in Dropbox `CVs/` folder: 18
+- Phase 1A people records: 16
+- Phase 1B publication records: 107
 - Publication source files reviewed in Phase 1B: 23
-- Participant CV publication sections reviewed in Phase 1B: 14
+- Participant CV publication sections reviewed in Phase 1B: 16
 - Publication source duplicate pairs merged: 1
-- CV-derived publication records added after initial publication-source pass: 77
+- CV-derived publication records added after initial publication-source pass: 85
 - Publication records with DOI verified or added through Crossref: 95
-- Publication records with at least one Phase 1A person link: 98
-- Phase 1A people linked to at least one Phase 1B publication: 10
-- Phase 1C previous-project records: 29
+- Publication records with at least one Phase 1A person link: 106
+- Phase 1A people linked to at least one Phase 1B publication: 12
+- Phase 1C previous-project records: 33
 - Previous-project/proposal PDF sources reviewed in Phase 1C: 7
-- Participant CV records scanned in Phase 1C: 14
-- CV text source files checked in Phase 1C: 15
-- Previous-project records with at least one Phase 1A person link: 29
-- Phase 1D active infrastructure records: 8
+- Participant CV records scanned in Phase 1C: 16
+- CV text source files checked in Phase 1C: 17
+- Previous-project records with at least one Phase 1A person link: 33
+- Phase 1D active infrastructure records: 10
 - Phase 1D retired infrastructure IDs after scope correction: 8
 - Proposal/project PDF sources supporting active Phase 1D records: 3
-- CV/Lattes text sources supporting active Phase 1D records: 4
-- Active infrastructure records with at least one Phase 1A person link: 8
-- Active infrastructure records linked to at least one Phase 1C project: 6
+- CV/Lattes text sources supporting active Phase 1D records: 6
+- Active infrastructure records with at least one Phase 1A person link: 10
+- Active infrastructure records linked to at least one Phase 1C project: 8
 - Phase 1E collaboration records: 14
-- Phase 1E source files reviewed: 17
-- Phase 1E records involving only Phase 1A institutions as active participants: 5
-- Phase 1E records with external/non-team collaboration context: 9
+- Phase 1E source files reviewed: 19
+- Phase 1E records involving Phase 1A institutions or Phase 1A international collaborators as active participants: 7
+- Phase 1E records with remaining external/non-team collaboration context: 8
 - Phase 1E records linked to at least one Phase 1C project: 13
-- Phase 1E records linked to active Phase 1D infrastructure: 5
+- Phase 1E records linked to active Phase 1D infrastructure: 7
 - Phase 1F preliminary-result records: 13
 - Phase 1F controlled registries reviewed: 4
 - Phase 1F coverage review passes completed: 1
@@ -175,11 +181,11 @@ block Phase 1H bibliography work.
 - Phase 1G controlled registries reviewed: 4
 - Phase 1G records linked to Phase 1F preliminary results: 10
 - Phase 1G records explicitly marked unselected and non-objective: 10
-- Phase 1H bibliography records: 99
-- Phase 1H records linked one-to-one to Phase 1B publications: 99
-- Phase 1H records with at least one Phase 1F preliminary-result link: 96
-- Phase 1H records with at least one Phase 1G idea-seed link: 39
-- Institutions recorded in Phase 1A: 4
+- Phase 1H bibliography records: 107
+- Phase 1H records linked one-to-one to Phase 1B publications: 107
+- Phase 1H records with at least one Phase 1F preliminary-result link: 104
+- Phase 1H records with at least one Phase 1G idea-seed link: 47
+- Institutions recorded in Phase 1A: 6
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
 - FAPESB/CNPq Productivity Research Fellows identified from Lattes headers: 1
 - People with FAPERJ Cientista do Nosso Estado records: 1
@@ -192,7 +198,9 @@ Phase 1G open for deferred manual refinement.
 
 ## Recent updates
 
-- 2026-07-01: Opened Phase 1H - Bibliography and created ninety-nine bibliography records, one for each Phase 1B publication record.
+- 2026-07-01: Added international collaborators `P-0015` Antonio dos Santos (ORNL) and `P-0016` Paula Brandão (Universidade de Aveiro) to Phase 1A from `SRC-0048` and `SRC-0049`.
+- 2026-07-01: Updated Phase 1B through Phase 1H to link Antonio/Paula, added eight theme-matched publications, four project records, two infrastructure records, and eight bibliography records.
+- 2026-07-01: Opened Phase 1H - Bibliography and initially created ninety-nine bibliography records, one for each Phase 1B publication record then available.
 - 2026-07-01: Linked Phase 1H bibliography records to Phase 1F preliminary results and Phase 1G idea seeds while keeping full publication metadata authoritative in Phase 1B.
 - 2026-07-01: Opened Phase 1G - Ideas and created ten stable, unselected, non-objective idea-seed records from Phase 1F, 1E, 1D, and 1C evidence.
 - 2026-07-01: Reviewed Phase 1F publication coverage against Phase 1B and added `PUB-0047`, `PUB-0064`, and `PUB-0067` to the preliminary-results evidence map.

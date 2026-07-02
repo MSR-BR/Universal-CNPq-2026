@@ -19,9 +19,9 @@ Dependencies: `docs/phase1/1A_People.md`,
 Completion criteria: Preliminary results are recorded once, with stable IDs
 and links to supporting evidence.
 
-Version: 1.2
+Version: 1.3
 
-Status: Active; initial factual registry reviewed
+Status: Active; international collaborator evidence update added
 
 Last update: 2026-07-01
 
@@ -46,9 +46,11 @@ Phase 1F was opened on 2026-07-01 after the initial Phase 1E collaboration
 registry pass. Phase 1A through Phase 1E remain available for deferred manual
 refinement, but they no longer block this factual preliminary-results pass.
 
-External collaborators, LAFMAT partners, ORNL facilities, and other
-non-Phase-1A contexts may appear as evidence context only. Their appearance
-here does not add them to the CNPq project team.
+Remaining external collaborators, LAFMAT partners, and non-Phase-1A contexts
+may appear as evidence context only. Antonio dos Santos and Paula Brandão are
+now Phase 1A collaborators through `P-0015` and `P-0016`; their source-backed
+ORNL and Universidade de Aveiro resources are linked through `INF-0017` and
+`INF-0018`.
 
 ## Stable ID policy
 
@@ -98,7 +100,11 @@ manual review described in Phase 1B.
 Coverage review on 2026-07-01 compared Phase 1F publication links against the
 99 Phase 1B publication records. Three theme-matched publication records were
 not yet cited in Phase 1F: `PUB-0047`, `PUB-0064`, and `PUB-0067`. They were
-added in this version without changing the factual scope of the document.
+added without changing the factual scope of the document.
+
+International collaborator update on 2026-07-01 added `PUB-0100` through
+`PUB-0107`, `INF-0017`, and `INF-0018`; relevant Phase 1F clusters were updated
+without creating objectives or work packages.
 
 ## Preliminary result database
 
@@ -192,14 +198,14 @@ added in this version without changing the factual scope of the document.
 - Preliminary result label: Published and manuscript evidence on barocaloric effects in spin-crossover systems
 - Evidence type: Publication cluster with related project records
 - Factual result statement: Phase 1B records one manuscript in progress and multiple published articles on barocaloric or refrigeration behavior in spin-crossover systems.
-- Evidence basis: Related records include `PUB-0003`, `PUB-0006`, and `PUB-0013` through `PUB-0022`.
+- Evidence basis: Related records include `PUB-0003`, `PUB-0006`, `PUB-0013` through `PUB-0022`, `PUB-0100`, and `PUB-0102`.
 - Verification status: Source-backed publication records; `PUB-0003` remains a manuscript in progress pending final manual review.
-- Related publications: `PUB-0003`, `PUB-0006`, `PUB-0013`, `PUB-0014`, `PUB-0015`, `PUB-0016`, `PUB-0017`, `PUB-0018`, `PUB-0019`, `PUB-0020`, `PUB-0021`, `PUB-0022`
+- Related publications: `PUB-0003`, `PUB-0006`, `PUB-0013`, `PUB-0014`, `PUB-0015`, `PUB-0016`, `PUB-0017`, `PUB-0018`, `PUB-0019`, `PUB-0020`, `PUB-0021`, `PUB-0022`, `PUB-0100`, `PUB-0102`
 - Related projects: `PRJ-0002`, `PRJ-0005`, `PRJ-0006`, `PRJ-0011`, `PRJ-0012`, `PRJ-0022`, `PRJ-0024`
-- Related people: `P-0001`, `P-0002`, `P-0003`, `P-0004`, `P-0005`, `P-0007`, `P-0008`, `P-0010`
+- Related people: `P-0001`, `P-0002`, `P-0003`, `P-0004`, `P-0005`, `P-0007`, `P-0008`, `P-0010`, `P-0015`, `P-0016`
 - Related collaborations: `COL-0001`, `COL-0002`, `COL-0007`
-- Related infrastructure: `INF-0007`, `INF-0008`, `INF-0010`
-- Source IDs: `SRC-0010`, `SRC-0013`, `SRC-0021`, `SRC-0022`, `SRC-0023`, `SRC-0024`, `SRC-0025`, `SRC-0026`, `SRC-0027`, `SRC-0028`, `SRC-0029`, `SRC-0030`, `SRC-0002`, `SRC-0003`, `SRC-0004`, `SRC-0005`, `SRC-0007`, `SRC-0032`, `SRC-0035`, `SRC-0039`
+- Related infrastructure: `INF-0007`, `INF-0008`, `INF-0010`, `INF-0017`, `INF-0018`
+- Source IDs: `SRC-0010`, `SRC-0013`, `SRC-0021`, `SRC-0022`, `SRC-0023`, `SRC-0024`, `SRC-0025`, `SRC-0026`, `SRC-0027`, `SRC-0028`, `SRC-0029`, `SRC-0030`, `SRC-0002`, `SRC-0003`, `SRC-0004`, `SRC-0005`, `SRC-0007`, `SRC-0032`, `SRC-0035`, `SRC-0039`, `SRC-0048`, `SRC-0049`
 - Notes: This record groups only already recorded outputs and projects; no new barocaloric research objective is defined here.
 
 #### RES-0007 - ORNL-linked ongoing barocaloric, iron tetramer, and copper dimer work
@@ -208,15 +214,15 @@ added in this version without changing the factual scope of the document.
 - Preliminary result label: Source-documented ongoing barocaloric and molecular-magnet work connected to PDSE/ORNL
 - Evidence type: Project plan, Lattes project record, manuscript records, and e-mail support sources
 - Factual result statement: Phase 1C records that `SRC-0037` and `SRC-0038` confirm ongoing ORNL work on barocaloric calculations, normal-mode matching, iron tetramer modeling, copper dimer modeling, and related samples.
-- Evidence basis: `PRJ-0005` and `PRJ-0022` use `SRC-0037` and `SRC-0038` as support sources; `PUB-0002` and `PUB-0003` are related manuscript records.
+- Evidence basis: `PRJ-0005` and `PRJ-0022` use `SRC-0037` and `SRC-0038` as support sources; `PUB-0002`, `PUB-0003`, `PUB-0100`, and `PUB-0101` are related publication/manuscript records.
 - Verification status: Source-backed project and manuscript evidence; final manual technical review deferred.
-- Related publications: `PUB-0002`, `PUB-0003`
+- Related publications: `PUB-0002`, `PUB-0003`, `PUB-0100`, `PUB-0101`
 - Related projects: `PRJ-0005`, `PRJ-0022`
-- Related people: `P-0008`, `P-0007`, `P-0003`
+- Related people: `P-0008`, `P-0007`, `P-0003`, `P-0015`
 - Related collaborations: `COL-0002`, `COL-0007`
-- Related infrastructure: None in active Phase 1D registry; ORNL is external context
-- Source IDs: `SRC-0009`, `SRC-0010`, `SRC-0035`, `SRC-0037`, `SRC-0038`, `SRC-0039`
-- Notes: ORNL is not an active Phase 1D infrastructure record after the Phase 1D scope correction.
+- Related infrastructure: `INF-0017`
+- Source IDs: `SRC-0009`, `SRC-0010`, `SRC-0035`, `SRC-0037`, `SRC-0038`, `SRC-0039`, `SRC-0048`
+- Notes: ORNL/SNAP is now represented by `INF-0017` after `P-0015` was added to Phase 1A; broader ORNL infrastructure is not imported here.
 
 #### RES-0008 - Barocaloric effects outside spin-crossover complexes
 
@@ -258,15 +264,15 @@ added in this version without changing the factual scope of the document.
 - Preliminary result label: Published and manuscript evidence on metal-complex synthesis, structure, and magnetism
 - Evidence type: Publication cluster and collaboration context
 - Factual result statement: Phase 1B records published articles and one manuscript record on Ni4, Co5, cobalt dimer, cobalt coordination polymer, Co(II)-glutarate, Co(II) 1D polymer, Mn(II)-based metal organic oxide, and related metal-complex systems.
-- Evidence basis: Related publication records include `PUB-0002`, `PUB-0004`, `PUB-0011`, `PUB-0012`, `PUB-0056`, `PUB-0066`, `PUB-0077`, and `PUB-0084`.
+- Evidence basis: Related publication records include `PUB-0002`, `PUB-0004`, `PUB-0011`, `PUB-0012`, `PUB-0056`, `PUB-0066`, `PUB-0077`, `PUB-0084`, and `PUB-0102` through `PUB-0107`.
 - Verification status: Source-backed publication records; `PUB-0002` remains a manuscript record pending final review.
-- Related publications: `PUB-0002`, `PUB-0004`, `PUB-0011`, `PUB-0012`, `PUB-0056`, `PUB-0066`, `PUB-0077`, `PUB-0084`
+- Related publications: `PUB-0002`, `PUB-0004`, `PUB-0011`, `PUB-0012`, `PUB-0056`, `PUB-0066`, `PUB-0077`, `PUB-0084`, `PUB-0102`, `PUB-0103`, `PUB-0104`, `PUB-0105`, `PUB-0106`, `PUB-0107`
 - Related projects: `PRJ-0001`, `PRJ-0003`
-- Related people: `P-0003`, `P-0008`, `P-0009`
+- Related people: `P-0003`, `P-0008`, `P-0009`, `P-0015`, `P-0016`
 - Related collaborations: `COL-0008`, `COL-0009`, `COL-0010`, `COL-0011`
-- Related infrastructure: `INF-0007`, `INF-0008`, `INF-0010`
-- Source IDs: `SRC-0009`, `SRC-0011`, `SRC-0019`, `SRC-0020`, `SRC-0003`, `SRC-0036`, `SRC-0039`, `SRC-0040`
-- Notes: External synthesis and characterization collaborators remain collaboration context only unless Phase 1A is updated.
+- Related infrastructure: `INF-0007`, `INF-0008`, `INF-0010`, `INF-0017`, `INF-0018`
+- Source IDs: `SRC-0009`, `SRC-0011`, `SRC-0019`, `SRC-0020`, `SRC-0003`, `SRC-0036`, `SRC-0039`, `SRC-0040`, `SRC-0048`, `SRC-0049`
+- Notes: Paula Brandão and Antonio dos Santos are now Phase 1A collaborators; remaining synthesis and characterization collaborators stay as collaboration context unless Phase 1A is updated.
 
 #### RES-0011 - Review evidence on magnetocaloric and barocaloric effects of metal complexes
 
@@ -294,10 +300,10 @@ added in this version without changing the factual scope of the document.
 - Verification status: Source-backed publication records; final manual scientific review deferred.
 - Related publications: `PUB-0044`, `PUB-0045`, `PUB-0050`, `PUB-0060`, `PUB-0069`, `PUB-0075`, `PUB-0078`, `PUB-0085`, `PUB-0094`, `PUB-0095`
 - Related projects: `PRJ-0003`, `PRJ-0014`, `PRJ-0017`, `PRJ-0018`, `PRJ-0019`, `PRJ-0023`
-- Related people: `P-0003`, `P-0006`, `P-0007`, `P-0008`, `P-0009`
+- Related people: `P-0003`, `P-0006`, `P-0007`, `P-0008`, `P-0009`, `P-0015`
 - Related collaborations: `COL-0002`, `COL-0006`, `COL-0012`
-- Related infrastructure: `INF-0007`, `INF-0008`
-- Source IDs: `SRC-0003`, `SRC-0006`, `SRC-0007`, `SRC-0034`, `SRC-0039`, `SRC-0040`
+- Related infrastructure: `INF-0007`, `INF-0008`, `INF-0017`
+- Source IDs: `SRC-0003`, `SRC-0006`, `SRC-0007`, `SRC-0034`, `SRC-0039`, `SRC-0040`, `SRC-0048`
 - Notes: These outputs are preserved because they are adjacent factual evidence in the existing publication/project base; Phase 4 may later decide whether they are central or peripheral.
 
 ### Additional review and outlook records
@@ -329,5 +335,5 @@ added in this version without changing the factual scope of the document.
   selected for proposal reuse.
 - Preserve the distinction between preliminary evidence and proposal argument.
   The argumentative synthesis belongs to later phases.
-- Keep external facilities and collaborators as context only unless Phase 1A is
-  explicitly updated.
+- Keep remaining external facilities and collaborators as context only unless
+  Phase 1A is explicitly updated.

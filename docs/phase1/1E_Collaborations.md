@@ -21,9 +21,9 @@ Completion criteria: Collaborations are recorded once, with stable IDs and
 links to related people, institutions, projects, infrastructure, and
 publications when available.
 
-Version: 1.1
+Version: 1.2
 
-Status: Active; initial factual registry opened
+Status: Active; international collaborators added
 
 Last update: 2026-07-01
 
@@ -37,7 +37,9 @@ project team. Active project participants remain authoritative only in
 
 External collaborators, external institutions, LAFMAT nodes, and large-scale
 facilities must be labelled as external/non-team unless a future Phase 1A update
-adds them as participants.
+adds them as participants. Antonio dos Santos and Paula Brandão were added to
+Phase 1A on 2026-07-01 and are no longer treated as external people in this
+registry.
 
 Do not analyse scientific competencies here. Do not infer collaboration gaps.
 Do not assign responsibilities. Do not create work packages. Do not write
@@ -51,7 +53,9 @@ was corrected to include only institutions represented in Phase 1A.
 The project owner clarified that institutions appearing in the LAFMAT proposal
 source do not automatically enter the CNPq project. This document therefore
 records LAFMAT and other external institutions only as collaboration context,
-not as team membership.
+not as team membership. This remains true for LAFMAT and remaining external
+collaborators; it no longer applies to Antonio dos Santos and Paula Brandão
+because they were explicitly added to Phase 1A.
 
 ## Stable ID policy
 
@@ -87,7 +91,7 @@ Reviewed sources for this initial pass:
   `SRC-0037`, and `SRC-0038`.
 - CV/Lattes sources: `SRC-0002`, `SRC-0003`, `SRC-0004`, `SRC-0005`,
   `SRC-0007`, `SRC-0039`, `SRC-0040`, `SRC-0041`, `SRC-0042`, `SRC-0044`, and
-  `SRC-0046`.
+  `SRC-0046`, `SRC-0048`, and `SRC-0049`.
 - Collaboration records below are deduplicated at the collaboration-context
   level, not at the individual-publication coauthor level.
 - Manual project-owner review is deferred to the final review, as instructed.
@@ -116,14 +120,14 @@ Reviewed sources for this initial pass:
 
 - Unique ID: COL-0002
 - Collaboration name: UERJ-UFF barocaloric and spin-crossover collaboration
-- Collaboration category: Internal Phase 1A-institution collaboration with an external ORNL component recorded separately in `COL-0007`
-- Project participation status: UERJ and UFF people listed here are Phase 1A participants; ORNL is an external collaboration context, not a project institution
+- Collaboration category: Internal Phase 1A-institution collaboration with an ORNL international-collaborator component recorded separately in `COL-0007`
+- Project participation status: UERJ and UFF people listed here are Phase 1A participants; Antonio dos Santos/ORNL is now represented in Phase 1A through `P-0015` and remains separately tracked in `COL-0007`
 - Phase 1A people involved: `P-0008` Alan Fillipe de Souza Almeida; `P-0007` Vinícius da Silva Ramos de Sousa; `P-0003` Mario de Souza Reis Junior
 - Phase 1A institutions involved: Universidade do Estado do Rio de Janeiro (UERJ); Universidade Federal Fluminense (UFF)
-- External people or institutions, if any: Antonio M. dos Santos / Oak Ridge National Laboratory appears as the external co-advisor and is recorded in `COL-0007`
+- External people or institutions, if any: None for Antonio/ORNL after `P-0015` was added; remaining non-listed ORNL facility context is tracked through `INF-0017`
 - Evidence stated in source: PDSE plan lists Alan as doctoral student, Vinícius de Sousa and Mario Reis as Brazilian advisors, and the Lattes project section lists Alan, Vinícius de Sousa, and Mario Reis in the barocaloric/spin-crossover project
 - Related projects: `PRJ-0005`, `PRJ-0022`
-- Related infrastructure: None in active Phase 1D registry; ORNL infrastructure is external and not listed as active after scope correction
+- Related infrastructure: `INF-0017`
 - Related publications or outputs: Pending manual cross-link to `docs/phase1/1B_Publications.md`
 - Source IDs: `SRC-0035`, `SRC-0037`, `SRC-0038`, `SRC-0039`
 - Notes: Keep separate from `COL-0007` so the internal UERJ-UFF collaboration is not conflated with the external ORNL collaboration.
@@ -198,17 +202,17 @@ Reviewed sources for this initial pass:
 
 - Unique ID: COL-0007
 - Collaboration name: Oak Ridge National Laboratory / Antonio M. dos Santos collaboration
-- Collaboration category: External collaborator and external facility context
-- Project participation status: ORNL and Antonio M. dos Santos are external collaborators, not Phase 1A project participants
-- Phase 1A people involved: `P-0008` Alan Fillipe de Souza Almeida; `P-0007` Vinícius da Silva Ramos de Sousa; `P-0003` Mario de Souza Reis Junior
-- Phase 1A institutions involved: Universidade do Estado do Rio de Janeiro (UERJ); Universidade Federal Fluminense (UFF)
-- External people or institutions, if any: Antonio M. dos Santos, Oak Ridge National Laboratory, United States
+- Collaboration category: International Phase 1A collaborator and ORNL facility context
+- Project participation status: Antonio M. dos Santos is now `P-0015` in Phase 1A; ORNL is represented through that collaborator, while broader ORNL facility access remains source-backed context only
+- Phase 1A people involved: `P-0008` Alan Fillipe de Souza Almeida; `P-0007` Vinícius da Silva Ramos de Sousa; `P-0003` Mario de Souza Reis Junior; `P-0015` António F. Moreira dos Santos
+- Phase 1A institutions involved: Universidade do Estado do Rio de Janeiro (UERJ); Universidade Federal Fluminense (UFF); Oak Ridge National Laboratory (ORNL)
+- External people or institutions, if any: None for Antonio/ORNL after Phase 1A update; broader ORNL facility context is limited to source-backed `INF-0017`
 - Evidence stated in source: PDSE plan names Antonio M. dos Santos as foreign co-advisor at ORNL; follow-up e-mails document work underway at ORNL and discussions involving Alan, Antonio, Mario, and Vinícius
 - Related projects: `PRJ-0005`, `PRJ-0022`
-- Related infrastructure: None in active Phase 1D registry; ORNL infrastructure is external and not active Phase 1D infrastructure
+- Related infrastructure: `INF-0017`
 - Related publications or outputs: Pending manual cross-link to `docs/phase1/1B_Publications.md`
-- Source IDs: `SRC-0035`, `SRC-0037`, `SRC-0038`, `SRC-0036`, `SRC-0034`
-- Notes: Do not list ORNL as a participating project institution unless Phase 1A is explicitly updated.
+- Source IDs: `SRC-0035`, `SRC-0037`, `SRC-0038`, `SRC-0036`, `SRC-0034`, `SRC-0048`
+- Notes: Phase 1A was explicitly updated on 2026-07-01 to add `P-0015`; this record does not import broader ORNL infrastructure beyond `INF-0017`.
 
 #### COL-0008 - PUC-Rio / Livia Escobar metal-complex production collaboration
 
@@ -246,17 +250,17 @@ Reviewed sources for this initial pass:
 
 - Unique ID: COL-0010
 - Collaboration name: Universidade de Aveiro / Paula Brandão and Zin Lin collaboration
-- Collaboration category: External international collaboration context
-- Project participation status: Universidade de Aveiro, Paula Brandão, and Zin Lin are external collaboration context, not Phase 1A project participants
-- Phase 1A people involved: `P-0003` Mario de Souza Reis Junior; `P-0009` Clebson dos Santos Cruz
-- Phase 1A institutions involved: Universidade Federal Fluminense (UFF); Universidade Federal do Oeste da Bahia (UFOB)
-- External people or institutions, if any: Paula Brandão and Zin Lin, Universidade de Aveiro, Portugal
+- Collaboration category: International Phase 1A collaborator with remaining external collaborator context
+- Project participation status: Paula Brandão is now `P-0016` in Phase 1A; Zin Lin remains external collaboration context unless later added to Phase 1A
+- Phase 1A people involved: `P-0003` Mario de Souza Reis Junior; `P-0009` Clebson dos Santos Cruz; `P-0016` Paula Cristina Ferreira da Silva Brandão
+- Phase 1A institutions involved: Universidade Federal Fluminense (UFF); Universidade Federal do Oeste da Bahia (UFOB); Universidade de Aveiro
+- External people or institutions, if any: Zin Lin, Universidade de Aveiro, Portugal
 - Evidence stated in source: CNPq Universal 2024 proposal lists Paula Brandão and Zin Lin under international collaborations in synthesis and characterization of metal complexes; Mario CV also records long-term collaboration with Universidade de Aveiro in orientation/coorientation history
 - Related projects: `PRJ-0001`
-- Related infrastructure: None in active Phase 1D registry
+- Related infrastructure: `INF-0018`
 - Related publications or outputs: Pending manual cross-link to `docs/phase1/1B_Publications.md`
-- Source IDs: `SRC-0036`, `SRC-0003`
-- Notes: Keep as external collaboration context until a Phase 1A update says otherwise.
+- Source IDs: `SRC-0036`, `SRC-0003`, `SRC-0049`
+- Notes: Phase 1A was explicitly updated on 2026-07-01 to add `P-0016`; Zin Lin remains external context.
 
 #### COL-0011 - Shenyang University of Technology / Fa-Nian Shi collaboration
 
@@ -324,7 +328,7 @@ Reviewed sources for this initial pass:
 
 ## Manual review queue
 
-- Confirm whether any external collaborator listed here should be added to Phase 1A before any future document treats them as a project participant.
+- Confirm whether any remaining external collaborator listed here should be added to Phase 1A before any future document treats them as a project participant.
 - Split grouped external collaboration records, especially `COL-0013`, only if stronger source evidence requires one record per collaborator.
 - Add explicit publication cross-links from Phase 1B after final manual publication validation.
 - Confirm whether event-support projects connected to `COL-0014` should be promoted to Phase 1C project records.

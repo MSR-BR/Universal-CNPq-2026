@@ -22,7 +22,7 @@ IDs and links to the documents that use them.
 
 Version: 1.1
 
-Status: Active; initial bibliography map opened
+Status: Active; international collaborator bibliography update added
 
 Last update: 2026-07-01
 
@@ -72,25 +72,25 @@ Each bibliography record must include:
 
 ## Source processing summary
 
-- Phase 1B publication records reviewed: 99
+- Phase 1B publication records reviewed: 107
 - Phase 1F preliminary-result records checked for publication-use links: 13
 - Phase 1G idea-seed records checked for publication-use links: 10
-- Bibliography records created: 99
-- Publication records covered by `BIB-*` records: 99
+- Bibliography records created: 107
+- Publication records covered by `BIB-*` records: 107
 
 ## Bibliography theme coverage
 
 | Theme tag | Bibliography records |
 | --- | ---: |
-| barocaloric/spin-crossover/caloric | 52 |
+| barocaloric/spin-crossover/caloric | 54 |
 | functional/intermetallic materials | 11 |
 | magnetocaloric/multicaloric | 40 |
-| manual-status check | 4 |
-| metal complexes/synthesis | 19 |
+| manual-status check | 6 |
+| metal complexes/synthesis | 26 |
 | quantum batteries | 2 |
 | quantum thermodynamics/resources | 21 |
 | review/outlook | 4 |
-| supporting bibliography | 5 |
+| supporting bibliography | 6 |
 
 ## Bibliography registry
 
@@ -195,9 +195,19 @@ Each bibliography record must include:
 | `BIB-0097` | `PUB-0097` | Magnetocaloric effect and evidence of superparamagnetism in GdAl2 nanocrystallites: A magnetic-structural correlation | barocaloric/spin-crossover/caloric; magnetocaloric/multicaloric | `RES-0009` | None assigned | Use Phase 1B for bibliographic metadata |
 | `BIB-0098` | `PUB-0098` | Theoretical investigation on the magnetocaloric effect in amorphous Eu80Au20 system | barocaloric/spin-crossover/caloric; magnetocaloric/multicaloric | `RES-0009` | None assigned | Use Phase 1B for bibliographic metadata |
 | `BIB-0099` | `PUB-0099` | Thermal entanglement and teleportation in a dipolar interacting system | quantum thermodynamics/resources | `RES-0005` | None assigned | Use Phase 1B for bibliographic metadata |
+| `BIB-0100` | `PUB-0100` | Giant barocaloric effect at the spin crossover transition of a molecular crystal | barocaloric/spin-crossover/caloric; metal complexes/synthesis; manual-status check | `RES-0006`, `RES-0007` | `IDEA-0004`, `IDEA-0009` | Use Phase 1B for bibliographic metadata |
+| `BIB-0101` | `PUB-0101` | The high-pressure gas capabilities at Oak Ridge National Laboratory's neutron facilities | supporting bibliography; manual-status check | `RES-0007` | `IDEA-0008`, `IDEA-0009` | Use Phase 1B for bibliographic metadata |
+| `BIB-0102` | `PUB-0102` | Modulation of the spin crossover behaviour in four manganese(iii) complexes through cation-anion interactions | barocaloric/spin-crossover/caloric; metal complexes/synthesis | `RES-0006`, `RES-0010` | `IDEA-0004`, `IDEA-0007` | Use Phase 1B for bibliographic metadata |
+| `BIB-0103` | `PUB-0103` | Coordination complexes of Co, Cu, and Fe with adenine and phenanthroline: Synthesis, characterization, and cytotoxic studies | metal complexes/synthesis | `RES-0010` | `IDEA-0001`, `IDEA-0007`, `IDEA-0008` | Use Phase 1B for bibliographic metadata |
+| `BIB-0104` | `PUB-0104` | Magneto-structural and theoretical insights into Ni2Dy2 butterfly single-molecule magnets with diverse anionic co-ligands | metal complexes/synthesis | `RES-0010` | `IDEA-0007` | Use Phase 1B for bibliographic metadata |
+| `BIB-0105` | `PUB-0105` | Exploring magnetic anisotropy and exchange coupling in FeIII2DyIII heterotrimetallic assemblies displaying slow relaxation of magnetization | metal complexes/synthesis | `RES-0010` | `IDEA-0007` | Use Phase 1B for bibliographic metadata |
+| `BIB-0106` | `PUB-0106` | Experimental and theoretical insights into magnetic exchange and anisotropy in multinuclear cobalt complexes displaying slow relaxation | metal complexes/synthesis | `RES-0010` | `IDEA-0007` | Use Phase 1B for bibliographic metadata |
+| `BIB-0107` | `PUB-0107` | Insight into ferromagnetic interactions in CuII-LnIII dimers with a compartmental ligand | metal complexes/synthesis | `RES-0010` | `IDEA-0007` | Use Phase 1B for bibliographic metadata |
 
 ## Manual review queue
 
+- Confirm DOI metadata for `PUB-0100` and `PUB-0101` during final manual
+  publication review.
 - Confirm whether non-team or external references beyond Phase 1B should be
   added as standalone bibliography records after source files are supplied.
 - Confirm whether any bibliography theme tags should be refined after final

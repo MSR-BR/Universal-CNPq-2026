@@ -17,9 +17,9 @@ Completion criteria: Publications are recorded once, with stable IDs and links
 to related people records; duplicates and uncertain bibliographic fields are
 marked for manual validation.
 
-Version: 1.4
+Version: 1.5
 
-Status: Active
+Status: Active; international collaborator CV update added
 
 Last update: 2026-07-01
 
@@ -85,25 +85,29 @@ source context. Ambiguous links are marked in the notes for manual validation.
 ## Source processing summary
 
 - Publication source files reviewed: `SRC-0008` through `SRC-0030`.
-- Participant CV publication sections reviewed for Phase 1B: 14 individual CV
+- Participant CV publication sections reviewed for Phase 1B: 16 individual CV
   sources.
 - PDF publication/manuscript source files reviewed: 22.
 - Screenshot source files reviewed: 1.
-- Publication records created: 99.
+- Publication records created: 107.
 - Duplicate source files merged into one publication record:
   `SRC-0016` and `SRC-0017`.
 - Manuscripts in progress recorded: 3.
 - Published/preprint records from `artigos publicados` recorded: 19.
-- CV-derived publication records recorded: 77.
+- CV-derived publication records recorded: 85.
 - Existing records updated or cross-checked with final CV publication metadata:
-  8.
+  17.
 - Crossref automated bibliographic validation performed on 2026-07-01.
 - Publication records with DOI verified or added through Crossref: 95.
-- Records without final DOI after automated validation: `PUB-0001`, `PUB-0002`,
-  `PUB-0003`, and `PUB-0010`.
+- Records without final DOI after automated validation or the international collaborator
+  CV source review: `PUB-0001`, `PUB-0002`, `PUB-0003`, `PUB-0010`,
+  `PUB-0100`, and `PUB-0101`.
 - Ambiguous CV extraction artifacts were corrected when Crossref supplied
   reliable title/formula metadata; remaining highly truncated candidates stay in
   the validation backlog for final manual review.
+- International collaborator CV sources `SRC-0048` and `SRC-0049` were reviewed
+  on 2026-07-01; eight theme-matched publication records were added and nine
+  existing coauthorship records were linked to `P-0015` and/or `P-0016`.
 
 ## Publication registry
 
@@ -130,8 +134,7 @@ source context. Ambiguous links are marked in the notes for manual validation.
 - Year or source date: 2026-06-27
 - DOI, arXiv ID, or other identifier: Not found in source
 - Authors as stated in source: Alan Almeida; Paula Brandao; Mario Reis; Antonio Moreira
-- Related people: `P-0008` Alan Fillipe de Souza Almeida; `P-0003` Mario de Souza Reis
-  Junior
+- Related people: `P-0008` Alan Fillipe de Souza Almeida; `P-0016` Paula Cristina Ferreira da Silva Brandão; `P-0003` Mario de Souza Reis Junior; `P-0015` António F. Moreira dos Santos
 - Source IDs: `SRC-0009`
 - Notes: The title spelling `frustated` follows the source text. The Alan Almeida name
   variant should be manually confirmed against `P-0008`.
@@ -147,8 +150,7 @@ source context. Ambiguous links are marked in the notes for manual validation.
 - DOI, arXiv ID, or other identifier: Not found in source
 - Authors as stated in source: Alan de Souza; Mario Reis; Antonio M. dos Santos;
   Vinicius de Sousa
-- Related people: `P-0008` Alan Fillipe de Souza Almeida; `P-0003` Mario de Souza Reis
-  Junior; `P-0007` Vinicius da Silva Ramos de Sousa
+- Related people: `P-0008` Alan Fillipe de Souza Almeida; `P-0003` Mario de Souza Reis Junior; `P-0007` Vinícius da Silva Ramos de Sousa; `P-0015` António F. Moreira dos Santos
 - Source IDs: `SRC-0010`
 - Notes: Alan de Souza and Vinicius de Sousa name variants should be manually confirmed
   against `P-0008` and `P-0007`.
@@ -164,8 +166,8 @@ source context. Ambiguous links are marked in the notes for manual validation.
 - DOI, arXiv ID, or other identifier: DOI `10.1016/j.molstruc.2022.134412`
 - Authors as stated in source: Rupam Sen; Kingsukh Mondal; Antonio M. dos Santos; Livia
   B. L. Escobar; Paula Brandao; Mario S. Reis; Zhi Lin
-- Related people: `P-0003` Mario de Souza Reis Junior
-- Source IDs: `SRC-0011`
+- Related people: `P-0015` António F. Moreira dos Santos; `P-0016` Paula Cristina Ferreira da Silva Brandão; `P-0003` Mario de Souza Reis Junior
+- Source IDs: `SRC-0011`, `SRC-0049`
 - Notes: DOI/title/venue checked through Crossref automated validation on 2026-07-01;
   final manual review deferred to project-wide final review.
 
@@ -200,7 +202,7 @@ source context. Ambiguous links are marked in the notes for manual validation.
 - DOI, arXiv ID, or other identifier: DOI `10.1016/j.physb.2024.415689`; arXiv
   `2304.05353v1`
 - Authors as stated in source: Mario Reis; Yongqiang Cheng; Antonio M. dos Santos
-- Related people: `P-0003` Mario de Souza Reis Junior
+- Related people: `P-0003` Mario de Souza Reis Junior; `P-0015` António F. Moreira dos Santos
 - Source IDs: `SRC-0013`, `SRC-0003`
 - Notes: Initial source is arXiv; final journal metadata was confirmed from Mario de
   Souza Reis Junior CV publication section.
@@ -292,7 +294,7 @@ source context. Ambiguous links are marked in the notes for manual validation.
 - DOI, arXiv ID, or other identifier: DOI `10.1002/ejic.202300123`
 - Authors as stated in source: Rupam Sen; Sudipta De; Antonio M. dos Santos; Livia B. L.
   Escobar; Paula Cristina Brandao; Filipe A. Almeida Paz; Mario S. Reis; Zhi Lin
-- Related people: `P-0003` Mario de Souza Reis Junior
+- Related people: `P-0015` António F. Moreira dos Santos; `P-0016` Paula Cristina Ferreira da Silva Brandão; `P-0003` Mario de Souza Reis Junior
 - Source IDs: `SRC-0019`, `SRC-0003`
 - Notes: Record initially extracted from screenshot and later cross-checked against
   Mario de Souza Reis Junior CV publication section. DOI/title/venue checked through
@@ -310,8 +312,7 @@ source context. Ambiguous links are marked in the notes for manual validation.
 - DOI, arXiv ID, or other identifier: DOI `10.1021/acsphyschemau.5c00134`
 - Authors as stated in source: Alan Almeida; Ana Clara das Neves; Paula Brandao; Mariem
   Masmoudi; Luis Ghivelder; Clebson Cruz; Mario Reis
-- Related people: `P-0008` Alan Fillipe de Souza Almeida; `P-0009` Clebson dos Santos
-  Cruz; `P-0003` Mario de Souza Reis Junior
+- Related people: `P-0008` Alan Fillipe de Souza Almeida; `P-0016` Paula Cristina Ferreira da Silva Brandão; `P-0009` Clebson dos Santos Cruz; `P-0003` Mario de Souza Reis Junior
 - Source IDs: `SRC-0020`, `SRC-0039`, `SRC-0040`
 - Notes: Alan Almeida name variant should be manually confirmed against `P-0008`; CV
   publication sections cross-confirm the article. DOI/title/venue checked through
@@ -973,8 +974,8 @@ source context. Ambiguous links are marked in the notes for manual validation.
 - DOI, arXiv ID, or other identifier: DOI `10.1016/j.jallcom.2021.162236`
 - Authors as stated in source: B. Pimentel; V. M. Andrade; V. G. de Paula; K. R. Pirota;
   F. Beron; M. A. Cardoso; J. N. Goncalves; J. S. Amaral; A. M. dos Santos; M. S. Reis
-- Related people: `P-0006` Vinicius Gomes de Paula; `P-0003` Mario de Souza Reis Junior
-- Source IDs: `SRC-0003`, `SRC-0006`
+- Related people: `P-0006` Vinicius Gomes de Paula; `P-0015` António F. Moreira dos Santos; `P-0003` Mario de Souza Reis Junior
+- Source IDs: `SRC-0003`, `SRC-0006`, `SRC-0048`
 - Notes: CV-derived thematic article from the 2016-2026 scan; Title/formula normalized
   using Crossref metadata. DOI/title/venue matched through Crossref automated validation
   on 2026-07-01; final manual review deferred to project-wide final review.
@@ -1706,8 +1707,8 @@ source context. Ambiguous links are marked in the notes for manual validation.
 - DOI, arXiv ID, or other identifier: DOI `10.1209/0295-5075/113/40004`
 - Authors as stated in source: C. Cruz; D. O. Soares-Pinto; Paula Brandao; A. M. dos
   Santos; M. S. Reis
-- Related people: `P-0009` Clebson dos Santos Cruz; `P-0003` Mario de Souza Reis Junior
-- Source IDs: `SRC-0003`, `SRC-0040`
+- Related people: `P-0009` Clebson dos Santos Cruz; `P-0016` Paula Cristina Ferreira da Silva Brandão; `P-0015` António F. Moreira dos Santos; `P-0003` Mario de Souza Reis Junior
+- Source IDs: `SRC-0003`, `SRC-0040`, `SRC-0049`
 - Notes: CV-derived thematic article from the 2016-2026 scan; DOI/title/venue matched
   through Crossref automated validation on 2026-07-01; final manual review deferred to
   project-wide final review.
@@ -1725,7 +1726,7 @@ source context. Ambiguous links are marked in the notes for manual validation.
 - Authors as stated in source: J. C. G. Tedesco; S. S. Pedro; R. J. Caraballo Vivas; C.
   Cruz; V. M. Andrade; A. M. dos Santos; A. M. G. Carvalho; M. Costa; P. Venezuela; D.
   L. Rocco; M. S. Reis
-- Related people: `P-0009` Clebson dos Santos Cruz; `P-0003` Mario de Souza Reis Junior
+- Related people: `P-0009` Clebson dos Santos Cruz; `P-0015` António F. Moreira dos Santos; `P-0003` Mario de Souza Reis Junior
 - Source IDs: `SRC-0003`, `SRC-0040`
 - Notes: CV-derived thematic article from the 2016-2026 scan; DOI/title/venue matched
   through Crossref automated validation on 2026-07-01; final manual review deferred to
@@ -1817,6 +1818,112 @@ source context. Ambiguous links are marked in the notes for manual validation.
   project-wide final review.
 
 
+### PUB-0100 - Giant barocaloric effect at the spin crossover transition of a molecular crystal
+
+- Unique ID: PUB-0100
+- Title: Giant barocaloric effect at the spin crossover transition of a molecular crystal
+- Publication status: Published article; metadata from international collaborator CV
+- Venue or source type: Advanced Materials 31(23) 1807334
+- Year or source date: 2019
+- DOI, arXiv ID, or other identifier: Not listed in source CV
+- Authors as stated in source: S. P. Vallone; A. N. Tantillo; A. M. dos Santos; J. J. Molaison; R. Kulmaczewski; A. Chapoy; P. Ahmadi; M. A. Halcrow; K. G. Sandeman
+- Related people: `P-0015` António F. Moreira dos Santos
+- Source IDs: `SRC-0048`
+- Notes: CV-derived thematic article from the 2026 international-collaborator update; no automated Crossref validation was run for this new record.
+
+### PUB-0101 - The high-pressure gas capabilities at Oak Ridge National Laboratory's neutron facilities
+
+- Unique ID: PUB-0101
+- Title: The high-pressure gas capabilities at Oak Ridge National Laboratory's neutron facilities
+- Publication status: Published article; metadata from international collaborator CV
+- Venue or source type: Review of Scientific Instruments 89(9) 092907
+- Year or source date: 2018
+- DOI, arXiv ID, or other identifier: Not listed in source CV
+- Authors as stated in source: A. M. dos Santos; J. J. Molaison; B. Haberl; L. Krishna; K. Page; M. Loguillo; X. P. Wang
+- Related people: `P-0015` António F. Moreira dos Santos
+- Source IDs: `SRC-0048`
+- Notes: CV-derived thematic/infrastructure-support article from the 2026 international-collaborator update; no automated Crossref validation was run for this new record.
+
+### PUB-0102 - Modulation of the spin crossover behaviour in four manganese(iii) complexes through cation-anion interactions
+
+- Unique ID: PUB-0102
+- Title: Modulation of the spin crossover behaviour in four manganese(iii) complexes through cation-anion interactions
+- Publication status: Published article; DOI stated in source CV
+- Venue or source type: Dalton Transactions
+- Year or source date: 2025
+- DOI, arXiv ID, or other identifier: DOI `10.1039/D5DT00238A`
+- Authors as stated in source: Suvamoy Malik; Paula Brandão; Samia Benmansour; Carlos J. Gómez-García; Amrita Saha
+- Related people: `P-0016` Paula Cristina Ferreira da Silva Brandão
+- Source IDs: `SRC-0049`
+- Notes: CV-derived thematic article from the 2026 international-collaborator update; final manual review deferred to project-wide final review.
+
+### PUB-0103 - Coordination complexes of Co, Cu, and Fe with adenine and phenanthroline: Synthesis, characterization, and cytotoxic studies
+
+- Unique ID: PUB-0103
+- Title: Coordination complexes of Co, Cu, and Fe with adenine and phenanthroline: Synthesis, characterization, and cytotoxic studies
+- Publication status: Published article; DOI stated in source CV
+- Venue or source type: Journal of Molecular Structure
+- Year or source date: 2025
+- DOI, arXiv ID, or other identifier: DOI `10.1016/j.molstruc.2025.143128`
+- Authors as stated in source: Mariem Masmoudi; Cláudia Silva; Nelson Andrade; Fátima Martel; Paula Brandão
+- Related people: `P-0016` Paula Cristina Ferreira da Silva Brandão
+- Source IDs: `SRC-0049`
+- Notes: CV-derived thematic article from the 2026 international-collaborator update; final manual review deferred to project-wide final review.
+
+### PUB-0104 - Magneto-structural and theoretical insights into Ni2Dy2 butterfly single-molecule magnets with diverse anionic co-ligands
+
+- Unique ID: PUB-0104
+- Title: Magneto-structural and theoretical insights into Ni2Dy2 butterfly single-molecule magnets with diverse anionic co-ligands
+- Publication status: Published article; DOI stated in source CV
+- Venue or source type: Dalton Transactions
+- Year or source date: 2026
+- DOI, arXiv ID, or other identifier: DOI `10.1039/D5DT02843D`
+- Authors as stated in source: Anangamohan Panja; Zvonko Jaglicic; Daniel Aravena; Narayan Ch. Jana; Paula Brandão
+- Related people: `P-0016` Paula Cristina Ferreira da Silva Brandão
+- Source IDs: `SRC-0049`
+- Notes: CV-derived thematic article from the 2026 international-collaborator update; final manual review deferred to project-wide final review.
+
+### PUB-0105 - Exploring magnetic anisotropy and exchange coupling in FeIII2DyIII heterotrimetallic assemblies displaying slow relaxation of magnetization
+
+- Unique ID: PUB-0105
+- Title: Exploring magnetic anisotropy and exchange coupling in FeIII2DyIII heterotrimetallic assemblies displaying slow relaxation of magnetization
+- Publication status: Published article; DOI stated in source CV
+- Venue or source type: New Journal of Chemistry
+- Year or source date: 2025
+- DOI, arXiv ID, or other identifier: DOI `10.1039/D5NJ03857J`
+- Authors as stated in source: Anangamohan Panja; Zvonko Jaglicic; Narayan Ch. Jana; Scarlette Contesso; Paula Brandão; Daniel Aravena
+- Related people: `P-0016` Paula Cristina Ferreira da Silva Brandão
+- Source IDs: `SRC-0049`
+- Notes: CV-derived thematic article from the 2026 international-collaborator update; final manual review deferred to project-wide final review.
+
+### PUB-0106 - Experimental and theoretical insights into magnetic exchange and anisotropy in multinuclear cobalt complexes displaying slow relaxation
+
+- Unique ID: PUB-0106
+- Title: Experimental and theoretical insights into magnetic exchange and anisotropy in multinuclear cobalt complexes displaying slow relaxation
+- Publication status: Published article; DOI stated in source CV
+- Venue or source type: Dalton Transactions
+- Year or source date: 2025
+- DOI, arXiv ID, or other identifier: DOI `10.1039/D5DT01197C`
+- Authors as stated in source: Narayan Ch. Jana; Erik Cižmár; Paula Brandão; Kuheli Pramanik; Anangamohan Panja
+- Related people: `P-0016` Paula Cristina Ferreira da Silva Brandão
+- Source IDs: `SRC-0049`
+- Notes: CV-derived thematic article from the 2026 international-collaborator update; final manual review deferred to project-wide final review.
+
+### PUB-0107 - Insight into ferromagnetic interactions in CuII-LnIII dimers with a compartmental ligand
+
+- Unique ID: PUB-0107
+- Title: Insight into ferromagnetic interactions in CuII-LnIII dimers with a compartmental ligand
+- Publication status: Published article; DOI stated in source CV
+- Venue or source type: Dalton Transactions
+- Year or source date: 2024
+- DOI, arXiv ID, or other identifier: DOI `10.1039/D3DT03557C`
+- Authors as stated in source: Anangamohan Panja; Sagar Paul; Eufemio Moreno-Pineda; Radovan Herchel; Narayan Ch. Jana; Paula Brandão; Ghenadie Novitchi; Wolfgang Wernsdorfer
+- Related people: `P-0016` Paula Cristina Ferreira da Silva Brandão
+- Source IDs: `SRC-0049`
+- Notes: CV-derived thematic article from the 2026 international-collaborator update; final manual review deferred to project-wide final review.
+
+
+
 ## Validation backlog
 
 - Confirm the author list for `PUB-0001`.
@@ -1824,6 +1931,8 @@ source context. Ambiguous links are marked in the notes for manual validation.
   final publication or author metadata is available.
 - Keep `PUB-0010` as an arXiv preprint; no final publication DOI was found in
   the automated Crossref check on 2026-07-01.
+- Confirm DOI metadata for `PUB-0100` and `PUB-0101`, whose source CV did not
+  list DOI identifiers.
 - Decide whether to promote or exclude the following highly truncated CV
   candidates during the project-wide final manual review: Monte Carlo
   calculations of thermodynamic and magnetocaloric properties, `JMMM` 610,

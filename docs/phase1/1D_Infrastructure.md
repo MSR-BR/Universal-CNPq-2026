@@ -18,9 +18,9 @@ Dependencies: `docs/phase1/1A_People.md`,
 Completion criteria: In-scope infrastructure resources are recorded once, with
 stable IDs and links to related people, projects, and outputs when available.
 
-Version: 1.2
+Version: 1.3
 
-Status: Active; scope corrected to Phase 1A participant institutions
+Status: Active; international collaborator infrastructure update added
 
 Last update: 2026-07-01
 
@@ -35,8 +35,10 @@ institutions represented in `docs/phase1/1A_People.md`:
 - Universidade Federal Fluminense (UFF)
 - Universidade Federal do Oeste da Bahia (UFOB)
 - Universidade SENAI CIMATEC
+- Oak Ridge National Laboratory (ORNL)
+- Universidade de Aveiro
 
-Do not list infrastructure from LAFMAT partner institutions, external
+Do not list infrastructure from LAFMAT partner institutions, remaining external
 collaborators, or external large-scale facilities as active Phase 1D resources
 unless the project owner first adds a participant from that institution to Phase
 1A or explicitly changes this scope.
@@ -56,7 +58,9 @@ Phase 1D was opened on 2026-07-01 after the initial Phase 1C previous-project
 registry pass. The project owner clarified on 2026-07-01 that the LAFMAT
 proposal source includes institutions that will not enter the project; therefore
 active Phase 1D infrastructure is restricted to Phase 1A participant
-institutions.
+institutions. The project owner later added Antonio dos Santos and Paula
+Brandão as international collaborators; therefore ORNL and Universidade de
+Aveiro are represented in Phase 1A through `P-0015` and `P-0016`, respectively.
 
 Phase 1A, Phase 1B, and Phase 1C remain available for deferred manual
 refinement, but manual review is not a blocker for this factual infrastructure
@@ -94,10 +98,14 @@ Reviewed sources for this corrected pass:
 - Previous-project/proposal PDFs with in-scope infrastructure: `SRC-0033`,
   `SRC-0034`, and `SRC-0036`.
 - CV/Lattes infrastructure or project entries with in-scope infrastructure:
-  `SRC-0003`, `SRC-0007`, `SRC-0040`, and `SRC-0044`.
+  `SRC-0003`, `SRC-0007`, `SRC-0040`, `SRC-0044`, `SRC-0048`, and
+  `SRC-0049`.
 - The LAFMAT source `SRC-0033` was used only for resources hosted at Phase 1A
   institutions, such as UFF and UFOB. Infrastructure from LAFMAT partner
   institutions outside Phase 1A was removed from the active registry.
+- International collaborator CV sources `SRC-0048` and `SRC-0049` support
+  narrowly scoped ORNL/SNAP and Universidade de Aveiro/CICECO records added
+  after the Phase 1A collaborator update.
 - Manual project-owner review is deferred to the final review, as instructed.
 
 ## Infrastructure database
@@ -222,6 +230,40 @@ Reviewed sources for this corrected pass:
 - Source IDs: `SRC-0007`
 - Notes: Source describes FAPERJ Edital 16/2015 Apoio à Infraestrutura para Pesquisa nas Universidades Estaduais do RJ; coordinator listed in source is external to Phase 1A.
 
+
+### Oak Ridge National Laboratory (ORNL)
+
+#### INF-0017 - SNAP Beamline, Spallation Neutron Source, ORNL
+
+- Unique ID: INF-0017
+- Resource name: SNAP Beamline, Spallation Neutron Source, Oak Ridge National Laboratory
+- Resource type: High-pressure neutron-scattering beamline and facility access context
+- Host institution or location: Oak Ridge National Laboratory (ORNL), Tennessee, United States
+- Status in source: Active professional facility context in Antonio dos Santos CV; source lists him as Instrument Scientist at SNAP and Point of Contact for the SNAP Beamline
+- Components or capabilities stated in source: SNAP beamline at the Spallation Neutron Source; high-pressure diffraction; sample environments for neutron scattering; source CV also lists high-pressure techniques for neutrons, x-rays, and magnetization measurements
+- Related people: `P-0015` António F. Moreira dos Santos; `P-0008` Alan Fillipe de Souza Almeida; `P-0007` Vinícius da Silva Ramos de Sousa; `P-0003` Mario de Souza Reis Junior
+- Related projects: `PRJ-0005`, `PRJ-0022`, `PRJ-0030`
+- Related publications or outputs: `PUB-0006`, `PUB-0100`, `PUB-0101`
+- Source IDs: `SRC-0048`, `SRC-0035`, `SRC-0037`, `SRC-0038`
+- Notes: Added after `P-0015` was added to Phase 1A. This record is restricted to the source-backed SNAP/ORNL context and does not import broader ORNL infrastructure.
+
+### Universidade de Aveiro
+
+#### INF-0018 - Universidade de Aveiro/CICECO single-crystal X-ray diffraction laboratory
+
+- Unique ID: INF-0018
+- Resource name: Single-crystal X-ray diffraction laboratory, Universidade de Aveiro/CICECO
+- Resource type: Structural-characterization laboratory
+- Host institution or location: Departamento de Química/CICECO, Universidade de Aveiro, Portugal
+- Status in source: Source CV states Paula Brandão has been responsible for the single-crystal X-ray diffraction laboratory since 2006, including maintenance and training of new users
+- Components or capabilities stated in source: Single-crystal X-ray diffraction machine operation, user training, and structure solving using different methodologies
+- Related people: `P-0016` Paula Cristina Ferreira da Silva Brandão; `P-0003` Mario de Souza Reis Junior; `P-0009` Clebson dos Santos Cruz
+- Related projects: `PRJ-0001`, `PRJ-0032`, `PRJ-0033`
+- Related publications or outputs: `PUB-0004`, `PUB-0012`, `PUB-0102`, `PUB-0103`, `PUB-0104`, `PUB-0105`, `PUB-0106`, `PUB-0107`
+- Source IDs: `SRC-0049`, `SRC-0036`
+- Notes: Added after `P-0016` was added to Phase 1A. This record is restricted to the source-backed diffraction laboratory context and does not import all Universidade de Aveiro infrastructure.
+
+
 ## Retired ID log
 
 The following infrastructure IDs were created in commit `1383ee5` and removed
@@ -248,8 +290,9 @@ history for audit purposes.
   equipment, but the extracted text does not assign every item to a Phase 1A
   institution. The detailed list is not an active record until host mapping is
   manually confirmed.
-- Source `SRC-0037` and `SRC-0038` are e-mail threads. They are not used as
-  active infrastructure records after the Phase 1A-institution scope correction.
+- Source `SRC-0037` and `SRC-0038` are e-mail threads. They are used only as
+  supporting evidence for `INF-0017` after Antonio dos Santos was added to
+  Phase 1A; they are not standalone infrastructure records.
 - Several CVs mention institutional departments or professional addresses. These
   were not promoted to infrastructure records unless the source also identified
   a laboratory, equipment set, platform, center, facility, or infrastructure
@@ -258,8 +301,8 @@ history for audit purposes.
 ## Manual review queue
 
 - Confirm whether any equipment from the detailed `SRC-0034` list is hosted by
-  UFF, UERJ, UFOB, or SENAI CIMATEC and should be added as a new in-scope
-  infrastructure record.
+  UFF, UERJ, UFOB, SENAI CIMATEC, ORNL, or Universidade de Aveiro and should
+  be added as a new in-scope infrastructure record.
 - Confirm whether infrastructure-funding/development records connected to
   `INF-0010` and `INF-0016` should be promoted to Phase 1C project records.
 - Add explicit publication/output cross-links only after final manual validation

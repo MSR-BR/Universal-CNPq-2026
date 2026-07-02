@@ -17,9 +17,9 @@ Dependencies: `docs/phase1/1A_People.md` and
 Completion criteria: Previous projects are recorded once, with stable IDs and
 links to related people and publications.
 
-Version: 1.1
+Version: 1.2
 
-Status: Active; initial factual registry opened
+Status: Active; international collaborator CV update added
 
 Last update: 2026-07-01
 
@@ -79,6 +79,8 @@ Reviewed sources for this initial pass:
 - Lattes/CV text sources checked in the automated first pass: `SRC-0001`
   through `SRC-0007`, plus `SRC-0039` through `SRC-0046`. Records were
   promoted only when the project source matched the current factual 1C scope.
+- International collaborator CV sources `SRC-0048` and `SRC-0049` were added
+  on 2026-07-01 and reviewed for source-backed project records.
 - Project records below are deduplicated at the title/source level when the
   same project appears in multiple CVs.
 - Manual project-owner review is deferred to the final review, as instructed.
@@ -97,7 +99,7 @@ Reviewed sources for this initial pass:
 - Funding agency or program: CNPq/MCTI/FNDCT Universal 2024
 - Coordinator or principal investigator: Clebson dos Santos Cruz
 - Host or executing institution: Universidade Federal do Oeste da Bahia (UFOB); partner institution Instituto de Física, Universidade Federal Fluminense (IF-UFF)
-- Related people: `P-0009` Clebson dos Santos Cruz; `P-0003` Mario de Souza Reis Junior; additional team links pending manual review
+- Related people: `P-0009` Clebson dos Santos Cruz; `P-0003` Mario de Souza Reis Junior; `P-0015` António F. Moreira dos Santos; `P-0016` Paula Cristina Ferreira da Silva Brandão; additional team links pending manual review
 - Related publications: Pending manual cross-link to `docs/phase1/1B_Publications.md`
 - Source IDs: `SRC-0036`
 - Notes: Source keywords include quantum batteries, quantum correlations, quantum thermodynamics, and metal complexes. Budget total in source: R$ 194,700.00.
@@ -157,9 +159,9 @@ Reviewed sources for this initial pass:
 - Funding agency or program: CAPES/PDSE
 - Coordinator or principal investigator: Alan Fillipe de Souza Almeida as doctoral student; Vinícius da Silva Ramos de Sousa and Mario de Souza Reis Junior as Brazilian advisors; Antonio M. dos Santos as foreign co-advisor
 - Host or executing institution: Oak Ridge National Laboratory (ORNL), United States, for the foreign stage; UERJ/UFF as Brazilian institutions in source
-- Related people: `P-0008` Alan Fillipe de Souza Almeida; `P-0007` Vinícius da Silva Ramos de Sousa; `P-0003` Mario de Souza Reis Junior
+- Related people: `P-0008` Alan Fillipe de Souza Almeida; `P-0007` Vinícius da Silva Ramos de Sousa; `P-0003` Mario de Souza Reis Junior; `P-0015` António F. Moreira dos Santos
 - Related publications: Pending manual cross-link to `docs/phase1/1B_Publications.md`
-- Source IDs: `SRC-0035`, `SRC-0037`, `SRC-0038`
+- Source IDs: `SRC-0035`, `SRC-0037`, `SRC-0038`, `SRC-0048`
 - Notes: The title field in the extracted source is blank after `Título:`; descriptive title is taken from the document heading. Source topics include barocaloric effect, spin crossover molecular complexes, neutron diffraction, high pressure, and first-principles calculations.
 
 ### Lattes project records - caloric materials, spin crossover, and related magnetic materials
@@ -414,9 +416,9 @@ Reviewed sources for this initial pass:
 - Funding agency or program: Not specified in reviewed source
 - Coordinator or principal investigator: Vinícius da Silva Ramos de Sousa
 - Host or executing institution: UERJ in source CV context
-- Related people: `P-0008` Alan Fillipe de Souza Almeida; `P-0007` Vinícius da Silva Ramos de Sousa; `P-0003` Mario de Souza Reis Junior
+- Related people: `P-0008` Alan Fillipe de Souza Almeida; `P-0007` Vinícius da Silva Ramos de Sousa; `P-0003` Mario de Souza Reis Junior; `P-0015` António F. Moreira dos Santos
 - Related publications: Pending manual cross-link to `docs/phase1/1B_Publications.md`
-- Source IDs: `SRC-0039`, `SRC-0035`, `SRC-0037`, `SRC-0038`
+- Source IDs: `SRC-0039`, `SRC-0035`, `SRC-0037`, `SRC-0038`, `SRC-0048`
 - Notes: This record is connected to the PDSE plan and follow-up e-mails, but retained separately from `PRJ-0005` because the Lattes project is a broader ongoing research project.
 
 #### PRJ-0023 - Transições de fase e efeito magnetocalórico na série Gd(Co(1-x)Rux)2
@@ -526,11 +528,76 @@ Reviewed sources for this initial pass:
 - Source IDs: `SRC-0044`
 - Notes: Retained because the source topics include foundations of statistical mechanics and quantum correlations.
 
+
+### International collaborator CV project records
+
+#### PRJ-0030 - Monte Carlo Ray Tracing Analysis of mixed samples
+
+- Unique ID: PRJ-0030
+- Project title: Monte Carlo Ray Tracing Analysis of mixed samples
+- Project type: ORNL LDRD project/proposal record
+- Period or source date: 2022-2024 in source CV; starting date listed as TBA
+- Status in source: Contributor role listed in source CV
+- Funding agency or program: Laboratory Directed Research and Development (LDRD)
+- Coordinator or principal investigator: Garrett Granroth
+- Host or executing institution: Oak Ridge National Laboratory (ORNL)
+- Related people: `P-0015` António F. Moreira dos Santos
+- Related publications: Pending manual cross-link to `docs/phase1/1B_Publications.md`
+- Source IDs: `SRC-0048`
+- Notes: Retained as a source-backed international collaborator project record; technical relevance and status require final manual validation.
+
+#### PRJ-0031 - Instabilidades de rede funcionais em perovskites naturalmente estruturadas
+
+- Unique ID: PRJ-0031
+- Project title: Instabilidades de rede funcionais em perovskites naturalmente estruturadas
+- Project type: Consultant project record
+- Period or source date: Starting date August 2018 in source CV
+- Status in source: Consultant role listed in source CV
+- Funding agency or program: POCI-01-0145-FEDER-029454
+- Coordinator or principal investigator: Armandina Lopes, Universidade do Porto, Portugal
+- Host or executing institution: Universidade do Porto, Portugal
+- Related people: `P-0015` António F. Moreira dos Santos
+- Related publications: Pending manual cross-link to `docs/phase1/1B_Publications.md`
+- Source IDs: `SRC-0048`
+- Notes: Retained because the source title explicitly concerns functional lattice instabilities in naturally structured perovskites.
+
+#### PRJ-0032 - Dadores de gasotransmissores NO e H2S terapêuticos baseados em materiais nanoporosos
+
+- Unique ID: PRJ-0032
+- Project title: Dadores de gasotransmissores NO e H2S terapêuticos baseados em materiais nanoporosos
+- Project type: Contract/project record
+- Period or source date: 2018-10-01 to 2022-09-30 in source CV
+- Status in source: Ongoing in source CV
+- Funding agency or program: Fundação para a Ciência e a Tecnologia; PTDC/MED-QUI/28721/2017
+- Coordinator or principal investigator: Not specified in extracted source segment
+- Host or executing institution: Universidade de Lisboa Instituto de Medicina Molecular João Lobo Antunes; Universidade de Aveiro; Instituto Superior Técnico-associated entities in source
+- Related people: `P-0016` Paula Cristina Ferreira da Silva Brandão
+- Related publications: Pending manual cross-link to `docs/phase1/1B_Publications.md`
+- Source IDs: `SRC-0049`
+- Notes: Retained as a source-backed Paula Brandão project record involving nanoporous materials; centrality to the proposal should be assessed only in later phases.
+
+#### PRJ-0033 - Novel smart multi-functional Transition metal-Rare earth-Organic-Frameworks (TROFs) toward tunable magnetic and luminescent properties
+
+- Unique ID: PRJ-0033
+- Project title: Novel smart multi-functional Transition metal-Rare earth-Organic-Frameworks (TROFs) toward tunable magnetic and luminescent properties
+- Project type: Grant project record
+- Period or source date: 2012-03 to 2015-02 in source CV
+- Status in source: Grant record listed in source CV
+- Funding agency or program: Stichting Weten; PTCRIS 119994
+- Coordinator or principal investigator: Not specified in extracted source segment
+- Host or executing institution: Universidade de Aveiro context in source CV
+- Related people: `P-0016` Paula Cristina Ferreira da Silva Brandão
+- Related publications: Pending manual cross-link to `docs/phase1/1B_Publications.md`
+- Source IDs: `SRC-0049`
+- Notes: Older than the main publication scan window but retained because it directly concerns transition-metal/rare-earth organic frameworks with magnetic properties.
+
+
 ## Supporting source notes
 
 - `SRC-0037` is an e-mail thread titled `Resultados - Doutorado Sanduíche`; it confirms ongoing ORNL work on barocaloric calculations, normal-mode matching, iron tetramer modeling, copper dimer modeling, and related samples. It is used as supporting evidence for `PRJ-0005` and `PRJ-0022`, not as an independent project record.
 - `SRC-0038` is an e-mail thread titled `Tetramero de Ferro - MCE`; it is used as supporting evidence for ongoing iron tetramer/magnetocaloric-effect work connected to `PRJ-0005` and `PRJ-0022`, not as an independent project record.
 - Event-support project records such as WICE workshops are present in CV sources but are not fully curated in this first 1C pass. They should be revisited during Phase 1E - Collaborations or final manual review.
+- `SRC-0048` and `SRC-0049` add international collaborator project records from Antonio dos Santos and Paula Brandão CVs; only source-backed thematic records were promoted in this update.
 
 ## Manual review queue
 

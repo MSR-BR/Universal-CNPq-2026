@@ -17,9 +17,9 @@ Dependencies: `docs/01_Methodology.md`, `docs/00_Project_Status.md`, and
 Completion criteria: Every known participant has a stable ID and a complete
 record with the required fields listed below.
 
-Version: 1.5
+Version: 1.6
 
-Status: Baseline accepted for Phase 1B; future refinements pending
+Status: Baseline accepted; international collaborator refinements added
 
 Last update: 2026-07-01
 
@@ -344,3 +344,43 @@ header or explicitly described as current in the source summary. Use
 - Related publications: See `docs/phase1/1B_Publications.md`.
 - Related projects: Pending Phase 1C registry
 - Notes: Source `SRC-0044`; team page `SRC-0047` lists name only, with no additional administrative fields extracted.
+
+### Institution: Oak Ridge National Laboratory (ORNL)
+
+#### P-0015 - António F. Moreira dos Santos
+
+- Unique ID: P-0015
+- Name: António F. Moreira dos Santos
+- Institution: Oak Ridge National Laboratory (ORNL), United States
+- Department: Spallation Neutron Source (SNS), SNAP Beamline
+- Position: Neutron Scattering Scientist; Point of Contact - SNAP Beamline, SNS
+- Academic degree: Ph.D. in Materials Science; undergraduate degree in Materials Engineering
+- Lattes: Not applicable / not found in reviewed source
+- ORCID: https://orcid.org/0000-0001-6900-0816
+- Current status: Instrument Scientist at SNAP, Spallation Neutron Source, Oak Ridge National Laboratory; source CV dated October 2021
+- Research group: SNAP Beamline / Spallation Neutron Source context in source CV
+- Career stage: Senior instrument scientist / researcher
+- Academic merit fellowships: Current/header-confirmed: none found for CNPq Productivity or FAPERJ CNE/JCNE in reviewed source; not a Brazilian Lattes CV. Historical/recorded: Fulbright Scholar Ph.D. program listed as award/honor, but not classified here as a CNPq/FAPERJ academic merit fellowship.
+- Related publications: See `docs/phase1/1B_Publications.md`.
+- Related projects: `PRJ-0005`, `PRJ-0022`, `PRJ-0030`, and `PRJ-0031`; see `docs/phase1/1C_PreviousProjects.md`.
+- Notes: Source `SRC-0048`; added as international project collaborator at project-owner request on 2026-07-01. The source also uses Antonio M. dos Santos and A. M. dos Santos variants.
+
+### Institution: Universidade de Aveiro
+
+#### P-0016 - Paula Cristina Ferreira da Silva Brandão
+
+- Unique ID: P-0016
+- Name: Paula Cristina Ferreira da Silva Brandão
+- Institution: Universidade de Aveiro, Portugal
+- Department: Departamento de Química / CICECO - Aveiro Institute of Materials
+- Position: Auxiliary Researcher; responsible for the single-crystal X-ray diffraction laboratory according to CV summary
+- Academic degree: Ph.D. in Inorganic Chemistry; Licenciatura in Biological Engineering
+- Lattes: Not applicable / not found in reviewed source
+- ORCID: https://orcid.org/0000-0002-4746-6073
+- Current status: Auxiliary Researcher at Universidade de Aveiro CICECO, Portugal; CiênciaVitae source lists 2019-current affiliation
+- Research group: CICECO - Aveiro Institute of Materials
+- Career stage: Researcher
+- Academic merit fellowships: Current/header-confirmed: none found for CNPq Productivity or FAPERJ CNE/JCNE in reviewed source; not a Brazilian Lattes CV. Historical/recorded: none found for CNPq Productivity or FAPERJ CNE/JCNE; Portuguese grant/postdoctoral history is not classified here as a CNPq/FAPERJ academic merit fellowship.
+- Related publications: See `docs/phase1/1B_Publications.md`.
+- Related projects: `PRJ-0001`, `PRJ-0032`, and `PRJ-0033`; see `docs/phase1/1C_PreviousProjects.md`.
+- Notes: Source `SRC-0049`; added as international project collaborator at project-owner request on 2026-07-01. The source states collaboration with the Institute of Physics of Federal University, Niteroi, Brazil and Oak Ridge National Laboratory.
