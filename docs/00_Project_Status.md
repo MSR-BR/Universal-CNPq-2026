@@ -26,7 +26,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.25
+Version: 2.26
 
 Status: Active
 
@@ -196,6 +196,9 @@ available for deferred final manual refinement, but they no longer block Phase
   approval tracker, member response questions, budget collection template,
   budget category guide, access/feasibility checklist, comment register, and
   Phase 6 readiness gate.
+- A Portuguese proposal-summary packet for member circulation has been prepared
+  as editable Markdown and as a PDF-ready artifact for sending to all project
+  members.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
 - No Phase 6 master-project text, CNPq proposal text, consolidated final PDF,
@@ -233,8 +236,9 @@ available for deferred final manual refinement, but they no longer block Phase
 - Continue Phase 2 Team Book factual refinement only if the project owner
   requests deferred manual adjustments; the accepted baseline remains available
   for Phase 3 work.
-- Review the Phase 5.5 circulation packet, then circulate it to project members
-  to collect approval/comments and budget items, values, and justifications.
+- Review the Portuguese Phase 5.5 proposal-summary PDF, then circulate it to
+  project members to collect approval/comments and budget items, values, and
+  justifications.
 - Keep Phase 6 locked until Phase 5.5 responses, budget inputs, required
   adjustments, and project-owner acceptance are recorded.
 - In Phase 7, keep CNPq form blocks comfortably below character limits, using
@@ -245,7 +249,7 @@ available for deferred final manual refinement, but they no longer block Phase
 
 ## Repository statistics
 
-- Controlled Markdown documents in `docs/`: 25
+- Controlled Markdown documents in `docs/`: 26
 - Source files inventoried from Dropbox: 49
 - Files in Dropbox `CVs/` folder: 18
 - Phase 1A people records: 16
@@ -347,7 +351,7 @@ available for deferred final manual refinement, but they no longer block Phase
 - Phase 5 validation/review queue items for Phase 5.5: 10
 - Phase 5.5 handoff package rows prepared in Phase 5: 6
 - Phase 5 completion checkpoint rows: 18
-- Phase 5.5 documents opened: 1
+- Phase 5.5 documents opened: 2
 - Phase 5.5 handoff summary rows: 6
 - Phase 5.5 internal circulation summary task rows: 4
 - Phase 5.5 member approval tracker rows: 16
@@ -355,7 +359,8 @@ available for deferred final manual refinement, but they no longer block Phase
 - Phase 5.5 budget collection template rows: 5
 - Phase 5.5 budget category guide rows: 7
 - Phase 5.5 access and feasibility checklist rows: 8
-- Phase 5.5 phase 6 readiness gate rows: 10
+- Phase 5.5 phase 6 readiness gate rows: 11
+- Phase 5.5 Portuguese circulation artifacts prepared: 2
 - Approved methodology checkpoint documents: 1
 - Institutions recorded in Phase 1A: 6
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
@@ -365,9 +370,10 @@ available for deferred final manual refinement, but they no longer block Phase
 
 ## Next action
 
-Project owner should review the Phase 5.5 circulation packet in
-`docs/phase5/5_5_InternalApprovalBudget.md`. After review, the packet can be
-sent to project members for approval/comments and budget collection.
+Project owner should review the Portuguese Phase 5.5 proposal-summary PDF in
+`output/pdf/Proposta_Universal_CNPq_2026_Aprovacao_Interna.pdf`. After review,
+the PDF can be sent to project members for approval/comments and budget
+collection.
 
 Later in the roadmap, the active Phase 5.5 checkpoint must be
 completed before Phase 6 starts.
@@ -375,6 +381,7 @@ completed before Phase 6 starts.
 ## Recent updates
 
 - 2026-07-02: Project owner accepted the completed Phase 5 Project Matrix and Phase 5.5 - Internal Approval and Budget Collection was opened with circulation, approval, budget, and feasibility templates.
+- 2026-07-02: Prepared the Portuguese proposal-summary packet and PDF target for member circulation, approval/comments, and budget collection.
 - 2026-07-02: Executed the full Phase 5 Project Matrix with four candidate tasks, three state-of-the-art support routes, six support/validation routes, model/evidence/capability matrices, and a Phase 5.5 handoff package.
 - 2026-07-02: Recorded project-owner assessment of Phase 5 slots: `PM-01`, `PM-03`, `PM-04`, and `PM-05` remain viable candidate tasks; `PM-02` moves to state-of-the-art/introduction support; `PM-06` remains a support/validation layer.
 - 2026-07-02: Project owner accepted the refined Phase 4 Gap Analysis baseline and Phase 5 - Project Matrix was opened with six candidate matrix slots.

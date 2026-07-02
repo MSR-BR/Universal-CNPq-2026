@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 4.4
+Version: 4.5
 
 Status: Active
 
@@ -37,7 +37,7 @@ Last update: 2026-07-02
 | 3 | Scientific Atlas | Accepted baseline; manual refinements deferred | `docs/phase3/3_ScientificAtlas.md` |
 | 4 | Gap Analysis | Accepted baseline; supports Phase 5 | `docs/phase4/4_GapAnalysis.md` |
 | 5 | Project Matrix | Accepted baseline; supports Phase 5.5 | `docs/phase5/5_ProjectMatrix.md` |
-| 5.5 | Internal Approval and Budget Collection | Active; circulation packet and collection templates prepared | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| 5.5 | Internal Approval and Budget Collection | Active; Portuguese circulation PDF and collection templates prepared | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | 6 | Master Project | Locked until Phase 5.5 is complete | `docs/phase6/6_MasterProject.md` |
 | 7 | CNPq Proposal | Locked until Phase 6 is complete | `docs/phase7/7_CNPqProposal.md` |
 | 8 | Final Review | Locked until Phase 7 is complete | `docs/phase8/8_FinalReview.md` |
@@ -46,9 +46,9 @@ Last update: 2026-07-02
 
 The repository is in Phase 5.5 - Internal Approval and Budget Collection.
 
-Allowed work now: review and circulation of the internal summary, collection
-of member approvals/comments, and collection of budget items, values, and
-justifications.
+Allowed work now: project-owner review and circulation of the Portuguese
+proposal-summary PDF, collection of member approvals/comments, and collection
+of budget items, values, and justifications.
 
 Still prohibited: Phase 6 master-project writing, final CNPq proposal text,
 consolidated PDF project creation, final budget values or justifications,
@@ -146,7 +146,8 @@ items, values, and justifications.
 | Budget collection template rows | 5 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Budget category guide rows | 7 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Access and feasibility checklist rows | 8 | `docs/phase5/5_5_InternalApprovalBudget.md` |
-| Phase 6 readiness gate rows | 10 | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| Phase 6 readiness gate rows | 11 | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| Portuguese circulation artifacts prepared | 2 | `docs/phase5/5_5_Proposta_Resumo_Aprovacao_Interna.md`; `output/pdf/Proposta_Universal_CNPq_2026_Aprovacao_Interna.pdf` |
 
 ## Final writing constraints
 

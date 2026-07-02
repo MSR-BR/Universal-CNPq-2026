@@ -9,8 +9,9 @@ before final project writing.
 Inputs: Accepted Project Matrix, Gap Analysis, Scientific Atlas, Team Book,
 Phase 1 knowledge-base records, and project-owner instructions.
 
-Outputs: Internal circulation packet, member approval tracker, comment and
-adjustment register, budget item collection table, budget justification table,
+Outputs: Portuguese circulation packet for project-member review, PDF version
+for sending to collaborators, member approval tracker, comment and adjustment
+register, budget item collection table, budget justification table,
 access/feasibility checklist, and readiness gate for Phase 6 - Master Project.
 
 Dependencies: Project-owner acceptance of Phase 5 - Project Matrix.
@@ -20,9 +21,9 @@ approval, comments, and required adjustments are recorded; budget items,
 values, and justifications are collected; access/feasibility issues are
 identified; and the project owner accepts the checkpoint as complete.
 
-Version: 1.1
+Version: 1.2
 
-Status: Active; opened after Phase 5 acceptance
+Status: Active; Portuguese circulation packet prepared
 
 Last update: 2026-07-02
 
@@ -60,6 +61,17 @@ Phase 5.5.
 
 This document prepares the internal circulation and budget-collection workflow.
 It does not complete Phase 5.5 and does not start Phase 6.
+
+## Circulation artifacts
+
+The project-owner requested a Portuguese, external-reader-friendly PDF for
+sending to all project members. The document must not use internal repository
+or agent-control language and must be understandable by an external professor.
+
+| Artifact | Path | Purpose | Status |
+| --- | --- | --- | --- |
+| Portuguese editable source | `docs/phase5/5_5_Proposta_Resumo_Aprovacao_Interna.md` | Source text for internal proposal evaluation by project members. | Prepared. |
+| Portuguese PDF for circulation | `output/pdf/Proposta_Universal_CNPq_2026_Aprovacao_Interna.pdf` | PDF to send to project members for assessment of the general proposal and budget collection. | Prepared. |
 
 ## Phase 5 handoff summary
 
@@ -185,6 +197,7 @@ Phase 6 can open only when the following conditions are satisfied.
 | Gate item | Status |
 | --- | --- |
 | Internal summary prepared for circulation | Satisfied in this document. |
+| Portuguese PDF prepared for external-reader-friendly member circulation | Satisfied in circulation artifact. |
 | Member approval tracker created | Satisfied in this document. |
 | Budget collection template created | Satisfied in this document. |
 | Access and feasibility checklist created | Satisfied in this document. |
