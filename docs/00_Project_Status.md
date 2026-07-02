@@ -26,7 +26,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.27
+Version: 2.28
 
 Status: Active
 
@@ -204,6 +204,9 @@ available for deferred final manual refinement, but they no longer block Phase
 - The Portuguese circulation packet and Phase 5 Project Matrix were refined to
   add the explicit barocaloric spin-crossover axis in metal complexes, linked
   to the UERJ-UFF-ORNL route.
+- A short GitHub Issue Form was created for Phase 5.5 member responses, and a
+  GitHub Actions ingestion workflow was added to write labeled responses into
+  `data/phase5_5_member_responses/`.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
 - No Phase 6 master-project text, CNPq proposal text, consolidated final PDF,
@@ -241,9 +244,9 @@ available for deferred final manual refinement, but they no longer block Phase
 - Continue Phase 2 Team Book factual refinement only if the project owner
   requests deferred manual adjustments; the accepted baseline remains available
   for Phase 3 work.
-- Review the Portuguese Phase 5.5 proposal-summary PDF, then circulate it to
-  project members to collect approval/comments and budget items, values, and
-  justifications.
+- Review the Portuguese Phase 5.5 proposal-summary PDF and the electronic
+  response form, then circulate both to project members for approval,
+  essential corrections, budget items, and critical feasibility constraints.
 - Keep Phase 6 locked until Phase 5.5 responses, budget inputs, required
   adjustments, and project-owner acceptance are recorded.
 - In Phase 7, keep CNPq form blocks comfortably below character limits, using
@@ -360,12 +363,15 @@ available for deferred final manual refinement, but they no longer block Phase
 - Phase 5.5 handoff summary rows: 7
 - Phase 5.5 internal circulation summary task rows: 5
 - Phase 5.5 member approval tracker rows: 16
-- Phase 5.5 member response questions: 5
+- Phase 5.5 member response form fields: 5
 - Phase 5.5 budget collection template rows: 6
 - Phase 5.5 budget category guide rows: 7
 - Phase 5.5 access and feasibility checklist rows: 9
-- Phase 5.5 phase 6 readiness gate rows: 11
+- Phase 5.5 phase 6 readiness gate rows: 13
 - Phase 5.5 Portuguese circulation artifacts prepared: 2
+- Phase 5.5 electronic response forms prepared: 1
+- Phase 5.5 Git ingestion workflows prepared: 1
+- Phase 5.5 response data directories prepared: 1
 - Approved methodology checkpoint documents: 1
 - Institutions recorded in Phase 1A: 6
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
@@ -376,9 +382,11 @@ available for deferred final manual refinement, but they no longer block Phase
 ## Next action
 
 Project owner should review the Portuguese Phase 5.5 proposal-summary PDF in
-`output/pdf/Proposta_Universal_CNPq_2026_Aprovacao_Interna.pdf`. After review,
-the PDF can be sent to project members for approval/comments and budget
-collection.
+`output/pdf/Proposta_Universal_CNPq_2026_Aprovacao_Interna.pdf` and the
+electronic response form at
+`https://github.com/MSR-BR/Universal-CNPq-2026/issues/new?template=phase5_5_member_response.yml`.
+After review, both can be sent to project members for approval, essential
+corrections, budget items, and critical feasibility constraints.
 
 Later in the roadmap, the active Phase 5.5 checkpoint must be
 completed before Phase 6 starts.
@@ -387,6 +395,7 @@ completed before Phase 6 starts.
 
 - 2026-07-02: Project owner accepted the completed Phase 5 Project Matrix and Phase 5.5 - Internal Approval and Budget Collection was opened with circulation, approval, budget, and feasibility templates.
 - 2026-07-02: Refined Phase 5 and the Portuguese circulation packet to add the explicit barocaloric spin-crossover axis in metal complexes, involving the UERJ-UFF-ORNL route.
+- 2026-07-02: Added a short GitHub Issue Form and ingestion workflow so Phase 5.5 member responses can be written into `data/phase5_5_member_responses/`.
 - 2026-07-02: Prepared the Portuguese proposal-summary packet and PDF target for member circulation, approval/comments, and budget collection.
 - 2026-07-02: Executed and refined the Phase 5 Project Matrix with five candidate tasks, three state-of-the-art support routes, six support/validation routes, model/evidence/capability matrices, and a Phase 5.5 handoff package.
 - 2026-07-02: Recorded the initial project-owner assessment of Phase 5 slots; the later barocaloric-axis refinement superseded the initial contextual handling of `PM-02`.

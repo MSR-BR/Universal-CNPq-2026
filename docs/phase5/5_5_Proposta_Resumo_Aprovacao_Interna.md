@@ -16,17 +16,27 @@ no formulario do CNPq. Apos a avaliacao da equipe, a proposta sera consolidada
 em dois formatos: um projeto completo em PDF e blocos de texto ajustados ao
 formulario do CNPq.
 
-## O que solicitamos aos integrantes
+## Como responder
 
-Cada integrante e convidado a responder aos seguintes pontos:
+A arquitetura cientifica abaixo ja esta proposta como base de trabalho. A
+resposta dos integrantes deve ser objetiva e concentrada apenas em tres pontos:
+aprovacao geral, ajustes cientificos essenciais e itens de orcamento.
 
-1. A arquitetura cientifica geral esta aprovada?
-2. Ha correcoes cientificas, lacunas importantes ou risco de interpretacao?
-3. Em quais eixos cientificos a sua contribuicao se encaixa melhor?
-4. Ha itens de orcamento a incluir? Informar item, valor estimado,
-   justificativa, instituicao, eixo vinculado e nivel de urgencia.
-5. Ha restricoes de acesso, infraestrutura, cronograma, amostras, medidas ou
-   computacao que precisam ser consideradas antes da redacao final?
+Formulario de resposta:
+
+https://github.com/MSR-BR/Universal-CNPq-2026/issues/new?template=phase5_5_member_response.yml
+
+O formulario solicita somente:
+
+1. aprovacao geral da proposta;
+2. eixo ou eixos em que o integrante pretende contribuir;
+3. ajustes cientificos essenciais, se houver;
+4. itens de orcamento, se houver;
+5. restricoes criticas de viabilidade, se houver.
+
+Se nao houver demanda de orcamento ou restricao critica, basta indicar isso no
+formulario. A proposta nao depende de uma lista extensa de sugestoes dos
+integrantes para seguir para a redacao consolidada.
 
 ## Sintese executiva
 
@@ -290,11 +300,11 @@ Os resultados esperados incluem:
 - consolidacao de uma rede nacional e internacional em complexos metalicos,
   pressao, termodinamica quantica e tecnologias quanticas.
 
-## Informacoes de orcamento a enviar
+## Informacoes de orcamento
 
-Para preparar a proposta final, cada integrante deve indicar itens de orcamento
-necessarios ou recomendaveis. Os valores podem ser estimativas nesta etapa,
-desde que acompanhados de justificativa.
+O orcamento sera incorporado apenas quando houver demanda clara de integrante
+ou subgrupo. Nesta etapa, os valores podem ser estimativas, desde que
+acompanhados de justificativa curta.
 
 | Categoria | Exemplos de itens |
 | --- | --- |
@@ -306,7 +316,7 @@ desde que acompanhados de justificativa.
 | Facilidades | Custos associados a acesso instrumental, beamtime, ambientes de amostra, pressao, magnetometria ou caracterizacao especializada. |
 | Outros | Itens que nao se enquadrem nas categorias acima e que tenham justificativa clara. |
 
-Para cada item, enviar:
+Para cada item, o formulario solicita:
 
 - descricao do item;
 - valor estimado;
@@ -316,42 +326,33 @@ Para cada item, enviar:
 - urgencia ou prioridade;
 - observacao sobre cotacao, disponibilidade ou restricao de uso.
 
-## Pontos que exigem confirmacao da equipe
+## Confirmacoes minimas
 
-Antes da redacao consolidada, precisamos confirmar:
+A redacao consolidada deve depender o minimo possivel de novas rodadas de
+consulta. Assim, as confirmacoes solicitadas aos integrantes ficam restritas a:
 
-- quais familias de complexos metalicos sao mais viaveis para o projeto;
-- quais amostras ja existem, quais podem ser preparadas e quais dependem de
-  nova sintese;
-- quais medidas sob pressao sao realisticamente possiveis;
-- quais transicoes spin crossover e quais grandezas barocaloricas serao
-  priorizadas;
-- quais rotas de DFT e modelos de spin devem ser adotadas;
-- quais ciclos de termodinamica quantica e protocolos de baterias quanticas
-  serao priorizados;
-- quais metricas de recursos quanticos serao usadas;
-- quais itens de orcamento sao essenciais;
-- como cada integrante prefere descrever sua contribuicao na proposta final.
+- correcao de algum erro cientifico essencial;
+- indicacao do eixo de contribuicao;
+- envio de itens de orcamento, se houver;
+- indicacao de alguma restricao real de viabilidade, se houver.
+
+Decisoes finas sobre texto, prioridades e composicao final serao consolidadas
+pela coordenacao do projeto a partir desta arquitetura.
 
 ## Encaminhamento proposto
 
-1. Circulacao deste resumo para todos os integrantes.
-2. Recebimento de aprovacoes, comentarios e ajustes.
-3. Recebimento dos itens de orcamento e justificativas.
-4. Ajuste da arquitetura cientifica, se necessario.
-5. Redacao do projeto consolidado em PDF.
-6. Preparacao dos blocos de texto para o formulario do CNPq.
-7. Revisao final pela equipe antes da submissao.
+1. Circulacao deste resumo e do formulario eletronico.
+2. Registro automatico das respostas no repositorio.
+3. Incorporacao apenas de ajustes essenciais e itens de orcamento.
+4. Redacao do projeto consolidado em PDF.
+5. Preparacao dos blocos de texto para o formulario do CNPq.
+6. Revisao final pela equipe antes da submissao.
 
 ## Pedido de resposta
 
-Solicita-se que cada integrante responda indicando:
-
-- aprovacao da proposta geral ou comentarios para ajuste;
-- eixo ou eixos em que pretende contribuir;
-- itens de orcamento, quando houver;
-- observacoes sobre infraestrutura, acesso, cronograma ou viabilidade;
-- forma preferida de descrever sua contribuicao no projeto.
+Solicita-se que cada integrante responda pelo formulario eletronico. Cada
+resposta sera registrada como uma entrada padronizada no repositorio, reduzindo
+troca de mensagens e evitando perda de informacao.
 
 Essas respostas serao usadas para consolidar a proposta final e evitar que o
 projeto avance com atribuicoes, custos ou expectativas nao validadas pela

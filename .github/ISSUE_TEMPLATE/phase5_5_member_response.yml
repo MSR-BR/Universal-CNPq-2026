@@ -1,0 +1,98 @@
+name: "Resposta - proposta Universal CNPq 2026"
+description: "Aprovacao, contribuicao, orcamento e restricoes essenciais."
+title: "Resposta Fase 5.5 - [nome]"
+labels:
+  - phase-5-5-response
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por avaliar a proposta resumida.
+
+        A arquitetura cientifica ja esta proposta. Use este formulario apenas para:
+        aprovar ou indicar ajuste essencial, informar seu eixo de contribuicao,
+        registrar itens de orcamento e apontar restricoes criticas de viabilidade.
+
+  - type: input
+    id: nome
+    attributes:
+      label: Nome
+      description: Nome completo do integrante.
+      placeholder: "Ex.: Maria da Silva"
+    validations:
+      required: true
+
+  - type: input
+    id: instituicao
+    attributes:
+      label: Instituicao
+      description: Instituicao principal no projeto.
+      placeholder: "Ex.: UERJ, UFF, UFOB, SENAI CIMATEC, ORNL, Universidade de Aveiro"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: avaliacao_geral
+    attributes:
+      label: Avaliacao geral da proposta
+      description: Escolha a opcao mais proxima.
+      options:
+        - "Aprovada como esta"
+        - "Aprovada com ajustes menores"
+        - "Precisa de discussao antes da redacao final"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: eixos
+    attributes:
+      label: Eixos em que pretende contribuir
+      description: Marque apenas os eixos nos quais voce espera contribuir diretamente.
+      options:
+        - label: "Eixo 1 - Plataforma de complexos metalicos"
+        - label: "Eixo 2 - Efeito barocalorico em transicoes spin crossover"
+        - label: "Eixo 3 - Pressao, estrutura e interacao de troca J"
+        - label: "Eixo 4 - Termodinamica quantica e baterias quanticas"
+        - label: "Eixo 5 - Recursos quanticos e metricas de informacao"
+        - label: "Apoio transversal - infraestrutura, formacao, medidas, computacao ou gestao cientifica"
+
+  - type: textarea
+    id: ajustes_essenciais
+    attributes:
+      label: Ajustes cientificos essenciais
+      description: Informe apenas correcoes ou riscos importantes. Se nao houver, escreva "nenhum".
+      placeholder: "Correcoes essenciais, lacunas graves ou riscos de interpretacao."
+    validations:
+      required: true
+
+  - type: textarea
+    id: orcamento
+    attributes:
+      label: Itens de orcamento
+      description: Informe apenas itens que voce considera necessarios ou recomendaveis. Se nao houver, escreva "sem demanda".
+      placeholder: |
+        Item:
+        Valor estimado:
+        Eixo:
+        Justificativa:
+        Prioridade:
+    validations:
+      required: true
+
+  - type: textarea
+    id: restricoes
+    attributes:
+      label: Restricoes criticas de viabilidade
+      description: Informe apenas restricoes que possam afetar execucao, acesso, cronograma, amostras, medidas ou computacao. Se nao houver, escreva "nenhuma".
+      placeholder: "Ex.: acesso a equipamento, disponibilidade de amostras, janela de medidas, custo, dependencia institucional."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: autorizacao
+    attributes:
+      label: Autorizacao de uso
+      description: Confirmacao para usar a resposta na consolidacao da proposta.
+      options:
+        - label: "Autorizo o uso das informacoes acima na preparacao da proposta Universal CNPq 2026."
+          required: true

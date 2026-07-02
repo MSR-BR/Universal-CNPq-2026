@@ -10,9 +10,10 @@ Inputs: Accepted Project Matrix, Gap Analysis, Scientific Atlas, Team Book,
 Phase 1 knowledge-base records, and project-owner instructions.
 
 Outputs: Portuguese circulation packet for project-member review, PDF version
-for sending to collaborators, member approval tracker, comment and adjustment
-register, budget item collection table, budget justification table,
-access/feasibility checklist, and readiness gate for Phase 6 - Master Project.
+for sending to collaborators, short member-response form, Git ingestion route,
+member approval tracker, comment and adjustment register, budget item
+collection table, budget justification table, access/feasibility checklist,
+and readiness gate for Phase 6 - Master Project.
 
 Dependencies: Project-owner acceptance of Phase 5 - Project Matrix.
 
@@ -21,9 +22,9 @@ approval, comments, and required adjustments are recorded; budget items,
 values, and justifications are collected; access/feasibility issues are
 identified; and the project owner accepts the checkpoint as complete.
 
-Version: 1.3
+Version: 1.4
 
-Status: Active; Portuguese circulation packet refined with barocaloric axis
+Status: Active; Portuguese circulation packet and Git-backed response form prepared
 
 Last update: 2026-07-02
 
@@ -72,6 +73,9 @@ or agent-control language and must be understandable by an external professor.
 | --- | --- | --- | --- |
 | Portuguese editable source | `docs/phase5/5_5_Proposta_Resumo_Aprovacao_Interna.md` | Source text for internal proposal evaluation by project members. | Prepared. |
 | Portuguese PDF for circulation | `output/pdf/Proposta_Universal_CNPq_2026_Aprovacao_Interna.pdf` | PDF to send to project members for assessment of the general proposal and budget collection. | Prepared. |
+| GitHub Issue Form | `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml` | Short electronic response form for approval, contribution axis, essential corrections, budget, and critical constraints. | Prepared. |
+| Git ingestion workflow | `.github/workflows/ingest_phase55_member_response.yml` | Automatically writes labeled form responses to `data/phase5_5_member_responses/`. | Prepared. |
+| Ingestion script | `.github/scripts/ingest_phase55_response.py` | Converts each labeled GitHub issue response into a versioned Markdown data file. | Prepared. |
 
 ## Phase 5 handoff summary
 
@@ -138,15 +142,23 @@ Approval status values: `Pending`, `Approved`, `Approved with comments`,
 | `P-0015` | Antonio dos Santos | ORNL | Pending | Pending | Pending |
 | `P-0016` | Paula Brandao | Universidade de Aveiro | Pending | Pending | Pending |
 
-## Member response questions
+## Member response form
 
-| Question ID | Question for project members | Expected response |
+The proposal architecture should depend as little as possible on additional
+discussion. Member response is therefore collected through a short form, not a
+long questionnaire.
+
+Form URL:
+
+`https://github.com/MSR-BR/Universal-CNPq-2026/issues/new?template=phase5_5_member_response.yml`
+
+| Field ID | Form field | Expected response |
 | --- | --- | --- |
-| `Q-01` | Do you approve the summarized project architecture? | Approved, approved with comments, or adjustment requested. |
-| `Q-02` | Which candidate task(s) or support layer(s) should be linked to your contribution? | `MT-*`, `BG-*`, or `SL-*` IDs, if applicable. |
-| `Q-03` | Are there scientific corrections, missing elements, or scope concerns? | Short comment or `none`. |
-| `Q-04` | Do you need budget items for equipment, consumables, services, travel, computing, publication, or facility access? | Itemized budget response. |
-| `Q-05` | Are there access, feasibility, schedule, or institutional constraints that must be considered before Phase 6? | Short description and affected task/layer. |
+| `F-01` | General assessment | Approved as is, approved with minor adjustments, or needs discussion before final writing. |
+| `F-02` | Contribution axes | Selected scientific axis/axes or transversal support. |
+| `F-03` | Essential scientific adjustments | Essential corrections only; `none` if not applicable. |
+| `F-04` | Budget items | Item, estimated value, linked axis, justification, and priority; `no request` if not applicable. |
+| `F-05` | Critical feasibility constraints | Execution, access, schedule, sample, measurement, or computing constraints; `none` if not applicable. |
 
 ## Budget collection template
 
@@ -202,6 +214,8 @@ Phase 6 can open only when the following conditions are satisfied.
 | --- | --- |
 | Internal summary prepared for circulation | Satisfied in this document. |
 | Portuguese PDF prepared for external-reader-friendly member circulation | Satisfied in circulation artifact. |
+| Electronic member-response form prepared | Satisfied in GitHub Issue Form. |
+| Git ingestion workflow prepared for member responses | Satisfied in workflow artifact. |
 | Member approval tracker created | Satisfied in this document. |
 | Budget collection template created | Satisfied in this document. |
 | Access and feasibility checklist created | Satisfied in this document. |
@@ -214,6 +228,7 @@ Phase 6 can open only when the following conditions are satisfied.
 
 ## Next controlled action
 
-Project owner review of this Phase 5.5 circulation packet. After review, the
-packet can be sent to project members for approval/comments and budget
-collection.
+Project owner review of the Portuguese proposal-summary PDF and electronic
+response form. After review, both can be sent to project members for concise
+approval, essential corrections, budget items, and critical feasibility
+constraints.
