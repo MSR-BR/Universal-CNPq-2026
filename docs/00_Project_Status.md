@@ -26,7 +26,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.19
+Version: 2.20
 
 Status: Active
 
@@ -34,11 +34,11 @@ Last update: 2026-07-02
 
 ## Current phase
 
-Phase 3 - Scientific Atlas.
+Phase 4 - Gap Analysis.
 
 Phase 0 - Information Collection remains open during the entire project.
-Phase 1A through Phase 1H and Phase 2 remain available for deferred final
-manual refinement, but they no longer block Phase 3 Scientific Atlas work.
+Phase 1A through Phase 1H, Phase 2, and Phase 3 remain available for deferred
+final manual refinement, but they no longer block Phase 4 Gap Analysis work.
 
 ## Completed phases
 
@@ -62,6 +62,8 @@ manual refinement, but they no longer block Phase 3 Scientific Atlas work.
   final bibliography review deferred.
 - Phase 2 Team Book baseline accepted sufficiently to open Phase 3, with final
   manual refinements deferred.
+- Phase 3 Scientific Atlas baseline accepted sufficiently to open Phase 4,
+  with final manual refinements deferred.
 
 ## Current progress
 
@@ -153,12 +155,20 @@ manual refinement, but they no longer block Phase 3 Scientific Atlas work.
   preliminary-result records, coverage of all ten Phase 1G idea seeds,
   bibliography routes, infrastructure/collaboration routes, terminology notes,
   manual-review carry-over, and a Phase 3 completion checkpoint.
-- Phase 3 detailed atlas baseline is ready for project-owner review and
-  acceptance before Phase 4 - Gap Analysis is opened.
+- The detailed Phase 3 Scientific Atlas baseline was accepted by the project
+  owner on 2026-07-02.
+- Phase 4 was opened in `docs/phase4/4_GapAnalysis.md`.
+- Phase 4 full gap-analysis pass records fifteen gap records, nine atlas-area
+  coverage rows, six relationship-route coverage rows, fifteen
+  evidence-readiness rows, six controlled handoff groups for Phase 5, and a
+  Phase 4 completion checkpoint.
+- Phase 4 detailed gap-analysis baseline is ready for project-owner review and
+  acceptance before Phase 5 - Project Matrix is opened.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
-- No scientific objectives, gaps, work packages, responsibility assignments, or
-  proposal text have been created.
+- No final scientific objectives, project priorities, work packages,
+  responsibility assignments, budget items, schedule, facility-access
+  commitments, or proposal text have been created.
 
 ## Pending tasks
 
@@ -191,12 +201,11 @@ manual refinement, but they no longer block Phase 3 Scientific Atlas work.
 - Continue Phase 2 Team Book factual refinement only if the project owner
   requests deferred manual adjustments; the accepted baseline remains available
   for Phase 3 work.
-- Review and accept the detailed Phase 3 Scientific Atlas baseline before
-  opening Phase 4 - Gap Analysis.
-- If refinements are requested in Phase 3, keep atlas work neutral; do not
-  convert scientific areas or relationships into objectives, gaps, priorities,
-  responsibilities, work packages, schedule, budget, facility-access
-  commitments, or proposal text.
+- Review and accept the detailed Phase 4 Gap Analysis baseline before opening
+  Phase 5 - Project Matrix.
+- If refinements are requested in Phase 4, keep gap-analysis work neutral; do
+  not convert gaps into final objectives, priorities, responsibilities, work
+  packages, schedule, budget, facility-access commitments, or proposal text.
 - After Phase 5 is complete, run Phase 5.5 to circulate a summarized proposal
   to all project members, collect approval/comments, and collect budget items,
   values, and justifications before Phase 6 starts.
@@ -285,6 +294,12 @@ manual refinement, but they no longer block Phase 3 Scientific Atlas work.
 - Phase 3 infrastructure/collaboration routes mapped: 7
 - Phase 3 terminology notes: 14
 - Phase 3 manual-review carry-over categories: 8
+- Phase 4 Gap Analysis documents opened: 1
+- Phase 4 gap records: 15
+- Phase 4 atlas-area coverage rows: 9
+- Phase 4 relationship-route coverage rows: 6
+- Phase 4 evidence-readiness rows: 15
+- Phase 4 controlled handoff groups for Phase 5: 6
 - Approved methodology checkpoint documents: 1
 - Institutions recorded in Phase 1A: 6
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
@@ -294,15 +309,16 @@ manual refinement, but they no longer block Phase 3 Scientific Atlas work.
 
 ## Next action
 
-Project owner should review and accept the detailed Phase 3 Scientific Atlas
-baseline in `docs/phase3/3_ScientificAtlas.md`. If accepted, the next
-controlled step is to open Phase 4 - Gap Analysis.
+Project owner should review and accept the detailed Phase 4 Gap Analysis
+baseline in `docs/phase4/4_GapAnalysis.md`. If accepted, the next controlled
+step is to open Phase 5 - Project Matrix.
 
 Later in the roadmap, after Phase 5, the approved Phase 5.5 checkpoint must be
 completed before Phase 6 starts.
 
 ## Recent updates
 
+- 2026-07-02: Project owner accepted the detailed Phase 3 Scientific Atlas baseline and Phase 4 - Gap Analysis was opened and developed in full with fifteen gap records, evidence-readiness mapping, and controlled handoff groups for Phase 5.
 - 2026-07-02: Developed the full Phase 3 Scientific Atlas with nine detailed atlas areas, six relationship routes, bibliography routes, infrastructure/collaboration routes, terminology notes, manual-review carry-over, and a completion checkpoint.
 - 2026-07-02: Project owner accepted the Phase 2 baseline and Phase 3 - Scientific Atlas was opened with nine neutral atlas areas and six relationship seeds.
 - 2026-07-02: Approved and recorded the Methodology Improvement Proposal adding Phase 5.5 - Internal Approval and Budget Collection before final project writing.

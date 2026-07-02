@@ -19,9 +19,9 @@ from previous authoritative documents without creating scientific objectives,
 gap analysis, responsibility assignments, work packages, budget items, or CNPq
 proposal text.
 
-Version: 1.2
+Version: 1.3
 
-Status: Active; detailed atlas pass completed; project-owner acceptance pending
+Status: Accepted baseline; Phase 4 opened
 
 Last update: 2026-07-02
 
@@ -58,8 +58,8 @@ one pass. This document records that detailed pass. Phase 1A through Phase 1H
 and Phase 2 remain available for deferred manual refinement, but they no longer
 block the Scientific Atlas.
 
-The detailed atlas below is ready for project-owner review. It does not open
-Phase 4 automatically.
+The project owner accepted the detailed Phase 3 atlas baseline on 2026-07-02
+and instructed that Phase 4 - Gap Analysis be developed in full.
 
 ## Source baseline
 
@@ -348,10 +348,10 @@ These local Phase 3 codes do not replace stable Phase 1 IDs.
 | Phase 1H bibliography routes connected without duplicating metadata | Satisfied for all main atlas routes. |
 | Active infrastructure and collaboration context carried forward | Satisfied for 10 active infrastructure records and 14 collaboration records. |
 | Manual review carry-over preserved | Satisfied for 8 review categories. |
-| Phase 4 Gap Analysis remains locked | Satisfied. |
+| Phase 4 Gap Analysis opened after project-owner acceptance | Satisfied on 2026-07-02. |
 | No objectives, gaps, priorities, responsibilities, work packages, budget, facility-access commitments, or proposal text created | Satisfied in this document. |
 
 ## Next controlled action
 
-Project owner review and acceptance of this detailed Phase 3 atlas baseline.
-If accepted, the next controlled step is to open Phase 4 - Gap Analysis.
+Phase 3 now supports Phase 4 - Gap Analysis. Future refinements to this atlas
+remain possible, but they do not block the active Phase 4 baseline.

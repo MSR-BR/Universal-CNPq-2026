@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 3.1
+Version: 4.0
 
 Status: Active
 
@@ -34,9 +34,9 @@ Last update: 2026-07-02
 | 1G | Ideas | Initial idea-seed registry populated; international collaborator evidence linked; manual refinements deferred | `docs/phase1/1G_Ideas.md` |
 | 1H | Bibliography | Baseline accepted; manual refinements deferred | `docs/phase1/1H_Bibliography.md` |
 | 2 | Team Book | Baseline accepted; manual refinements deferred | `docs/phase2/2_TeamBook.md` |
-| 3 | Scientific Atlas | Active; detailed atlas developed; project-owner acceptance pending | `docs/phase3/3_ScientificAtlas.md` |
-| 4 | Gap Analysis | Locked until Phase 3 is accepted | `docs/phase4/4_GapAnalysis.md` |
-| 5 | Project Matrix | Locked until Phase 4 is complete | `docs/phase5/5_ProjectMatrix.md` |
+| 3 | Scientific Atlas | Accepted baseline; manual refinements deferred | `docs/phase3/3_ScientificAtlas.md` |
+| 4 | Gap Analysis | Active; full gap-analysis pass developed; project-owner acceptance pending | `docs/phase4/4_GapAnalysis.md` |
+| 5 | Project Matrix | Locked until Phase 4 is accepted | `docs/phase5/5_ProjectMatrix.md` |
 | 5.5 | Internal Approval and Budget Collection | Locked until Phase 5 is complete | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | 6 | Master Project | Locked until Phase 5.5 is complete | `docs/phase6/6_MasterProject.md` |
 | 7 | CNPq Proposal | Locked until Phase 6 is complete | `docs/phase7/7_CNPqProposal.md` |
@@ -44,18 +44,19 @@ Last update: 2026-07-02
 
 ## Current gate
 
-The repository is in Phase 3 - Scientific Atlas.
+The repository is in Phase 4 - Gap Analysis.
 
-Allowed work now: project-owner review or neutral factual refinement of the
-detailed Scientific Atlas baseline.
+Allowed work now: project-owner review or neutral refinement of the detailed
+Gap Analysis baseline.
 
-Still prohibited: scientific gap analysis, project strategy, responsibility
+Still prohibited: project strategy, final objective selection, responsibility
 assignment, work packages, schedule, budget, facility-access commitments, and
 CNPq proposal writing.
 
 Phase 3 was opened on 2026-07-02 after the project owner accepted the Phase 2
-baseline. A detailed atlas pass was completed on 2026-07-02. Phase 4 - Gap
-Analysis remains locked until the project owner accepts the detailed Phase 3
+baseline. A detailed atlas pass was completed and accepted on 2026-07-02.
+Phase 4 - Gap Analysis was then opened and developed in full. Phase 5 - Project
+Matrix remains locked until the project owner accepts the detailed Phase 4
 baseline.
 
 Approved later-phase checkpoint: after Phase 5 - Project Matrix and before
@@ -100,6 +101,16 @@ items, values, and justifications.
 | Infrastructure/collaboration routes | 7 | `docs/phase3/3_ScientificAtlas.md` |
 | Terminology notes | 14 | `docs/phase3/3_ScientificAtlas.md` |
 | Manual-review carry-over categories | 8 | `docs/phase3/3_ScientificAtlas.md` |
+
+## Phase 4 developed outputs
+
+| Output class | Count | Location |
+| --- | ---: | --- |
+| Gap records | 15 | `docs/phase4/4_GapAnalysis.md` |
+| Atlas-area gap coverage rows | 9 | `docs/phase4/4_GapAnalysis.md` |
+| Relationship-route gap coverage rows | 6 | `docs/phase4/4_GapAnalysis.md` |
+| Evidence-readiness rows | 15 | `docs/phase4/4_GapAnalysis.md` |
+| Controlled handoff groups for Phase 5 | 6 | `docs/phase4/4_GapAnalysis.md` |
 
 ## Final writing constraints
 
