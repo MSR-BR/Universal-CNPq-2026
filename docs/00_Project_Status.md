@@ -25,11 +25,11 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.16
+Version: 2.17
 
 Status: Active
 
-Last update: 2026-07-01
+Last update: 2026-07-02
 
 ## Current phase
 
@@ -65,6 +65,9 @@ refinement, but they no longer block Phase 2 Team Book work.
 - The permanent repository structure has been initialized.
 - The frozen development methodology has been recorded.
 - The methodology improvement protocol has been recorded.
+- The Methodology Improvement Proposal for an internal approval and budget
+  collection checkpoint was approved by the project owner on 2026-07-02 and
+  recorded as Phase 5.5.
 - A source inventory was generated and refreshed from the Dropbox support-document folder.
 - Eleven new source files were added to `data/source_inventory.tsv`, including
   two international collaborator CVs.
@@ -177,10 +180,18 @@ refinement, but they no longer block Phase 2 Team Book work.
   is opened.
 - Keep Phase 2 synthesis factual; do not convert capability domains into
   objectives, gaps, responsibilities, work packages, or proposal text.
+- After Phase 5 is complete, run Phase 5.5 to circulate a summarized proposal
+  to all project members, collect approval/comments, and collect budget items,
+  values, and justifications before Phase 6 starts.
+- In Phase 7, keep CNPq form blocks comfortably below character limits, using
+  about two thirds of each block limit as the operational target.
+- In Phase 8, review both final outputs: CNPq form blocks and the consolidated
+  PDF project document with team, budget, schedule, and other complete project
+  information.
 
 ## Repository statistics
 
-- Controlled Markdown documents in `docs/`: 24
+- Controlled Markdown documents in `docs/`: 25
 - Source files inventoried from Dropbox: 49
 - Files in Dropbox `CVs/` folder: 18
 - Phase 1A people records: 16
@@ -248,6 +259,7 @@ refinement, but they no longer block Phase 2 Team Book work.
 - Phase 2F preliminary-result coverage rows: 9
 - Phase 2F idea-seed coverage rows: 10
 - Phase 2F manual-review categories: 8
+- Approved methodology checkpoint documents: 1
 - Institutions recorded in Phase 1A: 6
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
 - FAPESB/CNPq Productivity Research Fellows identified from Lattes headers: 1
@@ -260,8 +272,12 @@ Project owner should review the Phase 2 baseline in `2_TeamBook.md` and
 `2F_EvidenceBundlesReview.md`. If accepted, the next controlled step is to open
 Phase 3 - Scientific Atlas.
 
+Later in the roadmap, after Phase 5, the approved Phase 5.5 checkpoint must be
+completed before Phase 6 starts.
+
 ## Recent updates
 
+- 2026-07-02: Approved and recorded the Methodology Improvement Proposal adding Phase 5.5 - Internal Approval and Budget Collection before final project writing.
 - 2026-07-01: Refined Phase 2F Evidence Bundles and Review Queue with evidence bundles, source-class coverage, idea-seed coverage, manual-review categories, and a Phase 2 baseline checkpoint.
 - 2026-07-01: Refined Phase 2E Collaboration and Infrastructure Map with institution-infrastructure map, collaboration status map, active infrastructure coverage, integrated threads, boundary-context review, and a 2E checkpoint.
 - 2026-07-01: Refined Phase 2D Person-Domain Matrix with domain-code key, marker system, person-domain matrix, domain coverage, person-domain detail index, and a 2D checkpoint.

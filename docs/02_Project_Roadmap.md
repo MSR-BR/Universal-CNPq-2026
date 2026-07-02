@@ -14,11 +14,11 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 2.8
+Version: 2.9
 
 Status: Active
 
-Last update: 2026-07-01
+Last update: 2026-07-02
 
 ## Roadmap
 
@@ -37,7 +37,8 @@ Last update: 2026-07-01
 | 3 | Scientific Atlas | Locked until Phase 2 is complete | `docs/phase3/3_ScientificAtlas.md` |
 | 4 | Gap Analysis | Locked until Phase 3 is complete | `docs/phase4/4_GapAnalysis.md` |
 | 5 | Project Matrix | Locked until Phase 4 is complete | `docs/phase5/5_ProjectMatrix.md` |
-| 6 | Master Project | Locked until Phase 5 is complete | `docs/phase6/6_MasterProject.md` |
+| 5.5 | Internal Approval and Budget Collection | Locked until Phase 5 is complete | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| 6 | Master Project | Locked until Phase 5.5 is complete | `docs/phase6/6_MasterProject.md` |
 | 7 | CNPq Proposal | Locked until Phase 6 is complete | `docs/phase7/7_CNPqProposal.md` |
 | 8 | Final Review | Locked until Phase 7 is complete | `docs/phase8/8_FinalReview.md` |
 
@@ -57,6 +58,11 @@ Phase 2 baseline is ready for project-owner review after the 2F evidence-bundle
 pass. Phase 3 remains locked until the project owner explicitly accepts the
 Phase 2 baseline.
 
+Approved later-phase checkpoint: after Phase 5 - Project Matrix and before
+Phase 6 - Master Project, Phase 5.5 must circulate a summarized project
+proposal to project members, collect approvals/comments, and collect budget
+items, values, and justifications.
+
 ## Phase 2 subsection map
 
 | Subsection | Name | Status | Authoritative document |
@@ -67,3 +73,14 @@ Phase 2 baseline.
 | 2D | Person-Domain Matrix | Active; person-domain matrix refined | `docs/phase2/2D_PersonDomainMatrix.md` |
 | 2E | Collaboration and Infrastructure Map | Active; collaboration-infrastructure map refined | `docs/phase2/2E_CollaborationInfrastructureMap.md` |
 | 2F | Evidence Bundles and Review Queue | Active; evidence bundles and review queue refined | `docs/phase2/2F_EvidenceBundlesReview.md` |
+
+## Final writing constraints
+
+- Phase 6 - Master Project can start only after Phase 5.5 is complete.
+- Phase 7 - CNPq Proposal must generate CNPq form blocks derived from the
+  Master Project.
+- CNPq form blocks should stay comfortably below maximum character limits; the
+  operational target is about two thirds of each block limit.
+- The final package must also include a consolidated PDF project document with
+  project elements, team, budget, schedule, and other complete project
+  information.
