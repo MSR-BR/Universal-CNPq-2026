@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 2.4
+Version: 2.5
 
 Status: Active
 
@@ -33,7 +33,7 @@ Last update: 2026-07-01
 | 1F | Preliminary Results | Initial factual registry reviewed; international collaborator evidence linked; manual refinements deferred | `docs/phase1/1F_PreliminaryResults.md` |
 | 1G | Ideas | Initial idea-seed registry populated; international collaborator evidence linked; manual refinements deferred | `docs/phase1/1G_Ideas.md` |
 | 1H | Bibliography | Baseline accepted; manual refinements deferred | `docs/phase1/1H_Bibliography.md` |
-| 2 | Team Book | Active; 2A and 2B refined; 2C-2F opened | `docs/phase2/2_TeamBook.md` |
+| 2 | Team Book | Active; 2A-2C refined; 2D-2F opened | `docs/phase2/2_TeamBook.md` |
 | 3 | Scientific Atlas | Locked until Phase 2 is complete | `docs/phase3/3_ScientificAtlas.md` |
 | 4 | Gap Analysis | Locked until Phase 3 is complete | `docs/phase4/4_GapAnalysis.md` |
 | 5 | Project Matrix | Locked until Phase 4 is complete | `docs/phase5/5_ProjectMatrix.md` |
@@ -59,7 +59,7 @@ strategy, responsibility assignment, work packages, and CNPq proposal writing.
 | --- | --- | --- | --- |
 | 2A | Team Roster | Active; institutional roster refined | `docs/phase2/2A_TeamRoster.md` |
 | 2B | Person Profiles | Active; person profiles refined | `docs/phase2/2B_PersonProfiles.md` |
-| 2C | Capability Domains | Active; initial subsection opened | `docs/phase2/2C_CapabilityDomains.md` |
+| 2C | Capability Domains | Active; capability domains refined | `docs/phase2/2C_CapabilityDomains.md` |
 | 2D | Person-Domain Matrix | Active; initial subsection opened | `docs/phase2/2D_PersonDomainMatrix.md` |
 | 2E | Collaboration and Infrastructure Map | Active; initial subsection opened | `docs/phase2/2E_CollaborationInfrastructureMap.md` |
 | 2F | Evidence Bundles and Review Queue | Active; initial subsection opened | `docs/phase2/2F_EvidenceBundlesReview.md` |

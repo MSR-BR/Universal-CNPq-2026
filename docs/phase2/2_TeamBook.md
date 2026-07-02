@@ -26,9 +26,9 @@ Completion criteria: Every Phase 1A participant is represented once; capability
 domains are linked to Phase 1 evidence; no scientific objectives, gaps,
 work packages, proposal text, or team responsibilities are created.
 
-Version: 1.5
+Version: 1.6
 
-Status: Active; 2B Person Profiles refined
+Status: Active; 2C Capability Domains refined
 
 Last update: 2026-07-01
 
@@ -63,7 +63,7 @@ consolidated snapshot.
 | --- | --- | --- | --- |
 | 2A | Team roster and institutional map | Refined | `docs/phase2/2A_TeamRoster.md` |
 | 2B | Person profiles and merit summaries | Refined | `docs/phase2/2B_PersonProfiles.md` |
-| 2C | Capability-domain map | Initial subsection opened | `docs/phase2/2C_CapabilityDomains.md` |
+| 2C | Capability-domain map | Refined | `docs/phase2/2C_CapabilityDomains.md` |
 | 2D | Person-domain matrix | Initial subsection opened | `docs/phase2/2D_PersonDomainMatrix.md` |
 | 2E | Collaboration and infrastructure map | Initial subsection opened | `docs/phase2/2E_CollaborationInfrastructureMap.md` |
 | 2F | Evidence bundles and review queue | Initial subsection opened | `docs/phase2/2F_EvidenceBundlesReview.md` |
@@ -103,6 +103,10 @@ rather than creating a new person or source fact here.
 - Phase 2B profile summary rows refined: 16.
 - Phase 2B evidence-coverage rows refined: 16.
 - Phase 2B individual profile notes refined: 16.
+- Phase 2C capability-domain registry rows refined: 9.
+- Phase 2C evidence-class coverage rows refined: 9.
+- Phase 2C domain detail notes refined: 9.
+- Phase 2C cross-domain overlap rows refined: 6.
 
 ## Team overview
 
