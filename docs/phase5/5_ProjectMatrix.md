@@ -22,9 +22,9 @@ aggregator to candidate matrix tasks, links each task to accepted evidence and
 capability routes, identifies unresolved validation items, and is ready to
 support Phase 5.5 internal approval and budget collection.
 
-Version: 2.0
+Version: 2.1
 
-Status: Full Phase 5 matrix pass completed; project-owner acceptance pending
+Status: Accepted baseline; supports Phase 5.5
 
 Last update: 2026-07-02
 
@@ -63,7 +63,10 @@ On 2026-07-02 the project owner assessed the opening slots and then instructed
 the repository to execute the full Phase 5. This document records that full
 matrix pass.
 
-This document does not complete Phase 5.5 and does not start Phase 6.
+On 2026-07-02 the project owner accepted this completed Phase 5 matrix and
+instructed the repository to proceed to Phase 5.5.
+
+This document supports Phase 5.5. It does not start Phase 6.
 
 ## Matrix design principle
 
@@ -268,11 +271,10 @@ This skeleton is for Phase 5.5 preparation only. It is not final proposal text.
 | Capability route matrix created | Satisfied for 6 capability routes. |
 | Phase 5.5 validation/review queue created | Satisfied for 10 review items. |
 | Phase 5.5 handoff package defined | Satisfied for 6 handoff items. |
-| Phase 5.5 remains locked until project-owner acceptance of Phase 5 | Satisfied. |
+| Phase 5.5 opened after project-owner acceptance of Phase 5 | Satisfied on 2026-07-02. |
 | Phase 6, Phase 7, final budget, final schedule, facility-access commitments, and final proposal text remain locked | Satisfied. |
 
 ## Next controlled action
 
-Project owner review and acceptance of this completed Phase 5 Project Matrix.
-If accepted, the next controlled step is Phase 5.5 - Internal Approval and
-Budget Collection.
+Use this accepted Phase 5 Project Matrix as input for Phase 5.5 - Internal
+Approval and Budget Collection.

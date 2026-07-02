@@ -26,7 +26,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.24
+Version: 2.25
 
 Status: Active
 
@@ -34,12 +34,12 @@ Last update: 2026-07-02
 
 ## Current phase
 
-Phase 5 - Project Matrix.
+Phase 5.5 - Internal Approval and Budget Collection.
 
 Phase 0 - Information Collection remains open during the entire project.
-Phase 1A through Phase 1H, Phase 2, Phase 3, and Phase 4 remain available for
-deferred final manual refinement, but they no longer block Phase 5 Project
-Matrix work.
+Phase 1A through Phase 1H, Phase 2, Phase 3, Phase 4, and Phase 5 remain
+available for deferred final manual refinement, but they no longer block Phase
+5.5 internal approval and budget-collection work.
 
 ## Completed phases
 
@@ -67,6 +67,8 @@ Matrix work.
   with final manual refinements deferred.
 - Phase 4 Gap Analysis baseline accepted sufficiently to open Phase 5, with
   final manual refinements deferred.
+- Phase 5 Project Matrix baseline accepted sufficiently to open Phase 5.5,
+  with final manual refinements deferred.
 
 ## Current progress
 
@@ -187,6 +189,13 @@ Matrix work.
   evidence-anchor rows, six capability routes, ten Phase 5.5 validation/review
   items, six Phase 5.5 handoff-package rows, and a Phase 5 completion
   checkpoint.
+- The completed Phase 5 Project Matrix was accepted by the project owner on
+  2026-07-02.
+- Phase 5.5 was opened in `docs/phase5/5_5_InternalApprovalBudget.md`.
+- Phase 5.5 opening structure records an internal circulation summary, member
+  approval tracker, member response questions, budget collection template,
+  budget category guide, access/feasibility checklist, comment register, and
+  Phase 6 readiness gate.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
 - No Phase 6 master-project text, CNPq proposal text, consolidated final PDF,
@@ -224,11 +233,10 @@ Matrix work.
 - Continue Phase 2 Team Book factual refinement only if the project owner
   requests deferred manual adjustments; the accepted baseline remains available
   for Phase 3 work.
-- Review and accept the completed Phase 5 Project Matrix before opening Phase
-  5.5 - Internal Approval and Budget Collection.
-- If accepted, run Phase 5.5 to circulate a summarized proposal to all project
-  members, collect approval/comments, and collect budget items, values, and
-  justifications before Phase 6 starts.
+- Review the Phase 5.5 circulation packet, then circulate it to project members
+  to collect approval/comments and budget items, values, and justifications.
+- Keep Phase 6 locked until Phase 5.5 responses, budget inputs, required
+  adjustments, and project-owner acceptance are recorded.
 - In Phase 7, keep CNPq form blocks comfortably below character limits, using
   about two thirds of each block limit as the operational target.
 - In Phase 8, review both final outputs: CNPq form blocks and the consolidated
@@ -339,6 +347,15 @@ Matrix work.
 - Phase 5 validation/review queue items for Phase 5.5: 10
 - Phase 5.5 handoff package rows prepared in Phase 5: 6
 - Phase 5 completion checkpoint rows: 18
+- Phase 5.5 documents opened: 1
+- Phase 5.5 handoff summary rows: 6
+- Phase 5.5 internal circulation summary task rows: 4
+- Phase 5.5 member approval tracker rows: 16
+- Phase 5.5 member response questions: 5
+- Phase 5.5 budget collection template rows: 5
+- Phase 5.5 budget category guide rows: 7
+- Phase 5.5 access and feasibility checklist rows: 8
+- Phase 5.5 phase 6 readiness gate rows: 10
 - Approved methodology checkpoint documents: 1
 - Institutions recorded in Phase 1A: 6
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
@@ -348,15 +365,16 @@ Matrix work.
 
 ## Next action
 
-Project owner should review and accept the completed Phase 5 Project Matrix in
-`docs/phase5/5_ProjectMatrix.md`. If accepted, the next controlled step is
-Phase 5.5 - Internal Approval and Budget Collection.
+Project owner should review the Phase 5.5 circulation packet in
+`docs/phase5/5_5_InternalApprovalBudget.md`. After review, the packet can be
+sent to project members for approval/comments and budget collection.
 
-Later in the roadmap, after Phase 5, the approved Phase 5.5 checkpoint must be
+Later in the roadmap, the active Phase 5.5 checkpoint must be
 completed before Phase 6 starts.
 
 ## Recent updates
 
+- 2026-07-02: Project owner accepted the completed Phase 5 Project Matrix and Phase 5.5 - Internal Approval and Budget Collection was opened with circulation, approval, budget, and feasibility templates.
 - 2026-07-02: Executed the full Phase 5 Project Matrix with four candidate tasks, three state-of-the-art support routes, six support/validation routes, model/evidence/capability matrices, and a Phase 5.5 handoff package.
 - 2026-07-02: Recorded project-owner assessment of Phase 5 slots: `PM-01`, `PM-03`, `PM-04`, and `PM-05` remain viable candidate tasks; `PM-02` moves to state-of-the-art/introduction support; `PM-06` remains a support/validation layer.
 - 2026-07-02: Project owner accepted the refined Phase 4 Gap Analysis baseline and Phase 5 - Project Matrix was opened with six candidate matrix slots.

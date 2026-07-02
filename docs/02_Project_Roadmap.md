@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 4.3
+Version: 4.4
 
 Status: Active
 
@@ -36,18 +36,19 @@ Last update: 2026-07-02
 | 2 | Team Book | Baseline accepted; manual refinements deferred | `docs/phase2/2_TeamBook.md` |
 | 3 | Scientific Atlas | Accepted baseline; manual refinements deferred | `docs/phase3/3_ScientificAtlas.md` |
 | 4 | Gap Analysis | Accepted baseline; supports Phase 5 | `docs/phase4/4_GapAnalysis.md` |
-| 5 | Project Matrix | Full matrix pass completed; project-owner acceptance pending | `docs/phase5/5_ProjectMatrix.md` |
-| 5.5 | Internal Approval and Budget Collection | Locked until Phase 5 is complete | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| 5 | Project Matrix | Accepted baseline; supports Phase 5.5 | `docs/phase5/5_ProjectMatrix.md` |
+| 5.5 | Internal Approval and Budget Collection | Active; circulation packet and collection templates prepared | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | 6 | Master Project | Locked until Phase 5.5 is complete | `docs/phase6/6_MasterProject.md` |
 | 7 | CNPq Proposal | Locked until Phase 6 is complete | `docs/phase7/7_CNPqProposal.md` |
 | 8 | Final Review | Locked until Phase 7 is complete | `docs/phase8/8_FinalReview.md` |
 
 ## Current gate
 
-The repository is in Phase 5 - Project Matrix.
+The repository is in Phase 5.5 - Internal Approval and Budget Collection.
 
-Allowed work now: project-owner review or refinement of the completed Phase 5
-Project Matrix.
+Allowed work now: review and circulation of the internal summary, collection
+of member approvals/comments, and collection of budget items, values, and
+justifications.
 
 Still prohibited: Phase 6 master-project writing, final CNPq proposal text,
 consolidated PDF project creation, final budget values or justifications,
@@ -59,8 +60,8 @@ baseline. A detailed atlas pass was completed and accepted on 2026-07-02.
 Phase 4 - Gap Analysis was then opened, developed in full, refined with
 project-owner input, and accepted on 2026-07-02. Phase 5 - Project Matrix was
 opened, assessed by the project owner, and developed in full on 2026-07-02.
-Phase 5.5 remains locked until the project owner accepts the completed Phase 5
-matrix.
+The project owner accepted the completed Phase 5 matrix on 2026-07-02 and
+Phase 5.5 was opened.
 
 Approved later-phase checkpoint: after Phase 5 - Project Matrix and before
 Phase 6 - Master Project, Phase 5.5 must circulate a summarized project
@@ -133,6 +134,19 @@ items, values, and justifications.
 | Phase 5.5 validation/review queue rows | 10 | `docs/phase5/5_ProjectMatrix.md` |
 | Phase 5.5 handoff package rows | 6 | `docs/phase5/5_ProjectMatrix.md` |
 | Phase 5 completion checkpoint rows | 18 | `docs/phase5/5_ProjectMatrix.md` |
+
+## Phase 5.5 opened outputs
+
+| Output class | Count | Location |
+| --- | ---: | --- |
+| Phase 5 handoff summary rows | 6 | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| Internal circulation summary task rows | 4 | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| Member approval tracker rows | 16 | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| Member response questions | 5 | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| Budget collection template rows | 5 | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| Budget category guide rows | 7 | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| Access and feasibility checklist rows | 8 | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| Phase 6 readiness gate rows | 10 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 
 ## Final writing constraints
 
