@@ -26,9 +26,9 @@ Completion criteria: Every Phase 1A participant is represented once; capability
 domains are linked to Phase 1 evidence; no scientific objectives, gaps,
 work packages, proposal text, or team responsibilities are created.
 
-Version: 1.4
+Version: 1.5
 
-Status: Active; 2A Team Roster refined
+Status: Active; 2B Person Profiles refined
 
 Last update: 2026-07-01
 
@@ -62,7 +62,7 @@ consolidated snapshot.
 | Subsection | Purpose | Status | Document |
 | --- | --- | --- | --- |
 | 2A | Team roster and institutional map | Refined | `docs/phase2/2A_TeamRoster.md` |
-| 2B | Person profiles and merit summaries | Initial subsection opened | `docs/phase2/2B_PersonProfiles.md` |
+| 2B | Person profiles and merit summaries | Refined | `docs/phase2/2B_PersonProfiles.md` |
 | 2C | Capability-domain map | Initial subsection opened | `docs/phase2/2C_CapabilityDomains.md` |
 | 2D | Person-domain matrix | Initial subsection opened | `docs/phase2/2D_PersonDomainMatrix.md` |
 | 2E | Collaboration and infrastructure map | Initial subsection opened | `docs/phase2/2E_CollaborationInfrastructureMap.md` |
@@ -100,6 +100,9 @@ rather than creating a new person or source fact here.
 - Phase 2 subsection documents opened: 6.
 - Phase 2A institutional roster rows refined: 6.
 - Phase 2A participant roster rows refined: 16.
+- Phase 2B profile summary rows refined: 16.
+- Phase 2B evidence-coverage rows refined: 16.
+- Phase 2B individual profile notes refined: 16.
 
 ## Team overview
 

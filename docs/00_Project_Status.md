@@ -25,7 +25,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.11
+Version: 2.12
 
 Status: Active
 
@@ -120,6 +120,9 @@ refinement, but they no longer block Phase 2 Team Book work.
 - Phase 2A Team Roster was refined with an inclusion map, institutional
   composition table, participant roster, active infrastructure by institution,
   and 2A checkpoint.
+- Phase 2B Person Profiles was refined with a profile summary matrix, academic
+  merit index, evidence coverage by person, individual profile notes, and 2B
+  checkpoint.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
 - No scientific objectives, gaps, work packages, responsibility assignments, or
@@ -208,6 +211,9 @@ refinement, but they no longer block Phase 2 Team Book work.
 - Phase 2A institutional roster rows: 6
 - Phase 2A participant roster rows: 16
 - Phase 2A active-infrastructure institution rows: 6
+- Phase 2B profile summary rows: 16
+- Phase 2B evidence-coverage rows: 16
+- Phase 2B individual profile notes: 16
 - Phase 2 capability domains indexed: 9
 - Phase 2 person-domain matrix rows: 16
 - Phase 2 evidence-bundle checklist rows: 9
@@ -219,11 +225,12 @@ refinement, but they no longer block Phase 2 Team Book work.
 
 ## Next action
 
-Continue Phase 2 with `2B_PersonProfiles.md`, using the refined 2A Team Roster
-as the institutional baseline.
+Continue Phase 2 with `2C_CapabilityDomains.md`, using the refined 2A Team
+Roster and 2B Person Profiles as factual baselines.
 
 ## Recent updates
 
+- 2026-07-01: Refined Phase 2B Person Profiles with profile summary, academic merit index, evidence coverage by person, individual profile notes, and a 2B checkpoint.
 - 2026-07-01: Refined Phase 2A Team Roster with institutional composition, participant roster, active infrastructure by institution, and a 2A checkpoint.
 - 2026-07-01: Reorganized Phase 2 into controlled subsections `2A` through `2F`, keeping `docs/phase2/2_TeamBook.md` as the master index.
 - 2026-07-01: Refined Phase 2 Team Book with a person-domain matrix, evidence-bundle checklist, and Phase 2 checkpoint in `docs/phase2/2_TeamBook.md`.
