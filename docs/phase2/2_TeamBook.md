@@ -9,9 +9,9 @@ Inputs: Phase 1 people, publications, previous projects, infrastructure,
 collaborations, preliminary results, idea seeds, bibliography records, and
 source inventory entries.
 
-Outputs: One factual team book with source-backed institutional roster,
+Outputs: One factual Team Book index with source-backed institutional roster,
 person profiles, capability domains, and evidence links for future analytical
-phases.
+phases, plus Phase 2 subsection documents.
 
 Dependencies: `docs/phase1/1A_People.md`,
 `docs/phase1/1B_Publications.md`,
@@ -26,9 +26,9 @@ Completion criteria: Every Phase 1A participant is represented once; capability
 domains are linked to Phase 1 evidence; no scientific objectives, gaps,
 work packages, proposal text, or team responsibilities are created.
 
-Version: 1.2
+Version: 1.3
 
-Status: Active; refined Team Book and evidence matrix opened
+Status: Active; subsection structure opened
 
 Last update: 2026-07-01
 
@@ -52,6 +52,21 @@ Still prohibited:
 - do not assign responsibilities;
 - do not create work packages;
 - do not write CNPq proposal text.
+
+## Phase 2 subsection structure
+
+Phase 2 is now organized as a set of controlled subsections, following the same
+working style used in Phase 1. This document remains the master index and
+consolidated snapshot.
+
+| Subsection | Purpose | Document |
+| --- | --- | --- |
+| 2A | Team roster and institutional map | `docs/phase2/2A_TeamRoster.md` |
+| 2B | Person profiles and merit summaries | `docs/phase2/2B_PersonProfiles.md` |
+| 2C | Capability-domain map | `docs/phase2/2C_CapabilityDomains.md` |
+| 2D | Person-domain matrix | `docs/phase2/2D_PersonDomainMatrix.md` |
+| 2E | Collaboration and infrastructure map | `docs/phase2/2E_CollaborationInfrastructureMap.md` |
+| 2F | Evidence bundles and review queue | `docs/phase2/2F_EvidenceBundlesReview.md` |
 
 ## Phase gate note
 
@@ -82,6 +97,7 @@ rather than creating a new person or source fact here.
 - Phase 1G idea-seed records available as unselected conceptual evidence: 10.
 - Phase 1H bibliography records available for later citation mapping: 107.
 - Phase 2 capability domains currently indexed: 9.
+- Phase 2 subsection documents opened: 6.
 
 ## Team overview
 

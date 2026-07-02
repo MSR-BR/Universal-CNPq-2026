@@ -19,12 +19,13 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 `docs/phase1/1C_PreviousProjects.md`, `docs/phase1/1D_Infrastructure.md`,
 `docs/phase1/1E_Collaborations.md`, `docs/phase1/1F_PreliminaryResults.md`,
 `docs/phase1/1G_Ideas.md`, `docs/phase1/1H_Bibliography.md`,
-`docs/phase2/2_TeamBook.md`, and `data/source_inventory.tsv`.
+`docs/phase2/2_TeamBook.md`, Phase 2 subsection documents, and
+`data/source_inventory.tsv`.
 
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.9
+Version: 2.10
 
 Status: Active
 
@@ -113,6 +114,9 @@ refinement, but they no longer block Phase 2 Team Book work.
   institutions and source-backed capability domains.
 - Phase 2 Team Book refinement added a person-domain matrix, evidence-bundle
   checklist, collaboration/infrastructure map, and Phase 2 checkpoint.
+- Phase 2 now has six controlled subsections, `2A` through `2F`, for team
+  roster, person profiles, capability domains, person-domain matrix,
+  collaboration/infrastructure map, and evidence-bundle review.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
 - No scientific objectives, gaps, work packages, responsibility assignments, or
@@ -147,6 +151,8 @@ refinement, but they no longer block Phase 2 Team Book work.
 - Continue Phase 1H bibliography refinement if external references, official citation lists, or manually selected bibliography additions are supplied.
 - Keep Phase 1H as a bibliography map; do not duplicate full publication metadata already recorded in Phase 1B.
 - Continue Phase 2 Team Book refinement using only stable Phase 1 evidence.
+- Build Phase 2 through the controlled subsections `2A` through `2F`, keeping
+  `2_TeamBook.md` as the master index and consolidated snapshot.
 - Keep Phase 2 synthesis factual; do not convert capability domains into
   objectives, gaps, responsibilities, work packages, or proposal text.
 
@@ -195,6 +201,7 @@ refinement, but they no longer block Phase 2 Team Book work.
 - Phase 1H records with at least one Phase 1F preliminary-result link: 104
 - Phase 1H records with at least one Phase 1G idea-seed link: 47
 - Phase 2 Team Book documents opened: 1
+- Phase 2 subsection documents opened: 6
 - Phase 2 capability domains indexed: 9
 - Phase 2 person-domain matrix rows: 16
 - Phase 2 evidence-bundle checklist rows: 9
@@ -206,11 +213,12 @@ refinement, but they no longer block Phase 2 Team Book work.
 
 ## Next action
 
-Review or continue refining the Phase 2 Team Book baseline while keeping Phase
-1 records open for deferred manual refinement.
+Continue Phase 2 through subsections `2A` through `2F`, using
+`docs/phase2/2_TeamBook.md` as the master index.
 
 ## Recent updates
 
+- 2026-07-01: Reorganized Phase 2 into controlled subsections `2A` through `2F`, keeping `docs/phase2/2_TeamBook.md` as the master index.
 - 2026-07-01: Refined Phase 2 Team Book with a person-domain matrix, evidence-bundle checklist, and Phase 2 checkpoint in `docs/phase2/2_TeamBook.md`.
 - 2026-07-01: Opened Phase 2 - Team Book and created the initial source-backed capability map in `docs/phase2/2_TeamBook.md`.
 - 2026-07-01: Added international collaborators `P-0015` Antonio dos Santos (ORNL) and `P-0016` Paula Brandão (Universidade de Aveiro) to Phase 1A from `SRC-0048` and `SRC-0049`.
