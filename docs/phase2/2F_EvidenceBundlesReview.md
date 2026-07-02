@@ -21,11 +21,11 @@ Completion criteria: Evidence-bundle coverage is visible; remaining manual
 review points are listed; Phase 2 is not marked complete until the project
 owner explicitly accepts the baseline.
 
-Version: 1.1
+Version: 1.2
 
-Status: Active; evidence bundles and review queue refined
+Status: Accepted baseline; review queue carried into Phase 3
 
-Last update: 2026-07-01
+Last update: 2026-07-02
 
 ## Scope guard
 
@@ -50,8 +50,8 @@ Phase 1 IDs.
 - Active Phase 1D infrastructure records represented: 10.
 - Phase 1E collaboration records represented: 14.
 - Phase 2F manual-review categories recorded: 8.
-- Phase 2 baseline status: ready for project-owner review, not automatically
-  complete.
+- Phase 2 baseline status: accepted by the project owner on 2026-07-02, with
+  final manual refinements deferred.
 
 ## Evidence bundle key
 
@@ -124,7 +124,7 @@ rank bundles and does not mark final proposal readiness.
 | Infrastructure wording | `SRC-0034` equipment host mapping; `INF-0010`, `INF-0016`, `INF-0017`, `INF-0018`; LAQCC/KUATOMU/QuIIN wording | Final infrastructure review before public-facing text |
 | Person naming and status | Preferred formal spelling for `P-0015` and `P-0016`; academic level/position wording for `P-0010` and `P-0014` | Final manual profile review |
 | Language and labels | Whether Team Book, atlas labels, and later proposal-support text should be English, Portuguese, or bilingual | Before Phase 3 public-facing consolidation |
-| Phase gate | Project-owner acceptance of Phase 2 baseline before opening Phase 3 | Immediately after this 2F review if the owner accepts |
+| Phase gate | Project-owner acceptance of Phase 2 baseline used to open Phase 3 | Satisfied on 2026-07-02 |
 
 ## Phase 2 baseline checkpoint
 
@@ -141,9 +141,9 @@ rank bundles and does not mark final proposal readiness.
 | External/non-team collaboration context remains distinguished from team membership | Satisfied. |
 | No scientific objectives, gap analysis, responsibilities, work packages, access commitments, or proposal text are created | Satisfied in Phase 2. |
 
-This checkpoint means the Phase 2 Team Book baseline is ready for project-owner
-review. It does not mark Phase 2 complete, and it does not open Phase 3, until
-the project owner explicitly accepts the baseline.
+This checkpoint was accepted by the project owner on 2026-07-02. It now
+supports Phase 3 - Scientific Atlas, while final manual refinements remain
+deferred.
 
 ## Manual review notes
 
@@ -152,6 +152,6 @@ the project owner explicitly accepts the baseline.
   bibliography-use links.
 - Preserve `docs/phase1/1A_People.md` as authoritative for team membership and
   merit fellowship summaries.
-- Keep evidence bundles as factual navigation aids until Phase 3.
+- Keep evidence bundles as factual navigation aids during Phase 3.
 - Do not promote idea seeds into objectives before Phase 4.
 - Do not create work packages before Phase 5.

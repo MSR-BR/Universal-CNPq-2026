@@ -27,11 +27,11 @@ collaboration contexts are mapped without creating institutional roles, access
 plans, facility-use commitments, responsibility assignments, work packages, or
 proposal text.
 
-Version: 1.1
+Version: 1.2
 
-Status: Active; collaboration-infrastructure map refined
+Status: Accepted baseline; factual refinements deferred
 
-Last update: 2026-07-01
+Last update: 2026-07-02
 
 ## Scope guard
 

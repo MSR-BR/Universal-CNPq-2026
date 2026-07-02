@@ -26,11 +26,11 @@ Completion criteria: Every Phase 1A participant is represented once; capability
 domains are linked to Phase 1 evidence; no scientific objectives, gaps,
 work packages, proposal text, or team responsibilities are created.
 
-Version: 1.9
+Version: 2.0
 
-Status: Active; 2F Evidence Bundles and Review Queue refined
+Status: Accepted baseline; Phase 3 opened
 
-Last update: 2026-07-01
+Last update: 2026-07-02
 
 ## Scope guard
 
@@ -75,6 +75,10 @@ baseline as sufficient for progression.
 
 Phase 1A through Phase 1H remain open for deferred manual refinement, but Phase
 2 can now synthesize team information from the existing stable records.
+
+The Phase 2 baseline was accepted by the project owner on 2026-07-02 as
+sufficient for progression to Phase 3 - Scientific Atlas. Deferred manual
+refinements remain allowed later, but they no longer block Phase 3.
 
 ## Stable ID policy
 
@@ -277,9 +281,9 @@ proposal text.
 | No scientific objectives, gap analysis, responsibilities, work packages, or CNPq proposal text are created | Satisfied in this document. |
 | Manual review items remain visible | Satisfied; see queue below. |
 
-This checkpoint indicates that the Phase 2 structure is ready for project-owner
-review or further factual refinement. It does not mark Phase 2 complete until
-the project owner explicitly accepts the baseline.
+This checkpoint was accepted by the project owner on 2026-07-02. Phase 2 is
+now a baseline for Phase 3 - Scientific Atlas, with final factual refinements
+deferred.
 
 ## Phase 2 manual review queue
 
@@ -289,8 +293,8 @@ the project owner explicitly accepts the baseline.
   or Paula Cristina Ferreira da Silva Brandão.
 - Decide whether future Team Book prose should be maintained in English,
   Portuguese, or bilingual form.
-- Confirm whether the capability domains should remain broad or be split into
-  finer subdomains before Phase 3 - Scientific Atlas.
-- Review the 2F manual-review categories before opening Phase 3.
+- Confirm during Phase 3 whether the capability domains should remain broad or
+  be split into finer atlas subdomains.
+- Carry the 2F manual-review categories into Phase 3 atlas refinement.
 - Keep this document as a capability synthesis only; do not convert capability
   domains into objectives, gaps, or work packages.

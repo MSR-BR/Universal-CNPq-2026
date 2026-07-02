@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 2.9
+Version: 3.0
 
 Status: Active
 
@@ -33,8 +33,8 @@ Last update: 2026-07-02
 | 1F | Preliminary Results | Initial factual registry reviewed; international collaborator evidence linked; manual refinements deferred | `docs/phase1/1F_PreliminaryResults.md` |
 | 1G | Ideas | Initial idea-seed registry populated; international collaborator evidence linked; manual refinements deferred | `docs/phase1/1G_Ideas.md` |
 | 1H | Bibliography | Baseline accepted; manual refinements deferred | `docs/phase1/1H_Bibliography.md` |
-| 2 | Team Book | Active; 2A-2F refined; project-owner acceptance pending | `docs/phase2/2_TeamBook.md` |
-| 3 | Scientific Atlas | Locked until Phase 2 is complete | `docs/phase3/3_ScientificAtlas.md` |
+| 2 | Team Book | Baseline accepted; manual refinements deferred | `docs/phase2/2_TeamBook.md` |
+| 3 | Scientific Atlas | Active; opened after Phase 2 acceptance | `docs/phase3/3_ScientificAtlas.md` |
 | 4 | Gap Analysis | Locked until Phase 3 is complete | `docs/phase4/4_GapAnalysis.md` |
 | 5 | Project Matrix | Locked until Phase 4 is complete | `docs/phase5/5_ProjectMatrix.md` |
 | 5.5 | Internal Approval and Budget Collection | Locked until Phase 5 is complete | `docs/phase5/5_5_InternalApprovalBudget.md` |
@@ -44,19 +44,19 @@ Last update: 2026-07-02
 
 ## Current gate
 
-The repository is in Phase 2 - Team Book.
+The repository is in Phase 3 - Scientific Atlas.
 
-Allowed work now: factual synthesis of Phase 1 team information, including
-institutional roster, person profiles, capability domains, collaboration
-threads, infrastructure links, person-domain matrices, and source-backed
-evidence maps.
+Allowed work now: scientific landscape mapping from the accepted Team Book and
+Phase 1 evidence base, including neutral scientific areas, evidence anchors,
+terminology notes, relationship maps, and manual-review items.
 
-Still prohibited: scientific objectives, scientific gap analysis, project
-strategy, responsibility assignment, work packages, and CNPq proposal writing.
+Still prohibited: scientific gap analysis, project strategy, responsibility
+assignment, work packages, schedule, budget, facility-access commitments, and
+CNPq proposal writing.
 
-Phase 2 baseline is ready for project-owner review after the 2F evidence-bundle
-pass. Phase 3 remains locked until the project owner explicitly accepts the
-Phase 2 baseline.
+Phase 3 was opened on 2026-07-02 after the project owner accepted the Phase 2
+baseline. Phase 4 - Gap Analysis remains locked until the Scientific Atlas is
+complete and accepted.
 
 Approved later-phase checkpoint: after Phase 5 - Project Matrix and before
 Phase 6 - Master Project, Phase 5.5 must circulate a summarized project
@@ -67,12 +67,26 @@ items, values, and justifications.
 
 | Subsection | Name | Status | Authoritative document |
 | --- | --- | --- | --- |
-| 2A | Team Roster | Active; institutional roster refined | `docs/phase2/2A_TeamRoster.md` |
-| 2B | Person Profiles | Active; person profiles refined | `docs/phase2/2B_PersonProfiles.md` |
-| 2C | Capability Domains | Active; capability domains refined | `docs/phase2/2C_CapabilityDomains.md` |
-| 2D | Person-Domain Matrix | Active; person-domain matrix refined | `docs/phase2/2D_PersonDomainMatrix.md` |
-| 2E | Collaboration and Infrastructure Map | Active; collaboration-infrastructure map refined | `docs/phase2/2E_CollaborationInfrastructureMap.md` |
-| 2F | Evidence Bundles and Review Queue | Active; evidence bundles and review queue refined | `docs/phase2/2F_EvidenceBundlesReview.md` |
+| 2A | Team Roster | Accepted baseline; factual refinements deferred | `docs/phase2/2A_TeamRoster.md` |
+| 2B | Person Profiles | Accepted baseline; factual refinements deferred | `docs/phase2/2B_PersonProfiles.md` |
+| 2C | Capability Domains | Accepted baseline; factual refinements deferred | `docs/phase2/2C_CapabilityDomains.md` |
+| 2D | Person-Domain Matrix | Accepted baseline; factual refinements deferred | `docs/phase2/2D_PersonDomainMatrix.md` |
+| 2E | Collaboration and Infrastructure Map | Accepted baseline; factual refinements deferred | `docs/phase2/2E_CollaborationInfrastructureMap.md` |
+| 2F | Evidence Bundles and Review Queue | Accepted baseline; review queue carried into Phase 3 | `docs/phase2/2F_EvidenceBundlesReview.md` |
+
+## Phase 3 starting map
+
+| Atlas area | Starting evidence route |
+| --- | --- |
+| Metal complexes, synthesis, structure, and magnetism | `D-01`, `EB-01`, `SA-01` |
+| Barocaloric and spin-crossover molecular systems | `D-02`, `EB-02`, `SA-02` |
+| Quantum thermodynamics and quantum batteries | `D-03`, `EB-03`, `SA-03` |
+| Quantum resources in molecular and material systems | `D-04`, `EB-04`, `SA-04` |
+| Magnetocaloric, multicaloric, i-caloric, and intermetallic materials | `D-05`, `EB-05`, `SA-05` |
+| High-pressure neutron scattering and pressure-linked characterization | `D-06`, `EB-06`, `SA-06` |
+| Single-crystal X-ray diffraction and structural characterization | `D-07`, `EB-07`, `SA-07` |
+| Scientific computing and quantum-technology platforms | `D-08`, `EB-08`, `SA-08` |
+| Training and early-career capacity context | `D-09`, `EB-09`, `SA-09` |
 
 ## Final writing constraints
 

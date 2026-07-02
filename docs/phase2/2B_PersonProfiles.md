@@ -20,11 +20,11 @@ Completion criteria: Every Phase 1A person appears once; merit fellowship
 information is preserved from Phase 1A; evidence anchors use stable IDs; no
 responsibilities, rankings, work packages, or proposal text are created.
 
-Version: 1.1
+Version: 1.2
 
-Status: Active; person profiles refined
+Status: Accepted baseline; factual refinements deferred
 
-Last update: 2026-07-01
+Last update: 2026-07-02
 
 ## Scope guard
 

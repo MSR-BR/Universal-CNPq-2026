@@ -9,7 +9,8 @@ Inputs: Repository methodology, roadmap, document inventory, source inventory,
 Phase 1A people records, Phase 1B publication records, Phase 1C previous-project
 records, Phase 1D infrastructure records, Phase 1E collaboration records, Phase
 1F preliminary-result records, Phase 1G idea-seed records, Phase 1H
-bibliography records, Phase 2 Team Book records, and recent project updates.
+bibliography records, Phase 2 Team Book records, Phase 3 Scientific Atlas
+records, and recent project updates.
 
 Outputs: Current phase, completed phases, current progress, pending tasks,
 repository statistics, next action, and recent updates.
@@ -19,13 +20,13 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 `docs/phase1/1C_PreviousProjects.md`, `docs/phase1/1D_Infrastructure.md`,
 `docs/phase1/1E_Collaborations.md`, `docs/phase1/1F_PreliminaryResults.md`,
 `docs/phase1/1G_Ideas.md`, `docs/phase1/1H_Bibliography.md`,
-`docs/phase2/2_TeamBook.md`, Phase 2 subsection documents, and
-`data/source_inventory.tsv`.
+`docs/phase2/2_TeamBook.md`, Phase 2 subsection documents,
+`docs/phase3/3_ScientificAtlas.md`, and `data/source_inventory.tsv`.
 
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.17
+Version: 2.18
 
 Status: Active
 
@@ -33,11 +34,11 @@ Last update: 2026-07-02
 
 ## Current phase
 
-Phase 2 - Team Book.
+Phase 3 - Scientific Atlas.
 
 Phase 0 - Information Collection remains open during the entire project.
-Phase 1A through Phase 1H remain available for deferred final manual
-refinement, but they no longer block Phase 2 Team Book work.
+Phase 1A through Phase 1H and Phase 2 remain available for deferred final
+manual refinement, but they no longer block Phase 3 Scientific Atlas work.
 
 ## Completed phases
 
@@ -59,6 +60,8 @@ refinement, but they no longer block Phase 2 Team Book work.
   with final manual idea review deferred.
 - Phase 1H bibliography baseline accepted sufficiently to open Phase 2, with
   final bibliography review deferred.
+- Phase 2 Team Book baseline accepted sufficiently to open Phase 3, with final
+  manual refinements deferred.
 
 ## Current progress
 
@@ -139,8 +142,11 @@ refinement, but they no longer block Phase 2 Team Book work.
 - Phase 2F Evidence Bundles and Review Queue was refined with 9 evidence
   bundles, 9 source-class coverage rows, 10 idea-seed coverage rows, 8
   manual-review categories, and a Phase 2 baseline checkpoint.
-- Phase 2 baseline is ready for project-owner review but is not marked complete
-  until explicitly accepted.
+- Phase 2 baseline was accepted by the project owner on 2026-07-02 and now
+  supports Phase 3 Scientific Atlas work.
+- Phase 3 was opened in `docs/phase3/3_ScientificAtlas.md`.
+- Phase 3 initial atlas map records nine neutral atlas areas and six
+  relationship seeds derived from Phase 2 domains and evidence bundles.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
 - No scientific objectives, gaps, work packages, responsibility assignments, or
@@ -174,12 +180,15 @@ refinement, but they no longer block Phase 2 Team Book work.
 - Keep Phase 1G records unselected and non-objective; do not convert idea seeds into objectives, gaps, strategy, work packages, or proposal text.
 - Continue Phase 1H bibliography refinement if external references, official citation lists, or manually selected bibliography additions are supplied.
 - Keep Phase 1H as a bibliography map; do not duplicate full publication metadata already recorded in Phase 1B.
-- Continue Phase 2 Team Book refinement using only stable Phase 1 evidence if
-  the project owner requests changes before accepting the Phase 2 baseline.
-- Project owner review is needed before Phase 2 is marked complete and Phase 3
-  is opened.
-- Keep Phase 2 synthesis factual; do not convert capability domains into
-  objectives, gaps, responsibilities, work packages, or proposal text.
+- Continue Phase 2 Team Book factual refinement only if the project owner
+  requests deferred manual adjustments; the accepted baseline remains available
+  for Phase 3 work.
+- Continue Phase 3 Scientific Atlas using stable Phase 1 and Phase 2 evidence,
+  including scientific areas, evidence anchors, terminology notes, relationship
+  seeds, and manual-review carry-over.
+- Keep Phase 3 atlas work neutral; do not convert scientific areas or
+  relationships into objectives, gaps, priorities, responsibilities, work
+  packages, schedule, budget, facility-access commitments, or proposal text.
 - After Phase 5 is complete, run Phase 5.5 to circulate a summarized proposal
   to all project members, collect approval/comments, and collect budget items,
   values, and justifications before Phase 6 starts.
@@ -259,6 +268,9 @@ refinement, but they no longer block Phase 2 Team Book work.
 - Phase 2F preliminary-result coverage rows: 9
 - Phase 2F idea-seed coverage rows: 10
 - Phase 2F manual-review categories: 8
+- Phase 3 Scientific Atlas documents opened: 1
+- Phase 3 initial atlas areas opened: 9
+- Phase 3 relationship seed rows opened: 6
 - Approved methodology checkpoint documents: 1
 - Institutions recorded in Phase 1A: 6
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
@@ -268,15 +280,15 @@ refinement, but they no longer block Phase 2 Team Book work.
 
 ## Next action
 
-Project owner should review the Phase 2 baseline in `2_TeamBook.md` and
-`2F_EvidenceBundlesReview.md`. If accepted, the next controlled step is to open
-Phase 3 - Scientific Atlas.
+Build the first detailed Phase 3 Scientific Atlas pass from the nine atlas
+areas now opened in `docs/phase3/3_ScientificAtlas.md`.
 
 Later in the roadmap, after Phase 5, the approved Phase 5.5 checkpoint must be
 completed before Phase 6 starts.
 
 ## Recent updates
 
+- 2026-07-02: Project owner accepted the Phase 2 baseline and Phase 3 - Scientific Atlas was opened with nine neutral atlas areas and six relationship seeds.
 - 2026-07-02: Approved and recorded the Methodology Improvement Proposal adding Phase 5.5 - Internal Approval and Budget Collection before final project writing.
 - 2026-07-01: Refined Phase 2F Evidence Bundles and Review Queue with evidence bundles, source-class coverage, idea-seed coverage, manual-review categories, and a Phase 2 baseline checkpoint.
 - 2026-07-01: Refined Phase 2E Collaboration and Infrastructure Map with institution-infrastructure map, collaboration status map, active infrastructure coverage, integrated threads, boundary-context review, and a 2E checkpoint.

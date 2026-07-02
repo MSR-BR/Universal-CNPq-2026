@@ -17,11 +17,11 @@ Completion criteria: Every Phase 1A institution appears once; every Phase 1A
 person is represented through their home institution; no objectives,
 responsibilities, work packages, or proposal text are created.
 
-Version: 1.1
+Version: 1.2
 
-Status: Active; institutional roster refined
+Status: Accepted baseline; factual refinements deferred
 
-Last update: 2026-07-01
+Last update: 2026-07-02
 
 ## Scope guard
 

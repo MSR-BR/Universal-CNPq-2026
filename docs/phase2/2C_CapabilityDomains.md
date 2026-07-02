@@ -18,11 +18,11 @@ Completion criteria: Domains are linked to evidence records; no domain is
 converted into an objective, gap, priority, responsibility, work package, or
 proposal section.
 
-Version: 1.1
+Version: 1.2
 
-Status: Active; capability domains refined
+Status: Accepted baseline; factual refinements deferred
 
-Last update: 2026-07-01
+Last update: 2026-07-02
 
 ## Scope guard
 
@@ -193,5 +193,5 @@ not combine domains into objectives or work packages.
 - Decide later whether broad domains should be split into finer subdomains.
 - Confirm whether final Phase 3 atlas labels should remain in English,
   Portuguese, or bilingual form.
-- Preserve all domain labels as factual navigation labels until Phase 3.
+- Preserve all domain labels as factual navigation labels during Phase 3.
 - Keep idea-seed links as unselected conceptual evidence only.
