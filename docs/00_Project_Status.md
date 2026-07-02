@@ -24,7 +24,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.8
+Version: 2.9
 
 Status: Active
 
@@ -111,6 +111,8 @@ refinement, but they no longer block Phase 2 Team Book work.
 - Phase 2 was opened in `docs/phase2/2_TeamBook.md`.
 - The initial Phase 2 Team Book maps sixteen Phase 1A people across six
   institutions and source-backed capability domains.
+- Phase 2 Team Book refinement added a person-domain matrix, evidence-bundle
+  checklist, collaboration/infrastructure map, and Phase 2 checkpoint.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
 - No scientific objectives, gaps, work packages, responsibility assignments, or
@@ -193,6 +195,9 @@ refinement, but they no longer block Phase 2 Team Book work.
 - Phase 1H records with at least one Phase 1F preliminary-result link: 104
 - Phase 1H records with at least one Phase 1G idea-seed link: 47
 - Phase 2 Team Book documents opened: 1
+- Phase 2 capability domains indexed: 9
+- Phase 2 person-domain matrix rows: 16
+- Phase 2 evidence-bundle checklist rows: 9
 - Institutions recorded in Phase 1A: 6
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
 - FAPESB/CNPq Productivity Research Fellows identified from Lattes headers: 1
@@ -201,11 +206,12 @@ refinement, but they no longer block Phase 2 Team Book work.
 
 ## Next action
 
-Continue Phase 2 - Team Book refinement while keeping Phase 1 records open
-for deferred manual refinement.
+Review or continue refining the Phase 2 Team Book baseline while keeping Phase
+1 records open for deferred manual refinement.
 
 ## Recent updates
 
+- 2026-07-01: Refined Phase 2 Team Book with a person-domain matrix, evidence-bundle checklist, and Phase 2 checkpoint in `docs/phase2/2_TeamBook.md`.
 - 2026-07-01: Opened Phase 2 - Team Book and created the initial source-backed capability map in `docs/phase2/2_TeamBook.md`.
 - 2026-07-01: Added international collaborators `P-0015` Antonio dos Santos (ORNL) and `P-0016` Paula Brandão (Universidade de Aveiro) to Phase 1A from `SRC-0048` and `SRC-0049`.
 - 2026-07-01: Updated Phase 1B through Phase 1H to link Antonio/Paula, added eight theme-matched publications, four project records, two infrastructure records, and eight bibliography records.

@@ -14,7 +14,7 @@ Dependencies: `docs/01_Methodology.md` and `docs/00_Project_Status.md`.
 Completion criteria: The roadmap lists the approved phase sequence and
 identifies the active phase.
 
-Version: 2.0
+Version: 2.1
 
 Status: Active
 
@@ -33,7 +33,7 @@ Last update: 2026-07-01
 | 1F | Preliminary Results | Initial factual registry reviewed; international collaborator evidence linked; manual refinements deferred | `docs/phase1/1F_PreliminaryResults.md` |
 | 1G | Ideas | Initial idea-seed registry populated; international collaborator evidence linked; manual refinements deferred | `docs/phase1/1G_Ideas.md` |
 | 1H | Bibliography | Baseline accepted; manual refinements deferred | `docs/phase1/1H_Bibliography.md` |
-| 2 | Team Book | Active; initial Team Book and capability map opened | `docs/phase2/2_TeamBook.md` |
+| 2 | Team Book | Active; Team Book refined with person-domain and evidence-bundle maps | `docs/phase2/2_TeamBook.md` |
 | 3 | Scientific Atlas | Locked until Phase 2 is complete | `docs/phase3/3_ScientificAtlas.md` |
 | 4 | Gap Analysis | Locked until Phase 3 is complete | `docs/phase4/4_GapAnalysis.md` |
 | 5 | Project Matrix | Locked until Phase 4 is complete | `docs/phase5/5_ProjectMatrix.md` |
@@ -47,7 +47,8 @@ The repository is in Phase 2 - Team Book.
 
 Allowed work now: factual synthesis of Phase 1 team information, including
 institutional roster, person profiles, capability domains, collaboration
-threads, infrastructure links, and source-backed evidence maps.
+threads, infrastructure links, person-domain matrices, and source-backed
+evidence maps.
 
 Still prohibited: scientific objectives, scientific gap analysis, project
 strategy, responsibility assignment, work packages, and CNPq proposal writing.
