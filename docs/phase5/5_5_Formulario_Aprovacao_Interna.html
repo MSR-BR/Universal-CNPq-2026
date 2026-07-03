@@ -205,63 +205,159 @@
       margin-top: 3px;
     }
 
-    .budget-tools {
-      display: flex;
-      gap: 10px;
-      justify-content: space-between;
-      align-items: center;
-      margin: 6px 0 10px;
-      color: var(--muted);
-      font-size: 0.92rem;
+    .cnpq-budget {
+      display: grid;
+      gap: 12px;
     }
 
-    .table-wrap {
-      overflow-x: auto;
-      border: 1px solid var(--line);
-      border-radius: 8px;
+    .cnpq-panel {
+      border: 1px solid var(--blue);
       background: #ffffff;
     }
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      min-width: 1180px;
+    .cnpq-title {
+      margin: 0;
+      padding: 8px 10px;
+      background: #dbe6f3;
+      color: var(--blue-dark);
+      font-size: 1rem;
+      line-height: 1.2;
     }
 
-    th, td {
-      border-bottom: 1px solid var(--line);
-      border-right: 1px solid var(--line);
-      padding: 8px;
-      vertical-align: top;
-      text-align: left;
+    .cnpq-grid,
+    .cnpq-row {
+      display: grid;
+      grid-template-columns: minmax(150px, 1fr) minmax(170px, 1.1fr) minmax(260px, 2.45fr) minmax(260px, 2.45fr);
+      gap: 0;
+      align-items: stretch;
     }
 
-    th:last-child, td:last-child {
+    .cnpq-grid {
+      margin: 8px 8px 0;
+      background: #efefef;
+      color: var(--blue-dark);
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .cnpq-grid div {
+      padding: 8px 10px;
+      border-right: 2px solid #ffffff;
+    }
+
+    .cnpq-grid div:last-child {
       border-right: 0;
     }
 
-    th {
-      background: #e7f0fb;
-      color: var(--blue-dark);
-      font-size: 0.84rem;
+    .cnpq-row {
+      margin: 0 8px;
+      min-height: 92px;
+      padding: 10px 0;
+      border-bottom: 1px solid #eef2f6;
     }
 
-    td select, td input, td textarea {
+    .cnpq-row:last-of-type {
+      border-bottom: 0;
+    }
+
+    .item-name {
+      display: flex;
+      align-items: center;
+      color: #010568;
+      font-weight: 500;
+      padding: 0 6px;
+      line-height: 1.15;
+    }
+
+    .value-cell {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #010568;
+      font-weight: 800;
+      padding: 0 8px;
+    }
+
+    .value-cell input {
       min-height: 34px;
-      padding: 7px;
-      font-size: 0.88rem;
+      padding: 6px 7px;
+      border-radius: 0;
+      border-color: #555555;
+      color: #111111;
+      font-weight: 500;
     }
 
-    td textarea {
-      min-height: 54px;
+    .lang-fields {
+      display: grid;
+      gap: 8px;
+      padding: 0 8px;
     }
 
-    .narrow {
-      min-width: 110px;
+    .lang-line {
+      display: grid;
+      grid-template-columns: 28px minmax(0, 1fr);
+      gap: 8px;
+      align-items: center;
+      min-height: 38px;
     }
 
-    .wide {
-      min-width: 170px;
+    .lang-label {
+      color: #010568;
+      font-weight: 800;
+      text-align: right;
+    }
+
+    .lang-line textarea {
+      min-height: 38px;
+      padding: 6px 7px;
+      border-radius: 0;
+      border-color: #555555;
+      resize: vertical;
+    }
+
+    .not-required {
+      display: flex;
+      align-items: center;
+      color: #010568;
+      font-weight: 800;
+      min-height: 38px;
+      padding-left: 4px;
+    }
+
+    .cnpq-total {
+      display: grid;
+      grid-template-columns: minmax(150px, 1fr) minmax(0, 6fr);
+      margin: 0 8px 8px;
+      background: #efefef;
+      color: #010568;
+      font-weight: 900;
+    }
+
+    .cnpq-total span {
+      padding: 9px 8px;
+      border-right: 2px solid #ffffff;
+    }
+
+    .cnpq-total span:last-child {
+      border-right: 0;
+    }
+
+    .grand-total {
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) minmax(0, 4fr);
+      background: #efefef;
+      color: #010568;
+      font-size: 1.02rem;
+      font-weight: 900;
+    }
+
+    .grand-total span {
+      padding: 9px 8px;
+      border-right: 2px solid #ffffff;
+    }
+
+    .grand-total span:last-child {
+      border-right: 0;
     }
 
     .response-status {
@@ -422,6 +518,28 @@
       .proposal, .form-grid, .axis-grid, .checks {
         grid-template-columns: 1fr;
       }
+
+      .cnpq-grid {
+        display: none;
+      }
+
+      .cnpq-row {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 12px 0;
+      }
+
+      .item-name,
+      .value-cell,
+      .lang-fields {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      .cnpq-total,
+      .grand-total {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
@@ -484,28 +602,123 @@
 
       <section aria-labelledby="budget-form-title">
         <h2 id="budget-form-title">Quadro de orçamento</h2>
-        <div class="budget-tools">
-          <span>Preencha apenas itens necessários ou recomendáveis. Valores podem ser estimativas.</span>
-          <button class="secondary" type="button" id="add-row">Adicionar item</button>
-        </div>
-        <div class="table-wrap">
-          <table id="budget-table">
-            <thead>
-              <tr>
-                <th>Rubrica CNPq</th>
-                <th>Item de dispêndio</th>
-                <th>Valor total estimado (R$)</th>
-                <th>Detalhamento Pt</th>
-                <th>Detalhamento En</th>
-                <th>Justificativa Pt</th>
-                <th>Justificativa En</th>
-                <th>Eixo</th>
-                <th>Prioridade</th>
-                <th>Ação</th>
-              </tr>
-            </thead>
-            <tbody id="budget-body"></tbody>
-          </table>
+        <div class="cnpq-budget" id="budget-table">
+          <section class="cnpq-panel" aria-labelledby="custeio-title">
+            <h2 class="cnpq-title" id="custeio-title">Custeio</h2>
+            <div class="cnpq-grid" aria-hidden="true">
+              <div>Itens de Dispêndio</div>
+              <div>Valor Total Estimado</div>
+              <div>Detalhamento</div>
+              <div>Justificativa</div>
+            </div>
+
+            <div class="cnpq-row" data-budget-row data-rubrica="Custeio" data-item="Despesas acessórias com importação">
+              <div class="item-name">Despesas acessórias com importação</div>
+              <div class="value-cell"><span>R$</span><input data-field="valor" inputmode="decimal" value="0,00"></div>
+              <div class="lang-fields">
+                <label class="lang-line"><span class="lang-label">Pt</span><textarea data-field="detalhamentoPt"></textarea></label>
+                <label class="lang-line"><span class="lang-label">En</span><textarea data-field="detalhamentoEn"></textarea></label>
+              </div>
+              <div class="lang-fields">
+                <label class="lang-line"><span class="lang-label">Pt</span><textarea data-field="justificativaPt"></textarea></label>
+                <label class="lang-line"><span class="lang-label">En</span><textarea data-field="justificativaEn"></textarea></label>
+              </div>
+            </div>
+
+            <div class="cnpq-row" data-budget-row data-rubrica="Custeio" data-item="Diárias (Total)">
+              <div class="item-name">Diárias (Total)</div>
+              <div class="value-cell"><span>R$</span><input data-field="valor" inputmode="decimal" value="0,00"></div>
+              <div class="lang-fields">
+                <label class="lang-line"><span class="lang-label">Pt</span><textarea data-field="detalhamentoPt"></textarea></label>
+                <label class="lang-line"><span class="lang-label">En</span><textarea data-field="detalhamentoEn"></textarea></label>
+              </div>
+              <div class="lang-fields">
+                <div class="lang-line"><span></span><span class="not-required">(preenchimento não requerido)</span></div>
+                <div class="lang-line"><span></span><span class="not-required">(preenchimento não requerido)</span></div>
+              </div>
+            </div>
+
+            <div class="cnpq-row" data-budget-row data-rubrica="Custeio" data-item="Material de consumo">
+              <div class="item-name">Material de consumo</div>
+              <div class="value-cell"><span>R$</span><input data-field="valor" inputmode="decimal" value="0,00"></div>
+              <div class="lang-fields">
+                <label class="lang-line"><span class="lang-label">Pt</span><textarea data-field="detalhamentoPt"></textarea></label>
+                <label class="lang-line"><span class="lang-label">En</span><textarea data-field="detalhamentoEn"></textarea></label>
+              </div>
+              <div class="lang-fields">
+                <label class="lang-line"><span class="lang-label">Pt</span><textarea data-field="justificativaPt"></textarea></label>
+                <label class="lang-line"><span class="lang-label">En</span><textarea data-field="justificativaEn"></textarea></label>
+              </div>
+            </div>
+
+            <div class="cnpq-row" data-budget-row data-rubrica="Custeio" data-item="Passagens (Total)">
+              <div class="item-name">Passagens (Total)</div>
+              <div class="value-cell"><span>R$</span><input data-field="valor" inputmode="decimal" value="0,00"></div>
+              <div class="lang-fields">
+                <label class="lang-line"><span class="lang-label">Pt</span><textarea data-field="detalhamentoPt"></textarea></label>
+                <label class="lang-line"><span class="lang-label">En</span><textarea data-field="detalhamentoEn"></textarea></label>
+              </div>
+              <div class="lang-fields">
+                <div class="lang-line"><span></span><span class="not-required">(preenchimento não requerido)</span></div>
+                <div class="lang-line"><span></span><span class="not-required">(preenchimento não requerido)</span></div>
+              </div>
+            </div>
+
+            <div class="cnpq-row" data-budget-row data-rubrica="Custeio" data-item="Serviços de Terceiros (Total)">
+              <div class="item-name">Serviços de Terceiros (Total)</div>
+              <div class="value-cell"><span>R$</span><input data-field="valor" inputmode="decimal" value="0,00"></div>
+              <div class="lang-fields">
+                <div class="lang-line"><span class="lang-label">Pt</span><span class="not-required">(preenchimento não requerido)</span></div>
+                <div class="lang-line"><span class="lang-label">En</span><span class="not-required">(preenchimento não requerido)</span></div>
+              </div>
+              <div class="lang-fields">
+                <div class="lang-line"><span></span><span class="not-required">(preenchimento não requerido)</span></div>
+                <div class="lang-line"><span></span><span class="not-required">(preenchimento não requerido)</span></div>
+              </div>
+            </div>
+
+            <div class="cnpq-total"><span>Total Custeio</span><span id="total-custeio">R$ 0,00</span></div>
+          </section>
+
+          <section class="cnpq-panel" aria-labelledby="capital-title">
+            <h2 class="cnpq-title" id="capital-title">Capital</h2>
+            <div class="cnpq-grid" aria-hidden="true">
+              <div>Itens de Dispêndio</div>
+              <div>Valor Total Estimado</div>
+              <div>Detalhamento</div>
+              <div>Justificativa</div>
+            </div>
+
+            <div class="cnpq-row" data-budget-row data-rubrica="Capital" data-item="Equipamentos e Material permanente">
+              <div class="item-name">Equipamentos e Material permanente</div>
+              <div class="value-cell"><span>R$</span><input data-field="valor" inputmode="decimal" value="0,00"></div>
+              <div class="lang-fields">
+                <label class="lang-line"><span class="lang-label">Pt</span><textarea data-field="detalhamentoPt"></textarea></label>
+                <label class="lang-line"><span class="lang-label">En</span><textarea data-field="detalhamentoEn"></textarea></label>
+              </div>
+              <div class="lang-fields">
+                <label class="lang-line"><span class="lang-label">Pt</span><textarea data-field="justificativaPt"></textarea></label>
+                <label class="lang-line"><span class="lang-label">En</span><textarea data-field="justificativaEn"></textarea></label>
+              </div>
+            </div>
+
+            <div class="cnpq-row" data-budget-row data-rubrica="Capital" data-item="Material bibliográfico (Total)">
+              <div class="item-name">Material bibliográfico (Total)</div>
+              <div class="value-cell"><span>R$</span><input data-field="valor" inputmode="decimal" value="0,00"></div>
+              <div class="lang-fields">
+                <div class="lang-line"><span class="lang-label">Pt</span><span class="not-required">(preenchimento não requerido)</span></div>
+                <div class="lang-line"><span class="lang-label">En</span><span class="not-required">(preenchimento não requerido)</span></div>
+              </div>
+              <div class="lang-fields">
+                <div class="lang-line"><span></span><span class="not-required">(preenchimento não requerido)</span></div>
+                <div class="lang-line"><span></span><span class="not-required">(preenchimento não requerido)</span></div>
+              </div>
+            </div>
+
+            <div class="cnpq-total"><span>Total Capital</span><span id="total-capital">R$ 0,00</span></div>
+          </section>
+
+          <div class="grand-total"><span>Total - Custeio e Capital</span><span id="total-geral">R$ 0,00</span></div>
         </div>
       </section>
 
@@ -554,28 +767,11 @@
       { id: "P-0016", name: "Paula Cristina Ferreira da Silva Brandão", institution: "Universidade de Aveiro" }
     ];
 
-    const dispendioOptions = [
-      "Material de consumo",
-      "Passagens (Total)",
-      "Diárias (Total)",
-      "Serviços de Terceiros (Total)",
-      "Despesas acessórias com importação",
-      "Equipamentos e Material permanente",
-      "Material bibliográfico (Total)",
-      "Bolsa IC/ITI/AT"
-    ];
-
-    const axisOptions = [
-      "Eixo 1",
-      "Eixo 2",
-      "Eixo 3",
-      "Eixo 4",
-      "Eixo 5",
-      "Transversal"
-    ];
-
     const memberSelect = document.getElementById("member");
-    const budgetBody = document.getElementById("budget-body");
+    const budgetValueInputs = Array.from(document.querySelectorAll("[data-budget-row] input[data-field='valor']"));
+    const totalCusteioEl = document.getElementById("total-custeio");
+    const totalCapitalEl = document.getElementById("total-capital");
+    const totalGeralEl = document.getElementById("total-geral");
     const submissionStatusBody = document.getElementById("submission-status-body");
     const submissionStatusNote = document.getElementById("submission-status-note");
     const statusEl = document.getElementById("status");
@@ -636,46 +832,33 @@
       }
     }
 
-    function optionList(options, selected = "") {
-      return options.map((value) => {
-        const attr = value === selected ? " selected" : "";
-        return `<option value="${value}"${attr}>${value}</option>`;
-      }).join("");
+    function parseCurrency(value) {
+      const normalized = String(value || "")
+        .replace(/[^\d,.-]/g, "")
+        .replace(/\./g, "")
+        .replace(",", ".");
+      const parsed = Number.parseFloat(normalized);
+      return Number.isFinite(parsed) ? parsed : 0;
     }
 
-    function makeBudgetRow(defaultItem = "") {
-      const tr = document.createElement("tr");
-      tr.innerHTML = `
-        <td class="narrow">
-          <select data-field="rubrica">
-            <option value="Custeio">Custeio</option>
-            <option value="Capital">Capital</option>
-            <option value="Bolsa">Bolsa</option>
-          </select>
-        </td>
-        <td class="wide"><select data-field="item">${optionList(dispendioOptions, defaultItem)}</select></td>
-        <td class="narrow"><input data-field="valor" inputmode="decimal" placeholder="0,00"></td>
-        <td class="wide"><textarea data-field="detalhamentoPt" placeholder="Adicionar 1-2 frases"></textarea></td>
-        <td class="wide"><textarea data-field="detalhamentoEn" placeholder="Add 1-2 sentences"></textarea></td>
-        <td class="wide"><textarea data-field="justificativaPt" placeholder="Adicionar 1-2 frases"></textarea></td>
-        <td class="wide"><textarea data-field="justificativaEn" placeholder="Add 1-2 sentences"></textarea></td>
-        <td class="narrow"><select data-field="eixo">${optionList(axisOptions)}</select></td>
-        <td class="narrow">
-          <select data-field="prioridade">
-            <option value="Alta">Alta</option>
-            <option value="Média">Média</option>
-            <option value="Baixa">Baixa</option>
-          </select>
-        </td>
-        <td><button class="danger" type="button">Remover</button></td>
-      `;
-      tr.querySelector("button").addEventListener("click", () => tr.remove());
-      budgetBody.appendChild(tr);
+    function formatCurrency(value) {
+      return `R$ ${value.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
     }
 
-    ["Material de consumo", "Passagens (Total)", "Equipamentos e Material permanente"].forEach(makeBudgetRow);
+    function updateBudgetTotals() {
+      let custeio = 0;
+      let capital = 0;
 
-    document.getElementById("add-row").addEventListener("click", () => makeBudgetRow());
+      document.querySelectorAll("[data-budget-row]").forEach((row) => {
+        const value = parseCurrency(row.querySelector("[data-field='valor']").value);
+        if (row.dataset.rubrica === "Custeio") custeio += value;
+        if (row.dataset.rubrica === "Capital") capital += value;
+      });
+
+      totalCusteioEl.textContent = formatCurrency(custeio);
+      totalCapitalEl.textContent = formatCurrency(capital);
+      totalGeralEl.textContent = formatCurrency(custeio + capital);
+    }
 
     function selectedMember() {
       return members.find((member) => member.id === memberSelect.value);
@@ -686,14 +869,20 @@
     }
 
     function budgetRows() {
-      return Array.from(budgetBody.querySelectorAll("tr")).map((row) => {
-        const data = {};
+      return Array.from(document.querySelectorAll("[data-budget-row]")).map((row) => {
+        const data = {
+          rubrica: row.dataset.rubrica,
+          item: row.dataset.item,
+          valor: row.querySelector("[data-field='valor']").value.trim() || "0,00",
+          detalhamentoPt: "preenchimento não requerido",
+          detalhamentoEn: "preenchimento não requerido",
+          justificativaPt: "preenchimento não requerido",
+          justificativaEn: "preenchimento não requerido"
+        };
         row.querySelectorAll("[data-field]").forEach((field) => {
           data[field.dataset.field] = field.value.trim();
         });
         return data;
-      }).filter((row) => {
-        return row.valor || row.detalhamentoPt || row.detalhamentoEn || row.justificativaPt || row.justificativaEn;
       });
     }
 
@@ -753,6 +942,8 @@
     });
 
     loadSubmissionStatus();
+    budgetValueInputs.forEach((input) => input.addEventListener("input", updateBudgetTotals));
+    updateBudgetTotals();
   </script>
 </body>
 </html>

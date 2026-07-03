@@ -74,7 +74,7 @@ interface.
 
 | Artifact | Path | Purpose | Status |
 | --- | --- | --- | --- |
-| Single-page web form | `docs/phase5/5_5_Formulario_Aprovacao_Interna.html` | Primary circulation interface: compact proposal summary, member dropdown, contribution axes, CNPq budget table, and general comments. | Prepared. |
+| Single-page web form | `docs/phase5/5_5_Formulario_Aprovacao_Interna.html` | Primary circulation interface: compact proposal summary, member dropdown, contribution axes, fixed CNPq-style Custeio/Capital budget form, and general comments. | Prepared. |
 | Vercel API function | `api/phase55-response.js` | Receives the web-form payload and creates a public GitHub issue through a server-side token stored in Vercel. | Prepared. |
 | Vercel routing config | `vercel.json` | Serves the form at `/`, `/fase-5-5`, and `/phase5/formulario` while keeping `/api/phase55-response` available. | Prepared. |
 | Vercel production deployment | `https://universal-cnpq-2026.vercel.app/` | Public form URL for circulation with `GITHUB_ISSUE_TOKEN` configured. | Deployed; token configured. |
@@ -206,7 +206,7 @@ currently recorded in Phase 1A. The dropdown includes:
 | `F-01` | Submission status dropdown | Collapsible list after the save button, with each participant marked as submitted or not submitted based on GitHub issues. |
 | `F-02` | Member dropdown | One selected respondent from the target list above. |
 | `F-03` | Contribution axes | Selected scientific axis/axes or transversal support. |
-| `F-04` | CNPq budget table | CNPq rubrica, item de dispendio, estimated value, Pt/En detailing where required, Pt/En justification where required, linked axis, and priority. |
+| `F-04` | CNPq budget form | Fixed Custeio/Capital form matching the CNPq screen, with values, Pt/En detailing, Pt/En justification, automatic participant totals, and non-required fields marked as such. |
 | `F-05` | General comments | Corrections, suggestions, budget observations, or critical feasibility constraints in one free-text field. |
 
 ## CNPq Faixa C budget rules
@@ -268,17 +268,19 @@ specific case and the justification is strong.
 
 ## Budget collection template
 
-Budget values are not final in this document. They become proposal inputs only
-after member response, review, and project-owner acceptance.
+Budget values are not final in this document. Each participant fills the same
+fixed CNPq-style Custeio/Capital form; responses are later consolidated by
+adding values item by item into the single final CNPq form.
 
-| Budget ID | Contributor/person | Institution/subgroup | Linked task/layer | Rubrica CNPq | Item de dispendio | Estimated value | Detailing Pt/En | Justification Pt/En | Priority | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `BUD-0001` | Pending | Pending | `MT-01` | Custeio | Material de consumo | Pending | Pending | Pending | Pending | Open |
-| `BUD-0002` | Pending | Pending | `MT-02` | Custeio | Diarias or passagens | Pending | Pending | Pending if required | Pending | Open |
-| `BUD-0003` | Pending | Pending | `MT-02`/`MT-05` | Custeio | Servicos de Terceiros | Pending | Not required in CNPq screen | Not required in CNPq screen | Pending | Open |
-| `BUD-0004` | Pending | Pending | `MT-01`/`MT-05` | Capital | Equipamentos e Material permanente | Pending | Pending | Pending | Pending | Open |
-| `BUD-0005` | Pending | Pending | `MT-03`/`MT-04` | Custeio or Capital | Computing-related eligible item | Pending | Pending where required | Pending where required | Pending | Open |
-| `BUD-0006` | Pending | Pending | `SL-01` | Bolsa | IC, ITI, or AT | Pending | Modality/duration/quantity/unit value/total value | Pending | Pending | Open |
+| Budget ID | Rubrica CNPq | Item de dispendio | Estimated value | Detailing Pt/En | Justification Pt/En | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| `BUD-0001` | Custeio | Despesas acessorias com importacao | Per participant response | Required | Required | Open |
+| `BUD-0002` | Custeio | Diarias (Total) | Per participant response | Required | Not required in CNPq screen | Open |
+| `BUD-0003` | Custeio | Material de consumo | Per participant response | Required | Required | Open |
+| `BUD-0004` | Custeio | Passagens (Total) | Per participant response | Required | Not required in CNPq screen | Open |
+| `BUD-0005` | Custeio | Servicos de Terceiros (Total) | Per participant response | Not required in CNPq screen | Not required in CNPq screen | Open |
+| `BUD-0006` | Capital | Equipamentos e Material permanente | Per participant response | Required | Required | Open |
+| `BUD-0007` | Capital | Material bibliografico (Total) | Per participant response | Not required in CNPq screen | Not required in CNPq screen | Open |
 
 ## Allocation principle
 

@@ -176,8 +176,8 @@ function validate(payload) {
   for (const row of budget) {
     if (!RUBRICAS.has(row.rubrica)) errors.push("Rubrica inválida no orçamento.");
     if (!ITENS.has(row.item)) errors.push("Item de dispêndio inválido no orçamento.");
-    if (!EIXOS.has(row.eixo)) errors.push("Eixo inválido no orçamento.");
-    if (!PRIORIDADES.has(row.prioridade)) errors.push("Prioridade inválida no orçamento.");
+    if (row.eixo && !EIXOS.has(row.eixo)) errors.push("Eixo inválido no orçamento.");
+    if (row.prioridade && !PRIORIDADES.has(row.prioridade)) errors.push("Prioridade inválida no orçamento.");
   }
 
   return errors;
@@ -206,11 +206,11 @@ function buildIssueBody(payload) {
   lines.push("");
 
   if (budget.length) {
-    lines.push("| Rubrica CNPq | Item de dispêndio | Valor total estimado (R$) | Detalhamento Pt | Detalhamento En | Justificativa Pt | Justificativa En | Eixo | Prioridade |");
-    lines.push("| --- | --- | ---: | --- | --- | --- | --- | --- | --- |");
+    lines.push("| Rubrica CNPq | Item de dispêndio | Valor total estimado (R$) | Detalhamento Pt | Detalhamento En | Justificativa Pt | Justificativa En |");
+    lines.push("| --- | --- | ---: | --- | --- | --- | --- |");
     budget.forEach((row) => {
       lines.push(
-        `| ${tableCell(row.rubrica)} | ${tableCell(row.item)} | ${tableCell(row.valor || "0,00")} | ${tableCell(row.detalhamentoPt)} | ${tableCell(row.detalhamentoEn)} | ${tableCell(row.justificativaPt)} | ${tableCell(row.justificativaEn)} | ${tableCell(row.eixo)} | ${tableCell(row.prioridade)} |`
+        `| ${tableCell(row.rubrica)} | ${tableCell(row.item)} | ${tableCell(row.valor || "0,00")} | ${tableCell(row.detalhamentoPt)} | ${tableCell(row.detalhamentoEn)} | ${tableCell(row.justificativaPt)} | ${tableCell(row.justificativaEn)} |`
       );
     });
   } else {

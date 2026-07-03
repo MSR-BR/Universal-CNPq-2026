@@ -147,7 +147,7 @@ repository workflow then ingests the response.
 | Member approval tracker rows | 16 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Member response form fields | 5 | `docs/phase5/5_5_InternalApprovalBudget.md`; `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml`; `docs/phase5/5_5_Formulario_Aprovacao_Interna.html` |
 | Participant response dropdown rows | 16 | `docs/phase5/5_5_InternalApprovalBudget.md`; `docs/phase5/5_5_Formulario_Aprovacao_Interna.html` |
-| Budget collection template rows | 6 | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| Budget collection template rows | 7 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | CNPq Faixa C budget rule rows | 7 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Eligible CNPq budget item rows | 8 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Restricted or non-eligible budget rows | 9 | `docs/phase5/5_5_InternalApprovalBudget.md` |
