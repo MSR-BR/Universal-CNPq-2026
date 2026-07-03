@@ -227,6 +227,9 @@ available for deferred final manual refinement, but they no longer block Phase
   and then cleaned: the issue was closed, its response label was removed, its
   title/body were replaced with a test-removal note, and the Phase 5.5 status
   API again reports zero valid submitted responses.
+- The workflow-ingested test file
+  `data/phase5_5_member_responses/issue-3.md` was removed so no test budget
+  data remains as an active response record in the repository.
 - A temporary cleanup endpoint was deployed only to clean issue `#3`; it was
   removed immediately afterward and production was redeployed without that
   endpoint.
@@ -401,6 +404,7 @@ available for deferred final manual refinement, but they no longer block Phase
 - Phase 5.5 Vercel production deployments prepared: 1
 - Phase 5.5 Vercel environment variables pending: 0
 - Phase 5.5 valid member responses currently counted by API: 0
+- Phase 5.5 ingested member-response files currently present: 0
 - Phase 5.5 GitHub Pages support files prepared: 1
 - Phase 5.5 Git ingestion workflows prepared: 1
 - Phase 5.5 response data directories prepared: 1
@@ -426,7 +430,7 @@ completed before Phase 6 starts.
 
 - 2026-07-03: Confirmed the Vercel-backed Phase 5.5 web form creates GitHub
   issues successfully; cleaned the test issue `#3` so no valid member response
-  is currently counted.
+  is currently counted, and removed the workflow-ingested test response file.
 - 2026-07-03: Redeployed production after removing the temporary cleanup
   endpoint; the public Phase 5.5 form and API remain available at
   `https://universal-cnpq-2026.vercel.app/fase-5-5`.

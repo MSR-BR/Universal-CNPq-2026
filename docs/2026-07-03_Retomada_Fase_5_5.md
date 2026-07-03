@@ -50,6 +50,8 @@ pausa de aproximadamente duas semanas.
 - A issue `#3` foi limpa depois do teste: fechada, sem label
   `phase-5-5-response`, titulo alterado para `Teste removido - Fase 5.5 -
   P-0003`, e corpo substituido por nota de teste removido.
+- O workflow automatico havia gravado o teste em
+  `data/phase5_5_member_responses/issue-3.md`; esse arquivo foi removido.
 - A API voltou a contar zero respostas validas.
 - Um endpoint temporario de limpeza foi usado apenas para limpar a issue `#3`.
   Ele foi removido e a producao foi redeployada sem esse endpoint.
