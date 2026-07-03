@@ -213,9 +213,9 @@ available for deferred final manual refinement, but they no longer block Phase
   dispendio, value, Pt/En detailing where required, Pt/En justification where
   required, linked axis, institution/subgroup, and priority.
 - A single-page web form was then prepared as the primary distribution format,
-  with a concise proposal summary, full participant dropdown, visible submission
-  status table, dynamic CNPq budget table, one general-comment field, and one
-  `Gravar resposta` button.
+  with a concise proposal summary, full participant dropdown, dynamic CNPq
+  budget table, one general-comment field, one `Gravar resposta` button, and a
+  collapsible submission-status list after the save button.
   A Vercel Function creates a public GitHub issue server-side, and the existing
   workflow records the issue content in `data/phase5_5_member_responses/`.
 - The Vercel project `universal-cnpq-2026` was created and deployed in

@@ -265,15 +265,46 @@
     }
 
     .response-status {
-      margin-bottom: 18px;
+      margin: 18px 28px 28px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfe;
+      overflow: hidden;
     }
 
-    .response-status .table-wrap {
-      margin-top: 8px;
+    .response-status summary {
+      cursor: pointer;
+      padding: 12px 14px;
+      color: var(--blue-dark);
+      font-weight: 800;
+      background: #e7f0fb;
     }
 
-    .response-status table {
-      min-width: 720px;
+    .response-status[open] summary {
+      border-bottom: 1px solid var(--line);
+    }
+
+    .submission-status-note {
+      margin: 12px 14px 8px;
+    }
+
+    .status-list {
+      display: grid;
+      gap: 0;
+      padding: 0 14px 14px;
+    }
+
+    .status-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: flex-start;
+      border-bottom: 1px solid var(--line);
+      padding: 9px 0;
+    }
+
+    .status-row:last-child {
+      border-bottom: 0;
     }
 
     .member-cell strong,
@@ -287,24 +318,26 @@
       margin-top: 2px;
     }
 
-    .status-choice {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-weight: 600;
-      min-width: 120px;
-    }
-
-    .status-choice input {
-      width: auto;
-      min-height: auto;
-      margin: 0;
-    }
-
-    .issue-link {
-      color: var(--blue-dark);
+    .status-pill {
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 0.84rem;
       font-weight: 700;
-      margin-left: 6px;
+      line-height: 1.2;
+      white-space: nowrap;
+      text-decoration: none;
+    }
+
+    .status-pill.sent {
+      color: var(--green);
+      background: #e9f8f1;
+      border: 1px solid #b8e3cd;
+    }
+
+    .status-pill.pending {
+      color: var(--muted);
+      background: #eef2f6;
+      border: 1px solid var(--line);
     }
 
     .actions {
@@ -381,6 +414,11 @@
         padding-right: 16px;
       }
 
+      .response-status {
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+
       .proposal, .form-grid, .axis-grid, .checks {
         grid-template-columns: 1fr;
       }
@@ -423,23 +461,6 @@
     </section>
 
     <form id="response-form">
-      <section class="response-status" aria-labelledby="submission-status-title">
-        <h2 id="submission-status-title">Status de envio</h2>
-        <p class="meta" id="submission-status-note">A tabela é atualizada a partir das respostas gravadas como issues no GitHub.</p>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Integrante</th>
-                <th>Enviou</th>
-                <th>Não enviou</th>
-              </tr>
-            </thead>
-            <tbody id="submission-status-body"></tbody>
-          </table>
-        </div>
-      </section>
-
       <div class="form-grid">
         <div class="field">
           <label for="member">Integrante</label>
@@ -503,6 +524,12 @@
         <p class="status" id="status">Ao gravar, a resposta será salva como issue pública do GitHub e registrada no repositório.</p>
       </div>
     </form>
+
+    <details class="response-status">
+      <summary>Status de envio dos participantes</summary>
+      <p class="meta submission-status-note" id="submission-status-note">Atualizado a partir das respostas gravadas como issues no GitHub.</p>
+      <div class="status-list" id="submission-status-body"></div>
+    </details>
   </main>
 
   <script>
@@ -561,27 +588,14 @@
       memberSelect.appendChild(option);
     });
 
-    function makeStatusChoice(memberId, label, checked) {
-      const wrapper = document.createElement("label");
-      wrapper.className = "status-choice";
-
-      const input = document.createElement("input");
-      input.type = "radio";
-      input.name = `status-${memberId}`;
-      input.disabled = true;
-      input.checked = checked;
-
-      wrapper.append(input, document.createTextNode(label));
-      return wrapper;
-    }
-
     function renderSubmissionStatus(rows = members) {
       submissionStatusBody.replaceChildren();
 
       rows.forEach((member) => {
-        const tr = document.createElement("tr");
+        const row = document.createElement("div");
+        row.className = "status-row";
 
-        const memberCell = document.createElement("td");
+        const memberCell = document.createElement("div");
         memberCell.className = "member-cell";
 
         const name = document.createElement("strong");
@@ -592,23 +606,18 @@
 
         memberCell.append(name, details);
 
-        const sentCell = document.createElement("td");
-        sentCell.appendChild(makeStatusChoice(member.id, "Enviou", Boolean(member.submitted)));
+        const statusTag = document.createElement(member.submitted && member.issueUrl ? "a" : "span");
+        statusTag.className = `status-pill ${member.submitted ? "sent" : "pending"}`;
+        statusTag.textContent = member.submitted ? "Enviou" : "Não enviou";
         if (member.submitted && member.issueUrl) {
-          const link = document.createElement("a");
-          link.className = "issue-link";
-          link.href = member.issueUrl;
-          link.target = "_blank";
-          link.rel = "noopener noreferrer";
-          link.textContent = `#${member.issueNumber}`;
-          sentCell.appendChild(link);
+          statusTag.href = member.issueUrl;
+          statusTag.target = "_blank";
+          statusTag.rel = "noopener noreferrer";
+          statusTag.title = `Abrir registro #${member.issueNumber}`;
         }
 
-        const pendingCell = document.createElement("td");
-        pendingCell.appendChild(makeStatusChoice(member.id, "Não enviou", !member.submitted));
-
-        tr.append(memberCell, sentCell, pendingCell);
-        submissionStatusBody.appendChild(tr);
+        row.append(memberCell, statusTag);
+        submissionStatusBody.appendChild(row);
       });
     }
 
@@ -621,9 +630,9 @@
           throw new Error(data.error || "Não foi possível carregar o status de envio.");
         }
         renderSubmissionStatus(data.members);
-        submissionStatusNote.textContent = "Status atualizado a partir das issues gravadas no GitHub.";
+        submissionStatusNote.textContent = "Atualizado a partir das respostas gravadas como issues no GitHub.";
       } catch (error) {
-        submissionStatusNote.textContent = `${error.message} A tabela abaixo mostra todos como não enviados até a consulta funcionar.`;
+        submissionStatusNote.textContent = `${error.message} A lista abaixo mostra todos como não enviados até a consulta funcionar.`;
       }
     }
 

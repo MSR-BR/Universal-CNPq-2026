@@ -203,7 +203,7 @@ currently recorded in Phase 1A. The dropdown includes:
 
 | Field ID | Form field | Expected response |
 | --- | --- | --- |
-| `F-01` | Submission status table | All participants displayed with submitted/not submitted status based on GitHub issues. |
+| `F-01` | Submission status dropdown | Collapsible list after the save button, with each participant marked as submitted or not submitted based on GitHub issues. |
 | `F-02` | Member dropdown | One selected respondent from the target list above. |
 | `F-03` | Contribution axes | Selected scientific axis/axes or transversal support. |
 | `F-04` | CNPq budget table | CNPq rubrica, item de dispendio, estimated value, Pt/En detailing where required, Pt/En justification where required, linked axis, and priority. |
