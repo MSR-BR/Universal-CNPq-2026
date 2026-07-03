@@ -26,11 +26,11 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.28
+Version: 2.29
 
 Status: Active
 
-Last update: 2026-07-02
+Last update: 2026-07-03
 
 ## Current phase
 
@@ -223,6 +223,13 @@ available for deferred final manual refinement, but they no longer block Phase
   with HTTP 200; the API route is available; `GITHUB_ISSUE_TOKEN` is configured
   in Vercel.
 - The target respondent dropdown now includes all 16 Phase 1A participants.
+- One end-to-end test response was successfully created as GitHub issue `#3`
+  and then cleaned: the issue was closed, its response label was removed, its
+  title/body were replaced with a test-removal note, and the Phase 5.5 status
+  API again reports zero valid submitted responses.
+- A temporary cleanup endpoint was deployed only to clean issue `#3`; it was
+  removed immediately afterward and production was redeployed without that
+  endpoint.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
 - No Phase 6 master-project text, CNPq proposal text, consolidated final PDF,
@@ -260,11 +267,9 @@ available for deferred final manual refinement, but they no longer block Phase
 - Continue Phase 2 Team Book factual refinement only if the project owner
   requests deferred manual adjustments; the accepted baseline remains available
   for Phase 3 work.
-- Configure the `GITHUB_ISSUE_TOKEN` environment variable in Vercel, redeploy
-  if needed, then circulate `https://universal-cnpq-2026.vercel.app/fase-5-5`
-  to target project members for approval, contribution axes, CNPq-formatted
-  budget items, and general comments. The longer PDF remains only a support
-  artifact.
+- Circulate `https://universal-cnpq-2026.vercel.app/fase-5-5` to all target
+  project members for approval, contribution axes, CNPq-formatted budget items,
+  and general comments. The longer PDF remains only a support artifact.
 - Keep Phase 6 locked until Phase 5.5 responses, budget inputs, required
   adjustments, and project-owner acceptance are recorded.
 - In Phase 7, keep CNPq form blocks comfortably below character limits, using
@@ -394,7 +399,8 @@ available for deferred final manual refinement, but they no longer block Phase
 - Phase 5.5 Vercel API functions prepared: 1
 - Phase 5.5 Vercel routing configs prepared: 1
 - Phase 5.5 Vercel production deployments prepared: 1
-- Phase 5.5 Vercel environment variables pending: 1
+- Phase 5.5 Vercel environment variables pending: 0
+- Phase 5.5 valid member responses currently counted by API: 0
 - Phase 5.5 GitHub Pages support files prepared: 1
 - Phase 5.5 Git ingestion workflows prepared: 1
 - Phase 5.5 response data directories prepared: 1
@@ -407,17 +413,23 @@ available for deferred final manual refinement, but they no longer block Phase
 
 ## Next action
 
-Project owner should configure `GITHUB_ISSUE_TOKEN` in Vercel for the
-`universal-cnpq-2026` project. After that, the deployed link
-`https://universal-cnpq-2026.vercel.app/fase-5-5` can be sent to target project
-members for approval, contribution axes, CNPq-formatted budget items, and
-general comments.
+Project owner can send the deployed link
+`https://universal-cnpq-2026.vercel.app/fase-5-5` to all project members for
+approval, contribution axes, CNPq-formatted budget items, and general comments.
+The project should then monitor `https://universal-cnpq-2026.vercel.app/api/phase55-response`
+and the GitHub issues labeled `phase-5-5-response` to track returned forms.
 
 Later in the roadmap, the active Phase 5.5 checkpoint must be
 completed before Phase 6 starts.
 
 ## Recent updates
 
+- 2026-07-03: Confirmed the Vercel-backed Phase 5.5 web form creates GitHub
+  issues successfully; cleaned the test issue `#3` so no valid member response
+  is currently counted.
+- 2026-07-03: Redeployed production after removing the temporary cleanup
+  endpoint; the public Phase 5.5 form and API remain available at
+  `https://universal-cnpq-2026.vercel.app/fase-5-5`.
 - 2026-07-02: Project owner accepted the completed Phase 5 Project Matrix and Phase 5.5 - Internal Approval and Budget Collection was opened with circulation, approval, budget, and feasibility templates.
 - 2026-07-02: Refined Phase 5 and the Portuguese circulation packet to add the explicit barocaloric spin-crossover axis in metal complexes, involving the UERJ-UFF-ORNL route.
 - 2026-07-02: Added a short GitHub Issue Form and ingestion workflow so Phase 5.5 member responses can be written into `data/phase5_5_member_responses/`.
