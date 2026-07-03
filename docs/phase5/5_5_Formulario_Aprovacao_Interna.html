@@ -264,6 +264,49 @@
       min-width: 170px;
     }
 
+    .response-status {
+      margin-bottom: 18px;
+    }
+
+    .response-status .table-wrap {
+      margin-top: 8px;
+    }
+
+    .response-status table {
+      min-width: 720px;
+    }
+
+    .member-cell strong,
+    .member-cell span {
+      display: block;
+    }
+
+    .member-cell span {
+      color: var(--muted);
+      font-size: 0.84rem;
+      margin-top: 2px;
+    }
+
+    .status-choice {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+      min-width: 120px;
+    }
+
+    .status-choice input {
+      width: auto;
+      min-height: auto;
+      margin: 0;
+    }
+
+    .issue-link {
+      color: var(--blue-dark);
+      font-weight: 700;
+      margin-left: 6px;
+    }
+
     .actions {
       display: flex;
       flex-wrap: wrap;
@@ -369,7 +412,6 @@
         <h2 id="budget-title">Orçamento Faixa C</h2>
         <div class="callout">
           <p><strong>Limite total:</strong> até R$ 250.000,00, somando custeio, capital e/ou no máximo 1 bolsa IC, ITI ou AT.</p>
-          <p><strong>Divisão:</strong> orçamento único do projeto, priorizado por necessidade científica, não por cota individual.</p>
         </div>
         <h3>Elegível</h3>
         <ul class="eligible-list">
@@ -381,19 +423,28 @@
     </section>
 
     <form id="response-form">
+      <section class="response-status" aria-labelledby="submission-status-title">
+        <h2 id="submission-status-title">Status de envio</h2>
+        <p class="meta" id="submission-status-note">A tabela é atualizada a partir das respostas gravadas como issues no GitHub.</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Integrante</th>
+                <th>Enviou</th>
+                <th>Não enviou</th>
+              </tr>
+            </thead>
+            <tbody id="submission-status-body"></tbody>
+          </table>
+        </div>
+      </section>
+
       <div class="form-grid">
         <div class="field">
           <label for="member">Integrante</label>
           <select id="member" required>
             <option value="">Selecione</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="assessment">Avaliação geral</label>
-          <select id="assessment" required>
-            <option value="Aprovada como está">Aprovada como está</option>
-            <option value="Aprovada com ajustes menores">Aprovada com ajustes menores</option>
-            <option value="Precisa de discussão antes da redação final">Precisa de discussão antes da redação final</option>
           </select>
         </div>
       </div>
@@ -439,7 +490,7 @@
 
       <div class="field" style="margin-top:16px">
         <label for="comments">Comentários gerais</label>
-        <textarea id="comments" rows="6" placeholder="Indique correções científicas essenciais, sugestões de ênfase, observações de orçamento ou restrições críticas de viabilidade. A coordenação fará a separação por seção depois."></textarea>
+        <textarea id="comments" rows="6" placeholder="Indique correções científicas essenciais, sugestões de ênfase, observações de orçamento ou restrições críticas de viabilidade."></textarea>
       </div>
 
       <div class="hp" aria-hidden="true">
@@ -458,15 +509,22 @@
     const apiEndpoint = "/api/phase55-response";
 
     const members = [
+      { id: "P-0001", name: "Gabriel Fernandes Silva", institution: "UERJ" },
       { id: "P-0002", name: "Bruno de Pinho Alho", institution: "UERJ" },
+      { id: "P-0003", name: "Mario de Souza Reis Junior", institution: "UFF" },
       { id: "P-0004", name: "Paula de Oliveira Ribeiro Alho", institution: "UERJ" },
       { id: "P-0005", name: "Pedro Jorge von Ranke Perlingeiro", institution: "UERJ" },
-      { id: "P-0007", name: "Vinícius da Silva Ramos de Sousa", institution: "UERJ" },
-      { id: "P-0003", name: "Mario de Souza Reis Junior", institution: "UFF" },
       { id: "P-0006", name: "Vinícius Gomes de Paula", institution: "UFF" },
+      { id: "P-0007", name: "Vinícius da Silva Ramos de Sousa", institution: "UERJ" },
+      { id: "P-0008", name: "Alan Fillipe de Souza Almeida", institution: "UERJ" },
       { id: "P-0009", name: "Clebson dos Santos Cruz", institution: "UFOB" },
+      { id: "P-0010", name: "Gabriel Batista de Souza", institution: "UERJ" },
+      { id: "P-0011", name: "João Vitor Almeida Tavares Cruz", institution: "UFOB" },
+      { id: "P-0012", name: "Maron Freitas Anka", institution: "SENAI CIMATEC" },
+      { id: "P-0013", name: "Tatiana de Jesus Braga", institution: "UFOB" },
       { id: "P-0014", name: "Wanisson Silva Santana", institution: "UFOB" },
-      { id: "P-0012", name: "Maron Freitas Anka", institution: "SENAI CIMATEC" }
+      { id: "P-0015", name: "António F. Moreira dos Santos", institution: "ORNL" },
+      { id: "P-0016", name: "Paula Cristina Ferreira da Silva Brandão", institution: "Universidade de Aveiro" }
     ];
 
     const dispendioOptions = [
@@ -491,6 +549,8 @@
 
     const memberSelect = document.getElementById("member");
     const budgetBody = document.getElementById("budget-body");
+    const submissionStatusBody = document.getElementById("submission-status-body");
+    const submissionStatusNote = document.getElementById("submission-status-note");
     const statusEl = document.getElementById("status");
     const saveButton = document.getElementById("save-response");
 
@@ -500,6 +560,72 @@
       option.textContent = `${member.name} - ${member.institution}`;
       memberSelect.appendChild(option);
     });
+
+    function makeStatusChoice(memberId, label, checked) {
+      const wrapper = document.createElement("label");
+      wrapper.className = "status-choice";
+
+      const input = document.createElement("input");
+      input.type = "radio";
+      input.name = `status-${memberId}`;
+      input.disabled = true;
+      input.checked = checked;
+
+      wrapper.append(input, document.createTextNode(label));
+      return wrapper;
+    }
+
+    function renderSubmissionStatus(rows = members) {
+      submissionStatusBody.replaceChildren();
+
+      rows.forEach((member) => {
+        const tr = document.createElement("tr");
+
+        const memberCell = document.createElement("td");
+        memberCell.className = "member-cell";
+
+        const name = document.createElement("strong");
+        name.textContent = member.name;
+
+        const details = document.createElement("span");
+        details.textContent = `${member.id} - ${member.institution}`;
+
+        memberCell.append(name, details);
+
+        const sentCell = document.createElement("td");
+        sentCell.appendChild(makeStatusChoice(member.id, "Enviou", Boolean(member.submitted)));
+        if (member.submitted && member.issueUrl) {
+          const link = document.createElement("a");
+          link.className = "issue-link";
+          link.href = member.issueUrl;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.textContent = `#${member.issueNumber}`;
+          sentCell.appendChild(link);
+        }
+
+        const pendingCell = document.createElement("td");
+        pendingCell.appendChild(makeStatusChoice(member.id, "Não enviou", !member.submitted));
+
+        tr.append(memberCell, sentCell, pendingCell);
+        submissionStatusBody.appendChild(tr);
+      });
+    }
+
+    async function loadSubmissionStatus() {
+      renderSubmissionStatus();
+      try {
+        const response = await fetch(apiEndpoint);
+        const data = await response.json();
+        if (!response.ok || !data.ok) {
+          throw new Error(data.error || "Não foi possível carregar o status de envio.");
+        }
+        renderSubmissionStatus(data.members);
+        submissionStatusNote.textContent = "Status atualizado a partir das issues gravadas no GitHub.";
+      } catch (error) {
+        submissionStatusNote.textContent = `${error.message} A tabela abaixo mostra todos como não enviados até a consulta funcionar.`;
+      }
+    }
 
     function optionList(options, selected = "") {
       return options.map((value) => {
@@ -566,13 +692,11 @@
       const member = selectedMember();
       const axes = selectedAxes();
       const budgets = budgetRows();
-      const assessment = document.getElementById("assessment").value;
       const comments = document.getElementById("comments").value.trim();
       const website = document.getElementById("website").value.trim();
 
       return {
         memberId: member ? member.id : "",
-        assessment,
         axes,
         budget: budgets,
         comments,
@@ -609,6 +733,7 @@
 
         statusEl.innerHTML = `Resposta gravada com sucesso. <a href="${data.issueUrl}" target="_blank" rel="noopener noreferrer">Abrir registro #${data.issueNumber}</a>.`;
         statusEl.className = "status success";
+        await loadSubmissionStatus();
       } catch (error) {
         statusEl.textContent = `${error.message} Se estiver usando o arquivo local, abra o formulário pelo link da Vercel.`;
         statusEl.className = "status warning";
@@ -617,6 +742,8 @@
         saveButton.textContent = "Gravar resposta";
       }
     });
+
+    loadSubmissionStatus();
   </script>
 </body>
 </html>

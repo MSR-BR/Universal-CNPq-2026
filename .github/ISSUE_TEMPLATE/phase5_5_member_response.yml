@@ -21,29 +21,24 @@ body:
     id: integrante
     attributes:
       label: Integrante
-      description: Lista restrita aos participantes brasileiros nao discentes nesta rodada.
+      description: Lista de todos os participantes registrados na Fase 1A.
       options:
+        - "Gabriel Fernandes Silva - UERJ"
         - "Bruno de Pinho Alho - UERJ"
+        - "Mario de Souza Reis Junior - UFF"
         - "Paula de Oliveira Ribeiro Alho - UERJ"
         - "Pedro Jorge von Ranke Perlingeiro - UERJ"
-        - "Vinicius da Silva Ramos de Sousa - UERJ"
-        - "Mario de Souza Reis Junior - UFF"
         - "Vinicius Gomes de Paula - UFF"
+        - "Vinicius da Silva Ramos de Sousa - UERJ"
+        - "Alan Fillipe de Souza Almeida - UERJ"
         - "Clebson dos Santos Cruz - UFOB"
-        - "Wanisson Silva Santana - UFOB"
+        - "Gabriel Batista de Souza - UERJ"
+        - "Joao Vitor Almeida Tavares Cruz - UFOB"
         - "Maron Freitas Anka - SENAI CIMATEC"
-    validations:
-      required: true
-
-  - type: dropdown
-    id: avaliacao_geral
-    attributes:
-      label: Avaliacao geral da proposta
-      description: Escolha a opcao mais proxima.
-      options:
-        - "Aprovada como esta"
-        - "Aprovada com ajustes menores"
-        - "Precisa de discussao antes da redacao final"
+        - "Tatiana de Jesus Braga - UFOB"
+        - "Wanisson Silva Santana - UFOB"
+        - "Antonio dos Santos - ORNL"
+        - "Paula Brandao - Universidade de Aveiro"
     validations:
       required: true
 

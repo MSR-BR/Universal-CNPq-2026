@@ -37,7 +37,7 @@ Last update: 2026-07-02
 | 3 | Scientific Atlas | Accepted baseline; manual refinements deferred | `docs/phase3/3_ScientificAtlas.md` |
 | 4 | Gap Analysis | Accepted baseline; supports Phase 5 | `docs/phase4/4_GapAnalysis.md` |
 | 5 | Project Matrix | Accepted baseline; supports Phase 5.5 | `docs/phase5/5_ProjectMatrix.md` |
-| 5.5 | Internal Approval and Budget Collection | Active; Vercel-backed single-page web form deployed; GitHub token pending | `docs/phase5/5_5_InternalApprovalBudget.md` |
+| 5.5 | Internal Approval and Budget Collection | Active; Vercel-backed single-page web form deployed; GitHub token configured | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | 6 | Master Project | Locked until Phase 5.5 is complete | `docs/phase6/6_MasterProject.md` |
 | 7 | CNPq Proposal | Locked until Phase 6 is complete | `docs/phase7/7_CNPqProposal.md` |
 | 8 | Final Review | Locked until Phase 7 is complete | `docs/phase8/8_FinalReview.md` |
@@ -46,10 +46,9 @@ Last update: 2026-07-02
 
 The repository is in Phase 5.5 - Internal Approval and Budget Collection.
 
-Allowed work now: configure the Vercel `GITHUB_ISSUE_TOKEN`, then circulate
-the deployed single-page web form for concise member approval, contribution
-axes, CNPq-formatted budget items, and general comments from the restricted
-target respondent list.
+Allowed work now: circulate the deployed single-page web form for concise
+member approval, contribution axes, CNPq-formatted budget items, and general
+comments from the full participant list.
 
 Still prohibited: Phase 6 master-project writing, final CNPq proposal text,
 consolidated PDF project creation, final budget values or justifications,
@@ -147,7 +146,7 @@ repository workflow then ingests the response.
 | Internal circulation summary task rows | 5 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Member approval tracker rows | 16 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Member response form fields | 5 | `docs/phase5/5_5_InternalApprovalBudget.md`; `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml`; `docs/phase5/5_5_Formulario_Aprovacao_Interna.html` |
-| Restricted response dropdown rows | 9 | `docs/phase5/5_5_InternalApprovalBudget.md`; `docs/phase5/5_5_Formulario_Aprovacao_Interna.html` |
+| Participant response dropdown rows | 16 | `docs/phase5/5_5_InternalApprovalBudget.md`; `docs/phase5/5_5_Formulario_Aprovacao_Interna.html` |
 | Budget collection template rows | 6 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | CNPq Faixa C budget rule rows | 7 | `docs/phase5/5_5_InternalApprovalBudget.md` |
 | Eligible CNPq budget item rows | 8 | `docs/phase5/5_5_InternalApprovalBudget.md` |

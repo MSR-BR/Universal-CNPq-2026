@@ -213,16 +213,16 @@ available for deferred final manual refinement, but they no longer block Phase
   dispendio, value, Pt/En detailing where required, Pt/En justification where
   required, linked axis, institution/subgroup, and priority.
 - A single-page web form was then prepared as the primary distribution format,
-  with a concise proposal summary, restricted respondent dropdown, dynamic CNPq
-  budget table, one general-comment field, and one `Gravar resposta` button.
+  with a concise proposal summary, full participant dropdown, visible submission
+  status table, dynamic CNPq budget table, one general-comment field, and one
+  `Gravar resposta` button.
   A Vercel Function creates a public GitHub issue server-side, and the existing
   workflow records the issue content in `data/phase5_5_member_responses/`.
 - The Vercel project `universal-cnpq-2026` was created and deployed in
   production at `https://universal-cnpq-2026.vercel.app/`. The page responds
-  with HTTP 200; the API route is available; write-through saving remains
-  pending until `GITHUB_ISSUE_TOKEN` is configured in Vercel.
-- The target respondent dropdown excludes ORNL, Universidade de Aveiro, and
-  student participants for this circulation round.
+  with HTTP 200; the API route is available; `GITHUB_ISSUE_TOKEN` is configured
+  in Vercel.
+- The target respondent dropdown now includes all 16 Phase 1A participants.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
 - No Phase 6 master-project text, CNPq proposal text, consolidated final PDF,
@@ -382,7 +382,7 @@ available for deferred final manual refinement, but they no longer block Phase
 - Phase 5.5 internal circulation summary task rows: 5
 - Phase 5.5 member approval tracker rows: 16
 - Phase 5.5 member response form fields: 5
-- Phase 5.5 restricted response dropdown rows: 9
+- Phase 5.5 participant response dropdown rows: 16
 - Phase 5.5 budget collection template rows: 6
 - Phase 5.5 CNPq Faixa C budget rule rows: 7
 - Phase 5.5 eligible CNPq budget item rows: 8
@@ -422,9 +422,9 @@ completed before Phase 6 starts.
 - 2026-07-02: Refined Phase 5 and the Portuguese circulation packet to add the explicit barocaloric spin-crossover axis in metal complexes, involving the UERJ-UFF-ORNL route.
 - 2026-07-02: Added a short GitHub Issue Form and ingestion workflow so Phase 5.5 member responses can be written into `data/phase5_5_member_responses/`.
 - 2026-07-02: Expanded the Phase 5.5 response form and Portuguese circulation packet with CNPq Faixa C budget limits, eligible/restricted budget items, optional suggestions, and CNPq-formatted budget fields.
-- 2026-07-02: Added a single-page web form for Phase 5.5 circulation with restricted respondent dropdown, dynamic CNPq budget table, and GitHub issue-based saving.
+- 2026-07-02: Added a single-page web form for Phase 5.5 circulation with participant dropdown, dynamic CNPq budget table, and GitHub issue-based saving.
 - 2026-07-02: Added Vercel API-backed one-button saving for the Phase 5.5 web form, creating public GitHub issues server-side without exposing a token in the browser.
-- 2026-07-02: Deployed the Phase 5.5 web form to Vercel at `https://universal-cnpq-2026.vercel.app/`; saving is pending `GITHUB_ISSUE_TOKEN`.
+- 2026-07-02: Deployed the Phase 5.5 web form to Vercel at `https://universal-cnpq-2026.vercel.app/`; Vercel `GITHUB_ISSUE_TOKEN` is configured.
 - 2026-07-02: Prepared the Portuguese proposal-summary packet and PDF target for member circulation, approval/comments, and budget collection.
 - 2026-07-02: Executed and refined the Phase 5 Project Matrix with five candidate tasks, three state-of-the-art support routes, six support/validation routes, model/evidence/capability matrices, and a Phase 5.5 handoff package.
 - 2026-07-02: Recorded the initial project-owner assessment of Phase 5 slots; the later barocaloric-axis refinement superseded the initial contextual handling of `PM-02`.

@@ -3,22 +3,23 @@ const REPO = "Universal-CNPq-2026";
 const LABEL = "phase-5-5-response";
 
 const MEMBERS = {
+  "P-0001": { name: "Gabriel Fernandes Silva", institution: "UERJ" },
   "P-0002": { name: "Bruno de Pinho Alho", institution: "UERJ" },
+  "P-0003": { name: "Mario de Souza Reis Junior", institution: "UFF" },
   "P-0004": { name: "Paula de Oliveira Ribeiro Alho", institution: "UERJ" },
   "P-0005": { name: "Pedro Jorge von Ranke Perlingeiro", institution: "UERJ" },
-  "P-0007": { name: "Vinícius da Silva Ramos de Sousa", institution: "UERJ" },
-  "P-0003": { name: "Mario de Souza Reis Junior", institution: "UFF" },
   "P-0006": { name: "Vinícius Gomes de Paula", institution: "UFF" },
+  "P-0007": { name: "Vinícius da Silva Ramos de Sousa", institution: "UERJ" },
+  "P-0008": { name: "Alan Fillipe de Souza Almeida", institution: "UERJ" },
   "P-0009": { name: "Clebson dos Santos Cruz", institution: "UFOB" },
-  "P-0014": { name: "Wanisson Silva Santana", institution: "UFOB" },
+  "P-0010": { name: "Gabriel Batista de Souza", institution: "UERJ" },
+  "P-0011": { name: "João Vitor Almeida Tavares Cruz", institution: "UFOB" },
   "P-0012": { name: "Maron Freitas Anka", institution: "SENAI CIMATEC" },
+  "P-0013": { name: "Tatiana de Jesus Braga", institution: "UFOB" },
+  "P-0014": { name: "Wanisson Silva Santana", institution: "UFOB" },
+  "P-0015": { name: "António F. Moreira dos Santos", institution: "ORNL", aliases: ["Antonio dos Santos"] },
+  "P-0016": { name: "Paula Cristina Ferreira da Silva Brandão", institution: "Universidade de Aveiro", aliases: ["Paula Brandao"] },
 };
-
-const ASSESSMENTS = new Set([
-  "Aprovada como está",
-  "Aprovada com ajustes menores",
-  "Precisa de discussão antes da redação final",
-]);
 
 const AXES = new Set([
   "Eixo 1 - Plataforma de complexos metálicos",
@@ -64,6 +65,93 @@ function tableCell(value) {
     .replace(/\n+/g, "<br>");
 }
 
+function githubHeaders({ token, json = false } = {}) {
+  const headers = {
+    Accept: "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28",
+    "User-Agent": "universal-cnpq-2026-phase55-form",
+  };
+  if (token) headers.Authorization = `Bearer ${token}`;
+  if (json) headers["Content-Type"] = "application/json";
+  return headers;
+}
+
+function normalizeText(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+function isPhase55Issue(issue) {
+  const labels = Array.isArray(issue.labels) ? issue.labels.map((label) => label.name) : [];
+  return labels.includes(LABEL) || String(issue.title || "").startsWith("Resposta Fase 5.5");
+}
+
+function issueMemberId(issue) {
+  const bodyMatch = String(issue.body || "").match(/-\s*ID:\s*(P-\d{4})/);
+  if (bodyMatch && MEMBERS[bodyMatch[1]]) return bodyMatch[1];
+
+  const searchable = normalizeText(`${issue.title || ""}\n${issue.body || ""}`);
+  for (const [id, member] of Object.entries(MEMBERS)) {
+    const legacyTitle = `Resposta Fase 5.5 - ${member.name}`;
+    const titleWithId = `Resposta Fase 5.5 - ${id} - ${member.name}`;
+    if (issue.title === legacyTitle || issue.title === titleWithId) return id;
+
+    const names = [member.name, ...(member.aliases || [])];
+    if (names.some((name) => searchable.includes(normalizeText(name)))) return id;
+  }
+
+  return "";
+}
+
+async function submissionStatus(token) {
+  const searchParams = new URLSearchParams({
+    state: "all",
+    per_page: "100",
+  });
+  const response = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/issues?${searchParams}`, {
+    headers: githubHeaders({ token }),
+  });
+  const issues = await response.json().catch(() => []);
+
+  if (!response.ok || !Array.isArray(issues)) {
+    return {
+      ok: false,
+      status: response.status,
+      error: issues.message || "Não foi possível consultar as issues no GitHub.",
+    };
+  }
+
+  const byMember = {};
+  issues
+    .filter((issue) => !issue.pull_request && isPhase55Issue(issue))
+    .forEach((issue) => {
+      const id = issueMemberId(issue);
+      if (!id || byMember[id]) return;
+      byMember[id] = {
+        issueNumber: issue.number,
+        issueUrl: issue.html_url,
+        state: issue.state,
+        updatedAt: issue.updated_at,
+      };
+    });
+
+  return {
+    ok: true,
+    members: Object.entries(MEMBERS).map(([id, member]) => ({
+      id,
+      name: member.name,
+      institution: member.institution,
+      submitted: Boolean(byMember[id]),
+      issueNumber: byMember[id]?.issueNumber || null,
+      issueUrl: byMember[id]?.issueUrl || "",
+      state: byMember[id]?.state || "",
+      updatedAt: byMember[id]?.updatedAt || "",
+    })),
+  };
+}
+
 function validate(payload) {
   const errors = [];
 
@@ -73,10 +161,6 @@ function validate(payload) {
 
   if (!payload.memberId || !MEMBERS[payload.memberId]) {
     errors.push("Selecione um integrante válido.");
-  }
-
-  if (!ASSESSMENTS.has(payload.assessment)) {
-    errors.push("Selecione uma avaliação geral válida.");
   }
 
   const axes = Array.isArray(payload.axes) ? payload.axes : [];
@@ -114,10 +198,6 @@ function buildIssueBody(payload) {
   lines.push(`- ID: ${payload.memberId}`);
   lines.push(`- Instituição: ${member.institution}`);
   lines.push("");
-  lines.push("## Avaliação geral");
-  lines.push("");
-  lines.push(payload.assessment);
-  lines.push("");
   lines.push("## Eixos de contribuição direta");
   lines.push("");
   axes.forEach((axis) => lines.push(`- ${axis}`));
@@ -151,13 +231,7 @@ function buildIssueBody(payload) {
 async function createIssue({ title, body, token, includeLabel = true }) {
   const response = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/issues`, {
     method: "POST",
-    headers: {
-      Accept: "application/vnd.github+json",
-      Authorization: `Bearer ${token}`,
-      "Content-Type": "application/json",
-      "X-GitHub-Api-Version": "2022-11-28",
-      "User-Agent": "universal-cnpq-2026-phase55-form",
-    },
+    headers: githubHeaders({ token, json: true }),
     body: JSON.stringify({
       title,
       body,
@@ -172,16 +246,24 @@ async function createIssue({ title, body, token, includeLabel = true }) {
 module.exports = async function handler(req, res) {
   if (req.method === "OPTIONS") {
     res.statusCode = 204;
-    res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
+    res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
     res.setHeader("Access-Control-Allow-Headers", "Content-Type");
     return res.end();
+  }
+
+  const token = process.env.GITHUB_ISSUE_TOKEN;
+  if (req.method === "GET") {
+    const status = await submissionStatus(token);
+    if (!status.ok) {
+      return sendJson(res, status.status || 500, { ok: false, error: status.error });
+    }
+    return sendJson(res, 200, status);
   }
 
   if (req.method !== "POST") {
     return sendJson(res, 405, { ok: false, error: "Método não permitido." });
   }
 
-  const token = process.env.GITHUB_ISSUE_TOKEN;
   if (!token) {
     return sendJson(res, 500, {
       ok: false,
@@ -202,7 +284,7 @@ module.exports = async function handler(req, res) {
   }
 
   const member = MEMBERS[payload.memberId];
-  const title = `Resposta Fase 5.5 - ${member.name}`;
+  const title = `Resposta Fase 5.5 - ${payload.memberId} - ${member.name}`;
   const body = buildIssueBody(payload);
 
   let result = await createIssue({ title, body, token, includeLabel: true });

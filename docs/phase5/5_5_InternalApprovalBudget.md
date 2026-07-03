@@ -77,11 +77,11 @@ interface.
 | Single-page web form | `docs/phase5/5_5_Formulario_Aprovacao_Interna.html` | Primary circulation interface: compact proposal summary, member dropdown, contribution axes, CNPq budget table, and general comments. | Prepared. |
 | Vercel API function | `api/phase55-response.js` | Receives the web-form payload and creates a public GitHub issue through a server-side token stored in Vercel. | Prepared. |
 | Vercel routing config | `vercel.json` | Serves the form at `/`, `/fase-5-5`, and `/phase5/formulario` while keeping `/api/phase55-response` available. | Prepared. |
-| Vercel production deployment | `https://universal-cnpq-2026.vercel.app/` | Public form URL for circulation after `GITHUB_ISSUE_TOKEN` is configured. | Deployed; token pending. |
+| Vercel production deployment | `https://universal-cnpq-2026.vercel.app/` | Public form URL for circulation with `GITHUB_ISSUE_TOKEN` configured. | Deployed; token configured. |
 | GitHub Pages support | `docs/.nojekyll` | Kept as optional static-file support; not the preferred save path after Vercel integration. | Prepared. |
 | Portuguese editable source | `docs/phase5/5_5_Proposta_Resumo_Aprovacao_Interna.md` | Source text for internal proposal evaluation by project members. | Prepared. |
 | Portuguese PDF support version | `output/pdf/Proposta_Universal_CNPq_2026_Aprovacao_Interna.pdf` | Support PDF; not the preferred distribution format after the web-form refinement. | Prepared. |
-| GitHub Issue Form fallback | `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml` | Fallback form using a restricted member dropdown, contribution axes, CNPq budget fields, and a general-comment field. | Prepared. |
+| GitHub Issue Form fallback | `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml` | Fallback form using a full participant dropdown, contribution axes, CNPq budget fields, and a general-comment field. | Prepared. |
 | Git ingestion workflow | `.github/workflows/ingest_phase55_member_response.yml` | Automatically writes labeled form responses to `data/phase5_5_member_responses/`. | Prepared. |
 | Ingestion script | `.github/scripts/ingest_phase55_response.py` | Converts each labeled GitHub issue response into a versioned Markdown data file. | Prepared. |
 
@@ -179,28 +179,35 @@ Fallback GitHub Issue Form URL:
 
 `https://github.com/MSR-BR/Universal-CNPq-2026/issues/new?template=phase5_5_member_response.yml`
 
-Target respondents for this distribution round exclude ORNL, Universidade de
-Aveiro, and students. The dropdown includes:
+Target respondents for this distribution round include all participants
+currently recorded in Phase 1A. The dropdown includes:
 
 | Person ID | Name | Institution |
 | --- | --- | --- |
+| `P-0001` | Gabriel Fernandes Silva | UERJ |
 | `P-0002` | Bruno de Pinho Alho | UERJ |
+| `P-0003` | Mario de Souza Reis Junior | UFF |
 | `P-0004` | Paula de Oliveira Ribeiro Alho | UERJ |
 | `P-0005` | Pedro Jorge von Ranke Perlingeiro | UERJ |
-| `P-0007` | Vinicius da Silva Ramos de Sousa | UERJ |
-| `P-0003` | Mario de Souza Reis Junior | UFF |
 | `P-0006` | Vinicius Gomes de Paula | UFF |
+| `P-0007` | Vinicius da Silva Ramos de Sousa | UERJ |
+| `P-0008` | Alan Fillipe de Souza Almeida | UERJ |
 | `P-0009` | Clebson dos Santos Cruz | UFOB |
-| `P-0014` | Wanisson Silva Santana | UFOB |
+| `P-0010` | Gabriel Batista de Souza | UERJ |
+| `P-0011` | Joao Vitor Almeida Tavares Cruz | UFOB |
 | `P-0012` | Maron Freitas Anka | SENAI CIMATEC |
+| `P-0013` | Tatiana de Jesus Braga | UFOB |
+| `P-0014` | Wanisson Silva Santana | UFOB |
+| `P-0015` | Antonio dos Santos | ORNL |
+| `P-0016` | Paula Brandao | Universidade de Aveiro |
 
 | Field ID | Form field | Expected response |
 | --- | --- | --- |
-| `F-01` | Restricted member dropdown | One selected respondent from the target list above. |
-| `F-02` | General assessment | Approved as is, approved with minor adjustments, or needs discussion before final writing. |
+| `F-01` | Submission status table | All participants displayed with submitted/not submitted status based on GitHub issues. |
+| `F-02` | Member dropdown | One selected respondent from the target list above. |
 | `F-03` | Contribution axes | Selected scientific axis/axes or transversal support. |
 | `F-04` | CNPq budget table | CNPq rubrica, item de dispendio, estimated value, Pt/En detailing where required, Pt/En justification where required, linked axis, and priority. |
-| `F-05` | General comments | Corrections, suggestions, budget observations, or critical feasibility constraints in one free-text field; later separated by the coordinator and mapped to proposal sections. |
+| `F-05` | General comments | Corrections, suggestions, budget observations, or critical feasibility constraints in one free-text field. |
 
 ## CNPq Faixa C budget rules
 
