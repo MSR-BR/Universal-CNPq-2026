@@ -1,5 +1,6 @@
 import json
 import os
+from hashlib import sha256
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -35,12 +36,29 @@ def main() -> None:
     issue_url = issue.get("html_url") or ""
     created_at = issue.get("created_at") or ""
     updated_at = issue.get("updated_at") or ""
+    source_payload = {
+        "title": title,
+        "body": body,
+        "user": user,
+        "issue_url": issue_url,
+        "created_at": created_at,
+        "updated_at": updated_at,
+    }
+    source_hash = sha256(
+        json.dumps(source_payload, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()
+
+    if output_path.exists() and f"source_hash: {source_hash}" in output_path.read_text(encoding="utf-8"):
+        print(f"{output_path} already matches issue source; skipping.")
+        return
+
     ingested_at = datetime.now(timezone.utc).isoformat()
 
     content = f"""---
 source: github_issue
 response_type: phase_5_5_member_response
 issue_number: {number}
+source_hash: {source_hash}
 issue_url: {issue_url}
 issue_author: {user}
 issue_created_at: {created_at}

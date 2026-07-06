@@ -6,7 +6,10 @@ on:
       - opened
       - edited
       - reopened
-      - labeled
+
+concurrency:
+  group: phase55-member-response-ingest
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -20,6 +23,12 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Synchronize main
+        run: git pull --rebase origin main
 
       - name: Ingest issue response
         run: python3 .github/scripts/ingest_phase55_response.py

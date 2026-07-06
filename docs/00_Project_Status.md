@@ -26,11 +26,11 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.29
+Version: 2.30
 
 Status: Active
 
-Last update: 2026-07-03
+Last update: 2026-07-06
 
 ## Current phase
 
@@ -223,6 +223,14 @@ available for deferred final manual refinement, but they no longer block Phase
   with HTTP 200; the API route is available; `GITHUB_ISSUE_TOKEN` is configured
   in Vercel.
 - The target respondent dropdown now includes all 16 Phase 1A participants.
+- The first valid member response was received from `P-0009` Clebson dos
+  Santos Cruz as GitHub issue `#4` and ingested into
+  `data/phase5_5_member_responses/issue-4.md`.
+- A duplicate GitHub Actions run was observed for issue `#4` because the
+  workflow listened to both `opened` and `labeled` issue events. The successful
+  run wrote the response file; the duplicate run failed only at the commit/push
+  step. The workflow has been corrected to avoid duplicated concurrent
+  ingestion runs and to skip unchanged issue sources.
 - One end-to-end test response was successfully created as GitHub issue `#3`
   and then cleaned: the issue was closed, its response label was removed, its
   title/body were replaced with a test-removal note, and the Phase 5.5 status
@@ -403,8 +411,8 @@ available for deferred final manual refinement, but they no longer block Phase
 - Phase 5.5 Vercel routing configs prepared: 1
 - Phase 5.5 Vercel production deployments prepared: 1
 - Phase 5.5 Vercel environment variables pending: 0
-- Phase 5.5 valid member responses currently counted by API: 0
-- Phase 5.5 ingested member-response files currently present: 0
+- Phase 5.5 valid member responses currently counted by API: 1
+- Phase 5.5 ingested member-response files currently present: 1
 - Phase 5.5 GitHub Pages support files prepared: 1
 - Phase 5.5 Git ingestion workflows prepared: 1
 - Phase 5.5 response data directories prepared: 1
@@ -417,17 +425,25 @@ available for deferred final manual refinement, but they no longer block Phase
 
 ## Next action
 
-Project owner can send the deployed link
-`https://universal-cnpq-2026.vercel.app/fase-5-5` to all project members for
-approval, contribution axes, CNPq-formatted budget items, and general comments.
-The project should then monitor `https://universal-cnpq-2026.vercel.app/api/phase55-response`
-and the GitHub issues labeled `phase-5-5-response` to track returned forms.
+Project owner can continue sending the deployed link
+`https://universal-cnpq-2026.vercel.app/fase-5-5` to remaining project members
+for approval, contribution axes, CNPq-formatted budget items, and general
+comments. The project should monitor
+`https://universal-cnpq-2026.vercel.app/api/phase55-response` and the GitHub
+issues labeled `phase-5-5-response` to track returned forms.
 
 Later in the roadmap, the active Phase 5.5 checkpoint must be
 completed before Phase 6 starts.
 
 ## Recent updates
 
+- 2026-07-06: Received and ingested the first valid Phase 5.5 member response:
+  `P-0009` Clebson dos Santos Cruz, GitHub issue `#4`, recorded in
+  `data/phase5_5_member_responses/issue-4.md`.
+- 2026-07-06: Diagnosed a duplicate GitHub Actions run for issue `#4`; one run
+  successfully ingested the response, while the duplicate failed at commit/push.
+  The workflow was updated to remove the duplicate `labeled` trigger, serialize
+  ingestion runs, checkout current `main`, and skip unchanged issue sources.
 - 2026-07-03: Confirmed the Vercel-backed Phase 5.5 web form creates GitHub
   issues successfully; cleaned the test issue `#3` so no valid member response
   is currently counted, and removed the workflow-ingested test response file.

@@ -59,6 +59,17 @@ pausa de aproximadamente duas semanas.
   `phase-5-5-response` ou por titulo iniciado com `Resposta Fase 5.5`. Para
   limpar testes futuros, remover o label e evitar esse prefixo no titulo.
 
+## Atualizacao de 2026-07-06
+
+- A primeira resposta valida foi recebida de `P-0009` Clebson dos Santos Cruz
+  como issue `#4`.
+- A resposta esta ingerida em `data/phase5_5_member_responses/issue-4.md`.
+- O email de falha do GitHub Actions veio de um run duplicado do mesmo envio:
+  um run gravou a resposta com sucesso e outro tentou gravar a mesma resposta
+  em paralelo.
+- O workflow foi corrigido para remover o gatilho duplicado `labeled`,
+  serializar a ingestao e pular fontes de issue que ja estejam sem alteracao.
+
 ## Espinha cientifica aprovada
 
 O elemento agregador do projeto e o estudo de complexos metalicos. A Phase 5
@@ -109,11 +120,12 @@ Rotas importantes a preservar:
 - Template fallback de issue:
   `.github/ISSUE_TEMPLATE/phase5_5_member_response.yml`.
 - Workflow de ingestao:
-  `.github/workflows/phase5_5_ingest_response.yml`.
+  `.github/workflows/ingest_phase55_member_response.yml`.
 
 ## Proximo passo seguro
 
-1. Enviar `https://universal-cnpq-2026.vercel.app/fase-5-5` aos integrantes.
+1. Continuar enviando `https://universal-cnpq-2026.vercel.app/fase-5-5` aos
+   integrantes que ainda nao responderam.
 2. Monitorar a API de status e as issues com label `phase-5-5-response`.
 3. Quando chegarem respostas, consolidar comentarios por secao da proposta.
 4. Somar os orcamentos por item de dispendio CNPq.
