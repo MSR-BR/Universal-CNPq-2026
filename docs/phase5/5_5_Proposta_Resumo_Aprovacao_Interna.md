@@ -279,12 +279,14 @@ A equipe prevista reune participantes no Brasil e colaboradores
 internacionais. A participacao final, as atribuicoes e o uso publico de
 infraestruturas serao confirmados apos a avaliacao dos integrantes.
 
+Atualizacao de 14/07/2026: Maron Freitas Anka nao participara do projeto.
+Assim, SENAI CIMATEC nao deve ser tratado como instituicao ativa desta proposta.
+
 | Instituicao | Participantes previstos | Capacidades principais associadas |
 | --- | --- | --- |
 | UERJ | Gabriel Fernandes Silva; Bruno de Pinho Alho; Paula de Oliveira Ribeiro Alho; Pedro Jorge von Ranke Perlingeiro; Vinicius da Silva Ramos de Sousa; Alan Fillipe de Souza Almeida; Gabriel Batista de Souza | Materiais caloricos, spin crossover, barocalorico, magnetismo, modelagem, caracterizacao e formacao de estudantes. |
 | UFF | Mario de Souza Reis Junior; Vinicius Gomes de Paula | Complexos metalicos, magnetismo, materiais funcionais, barocalorico/spin crossover, termodinamica quantica, baterias quanticas e caracterizacao magnetica. |
 | UFOB | Clebson dos Santos Cruz; Joao Vitor Almeida Tavares Cruz; Tatiana de Jesus Braga; Wanisson Silva Santana | Termodinamica quantica, baterias quanticas, recursos quanticos, computacao cientifica e formacao. |
-| SENAI CIMATEC | Maron Freitas Anka | Tecnologias quanticas, simulacao, plataformas computacionais e recursos quanticos. |
 | Oak Ridge National Laboratory | Antonio dos Santos | Medidas de neutrons, caracterizacao sob pressao e contexto de grandes facilidades experimentais. |
 | Universidade de Aveiro | Paula Brandao | Sintese, difracao de raios X de monocristal e caracterizacao estrutural de complexos metalicos. |
 

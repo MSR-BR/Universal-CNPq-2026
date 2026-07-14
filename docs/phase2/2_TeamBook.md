@@ -26,11 +26,11 @@ Completion criteria: Every Phase 1A participant is represented once; capability
 domains are linked to Phase 1 evidence; no scientific objectives, gaps,
 work packages, proposal text, or team responsibilities are created.
 
-Version: 2.0
+Version: 2.1
 
-Status: Accepted baseline; Phase 3 opened
+Status: Accepted baseline; Phase 3 opened; later active-team correction recorded
 
-Last update: 2026-07-02
+Last update: 2026-07-14
 
 ## Scope guard
 
@@ -125,8 +125,17 @@ rather than creating a new person or source fact here.
 
 ## Team overview
 
-The current Phase 1A team contains sixteen people across six institutions:
-UERJ, UFF, UFOB, SENAI CIMATEC, ORNL, and Universidade de Aveiro.
+The accepted Phase 1A baseline originally contained sixteen stable people
+records across six institutions: UERJ, UFF, UFOB, SENAI CIMATEC, ORNL, and
+Universidade de Aveiro.
+
+Active-team correction after Phase 5.5: `P-0012` Maron Freitas Anka was
+withdrawn from the project team by project-owner instruction on 2026-07-14.
+The stable record remains in Phase 1A and historical capability/evidence maps,
+but the active Phase 6 team contains fifteen people across five active
+institutions: UERJ, UFF, UFOB, ORNL, and Universidade de Aveiro. SENAI CIMATEC
+and `INF-0003`/`INF-0004` should be treated as historical/contextual evidence,
+not as active project routes.
 
 Academic merit fellowships remain authoritative in `1A_People.md`. In summary,
 Phase 1A records identify CNPq Productivity or FAPESB/CNPq Productivity
@@ -141,7 +150,7 @@ merit records for four people.
 | Universidade do Estado do Rio de Janeiro (UERJ) | `P-0001`, `P-0002`, `P-0004`, `P-0005`, `P-0007`, `P-0008`, `P-0010` | i-caloric, magnetocaloric, barocaloric, spin-crossover, intermetallic, structural-characterization, student-training evidence | `INF-0010` |
 | Universidade Federal Fluminense (UFF) | `P-0003`, `P-0006` | multicaloric materials, molecular magnets, quantum thermodynamics, metal complexes, magnetic characterization, sample preparation | `INF-0007`, `INF-0008`, `INF-0016` |
 | Universidade Federal do Oeste da Bahia (UFOB) | `P-0009`, `P-0011`, `P-0013`, `P-0014` | quantum batteries, quantum resources, quantum thermodynamics, metal-complex energy-storage context, scientific computing | `INF-0001`, `INF-0002` |
-| Universidade SENAI CIMATEC | `P-0012` | quantum technologies, VQA simulation, quantum-battery and quantum-resource context, QuIIN/Kuatomu platform evidence | `INF-0003`, `INF-0004` |
+| Universidade SENAI CIMATEC | `P-0012` withdrawn from active team | quantum technologies, VQA simulation, quantum-battery and quantum-resource context, QuIIN/Kuatomu platform evidence retained as source context only | Retired/contextual: `INF-0003`, `INF-0004` |
 | Oak Ridge National Laboratory (ORNL) | `P-0015` | high-pressure neutron scattering, SNAP beamline, barocaloric/spin-crossover pressure context, functional materials under pressure | `INF-0017` |
 | Universidade de Aveiro | `P-0016` | single-crystal X-ray diffraction, metal-complex synthesis and structural characterization, molecular magnetism, spin-crossover complex evidence | `INF-0018` |
 
@@ -160,7 +169,7 @@ merit records for four people.
 | `P-0009` Clebson dos Santos Cruz | UFOB | Professor | Current FAPESB/CNPq Productivity Level C | quantum batteries, quantum thermodynamics, quantum resources, metal-complex energy-storage context, UFOB computing | `PUB-0005`, `PUB-0027`, `PUB-0055`, `PRJ-0025`, `PRJ-0026`, `INF-0001` |
 | `P-0010` Gabriel Batista de Souza | UERJ | Mestrando | No CNPq Productivity or FAPERJ CNE/JCNE found | i-caloric and magnetocaloric student pipeline | `PRJ-0024`, `RES-0006`, `RES-0009` |
 | `P-0011` João Vitor Almeida Tavares Cruz | UFOB | Graduando | No merit fellowship in Phase 1A; CNPq technological-initiation fellowship is not classified as academic merit here | undergraduate training pipeline in UFOB team context | `P-0011` Phase 1A record |
-| `P-0012` Maron Freitas Anka | SENAI CIMATEC | Pesquisador PDI | No CNPq Productivity or FAPERJ CNE/JCNE found | quantum technologies, VQA, quantum-battery simulations, QuIIN/Kuatomu context | `PUB-0005`, `PUB-0009`, `PRJ-0028`, `INF-0003`, `INF-0004` |
+| `P-0012` Maron Freitas Anka | SENAI CIMATEC | Withdrawn from active team on 2026-07-14 | No CNPq Productivity or FAPERJ CNE/JCNE found | historical quantum-technologies, VQA, quantum-battery simulation, and QuIIN/Kuatomu context only | `PUB-0005`, `PUB-0009`, `PRJ-0028`, `INF-0003`, `INF-0004` |
 | `P-0013` Tatiana de Jesus Braga | UFOB | Mestranda | No CNPq Productivity or FAPERJ CNE/JCNE found | materials-science student pipeline in UFOB context | `P-0013` Phase 1A record |
 | `P-0014` Wanisson Silva Santana | UFOB | Professor; doutorando | No CNPq Productivity or FAPERJ CNE/JCNE found | quantum energy-storage projects and UFOB team context | `PRJ-0025`, `PRJ-0026`, `IDEA-0001` |
 | `P-0015` António F. Moreira dos Santos | ORNL | Senior instrument scientist / researcher | No CNPq Productivity or FAPERJ CNE/JCNE found; Fulbright history is not classified here as CNPq/FAPERJ merit | high-pressure neutron scattering, SNAP beamline, barocaloric spin-crossover, functional materials under pressure | `PUB-0100`, `PUB-0101`, `PRJ-0005`, `PRJ-0030`, `INF-0017`, `COL-0007` |
@@ -175,12 +184,12 @@ project priorities or assign responsibilities.
 | --- | --- | --- |
 | Metal complexes, synthesis, structure, and magnetism | `P-0003`, `P-0008`, `P-0009`, `P-0015`, `P-0016` | `RES-0010`, `RES-0011`, `PUB-0002`, `PUB-0004`, `PUB-0011`, `PUB-0012`, `PUB-0102`-`PUB-0107`, `COL-0010`, `INF-0018` |
 | Barocaloric and spin-crossover systems | `P-0001`, `P-0002`, `P-0003`, `P-0004`, `P-0005`, `P-0007`, `P-0008`, `P-0010`, `P-0015`, `P-0016` | `RES-0006`, `RES-0007`, `PUB-0003`, `PUB-0006`, `PUB-0100`, `PUB-0102`, `PRJ-0005`, `PRJ-0022`, `INF-0017` |
-| Quantum thermodynamics and quantum batteries | `P-0003`, `P-0006`, `P-0009`, `P-0012`, `P-0014` | `RES-0001`, `RES-0002`, `RES-0003`, `RES-0004`, `PUB-0005`, `PUB-0027`, `PUB-0055`, `PRJ-0025`, `PRJ-0026`, `INF-0003`, `INF-0004` |
-| Quantum resources in molecular and metal-based systems | `P-0003`, `P-0007`, `P-0008`, `P-0009`, `P-0012`, `P-0015` | `RES-0005`, `RES-0007`, `PUB-0001`, `PUB-0057`, `PUB-0083`, `PUB-0093`, `PUB-0100`, `IDEA-0003` |
+| Quantum thermodynamics and quantum batteries | `P-0003`, `P-0006`, `P-0009`, `P-0014` | `RES-0001`, `RES-0002`, `RES-0003`, `RES-0004`, `PUB-0005`, `PUB-0027`, `PUB-0055`, `PRJ-0025`, `PRJ-0026` |
+| Quantum resources in molecular and metal-based systems | `P-0003`, `P-0007`, `P-0008`, `P-0009`, `P-0015` | `RES-0005`, `RES-0007`, `PUB-0001`, `PUB-0057`, `PUB-0083`, `PUB-0093`, `PUB-0100`, `IDEA-0003` |
 | Magnetocaloric, multicaloric, i-caloric, and intermetallic materials | `P-0001`, `P-0002`, `P-0003`, `P-0004`, `P-0005`, `P-0006`, `P-0007`, `P-0008`, `P-0009`, `P-0010`, `P-0015` | `RES-0008`, `RES-0009`, `RES-0012`, `RES-0013`, `PRJ-0002`, `PRJ-0003`, `PRJ-0006`-`PRJ-0018`, `PUB-0050`, `PUB-0094` |
 | High-pressure neutron scattering and pressure-linked characterization | `P-0003`, `P-0007`, `P-0008`, `P-0015` | `PRJ-0005`, `PRJ-0022`, `PUB-0006`, `PUB-0100`, `PUB-0101`, `COL-0007`, `INF-0017` |
 | Single-crystal X-ray diffraction and structural characterization | `P-0016`, with project/publication links to `P-0003`, `P-0008`, and `P-0009` | `INF-0018`, `PUB-0004`, `PUB-0012`, `PUB-0103`-`PUB-0107`, `COL-0010` |
-| Scientific computing and quantum-technology platforms | `P-0009`, `P-0012`, `P-0014`, with links to `P-0003` | `INF-0001`, `INF-0003`, `INF-0004`, `PRJ-0027`, `PRJ-0028`, `RES-0002`, `RES-0004`, `IDEA-0002` |
+| Scientific computing and quantum-technology platforms | `P-0009`, `P-0014`, with links to `P-0003` | `INF-0001`, `PRJ-0027`, `RES-0002`, `RES-0004`, `IDEA-0002` |
 | Training pipeline and early-career participation | `P-0001`, `P-0008`, `P-0010`, `P-0011`, `P-0013`, `P-0014` | Phase 1A records; `PRJ-0005`, `PRJ-0022`, `PRJ-0024`, `PRJ-0025`, `PRJ-0026` |
 
 ## Person-domain matrix
@@ -190,7 +199,8 @@ capability domains are already visible for each Phase 1A person and which
 source types support that visibility.
 
 Marker key: `E` = explicit person-domain evidence in the Phase 2C people list;
-`L` = linked/contextual connection named in a Phase 2C domain note; `-` = no
+`L` = linked/contextual connection named in a Phase 2C domain note; `H` =
+historical/contextual only after withdrawal from the active team; `-` = no
 source-backed connection recorded for this matrix.
 
 | Code | Capability domain |
@@ -218,7 +228,7 @@ source-backed connection recorded for this matrix.
 | `P-0009` | UFOB | E | - | E | E | E | - | L | E | - |
 | `P-0010` | UERJ | - | E | - | - | E | - | - | - | E |
 | `P-0011` | UFOB | - | - | - | - | - | - | - | - | E |
-| `P-0012` | SENAI CIMATEC | - | - | E | E | - | - | - | E | - |
+| `P-0012` | SENAI CIMATEC, withdrawn | - | - | H | H | - | - | - | H | - |
 | `P-0013` | UFOB | - | - | - | - | - | - | - | - | E |
 | `P-0014` | UFOB | - | - | E | - | - | - | - | E | E |
 | `P-0015` | ORNL | E | E | - | E | E | E | - | - | - |
@@ -235,11 +245,11 @@ use.
 | `EB-01` | `D-01` | Metal complexes, synthesis, structure, and magnetism | `RES-0010`, `RES-0011`, `IDEA-0001`, `IDEA-0007`, `INF-0018`, `COL-0010` | Confirm manuscript status, external synthesis/characterization context, and name variants. |
 | `EB-02` | `D-02` | Barocaloric and spin-crossover systems | `RES-0006`, `RES-0007`, `IDEA-0004`, `IDEA-0009`, `INF-0017`, `INF-0018` | Separate published records from manuscripts and ongoing ORNL-linked work. |
 | `EB-03` | `D-03` | Quantum thermodynamics and quantum batteries | `RES-0001`, `RES-0002`, `RES-0003`, `RES-0004`, `IDEA-0001`, `IDEA-0002` | Check later whether quantum-battery and quantum-thermodynamics records stay grouped. |
-| `EB-04` | `D-04` | Quantum resources in molecular and metal-based systems | `RES-0005`, `RES-0007`, `IDEA-0003`, `INF-0001`, `INF-0003`, `INF-0017` | Keep quantum-resource evidence distinct from later scientific argument. |
+| `EB-04` | `D-04` | Quantum resources in molecular and metal-based systems | `RES-0005`, `RES-0007`, `IDEA-0003`, `INF-0001`, `INF-0017` | Keep quantum-resource evidence distinct from later scientific argument. |
 | `EB-05` | `D-05` | Magnetocaloric, multicaloric, i-caloric, and intermetallic materials | `RES-0008`, `RES-0009`, `RES-0012`, `RES-0013`, `IDEA-0005`, `IDEA-0006` | Decide later whether broad caloric and intermetallic clusters should be split. |
 | `EB-06` | `D-06` | High-pressure neutron scattering and pressure-linked characterization | `RES-0007`, `IDEA-0003`, `IDEA-0009`, `INF-0017`, `COL-0007` | Preserve narrow SNAP/ORNL scope. |
 | `EB-07` | `D-07` | Single-crystal X-ray diffraction and structural characterization | `RES-0010`, `IDEA-0007`, `IDEA-0008`, `INF-0018`, `COL-0010` | Confirm structural-characterization wording and `P-0016` preferred name. |
-| `EB-08` | `D-08` | Scientific computing and quantum-technology platforms | `RES-0002`, `RES-0004`, `IDEA-0002`, `IDEA-0008`, `INF-0001`, `INF-0003`, `INF-0004` | Confirm LAQCC, KUATOMU, QuIIN, and UFOB computing wording. |
+| `EB-08` | `D-08` | Scientific computing and quantum-technology platforms | `RES-0002`, `RES-0004`, `IDEA-0002`, `IDEA-0008`, `INF-0001` | Confirm UFOB computing wording; keep LAQCC/KUATOMU/QuIIN as historical context only after `P-0012` withdrawal. |
 | `EB-09` | `D-09` | Training pipeline and early-career participation | Phase 1A records, `PRJ-0005`, `PRJ-0022`, `PRJ-0024`, `PRJ-0025`, `PRJ-0026` | Keep as team-capacity context only. |
 
 ## Collaboration and infrastructure map
@@ -253,7 +263,7 @@ proposal text.
 | UERJ | `INF-0010` | `COL-0001`, `COL-0002`, `COL-0014`; ORNL link through `COL-0007` |
 | UFF | `INF-0007`, `INF-0008`, `INF-0016` | `COL-0002`, `COL-0003`, `COL-0006`, `COL-0007`, `COL-0008`, `COL-0009`, `COL-0010`, `COL-0011`, `COL-0012`, `COL-0013` |
 | UFOB | `INF-0001`, `INF-0002` | `COL-0003`, `COL-0004`, `COL-0006`, `COL-0008`, `COL-0009`, `COL-0010`, `COL-0011`, `COL-0013` |
-| Universidade SENAI CIMATEC | `INF-0003`, `INF-0004` | `COL-0004`, `COL-0005` |
+| Universidade SENAI CIMATEC | Retired/contextual: `INF-0003`, `INF-0004` | Historical/contextual only after `P-0012` withdrawal |
 | ORNL | `INF-0017` | `COL-0007`; internal UERJ-UFF context in `COL-0002` |
 | Universidade de Aveiro | `INF-0018` | `COL-0010` |
 
@@ -263,7 +273,7 @@ proposal text.
 | UERJ-UFF-ORNL barocaloric, spin-crossover, and pressure context | `P-0003`, `P-0007`, `P-0008`, `P-0015` | `COL-0002`, `COL-0007` | `INF-0017` | `PRJ-0005`, `PRJ-0022`, `RES-0007`, `PUB-0006`, `PUB-0100`, `PUB-0101` |
 | UFF magnetic, sample-preparation, and functional-material context | `P-0003`, `P-0006` | `COL-0003`, `COL-0009`, `COL-0012` | `INF-0007`, `INF-0008`, `INF-0016` | `PRJ-0003`, `PRJ-0017`, `PRJ-0018`, `RES-0012`, `PUB-0050` |
 | UFF-UFOB quantum batteries and metal-complex energy-storage context | `P-0003`, `P-0006`, `P-0009`, `P-0014` | `COL-0003`, `COL-0008`, `COL-0011`, `COL-0013` | `INF-0001`, `INF-0002` | `PRJ-0001`, `PRJ-0025`, `PRJ-0026`, `RES-0001`, `RES-0002`, `IDEA-0001` |
-| UFOB-SENAI CIMATEC scientific-computing and quantum-technology context | `P-0009`, `P-0012`, `P-0014` | `COL-0004`, `COL-0005` | `INF-0001`, `INF-0003`, `INF-0004` | `PRJ-0027`, `PRJ-0028`, `RES-0002`, `RES-0004`, `IDEA-0002` |
+| UFOB scientific-computing and historical SENAI CIMATEC quantum-technology context | `P-0009`, `P-0014`; `P-0012` withdrawn | `COL-0004`, `COL-0005` as historical/contextual links | `INF-0001`; `INF-0003` and `INF-0004` retired/contextual | `PRJ-0027`, `PRJ-0028`, `RES-0002`, `RES-0004`, `IDEA-0002` |
 | Universidade de Aveiro metal-complex synthesis and structural-characterization context | `P-0003`, `P-0009`, `P-0016` | `COL-0010` | `INF-0018` | `PRJ-0001`, `PRJ-0032`, `PRJ-0033`, `RES-0010`, `RES-0011`, `PUB-0102`-`PUB-0107` |
 | LAFMAT and broader external network context | `P-0003`, `P-0006`, `P-0009` | `COL-0006`, `COL-0013` | None assigned by these collaboration records | `PRJ-0004`, `SRC-0033` |
 | External measurement, synthesis, and community-event context | `P-0002`, `P-0003`, `P-0004`, `P-0005`, `P-0006`, `P-0007`, `P-0009` | `COL-0008`, `COL-0009`, `COL-0011`, `COL-0012`, `COL-0014` | None assigned by these collaboration records | `PRJ-0001`, `PRJ-0003`, `SRC-0002`, `SRC-0004`, `SRC-0034`, `SRC-0036` |
@@ -272,10 +282,10 @@ proposal text.
 
 | Checkpoint item | Status |
 | --- | --- |
-| Every Phase 1A participant appears once in the Team Book | Satisfied for 16 people. |
-| Every Phase 1A institution appears in the institutional roster | Satisfied for 6 institutions. |
+| Every Phase 1A participant appears once in the Team Book | Satisfied for 15 active people plus 1 withdrawn stable record. |
+| Every Phase 1A institution appears in the institutional roster | Satisfied for 5 active institutions plus 1 historical/contextual institution. |
 | Capability domains are linked to Phase 1 evidence | Satisfied for 9 factual domains. |
-| Collaboration and infrastructure context is mapped without converting context into roles or access plans | Satisfied for 14 collaboration records and 10 active infrastructure records. |
+| Collaboration and infrastructure context is mapped without converting context into roles or access plans | Satisfied for 14 collaboration records and 8 active infrastructure records, with SENAI CIMATEC retained as historical/contextual only. |
 | Evidence bundles and manual-review categories are visible | Satisfied for 9 evidence bundles and 8 manual-review categories. |
 | Academic merit fellowship information is preserved from Phase 1A | Satisfied; Phase 1A remains authoritative. |
 | No scientific objectives, gap analysis, responsibilities, work packages, or CNPq proposal text are created | Satisfied in this document. |
@@ -296,5 +306,7 @@ deferred.
 - Confirm during Phase 3 whether the capability domains should remain broad or
   be split into finer atlas subdomains.
 - Carry the 2F manual-review categories into Phase 3 atlas refinement.
+- Keep `P-0012` and SENAI CIMATEC out of active Phase 6 team, budget,
+  infrastructure, and capability routes unless explicitly reintroduced.
 - Keep this document as a capability synthesis only; do not convert capability
   domains into objectives, gaps, or work packages.

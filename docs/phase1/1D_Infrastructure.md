@@ -18,25 +18,28 @@ Dependencies: `docs/phase1/1A_People.md`,
 Completion criteria: In-scope infrastructure resources are recorded once, with
 stable IDs and links to related people, projects, and outputs when available.
 
-Version: 1.3
+Version: 1.4
 
-Status: Active; international collaborator infrastructure update added
+Status: Active; participant-withdrawal infrastructure correction added
 
-Last update: 2026-07-01
+Last update: 2026-07-14
 
 ## Scope guard
 
 This document is only an infrastructure registry.
 
-Active infrastructure records must be limited to resources hosted by
+Active infrastructure records must be limited to resources hosted by active
 institutions represented in `docs/phase1/1A_People.md`:
 
 - Universidade do Estado do Rio de Janeiro (UERJ)
 - Universidade Federal Fluminense (UFF)
 - Universidade Federal do Oeste da Bahia (UFOB)
-- Universidade SENAI CIMATEC
 - Oak Ridge National Laboratory (ORNL)
 - Universidade de Aveiro
+
+Universidade SENAI CIMATEC records `INF-0003` and `INF-0004` are preserved
+only as historical/source-backed context after `P-0012` was withdrawn from the
+active team on 2026-07-14.
 
 Do not list infrastructure from LAFMAT partner institutions, remaining external
 collaborators, or external large-scale facilities as active Phase 1D resources
@@ -154,7 +157,7 @@ Reviewed sources for this corrected pass:
 - Related projects: `PRJ-0001`, `PRJ-0027`, `PRJ-0028`
 - Related publications or outputs: Pending manual cross-link to `docs/phase1/1B_Publications.md`
 - Source IDs: `SRC-0036`, `SRC-0040`, `SRC-0044`
-- Notes: This record remains active because SENAI CIMATEC is represented in Phase 1A by `P-0012`. Source `SRC-0036` describes LAQCC as partner infrastructure for quantum-technology work. Source `SRC-0040` separately records a CIMATEC Kuatomu quantum-algorithm project.
+- Notes: Retired from active project infrastructure scope on 2026-07-14 because `P-0012` was withdrawn from the team and SENAI CIMATEC is no longer represented as an active project institution. The record remains as historical/source-backed context for prior quantum-technology evidence. Source `SRC-0036` describes LAQCC as partner infrastructure for quantum-technology work. Source `SRC-0040` separately records a CIMATEC Kuatomu quantum-algorithm project.
 
 #### INF-0004 - QuIIN - Quantum Industrial Innovation
 
@@ -168,7 +171,7 @@ Reviewed sources for this corrected pass:
 - Related projects: `PRJ-0028`
 - Related publications or outputs: Pending manual cross-link to `docs/phase1/1B_Publications.md`
 - Source IDs: `SRC-0044`
-- Notes: Source describes QuIIN as funded with PPI Manufatura IoT/4.0 resources and linked to professional training, startup attraction, and institutional-industry interaction.
+- Notes: Retired from active project infrastructure scope on 2026-07-14 because `P-0012` was withdrawn from the team and SENAI CIMATEC is no longer represented as an active project institution. Source describes QuIIN as funded with PPI Manufatura IoT/4.0 resources and linked to professional training, startup attraction, and institutional-industry interaction.
 
 ### Universidade Federal Fluminense (UFF)
 
@@ -301,8 +304,8 @@ history for audit purposes.
 ## Manual review queue
 
 - Confirm whether any equipment from the detailed `SRC-0034` list is hosted by
-  UFF, UERJ, UFOB, SENAI CIMATEC, ORNL, or Universidade de Aveiro and should
-  be added as a new in-scope infrastructure record.
+  UFF, UERJ, UFOB, ORNL, or Universidade de Aveiro and should be added as a new
+  in-scope infrastructure record.
 - Confirm whether infrastructure-funding/development records connected to
   `INF-0010` and `INF-0016` should be promoted to Phase 1C project records.
 - Add explicit publication/output cross-links only after final manual validation

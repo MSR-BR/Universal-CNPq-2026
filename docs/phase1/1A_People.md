@@ -17,11 +17,11 @@ Dependencies: `docs/01_Methodology.md`, `docs/00_Project_Status.md`, and
 Completion criteria: Every known participant has a stable ID and a complete
 record with the required fields listed below.
 
-Version: 1.6
+Version: 1.7
 
-Status: Baseline accepted; international collaborator refinements added
+Status: Baseline accepted; later participant-withdrawal refinement added
 
-Last update: 2026-07-01
+Last update: 2026-07-14
 
 ## Scope guard
 
@@ -337,13 +337,13 @@ header or explicitly described as current in the source summary. Use
 - Academic degree: Doutorado em Física; Pós-doutorado
 - Lattes: http://lattes.cnpq.br/3312511361371409
 - ORCID: Not found in source CV
-- Current status: Pesquisador PDI at SENAI/DR/BA since 2024; source CV last updated 2026-06-24
+- Current status: Withdrawn from the CNPq Universal 2026 project team by project-owner instruction on 2026-07-14; original source record stated Pesquisador PDI at SENAI/DR/BA since 2024, with CV last updated 2026-06-24.
 - Research group: Quantum Industrial Innovation (QuIIN)
 - Career stage: Pesquisador PDI; pós-doutorado
 - Academic merit fellowships: Current/header-confirmed: none found. Historical/recorded: no CNPq Productivity or FAPERJ CNE/JCNE merit fellowship found in reviewed sources.
 - Related publications: See `docs/phase1/1B_Publications.md`.
 - Related projects: Pending Phase 1C registry
-- Notes: Source `SRC-0044`; team page `SRC-0047` lists name only, with no additional administrative fields extracted.
+- Notes: Source `SRC-0044`; team page `SRC-0047` lists name only, with no additional administrative fields extracted. Stable ID `P-0012` is preserved and must not be reused, but this person is no longer an active project participant. SENAI CIMATEC should not be counted as an active project institution after 2026-07-14 unless explicitly reintroduced by the project owner.
 
 ### Institution: Oak Ridge National Laboratory (ORNL)
 

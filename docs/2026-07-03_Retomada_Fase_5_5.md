@@ -70,6 +70,21 @@ pausa de aproximadamente duas semanas.
 - O workflow foi corrigido para remover o gatilho duplicado `labeled`,
   serializar a ingestao e pular fontes de issue que ja estejam sem alteracao.
 
+## Atualizacao de 2026-07-14
+
+- Foram recuperadas 10 issues/arquivos de resposta da Phase 5.5; contam-se 9
+  respostas validas mais recentes por participante, porque Wanisson enviou duas
+  vezes e a issue `#13` substitui a issue `#12`.
+- Respostas validas atuais: `P-0003`, `P-0006`, `P-0008`, `P-0009`, `P-0011`,
+  `P-0013`, `P-0014`, `P-0015`, `P-0016`.
+- Orcamento parcial atual: R$ 104.250,00.
+- UFF: R$ 50.000,00; UFOB: R$ 54.250,00; UERJ: R$ 0,00 recebido ate agora,
+  mas o orcamento principal da UERJ segue pendente.
+- `P-0012` Maron Freitas Anka saiu da equipe e nao pode participar do projeto.
+  O ID foi preservado, mas ele foi retirado do formulario/API e SENAI CIMATEC
+  deixou de ser rota ativa.
+- A Phase 6 foi aberta com UERJ pendente como item de carry-over.
+
 ## Espinha cientifica aprovada
 
 O elemento agregador do projeto e o estudo de complexos metalicos. A Phase 5
@@ -124,13 +139,12 @@ Rotas importantes a preservar:
 
 ## Proximo passo seguro
 
-1. Continuar enviando `https://universal-cnpq-2026.vercel.app/fase-5-5` aos
-   integrantes que ainda nao responderam.
-2. Monitorar a API de status e as issues com label `phase-5-5-response`.
-3. Quando chegarem respostas, consolidar comentarios por secao da proposta.
-4. Somar os orcamentos por item de dispendio CNPq.
-5. Ajustar a proposta resumida apenas se houver comentario relevante da equipe.
-6. Registrar a aceitacao da Phase 5.5 antes de abrir a Phase 6.
+1. Desenvolver a Phase 6 em `docs/phase6/6_MasterProject.md`.
+2. Manter UERJ como pendencia de orcamento a incorporar quando chegar.
+3. Nao usar Maron/SENAI CIMATEC como rota ativa.
+4. Consolidar a proposta em torno dos cinco eixos `MT-01` a `MT-05`.
+5. Preparar depois a Phase 7 com blocos do formulario CNPq em torno de dois
+   tercos do limite maximo.
 
 ## Cuidados
 

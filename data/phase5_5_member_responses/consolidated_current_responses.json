@@ -1,0 +1,779 @@
+{
+  "generated_at": "2026-07-14T22:41:53.672Z",
+  "source_files": 10,
+  "current_response_count": 9,
+  "ignored_duplicate_count": 1,
+  "excluded_withdrawn_ids": [
+    "P-0012"
+  ],
+  "pending_budget_note": "UERJ budget still pending except Alan P-0008 zero-value response.",
+  "total_brl": 104250,
+  "totals_by_institution": {
+    "ORNL": 0,
+    "UERJ": 0,
+    "UFF": 50000,
+    "UFOB": 54250,
+    "Universidade de Aveiro": 0
+  },
+  "totals_by_item": {
+    "Capital | Equipamentos e Material permanente": 50000,
+    "Capital | Material bibliográfico (Total)": 5000,
+    "Custeio | Despesas acessórias com importação": 0,
+    "Custeio | Diárias (Total)": 13250,
+    "Custeio | Material de consumo": 20000,
+    "Custeio | Passagens (Total)": 16000,
+    "Custeio | Serviços de Terceiros (Total)": 0
+  },
+  "ignored_duplicates": [
+    {
+      "person_id": "P-0014",
+      "issue": 12,
+      "file": "issue-12.md"
+    }
+  ],
+  "responses": [
+    {
+      "file": "issue-8.md",
+      "issue": 8,
+      "issue_url": "https://github.com/MSR-BR/Universal-CNPq-2026/issues/8",
+      "issue_created_at": "2026-07-09T11:03:54Z",
+      "issue_updated_at": "2026-07-09T11:03:54Z",
+      "person_id": "P-0003",
+      "person": "Mario de Souza Reis Junior",
+      "institution": "UFF",
+      "title": "Resposta Fase 5.5 - P-0003 - Mario de Souza Reis Junior",
+      "axes": [
+        "Eixo 2 - Barocalórico em spin crossover",
+        "Eixo 4 - Termodinâmica quântica e baterias quânticas",
+        "Eixo 5 - Recursos quânticos e informação",
+        "Apoio transversal"
+      ],
+      "budget": [
+        {
+          "rubrica": "Custeio",
+          "item": "Despesas acessórias com importação",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Diárias (Total)",
+          "value_brl": 8000,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Material de consumo",
+          "value_brl": 10000,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Passagens (Total)",
+          "value_brl": 7000,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Serviços de Terceiros (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Equipamentos e Material permanente",
+          "value_brl": 25000,
+          "detalhamento_pt": "MacBook Pro apple",
+          "detalhamento_en": "MacBook Pro apple",
+          "justificativa_pt": "Uso nas tarefas de alta performance como programação, cálculos de propriedades termodinâmicas de materiais.",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Material bibliográfico (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        }
+      ],
+      "comments": "Sem comentários gerais.",
+      "total_brl": 50000
+    },
+    {
+      "file": "issue-5.md",
+      "issue": 5,
+      "issue_url": "https://github.com/MSR-BR/Universal-CNPq-2026/issues/5",
+      "issue_created_at": "2026-07-08T15:06:20Z",
+      "issue_updated_at": "2026-07-08T15:06:20Z",
+      "person_id": "P-0006",
+      "person": "Vinícius Gomes de Paula",
+      "institution": "UFF",
+      "title": "Resposta Fase 5.5 - P-0006 - Vinícius Gomes de Paula",
+      "axes": [
+        "Eixo 4 - Termodinâmica quântica e baterias quânticas"
+      ],
+      "budget": [
+        {
+          "rubrica": "Custeio",
+          "item": "Despesas acessórias com importação",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Diárias (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Material de consumo",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Passagens (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Serviços de Terceiros (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Equipamentos e Material permanente",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Material bibliográfico (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        }
+      ],
+      "comments": "Sem comentários gerais.",
+      "total_brl": 0
+    },
+    {
+      "file": "issue-9.md",
+      "issue": 9,
+      "issue_url": "https://github.com/MSR-BR/Universal-CNPq-2026/issues/9",
+      "issue_created_at": "2026-07-10T17:43:34Z",
+      "issue_updated_at": "2026-07-10T17:43:34Z",
+      "person_id": "P-0008",
+      "person": "Alan Fillipe de Souza Almeida",
+      "institution": "UERJ",
+      "title": "Resposta Fase 5.5 - P-0008 - Alan Fillipe de Souza Almeida",
+      "axes": [
+        "Eixo 1 - Plataforma de complexos metálicos",
+        "Eixo 2 - Barocalórico em spin crossover",
+        "Eixo 3 - Pressão, estrutura e J"
+      ],
+      "budget": [
+        {
+          "rubrica": "Custeio",
+          "item": "Despesas acessórias com importação",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Diárias (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Material de consumo",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Passagens (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Serviços de Terceiros (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Equipamentos e Material permanente",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Material bibliográfico (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        }
+      ],
+      "comments": "Sem comentários gerais.",
+      "total_brl": 0
+    },
+    {
+      "file": "issue-4.md",
+      "issue": 4,
+      "issue_url": "https://github.com/MSR-BR/Universal-CNPq-2026/issues/4",
+      "issue_created_at": "2026-07-06T17:56:52Z",
+      "issue_updated_at": "2026-07-06T17:56:52Z",
+      "person_id": "P-0009",
+      "person": "Clebson dos Santos Cruz",
+      "institution": "UFOB",
+      "title": "Resposta Fase 5.5 - P-0009 - Clebson dos Santos Cruz",
+      "axes": [
+        "Eixo 1 - Plataforma de complexos metálicos",
+        "Eixo 3 - Pressão, estrutura e J",
+        "Eixo 4 - Termodinâmica quântica e baterias quânticas",
+        "Eixo 5 - Recursos quânticos e informação"
+      ],
+      "budget": [
+        {
+          "rubrica": "Custeio",
+          "item": "Despesas acessórias com importação",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Diárias (Total)",
+          "value_brl": 5250,
+          "detalhamento_pt": "15 diárias para realização visitas técnicas e científicas entre as instituições parceiras do projeto e participação em eventos científicos da área de atuação do Projeto",
+          "detalhamento_en": "15 daily allowances (per diems) for conducting technical and scientific visits between the project's partner institutions and participating in scientific events within the project's field of activity.",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Material de consumo",
+          "value_brl": 10000,
+          "detalhamento_pt": "- Material de Escritório (lápis, canetas, resmas de papel, pincéis para quadro branco, apagador de quadros, pastas, cadernos, blocos de anotação, bandeja para papéis, envelope, giz, grafite, grampos) - Material de informática (tintas para impressora, pilhas, baterias, peças e acessórios para computadores e periféricos)",
+          "detalhamento_en": "Office Supplies (pencils, pens, reams of paper, whiteboard markers, whiteboard erasers, folders, notebooks, notepads, paper trays, envelopes, chalk, pencil lead, staples) - IT Supplies (printer ink, batteries, rechargeable batteries, parts and accessories for computers and peripherals)",
+          "justificativa_pt": "- Despesa com os materiais de papelaria utilizados diariamente no projeto; - Despesas com materiais utilizados no funcionamento de sistemas de processamento de dados;",
+          "justificativa_en": "Expenses with stationery materials used daily in the project; - Expenses with materials used in the operation of data processing systems;"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Passagens (Total)",
+          "value_brl": 9000,
+          "detalhamento_pt": "- 3 voos (ida-volta) no valor de R$ 3000. Para os 36 meses - Custeio de passagens para realização visitas técnicas e científicas entre as instituições parceiras do projeto e participação em eventos científicos da área de atuação do Projeto",
+          "detalhamento_en": "3 flights (round-trip) valued at R$ 3,000. For the 36 months. Funding for tickets to conduct technical and scientific visits between the project's partner institutions and participate in scientific events within the project's field of activity.",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Serviços de Terceiros (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Equipamentos e Material permanente",
+          "value_brl": 25000,
+          "detalhamento_pt": "2 Desktops; Processador Intel® Core™ Ultra 7, 20 núcleos; Memória de 32GB DDR5; Valor unitário: R$ 12.500,00",
+          "detalhamento_en": "2 Desktops; Intel® Core™ Ultra 7 Processor, 20 cores; 32GB DDR5 Memory; Unit value: R$ 10,000.00",
+          "justificativa_pt": "Compra de computadores para a realização de cálculos teóricos avançados, construção de gráficos, elaboração de materiais de divulgação científica do projeto. Monitores para vizualização dos cálculos teóricos, construção de gráficos, elaboração de materiais de divulgação científica do projeto.",
+          "justificativa_en": "Purchase of computers for conducting advanced theoretical calculations, creating graphs, and preparing scientific dissemination materials for the project. Monitors for visualizing theoretical calculations, creating graphs, and preparing scientific dissemination materials for the project."
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Material bibliográfico (Total)",
+          "value_brl": 5000,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        }
+      ],
+      "comments": "Sem comentários gerais.",
+      "total_brl": 54250
+    },
+    {
+      "file": "issue-10.md",
+      "issue": 10,
+      "issue_url": "https://github.com/MSR-BR/Universal-CNPq-2026/issues/10",
+      "issue_created_at": "2026-07-13T14:53:58Z",
+      "issue_updated_at": "2026-07-13T14:53:58Z",
+      "person_id": "P-0011",
+      "person": "João Vitor Almeida Tavares Cruz",
+      "institution": "UFOB",
+      "title": "Resposta Fase 5.5 - P-0011 - João Vitor Almeida Tavares Cruz",
+      "axes": [
+        "Eixo 4 - Termodinâmica quântica e baterias quânticas",
+        "Eixo 5 - Recursos quânticos e informação"
+      ],
+      "budget": [
+        {
+          "rubrica": "Custeio",
+          "item": "Despesas acessórias com importação",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Diárias (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Material de consumo",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Passagens (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Serviços de Terceiros (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Equipamentos e Material permanente",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Material bibliográfico (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        }
+      ],
+      "comments": "Sem comentários gerais.",
+      "total_brl": 0
+    },
+    {
+      "file": "issue-11.md",
+      "issue": 11,
+      "issue_url": "https://github.com/MSR-BR/Universal-CNPq-2026/issues/11",
+      "issue_created_at": "2026-07-13T14:54:20Z",
+      "issue_updated_at": "2026-07-13T14:54:20Z",
+      "person_id": "P-0013",
+      "person": "Tatiana de Jesus Braga",
+      "institution": "UFOB",
+      "title": "Resposta Fase 5.5 - P-0013 - Tatiana de Jesus Braga",
+      "axes": [
+        "Eixo 4 - Termodinâmica quântica e baterias quânticas",
+        "Eixo 5 - Recursos quânticos e informação"
+      ],
+      "budget": [
+        {
+          "rubrica": "Custeio",
+          "item": "Despesas acessórias com importação",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Diárias (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Material de consumo",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Passagens (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Serviços de Terceiros (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Equipamentos e Material permanente",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Material bibliográfico (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        }
+      ],
+      "comments": "Sem comentários gerais.",
+      "total_brl": 0
+    },
+    {
+      "file": "issue-13.md",
+      "issue": 13,
+      "issue_url": "https://github.com/MSR-BR/Universal-CNPq-2026/issues/13",
+      "issue_created_at": "2026-07-13T16:11:43Z",
+      "issue_updated_at": "2026-07-13T16:11:43Z",
+      "person_id": "P-0014",
+      "person": "Wanisson Silva Santana",
+      "institution": "UFOB",
+      "title": "Resposta Fase 5.5 - P-0014 - Wanisson Silva Santana",
+      "axes": [
+        "Eixo 4 - Termodinâmica quântica e baterias quânticas",
+        "Eixo 5 - Recursos quânticos e informação"
+      ],
+      "budget": [
+        {
+          "rubrica": "Custeio",
+          "item": "Despesas acessórias com importação",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Diárias (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Material de consumo",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Passagens (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Serviços de Terceiros (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Equipamentos e Material permanente",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Material bibliográfico (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        }
+      ],
+      "comments": "Sem comentários gerais.",
+      "total_brl": 0
+    },
+    {
+      "file": "issue-7.md",
+      "issue": 7,
+      "issue_url": "https://github.com/MSR-BR/Universal-CNPq-2026/issues/7",
+      "issue_created_at": "2026-07-09T10:51:10Z",
+      "issue_updated_at": "2026-07-09T10:51:10Z",
+      "person_id": "P-0015",
+      "person": "António F. Moreira dos Santos",
+      "institution": "ORNL",
+      "title": "Resposta Fase 5.5 - P-0015 - António F. Moreira dos Santos",
+      "axes": [
+        "Eixo 1 - Plataforma de complexos metálicos",
+        "Eixo 2 - Barocalórico em spin crossover",
+        "Eixo 3 - Pressão, estrutura e J",
+        "Apoio transversal"
+      ],
+      "budget": [
+        {
+          "rubrica": "Custeio",
+          "item": "Despesas acessórias com importação",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Diárias (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Material de consumo",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Passagens (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Serviços de Terceiros (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Equipamentos e Material permanente",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Material bibliográfico (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        }
+      ],
+      "comments": "Sem comentários gerais.",
+      "total_brl": 0
+    },
+    {
+      "file": "issue-6.md",
+      "issue": 6,
+      "issue_url": "https://github.com/MSR-BR/Universal-CNPq-2026/issues/6",
+      "issue_created_at": "2026-07-09T10:50:36Z",
+      "issue_updated_at": "2026-07-09T10:50:36Z",
+      "person_id": "P-0016",
+      "person": "Paula Cristina Ferreira da Silva Brandão",
+      "institution": "Universidade de Aveiro",
+      "title": "Resposta Fase 5.5 - P-0016 - Paula Cristina Ferreira da Silva Brandão",
+      "axes": [
+        "Eixo 1 - Plataforma de complexos metálicos"
+      ],
+      "budget": [
+        {
+          "rubrica": "Custeio",
+          "item": "Despesas acessórias com importação",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Diárias (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Material de consumo",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Passagens (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Custeio",
+          "item": "Serviços de Terceiros (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Equipamentos e Material permanente",
+          "value_brl": 0,
+          "detalhamento_pt": "",
+          "detalhamento_en": "",
+          "justificativa_pt": "",
+          "justificativa_en": ""
+        },
+        {
+          "rubrica": "Capital",
+          "item": "Material bibliográfico (Total)",
+          "value_brl": 0,
+          "detalhamento_pt": "preenchimento não requerido",
+          "detalhamento_en": "preenchimento não requerido",
+          "justificativa_pt": "preenchimento não requerido",
+          "justificativa_en": "preenchimento não requerido"
+        }
+      ],
+      "comments": "Sem comentários gerais.",
+      "total_brl": 0
+    }
+  ]
+}

@@ -14,7 +14,6 @@ const MEMBERS = {
   "P-0009": { name: "Clebson dos Santos Cruz", institution: "UFOB" },
   "P-0010": { name: "Gabriel Batista de Souza", institution: "UERJ" },
   "P-0011": { name: "João Vitor Almeida Tavares Cruz", institution: "UFOB" },
-  "P-0012": { name: "Maron Freitas Anka", institution: "SENAI CIMATEC" },
   "P-0013": { name: "Tatiana de Jesus Braga", institution: "UFOB" },
   "P-0014": { name: "Wanisson Silva Santana", institution: "UFOB" },
   "P-0015": { name: "António F. Moreira dos Santos", institution: "ORNL", aliases: ["Antonio dos Santos"] },

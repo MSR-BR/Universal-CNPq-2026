@@ -22,11 +22,11 @@ approval, comments, and required adjustments are recorded; budget items,
 values, and justifications are collected; access/feasibility issues are
 identified; and the project owner accepts the checkpoint as complete.
 
-Version: 1.6
+Version: 1.7
 
-Status: Active; Vercel-backed single-page response form deployed; GitHub issue token pending
+Status: Partially completed and accepted for Phase 6 opening with UERJ budget pending
 
-Last update: 2026-07-02
+Last update: 2026-07-14
 
 ## Scope guard
 
@@ -133,22 +133,22 @@ Approval status values: `Pending`, `Approved`, `Approved with comments`,
 
 | Person ID | Name | Institution | Approval status | Comments/adjustments | Budget response |
 | --- | --- | --- | --- | --- | --- |
-| `P-0001` | Gabriel Fernandes Silva | UERJ | Pending | Pending | Pending |
-| `P-0002` | Bruno de Pinho Alho | UERJ | Pending | Pending | Pending |
-| `P-0003` | Mario de Souza Reis Junior | UFF | Pending | Pending | Pending |
-| `P-0004` | Paula de Oliveira Ribeiro Alho | UERJ | Pending | Pending | Pending |
-| `P-0005` | Pedro Jorge von Ranke Perlingeiro | UERJ | Pending | Pending | Pending |
-| `P-0006` | Vinicius Gomes de Paula | UFF | Pending | Pending | Pending |
-| `P-0007` | Vinicius da Silva Ramos de Sousa | UERJ | Pending | Pending | Pending |
-| `P-0008` | Alan Fillipe de Souza Almeida | UERJ | Pending | Pending | Pending |
-| `P-0009` | Clebson dos Santos Cruz | UFOB | Pending | Pending | Pending |
-| `P-0010` | Gabriel Batista de Souza | UERJ | Pending | Pending | Pending |
-| `P-0011` | Joao Vitor Almeida Tavares Cruz | UFOB | Pending | Pending | Pending |
-| `P-0012` | Maron Freitas Anka | SENAI CIMATEC | Pending | Pending | Pending |
-| `P-0013` | Tatiana de Jesus Braga | UFOB | Pending | Pending | Pending |
-| `P-0014` | Wanisson Silva Santana | UFOB | Pending | Pending | Pending |
-| `P-0015` | Antonio dos Santos | ORNL | Pending | Pending | Pending |
-| `P-0016` | Paula Brandao | Universidade de Aveiro | Pending | Pending | Pending |
+| `P-0001` | Gabriel Fernandes Silva | UERJ | Pending | No response as of 2026-07-14 | Pending; UERJ budget deferred |
+| `P-0002` | Bruno de Pinho Alho | UERJ | Pending | No response as of 2026-07-14 | Pending; UERJ budget deferred |
+| `P-0003` | Mario de Souza Reis Junior | UFF | Approved | Issue `#8`; no comments | Received; R$ 50,000.00 |
+| `P-0004` | Paula de Oliveira Ribeiro Alho | UERJ | Pending | No response as of 2026-07-14 | Pending; UERJ budget deferred |
+| `P-0005` | Pedro Jorge von Ranke Perlingeiro | UERJ | Pending | No response as of 2026-07-14 | Pending; UERJ budget deferred |
+| `P-0006` | Vinicius Gomes de Paula | UFF | Approved | Issue `#5`; no comments | Received; R$ 0.00 |
+| `P-0007` | Vinicius da Silva Ramos de Sousa | UERJ | Pending | No response as of 2026-07-14 | Pending; UERJ budget deferred |
+| `P-0008` | Alan Fillipe de Souza Almeida | UERJ | Approved | Issue `#9`; no comments | Received; R$ 0.00; UERJ budget still incomplete |
+| `P-0009` | Clebson dos Santos Cruz | UFOB | Approved | Issue `#4`; no comments | Received; R$ 54,250.00 |
+| `P-0010` | Gabriel Batista de Souza | UERJ | Pending | No response as of 2026-07-14 | Pending; UERJ budget deferred |
+| `P-0011` | Joao Vitor Almeida Tavares Cruz | UFOB | Approved | Issue `#10`; no comments | Received; R$ 0.00 |
+| `P-0012` | Maron Freitas Anka | SENAI CIMATEC | Not participating | Withdrawn by project-owner instruction on 2026-07-14 | Not applicable |
+| `P-0013` | Tatiana de Jesus Braga | UFOB | Approved | Issue `#11`; no comments | Received; R$ 0.00 |
+| `P-0014` | Wanisson Silva Santana | UFOB | Approved | Issues `#12` and `#13`; latest issue `#13` retained | Received; R$ 0.00 |
+| `P-0015` | Antonio dos Santos | ORNL | Approved | Issue `#7`; no comments | Received; R$ 0.00 |
+| `P-0016` | Paula Brandao | Universidade de Aveiro | Approved | Issue `#6`; no comments | Received; R$ 0.00 |
 
 ## Member response form
 
@@ -179,8 +179,10 @@ Fallback GitHub Issue Form URL:
 
 `https://github.com/MSR-BR/Universal-CNPq-2026/issues/new?template=phase5_5_member_response.yml`
 
-Target respondents for this distribution round include all participants
-currently recorded in Phase 1A. The dropdown includes:
+Target respondents for the continuing distribution round include active
+participants currently recorded in Phase 1A. `P-0012` Maron Freitas Anka was
+withdrawn from the active team on 2026-07-14 and removed from new response
+forms. The active dropdown includes:
 
 | Person ID | Name | Institution |
 | --- | --- | --- |
@@ -195,7 +197,6 @@ currently recorded in Phase 1A. The dropdown includes:
 | `P-0009` | Clebson dos Santos Cruz | UFOB |
 | `P-0010` | Gabriel Batista de Souza | UERJ |
 | `P-0011` | Joao Vitor Almeida Tavares Cruz | UFOB |
-| `P-0012` | Maron Freitas Anka | SENAI CIMATEC |
 | `P-0013` | Tatiana de Jesus Braga | UFOB |
 | `P-0014` | Wanisson Silva Santana | UFOB |
 | `P-0015` | Antonio dos Santos | ORNL |
@@ -282,6 +283,59 @@ adding values item by item into the single final CNPq form.
 | `BUD-0006` | Capital | Equipamentos e Material permanente | Per participant response | Required | Required | Open |
 | `BUD-0007` | Capital | Material bibliografico (Total) | Per participant response | Not required in CNPq screen | Not required in CNPq screen | Open |
 
+## Response and budget consolidation as of 2026-07-14
+
+This consolidation uses the latest valid GitHub issue per participant. Wanisson
+Silva Santana submitted two zero-budget responses; issue `#13` supersedes issue
+`#12` for counting.
+
+| Person ID | Issue | Name | Institution | Response status | Budget total |
+| --- | ---: | --- | --- | --- | ---: |
+| `P-0003` | `#8` | Mario de Souza Reis Junior | UFF | Received | R$ 50,000.00 |
+| `P-0006` | `#5` | Vinicius Gomes de Paula | UFF | Received | R$ 0.00 |
+| `P-0008` | `#9` | Alan Fillipe de Souza Almeida | UERJ | Received | R$ 0.00 |
+| `P-0009` | `#4` | Clebson dos Santos Cruz | UFOB | Received | R$ 54,250.00 |
+| `P-0011` | `#10` | Joao Vitor Almeida Tavares Cruz | UFOB | Received | R$ 0.00 |
+| `P-0013` | `#11` | Tatiana de Jesus Braga | UFOB | Received | R$ 0.00 |
+| `P-0014` | `#13` | Wanisson Silva Santana | UFOB | Received; duplicate issue `#12` ignored | R$ 0.00 |
+| `P-0015` | `#7` | Antonio dos Santos | ORNL | Received | R$ 0.00 |
+| `P-0016` | `#6` | Paula Brandao | Universidade de Aveiro | Received | R$ 0.00 |
+
+Responses not yet received as of 2026-07-14: `P-0001`, `P-0002`, `P-0004`,
+`P-0005`, `P-0007`, and `P-0010`, all from UERJ. UERJ budget values remain
+pending and will be incorporated later if submitted.
+
+`P-0012` Maron Freitas Anka is no longer an active participant and is excluded
+from the continuing response queue.
+
+| Rubrica | Item de dispendio | Partial total |
+| --- | --- | ---: |
+| Custeio | Despesas acessorias com importacao | R$ 0.00 |
+| Custeio | Diarias (Total) | R$ 13,250.00 |
+| Custeio | Material de consumo | R$ 20,000.00 |
+| Custeio | Passagens (Total) | R$ 16,000.00 |
+| Custeio | Servicos de Terceiros (Total) | R$ 0.00 |
+| Capital | Equipamentos e Material permanente | R$ 50,000.00 |
+| Capital | Material bibliografico (Total) | R$ 5,000.00 |
+| **Total parcial** |  | **R$ 104,250.00** |
+
+| Institution | Partial total |
+| --- | ---: |
+| UFF | R$ 50,000.00 |
+| UFOB | R$ 54,250.00 |
+| UERJ | R$ 0.00 received so far; main UERJ budget pending |
+| ORNL | R$ 0.00 |
+| Universidade de Aveiro | R$ 0.00 |
+
+Project-owner instruction on 2026-07-14: proceed to Phase 6 using the current
+partial budget and record UERJ budget as a deferred adjustment to be
+incorporated later.
+
+Machine-readable recovered data are stored in:
+
+- `data/phase5_5_member_responses/consolidated_current_responses.json`
+- `data/phase5_5_member_responses/consolidated_budget.csv`
+
 ## Allocation principle
 
 The final budget should be assembled as one project budget for Faixa C. Member
@@ -328,16 +382,15 @@ Phase 6 can open only when the following conditions are satisfied.
 | Member approval tracker created | Satisfied in this document. |
 | Budget collection template created | Satisfied in this document. |
 | Access and feasibility checklist created | Satisfied in this document. |
-| Summary circulated to all project members | Pending. |
-| Approval/comments recorded for project members | Pending. |
-| Budget items, values, and justifications collected | Pending. |
-| Required adjustments resolved or deferred by project owner | Pending. |
-| Project owner accepts Phase 5.5 as complete | Pending. |
-| Phase 6 - Master Project remains locked | Satisfied. |
+| Summary circulated to all project members | Partially satisfied; active-response process remains open for missing UERJ responses. |
+| Approval/comments recorded for project members | Partially satisfied; 9 active participants have valid responses; UERJ responses remain incomplete. |
+| Budget items, values, and justifications collected | Partially satisfied; UFF and UFOB budget inputs received, UERJ budget deferred. |
+| Required adjustments resolved or deferred by project owner | Satisfied for Phase 6 opening; Maron withdrawal recorded and UERJ budget deferred. |
+| Project owner accepts Phase 5.5 as complete | Accepted as operationally sufficient for Phase 6 opening on 2026-07-14, with deferred UERJ budget incorporation. |
+| Phase 6 - Master Project remains locked | Superseded; Phase 6 may open with explicit carry-over pending items. |
 
 ## Next controlled action
 
-Project owner review of the Portuguese proposal-summary PDF and electronic
-response form. After review, both can be sent to project members for concise
-approval, essential corrections, budget items, and critical feasibility
-constraints.
+Open Phase 6 - Master Project using the accepted Phase 5 Project Matrix, the
+partial Phase 5.5 response set, and the carry-over queue for UERJ budget
+inputs.

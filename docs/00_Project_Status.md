@@ -26,20 +26,20 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.30
+Version: 2.31
 
 Status: Active
 
-Last update: 2026-07-06
+Last update: 2026-07-14
 
 ## Current phase
 
-Phase 5.5 - Internal Approval and Budget Collection.
+Phase 6 - Master Project.
 
 Phase 0 - Information Collection remains open during the entire project.
 Phase 1A through Phase 1H, Phase 2, Phase 3, Phase 4, and Phase 5 remain
-available for deferred final manual refinement, but they no longer block Phase
-5.5 internal approval and budget-collection work.
+available for deferred final manual refinement. Phase 5.5 has been accepted as
+operationally sufficient for Phase 6 opening with UERJ budget inputs deferred.
 
 ## Completed phases
 
@@ -69,6 +69,9 @@ available for deferred final manual refinement, but they no longer block Phase
   final manual refinements deferred.
 - Phase 5 Project Matrix baseline accepted sufficiently to open Phase 5.5,
   with final manual refinements deferred.
+- Phase 5.5 Internal Approval and Budget Collection accepted as operationally
+  sufficient to open Phase 6, with UERJ budget inputs deferred and explicitly
+  carried forward.
 
 ## Current progress
 
@@ -93,12 +96,15 @@ available for deferred final manual refinement, but they no longer block Phase
   infrastructure must be limited to institutions represented in Phase 1A.
 - Nine proposal/project PDF or CV/Lattes sources currently support active
   Phase 1D infrastructure records.
-- Ten stable infrastructure records remain active in Phase 1D.
-- Eight previously created infrastructure IDs were retired from active scope
+- Eight stable infrastructure records remain active in Phase 1D after the
+  2026-07-14 participant-withdrawal correction.
+- Ten previously created or later retired infrastructure IDs are kept out of
+  active scope
   because they referred to LAFMAT partner institutions, external collaborators,
-  external facilities, or equipment with unconfirmed Phase 1A host mapping.
-- Active infrastructure records include UERJ, UFF, UFOB, SENAI CIMATEC, ORNL,
-  and Universidade de Aveiro resources represented by Phase 1A people.
+  external facilities, equipment with unconfirmed Phase 1A host mapping, or
+  infrastructure linked only to the withdrawn `P-0012` record.
+- Active infrastructure records include UERJ, UFF, UFOB, ORNL, and
+  Universidade de Aveiro resources represented by active Phase 1A people.
 - Phase 1E was opened in `docs/phase1/1E_Collaborations.md`.
 - Nineteen source files have been reviewed across Phase 1E collaboration passes.
 - Fourteen stable collaboration records were created in Phase 1E.
@@ -222,7 +228,9 @@ available for deferred final manual refinement, but they no longer block Phase
   production at `https://universal-cnpq-2026.vercel.app/`. The page responds
   with HTTP 200; the API route is available; `GITHUB_ISSUE_TOKEN` is configured
   in Vercel.
-- The target respondent dropdown now includes all 16 Phase 1A participants.
+- The target respondent dropdown now includes the active project participants;
+  `P-0012` Maron Freitas Anka was withdrawn on 2026-07-14 and removed from new
+  response forms.
 - The first valid member response was received from `P-0009` Clebson dos
   Santos Cruz as GitHub issue `#4` and ingested into
   `data/phase5_5_member_responses/issue-4.md`.
@@ -231,6 +239,16 @@ available for deferred final manual refinement, but they no longer block Phase
   run wrote the response file; the duplicate run failed only at the commit/push
   step. The workflow has been corrected to avoid duplicated concurrent
   ingestion runs and to skip unchanged issue sources.
+- Nine current valid Phase 5.5 member responses have been recovered from
+  GitHub issues and response files: `P-0003`, `P-0006`, `P-0008`, `P-0009`,
+  `P-0011`, `P-0013`, `P-0014`, `P-0015`, and `P-0016`. Issue `#12` from
+  `P-0014` is superseded by issue `#13` and is not counted twice.
+- Current partial budget total from latest valid responses is R$ 104,250.00:
+  UFF R$ 50,000.00, UFOB R$ 54,250.00, UERJ R$ 0.00 received so far, ORNL
+  R$ 0.00, and Universidade de Aveiro R$ 0.00. UERJ budget input remains
+  pending and will be incorporated later if submitted.
+- Phase 6 was opened in `docs/phase6/6_MasterProject.md` on 2026-07-14 with
+  the partial Phase 5.5 response set and an explicit carry-over queue.
 - One end-to-end test response was successfully created as GitHub issue `#3`
   and then cleaned: the issue was closed, its response label was removed, its
   title/body were replaced with a test-removal note, and the Phase 5.5 status
@@ -243,15 +261,17 @@ available for deferred final manual refinement, but they no longer block Phase
   endpoint.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
-- No Phase 6 master-project text, CNPq proposal text, consolidated final PDF,
-  final budget values, final schedule, facility-access commitments, or final
-  participant responsibility assignments have been created.
+- No final CNPq proposal text, consolidated final PDF, final budget values,
+  final schedule, facility-access commitments, or final participant
+  responsibility assignments have been created.
 
 ## Pending tasks
 
 - Continue Phase 1D factual infrastructure registry refinement if new equipment
   lists, official laboratory inventories, or access documents are supplied for
-  UERJ, UFF, UFOB, SENAI CIMATEC, ORNL, or Universidade de Aveiro.
+  active project institutions: UERJ, UFF, UFOB, ORNL, or Universidade de
+  Aveiro. SENAI CIMATEC infrastructure is now historical/contextual only after
+  `P-0012` withdrawal.
 - Defer project-owner/manual review of Phase 1A people records, Phase 1B
   publication metadata, Phase 1C project links, and Phase 1D infrastructure
   host mapping until the project-wide final review.
@@ -278,11 +298,11 @@ available for deferred final manual refinement, but they no longer block Phase
 - Continue Phase 2 Team Book factual refinement only if the project owner
   requests deferred manual adjustments; the accepted baseline remains available
   for Phase 3 work.
-- Circulate `https://universal-cnpq-2026.vercel.app/fase-5-5` to all target
-  project members for approval, contribution axes, CNPq-formatted budget items,
-  and general comments. The longer PDF remains only a support artifact.
-- Keep Phase 6 locked until Phase 5.5 responses, budget inputs, required
-  adjustments, and project-owner acceptance are recorded.
+- Keep `https://universal-cnpq-2026.vercel.app/fase-5-5` available for
+  remaining UERJ responses, but do not block Phase 6 drafting while awaiting
+  those budget inputs.
+- Continue Phase 6 master-project drafting from the accepted five-axis project
+  matrix and the partial budget baseline.
 - In Phase 7, keep CNPq form blocks comfortably below character limits, using
   about two thirds of each block limit as the operational target.
 - In Phase 8, review both final outputs: CNPq form blocks and the consolidated
@@ -308,11 +328,11 @@ available for deferred final manual refinement, but they no longer block Phase
 - Participant CV records scanned in Phase 1C: 16
 - CV text source files checked in Phase 1C: 17
 - Previous-project records with at least one Phase 1A person link: 33
-- Phase 1D active infrastructure records: 10
-- Phase 1D retired infrastructure IDs after scope correction: 8
+- Phase 1D active infrastructure records: 8
+- Phase 1D retired infrastructure IDs after scope and participant-withdrawal corrections: 10
 - Proposal/project PDF sources supporting active Phase 1D records: 3
 - CV/Lattes text sources supporting active Phase 1D records: 6
-- Active infrastructure records with at least one Phase 1A person link: 10
+- Active infrastructure records with at least one active Phase 1A person link: 8
 - Active infrastructure records linked to at least one Phase 1C project: 8
 - Phase 1E collaboration records: 14
 - Phase 1E source files reviewed: 19
@@ -398,7 +418,7 @@ available for deferred final manual refinement, but they no longer block Phase
 - Phase 5.5 internal circulation summary task rows: 5
 - Phase 5.5 member approval tracker rows: 16
 - Phase 5.5 member response form fields: 5
-- Phase 5.5 participant response dropdown rows: 16
+- Phase 5.5 participant response dropdown rows: 15
 - Phase 5.5 budget collection template rows: 7
 - Phase 5.5 CNPq Faixa C budget rule rows: 7
 - Phase 5.5 eligible CNPq budget item rows: 8
@@ -411,13 +431,18 @@ available for deferred final manual refinement, but they no longer block Phase
 - Phase 5.5 Vercel routing configs prepared: 1
 - Phase 5.5 Vercel production deployments prepared: 1
 - Phase 5.5 Vercel environment variables pending: 0
-- Phase 5.5 valid member responses currently counted by API: 1
-- Phase 5.5 ingested member-response files currently present: 1
+- Phase 5.5 valid member responses currently counted by API: 9
+- Phase 5.5 ingested member-response files currently present: 10
+- Phase 5.5 superseded duplicate response files: 1
+- Phase 5.5 partial budget total currently recovered: R$ 104,250.00
 - Phase 5.5 GitHub Pages support files prepared: 1
 - Phase 5.5 Git ingestion workflows prepared: 1
 - Phase 5.5 response data directories prepared: 1
 - Approved methodology checkpoint documents: 1
-- Institutions recorded in Phase 1A: 6
+- Institutions recorded in Phase 1A historically: 6
+- Active project institutions after 2026-07-14 withdrawal: 5
+- Stable people records in Phase 1A: 16
+- Active project participants after 2026-07-14 withdrawal: 15
 - CNPq Productivity Research Fellows identified from Lattes headers: 5
 - FAPESB/CNPq Productivity Research Fellows identified from Lattes headers: 1
 - People with FAPERJ Cientista do Nosso Estado records: 1
@@ -425,18 +450,23 @@ available for deferred final manual refinement, but they no longer block Phase
 
 ## Next action
 
-Project owner can continue sending the deployed link
-`https://universal-cnpq-2026.vercel.app/fase-5-5` to remaining project members
-for approval, contribution axes, CNPq-formatted budget items, and general
-comments. The project should monitor
-`https://universal-cnpq-2026.vercel.app/api/phase55-response` and the GitHub
-issues labeled `phase-5-5-response` to track returned forms.
-
-Later in the roadmap, the active Phase 5.5 checkpoint must be
-completed before Phase 6 starts.
+Develop Phase 6 - Master Project from `docs/phase6/6_MasterProject.md`, using
+the accepted five-task project matrix, the recovered Phase 5.5 response data,
+and the partial R$ 104,250.00 budget baseline. Keep UERJ budget as a carry-over
+item to incorporate when received.
 
 ## Recent updates
 
+- 2026-07-14: Recovered all currently ingested Phase 5.5 responses; nine latest
+  valid participant responses are counted, with Wanisson issue `#13`
+  superseding issue `#12`.
+- 2026-07-14: Recorded partial budget totals: R$ 104,250.00 overall, with
+  UFF R$ 50,000.00 and UFOB R$ 54,250.00; UERJ budget remains pending.
+- 2026-07-14: Marked `P-0012` Maron Freitas Anka as withdrawn/not
+  participating and removed SENAI CIMATEC from active project routes and new
+  response forms.
+- 2026-07-14: Opened Phase 6 - Master Project with explicit carry-over items
+  for pending UERJ budget and Maron/SENAI CIMATEC withdrawal.
 - 2026-07-06: Received and ingested the first valid Phase 5.5 member response:
   `P-0009` Clebson dos Santos Cruz, GitHub issue `#4`, recorded in
   `data/phase5_5_member_responses/issue-4.md`.
