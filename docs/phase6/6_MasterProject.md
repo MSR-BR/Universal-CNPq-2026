@@ -17,9 +17,9 @@ Completion criteria: The master project is fully derived from prior controlled
 documents and incorporates the approved budget, schedule, team information, and
 project-owner accepted adjustments from Phase 5.5.
 
-Version: 1.2
+Version: 1.3
 
-Status: Opened; master-project drafting can begin with deferred UERJ budget
+Status: 6A accepted and recorded; 6B scientific narrative is next
 
 Last update: 2026-07-14
 
@@ -72,6 +72,19 @@ The master project will keep metal complexes as the scientific aggregator.
 | `MT-04` | Quantum resources and information metrics in molecular/metal systems under external control. |
 | `MT-05` | Barocaloric effects in spin-crossover transitions of metal complexes, with UERJ-UFF-ORNL linkage. |
 
+## Phase 6 subsection status
+
+| Subsection | File | Status |
+| --- | --- | --- |
+| `6A` Master Project Skeleton | `docs/phase6/6A_MasterProjectSkeleton.md` | Accepted by project owner and recorded on 2026-07-14. |
+| `6B` Scientific Narrative | To be created after project-owner approval of the 6B draft | Next active checkpoint. |
+| `6C` Objectives | Pending 6B acceptance | Locked. |
+| `6D` Methodology and Work Plan | Pending 6C acceptance | Locked. |
+| `6E` Team, Infrastructure, and Governance | Pending 6D acceptance | Locked. |
+| `6F` Schedule and Expected Results | Pending 6E acceptance | Locked. |
+| `6G` Provisional Consolidated Budget | Pending 6F acceptance and UERJ budget update if available | Locked. |
+| `6H` Consolidated Master Project | Pending 6A-6G acceptance | Locked. |
+
 ## Partial budget baseline
 
 The current partial budget is a demand map, not the final CNPq budget. It uses
@@ -103,8 +116,9 @@ CNPq-form preparation.
 
 ## Next work in Phase 6
 
-1. Draft a reusable master-project narrative, not yet the CNPq form text.
-2. Convert the five candidate tasks into coherent objectives, methods,
+1. Develop 6B - Scientific Narrative for project-owner review, not yet the
+   CNPq form text.
+2. After 6B acceptance, convert the five candidate tasks into coherent objectives, methods,
    expected results, and integration logic.
 3. Build a first schedule and team-role map using only active participants.
 4. Keep the budget as provisional until UERJ values arrive.

@@ -26,7 +26,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.31
+Version: 2.32
 
 Status: Active
 
@@ -455,6 +455,11 @@ the accepted five-task project matrix, the recovered Phase 5.5 response data,
 and the partial R$ 104,250.00 budget baseline. Keep UERJ budget as a carry-over
 item to incorporate when received.
 
+The 6A Master Project Skeleton was accepted and recorded in
+`docs/phase6/6A_MasterProjectSkeleton.md`. The next active checkpoint is 6B -
+Scientific Narrative, to be drafted for project-owner approval before it is
+recorded.
+
 ## Recent updates
 
 - 2026-07-14: Recovered all currently ingested Phase 5.5 responses; nine latest
@@ -467,6 +472,8 @@ item to incorporate when received.
   response forms.
 - 2026-07-14: Opened Phase 6 - Master Project with explicit carry-over items
   for pending UERJ budget and Maron/SENAI CIMATEC withdrawal.
+- 2026-07-14: Recorded approved 6A - Master Project Skeleton and advanced the
+  active Phase 6 checkpoint to 6B - Scientific Narrative.
 - 2026-07-06: Received and ingested the first valid Phase 5.5 member response:
   `P-0009` Clebson dos Santos Cruz, GitHub issue `#4`, recorded in
   `data/phase5_5_member_responses/issue-4.md`.
