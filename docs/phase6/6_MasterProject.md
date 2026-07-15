@@ -17,9 +17,9 @@ Completion criteria: The master project is fully derived from prior controlled
 documents and incorporates the approved budget, schedule, team information, and
 project-owner accepted adjustments from Phase 5.5.
 
-Version: 1.8
+Version: 1.9
 
-Status: 6A through 6F recorded; 6G provisional consolidated budget is next
+Status: 6A through 6G recorded; 6H consolidated master project is next
 
 Last update: 2026-07-15
 
@@ -38,9 +38,10 @@ pending UERJ budget as an explicit deferred adjustment.
 ## Phase opening note
 
 The project owner instructed the repository to proceed on 2026-07-14 even
-though not all UERJ budget inputs had been received. This is recorded as an
-operational acceptance of Phase 5.5 for Phase 6 purposes, not as a claim that
-the final budget is complete.
+though not all UERJ budget inputs had been received. A consolidated UERJ
+budget response was later received as issue `#14` during 6G preparation. This
+does not make the final budget complete, but it resolves the main UERJ budget
+placeholder for the current provisional budget.
 
 `P-0012` Maron Freitas Anka was also withdrawn from the active team on
 2026-07-14. The stable ID remains preserved in Phase 1A records, but Maron and
@@ -55,7 +56,7 @@ master project unless the project owner later reintroduces them.
 | Phase 5.5 response set | Partial response set accepted for drafting. |
 | UFF budget input | Received from Mario Reis and Vinicius Gomes de Paula. |
 | UFOB budget input | Received from Clebson Cruz, Joao Vitor Cruz, Tatiana Braga, and Wanisson Santana. |
-| UERJ budget input | Incomplete; Alan Almeida submitted a zero-budget response, but the broader UERJ budget remains pending. |
+| UERJ budget input | Received through Paula de Oliveira Ribeiro Alho issue `#14`, with the note that the budget covers all UERJ collaborators; remaining individual responses may still be pending. |
 | ORNL input | Received from Antonio dos Santos with zero budget. |
 | Universidade de Aveiro input | Received from Paula Brandao with zero budget. |
 | SENAI CIMATEC route | Removed from active team scope after Maron withdrawal. |
@@ -82,8 +83,8 @@ The master project will keep metal complexes as the scientific aggregator.
 | `6D` Methodology and Work Plan | `docs/phase6/6D_MethodologyWorkPlan.md` | Recorded on 2026-07-15 after project-owner instruction to develop 6D. |
 | `6E` Team, Infrastructure, and Governance | `docs/phase6/6E_TeamInfrastructureGovernance.md` | Recorded on 2026-07-15 after project-owner instruction to present and save 6E. |
 | `6F` Schedule and Expected Results | `docs/phase6/6F_ScheduleExpectedResults.md` | Recorded on 2026-07-15 after project-owner instruction to develop 6F. |
-| `6G` Provisional Consolidated Budget | To be created after project-owner review of the 6G draft and UERJ budget update if available | Next active checkpoint. |
-| `6H` Consolidated Master Project | Pending 6A-6G acceptance | Locked. |
+| `6G` Provisional Consolidated Budget | `docs/phase6/6G_ProvisionalConsolidatedBudget.md` | Recorded on 2026-07-15 after project-owner instruction to develop 6G, with UERJ budget still pending. |
+| `6H` Consolidated Master Project | To be created after project-owner review of the 6H draft | Next active checkpoint. |
 
 ## Partial budget baseline
 
@@ -93,22 +94,22 @@ records.
 
 | Rubrica | Item de dispendio | Partial value |
 | --- | --- | ---: |
-| Custeio | Diarias (Total) | R$ 13,250.00 |
-| Custeio | Material de consumo | R$ 20,000.00 |
-| Custeio | Passagens (Total) | R$ 16,000.00 |
-| Capital | Equipamentos e Material permanente | R$ 50,000.00 |
+| Custeio | Diarias (Total) | R$ 44,950.00 |
+| Custeio | Material de consumo | R$ 37,283.40 |
+| Custeio | Passagens (Total) | R$ 37,000.00 |
+| Capital | Equipamentos e Material permanente | R$ 80,016.60 |
 | Capital | Material bibliografico (Total) | R$ 5,000.00 |
-| **Total parcial** |  | **R$ 104,250.00** |
+| **Total parcial** |  | **R$ 204,250.00** |
 
 Zero-value rows currently remain for import expenses and third-party services.
-UERJ budget values remain pending and must be incorporated before final Phase 7
-CNPq-form preparation.
+The main UERJ budget response is incorporated provisionally, but the final
+Phase 7 CNPq budget still requires eligibility and priority review.
 
 ## Carry-over queue
 
 | Carry-over ID | Item | Handling in Phase 6 |
 | --- | --- | --- |
-| `CO-01` | UERJ budget still pending | Draft with a clear placeholder and revise when UERJ values arrive. |
+| `CO-01` | UERJ budget received during 6G preparation | Incorporated provisionally from issue `#14`; review eligibility, details, and priority before Phase 7. |
 | `CO-02` | Maron/SENAI CIMATEC withdrawal | Already removed from active team, budget, infrastructure, and capability routes; preserve historical evidence only. |
 | `CO-03` | Wanisson duplicate responses | Count latest issue `#13`; ignore earlier duplicate issue `#12`. |
 | `CO-04` | UFF and UFOB budget consolidation | Use current partial totals as the initial budget baseline. |
@@ -116,11 +117,10 @@ CNPq-form preparation.
 
 ## Next work in Phase 6
 
-1. Develop 6G - Provisional Consolidated Budget for project-owner review, not
-   yet the final CNPq budget text.
-2. Use the 6F schedule to prioritize budget items by scientific need and by
-   their role in removing execution bottlenecks.
-3. Keep the UERJ budget as a controlled pending input unless values arrive
-   before 6G is finalized.
+1. Develop 6H - Consolidated Master Project for project-owner review, not yet
+   the final CNPq form text.
+2. Consolidate 6A through 6G into one reusable master-project document.
+3. Keep the issue `#14` UERJ budget as provisional until eligibility,
+   detailing, and priority are reviewed before Phase 7.
 4. Prepare the material needed later for Phase 7, where each CNPq form block
    should stay around two thirds of the maximum character limit.

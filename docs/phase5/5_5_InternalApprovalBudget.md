@@ -24,7 +24,7 @@ identified; and the project owner accepts the checkpoint as complete.
 
 Version: 1.7
 
-Status: Partially completed and accepted for Phase 6 opening with UERJ budget pending
+Status: Partially completed and accepted for Phase 6 opening; UERJ budget later received through issue `#14`
 
 Last update: 2026-07-14
 
@@ -133,16 +133,16 @@ Approval status values: `Pending`, `Approved`, `Approved with comments`,
 
 | Person ID | Name | Institution | Approval status | Comments/adjustments | Budget response |
 | --- | --- | --- | --- | --- | --- |
-| `P-0001` | Gabriel Fernandes Silva | UERJ | Pending | No response as of 2026-07-14 | Pending; UERJ budget deferred |
-| `P-0002` | Bruno de Pinho Alho | UERJ | Pending | No response as of 2026-07-14 | Pending; UERJ budget deferred |
+| `P-0001` | Gabriel Fernandes Silva | UERJ | Pending | No response as of 2026-07-15 | Covered by UERJ consolidated issue `#14` unless replaced by project owner |
+| `P-0002` | Bruno de Pinho Alho | UERJ | Pending | No response as of 2026-07-15 | Covered by UERJ consolidated issue `#14` unless replaced by project owner |
 | `P-0003` | Mario de Souza Reis Junior | UFF | Approved | Issue `#8`; no comments | Received; R$ 50,000.00 |
-| `P-0004` | Paula de Oliveira Ribeiro Alho | UERJ | Pending | No response as of 2026-07-14 | Pending; UERJ budget deferred |
-| `P-0005` | Pedro Jorge von Ranke Perlingeiro | UERJ | Pending | No response as of 2026-07-14 | Pending; UERJ budget deferred |
+| `P-0004` | Paula de Oliveira Ribeiro Alho | UERJ | Approved | Issue `#14`; comments state that the budget covers all UERJ collaborators | Received; R$ 100,000.00 |
+| `P-0005` | Pedro Jorge von Ranke Perlingeiro | UERJ | Pending | No response as of 2026-07-15 | Covered by UERJ consolidated issue `#14` unless replaced by project owner |
 | `P-0006` | Vinicius Gomes de Paula | UFF | Approved | Issue `#5`; no comments | Received; R$ 0.00 |
-| `P-0007` | Vinicius da Silva Ramos de Sousa | UERJ | Pending | No response as of 2026-07-14 | Pending; UERJ budget deferred |
-| `P-0008` | Alan Fillipe de Souza Almeida | UERJ | Approved | Issue `#9`; no comments | Received; R$ 0.00; UERJ budget still incomplete |
+| `P-0007` | Vinicius da Silva Ramos de Sousa | UERJ | Pending | No response as of 2026-07-15 | Covered by UERJ consolidated issue `#14` unless replaced by project owner |
+| `P-0008` | Alan Fillipe de Souza Almeida | UERJ | Approved | Issue `#9`; no comments | Received; R$ 0.00; main UERJ budget covered by issue `#14` |
 | `P-0009` | Clebson dos Santos Cruz | UFOB | Approved | Issue `#4`; no comments | Received; R$ 54,250.00 |
-| `P-0010` | Gabriel Batista de Souza | UERJ | Pending | No response as of 2026-07-14 | Pending; UERJ budget deferred |
+| `P-0010` | Gabriel Batista de Souza | UERJ | Pending | No response as of 2026-07-15 | Covered by UERJ consolidated issue `#14` unless replaced by project owner |
 | `P-0011` | Joao Vitor Almeida Tavares Cruz | UFOB | Approved | Issue `#10`; no comments | Received; R$ 0.00 |
 | `P-0012` | Maron Freitas Anka | SENAI CIMATEC | Not participating | Withdrawn by project-owner instruction on 2026-07-14 | Not applicable |
 | `P-0013` | Tatiana de Jesus Braga | UFOB | Approved | Issue `#11`; no comments | Received; R$ 0.00 |
@@ -295,15 +295,17 @@ Silva Santana submitted two zero-budget responses; issue `#13` supersedes issue
 | `P-0006` | `#5` | Vinicius Gomes de Paula | UFF | Received | R$ 0.00 |
 | `P-0008` | `#9` | Alan Fillipe de Souza Almeida | UERJ | Received | R$ 0.00 |
 | `P-0009` | `#4` | Clebson dos Santos Cruz | UFOB | Received | R$ 54,250.00 |
+| `P-0004` | `#14` | Paula de Oliveira Ribeiro Alho | UERJ | Received; comments state budget covers all UERJ collaborators | R$ 100,000.00 |
 | `P-0011` | `#10` | Joao Vitor Almeida Tavares Cruz | UFOB | Received | R$ 0.00 |
 | `P-0013` | `#11` | Tatiana de Jesus Braga | UFOB | Received | R$ 0.00 |
 | `P-0014` | `#13` | Wanisson Silva Santana | UFOB | Received; duplicate issue `#12` ignored | R$ 0.00 |
 | `P-0015` | `#7` | Antonio dos Santos | ORNL | Received | R$ 0.00 |
 | `P-0016` | `#6` | Paula Brandao | Universidade de Aveiro | Received | R$ 0.00 |
 
-Responses not yet received as of 2026-07-14: `P-0001`, `P-0002`, `P-0004`,
-`P-0005`, `P-0007`, and `P-0010`, all from UERJ. UERJ budget values remain
-pending and will be incorporated later if submitted.
+Responses not yet received as of 2026-07-15: `P-0001`, `P-0002`, `P-0005`,
+`P-0007`, and `P-0010`, all from UERJ. The main UERJ budget is now covered
+provisionally by `P-0004` issue `#14`, whose comments state that the budget
+covers all UERJ collaborators.
 
 `P-0012` Maron Freitas Anka is no longer an active participant and is excluded
 from the continuing response queue.
@@ -311,25 +313,26 @@ from the continuing response queue.
 | Rubrica | Item de dispendio | Partial total |
 | --- | --- | ---: |
 | Custeio | Despesas acessorias com importacao | R$ 0.00 |
-| Custeio | Diarias (Total) | R$ 13,250.00 |
-| Custeio | Material de consumo | R$ 20,000.00 |
-| Custeio | Passagens (Total) | R$ 16,000.00 |
+| Custeio | Diarias (Total) | R$ 44,950.00 |
+| Custeio | Material de consumo | R$ 37,283.40 |
+| Custeio | Passagens (Total) | R$ 37,000.00 |
 | Custeio | Servicos de Terceiros (Total) | R$ 0.00 |
-| Capital | Equipamentos e Material permanente | R$ 50,000.00 |
+| Capital | Equipamentos e Material permanente | R$ 80,016.60 |
 | Capital | Material bibliografico (Total) | R$ 5,000.00 |
-| **Total parcial** |  | **R$ 104,250.00** |
+| **Total parcial** |  | **R$ 204,250.00** |
 
 | Institution | Partial total |
 | --- | ---: |
 | UFF | R$ 50,000.00 |
 | UFOB | R$ 54,250.00 |
-| UERJ | R$ 0.00 received so far; main UERJ budget pending |
+| UERJ | R$ 100,000.00 through issue `#14`, stated as covering all UERJ collaborators |
 | ORNL | R$ 0.00 |
 | Universidade de Aveiro | R$ 0.00 |
 
 Project-owner instruction on 2026-07-14: proceed to Phase 6 using the current
 partial budget and record UERJ budget as a deferred adjustment to be
-incorporated later.
+incorporated later. Follow-up on 2026-07-15: issue `#14` supplied the UERJ
+budget and is incorporated provisionally in Phase 6G.
 
 Machine-readable recovered data are stored in:
 
@@ -384,9 +387,9 @@ Phase 6 can open only when the following conditions are satisfied.
 | Access and feasibility checklist created | Satisfied in this document. |
 | Summary circulated to all project members | Partially satisfied; active-response process remains open for missing UERJ responses. |
 | Approval/comments recorded for project members | Partially satisfied; 9 active participants have valid responses; UERJ responses remain incomplete. |
-| Budget items, values, and justifications collected | Partially satisfied; UFF and UFOB budget inputs received, UERJ budget deferred. |
-| Required adjustments resolved or deferred by project owner | Satisfied for Phase 6 opening; Maron withdrawal recorded and UERJ budget deferred. |
-| Project owner accepts Phase 5.5 as complete | Accepted as operationally sufficient for Phase 6 opening on 2026-07-14, with deferred UERJ budget incorporation. |
+| Budget items, values, and justifications collected | Partially satisfied; UFF, UFOB, and UERJ budget inputs received, with UERJ incorporated through issue `#14`; remaining individual UERJ responses may still be absent. |
+| Required adjustments resolved or deferred by project owner | Satisfied for Phase 6 opening; Maron withdrawal recorded and UERJ budget later incorporated provisionally. |
+| Project owner accepts Phase 5.5 as complete | Accepted as operationally sufficient for Phase 6 opening on 2026-07-14; UERJ budget incorporated through issue `#14` on 2026-07-15. |
 | Phase 6 - Master Project remains locked | Superseded; Phase 6 may open with explicit carry-over pending items. |
 
 ## Next controlled action

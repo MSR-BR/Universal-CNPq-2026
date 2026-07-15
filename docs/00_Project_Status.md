@@ -26,7 +26,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.37
+Version: 2.38
 
 Status: Active
 
@@ -239,14 +239,15 @@ operationally sufficient for Phase 6 opening with UERJ budget inputs deferred.
   run wrote the response file; the duplicate run failed only at the commit/push
   step. The workflow has been corrected to avoid duplicated concurrent
   ingestion runs and to skip unchanged issue sources.
-- Nine current valid Phase 5.5 member responses have been recovered from
-  GitHub issues and response files: `P-0003`, `P-0006`, `P-0008`, `P-0009`,
-  `P-0011`, `P-0013`, `P-0014`, `P-0015`, and `P-0016`. Issue `#12` from
-  `P-0014` is superseded by issue `#13` and is not counted twice.
-- Current partial budget total from latest valid responses is R$ 104,250.00:
-  UFF R$ 50,000.00, UFOB R$ 54,250.00, UERJ R$ 0.00 received so far, ORNL
-  R$ 0.00, and Universidade de Aveiro R$ 0.00. UERJ budget input remains
-  pending and will be incorporated later if submitted.
+- Ten current valid Phase 5.5 member responses have been recovered from
+  GitHub issues and response files: `P-0003`, `P-0004`, `P-0006`, `P-0008`,
+  `P-0009`, `P-0011`, `P-0013`, `P-0014`, `P-0015`, and `P-0016`. Issue `#12`
+  from `P-0014` is superseded by issue `#13` and is not counted twice.
+- Current provisional budget total from latest valid responses is
+  R$ 204,250.00: UERJ R$ 100,000.00, UFF R$ 50,000.00, UFOB R$ 54,250.00,
+  ORNL R$ 0.00, and Universidade de Aveiro R$ 0.00. The UERJ value comes from
+  issue `#14`, where `P-0004` Paula de Oliveira Ribeiro Alho states that the
+  amount covers all UERJ collaborators.
 - Phase 6 was opened in `docs/phase6/6_MasterProject.md` on 2026-07-14 with
   the partial Phase 5.5 response set and an explicit carry-over queue.
 - One end-to-end test response was successfully created as GitHub issue `#3`
@@ -268,6 +269,11 @@ operationally sufficient for Phase 6 opening with UERJ budget inputs deferred.
 - Phase 6F Schedule and Expected Results was recorded in
   `docs/phase6/6F_ScheduleExpectedResults.md`, using a 36-month integrated
   work plan with overlapping experimental, computational, and modeling cycles.
+- Phase 6G Provisional Consolidated Budget was recorded in
+  `docs/phase6/6G_ProvisionalConsolidatedBudget.md`, preserving the current
+  R$ 204,250.00 partial budget baseline, the R$ 45,750.00 margin to the Faixa
+  C cap, and the issue `#14` UERJ budget as a provisional incorporated item
+  that still requires final eligibility and priority review.
 - No final CNPq proposal text, consolidated final PDF, final budget values,
   final schedule, facility-access commitments, or final participant
   responsibility assignments have been created.
@@ -305,9 +311,9 @@ operationally sufficient for Phase 6 opening with UERJ budget inputs deferred.
 - Continue Phase 2 Team Book factual refinement only if the project owner
   requests deferred manual adjustments; the accepted baseline remains available
   for Phase 3 work.
-- Keep `https://universal-cnpq-2026.vercel.app/fase-5-5` available for
-  remaining UERJ responses, but do not block Phase 6 drafting while awaiting
-  those budget inputs.
+- Keep `https://universal-cnpq-2026.vercel.app/fase-5-5` available for any
+  remaining individual responses, but use issue `#14` as the current
+  consolidated UERJ budget input unless the project owner later replaces it.
 - Continue Phase 6 master-project drafting from the accepted five-axis project
   matrix and the partial budget baseline.
 - In Phase 7, keep CNPq form blocks comfortably below character limits, using
@@ -318,7 +324,7 @@ operationally sufficient for Phase 6 opening with UERJ budget inputs deferred.
 
 ## Repository statistics
 
-- Controlled Markdown documents in `docs/`: 28
+- Controlled Markdown documents in `docs/`: 29
 - Source files inventoried from Dropbox: 49
 - Files in Dropbox `CVs/` folder: 18
 - Phase 1A people records: 16
@@ -438,10 +444,10 @@ operationally sufficient for Phase 6 opening with UERJ budget inputs deferred.
 - Phase 5.5 Vercel routing configs prepared: 1
 - Phase 5.5 Vercel production deployments prepared: 1
 - Phase 5.5 Vercel environment variables pending: 0
-- Phase 5.5 valid member responses currently counted by API: 9
-- Phase 5.5 ingested member-response files currently present: 10
+- Phase 5.5 valid member responses currently counted in consolidated data: 10
+- Phase 5.5 ingested member-response files currently present: 11
 - Phase 5.5 superseded duplicate response files: 1
-- Phase 5.5 partial budget total currently recovered: R$ 104,250.00
+- Phase 5.5 partial budget total currently recovered: R$ 204,250.00
 - Phase 5.5 GitHub Pages support files prepared: 1
 - Phase 5.5 Git ingestion workflows prepared: 1
 - Phase 5.5 response data directories prepared: 1
@@ -459,8 +465,9 @@ operationally sufficient for Phase 6 opening with UERJ budget inputs deferred.
 
 Develop Phase 6 - Master Project from `docs/phase6/6_MasterProject.md`, using
 the accepted five-task project matrix, the recovered Phase 5.5 response data,
-and the partial R$ 104,250.00 budget baseline. Keep UERJ budget as a carry-over
-item to incorporate when received.
+and the partial R$ 204,250.00 budget baseline. Treat the issue `#14` UERJ
+budget as provisionally incorporated, pending final eligibility and priority
+review.
 
 The 6A Master Project Skeleton was revised into narrative form and recorded in
 `docs/phase6/6A_MasterProjectSkeleton.md`. The 6B Scientific Narrative was
@@ -470,10 +477,17 @@ was recorded in `docs/phase6/6D_MethodologyWorkPlan.md`. The 6E Team,
 Infrastructure, and Governance map was recorded in
 `docs/phase6/6E_TeamInfrastructureGovernance.md`. The 6F Schedule and Expected
 Results document was recorded in `docs/phase6/6F_ScheduleExpectedResults.md`.
-The next active checkpoint is 6G - Provisional Consolidated Budget.
+The 6G Provisional Consolidated Budget was recorded in
+`docs/phase6/6G_ProvisionalConsolidatedBudget.md`. The next active checkpoint
+is 6H - Consolidated Master Project.
 
 ## Recent updates
 
+- 2026-07-15: Received and incorporated the UERJ budget response from `P-0004`
+  Paula de Oliveira Ribeiro Alho, issue `#14`, adding R$ 100,000.00 and
+  raising the provisional total to R$ 204,250.00.
+- 2026-07-15: Recorded 6G - Provisional Consolidated Budget and advanced the
+  active Phase 6 checkpoint to 6H - Consolidated Master Project.
 - 2026-07-15: Recorded 6F - Schedule and Expected Results and advanced the
   active Phase 6 checkpoint to 6G - Provisional Consolidated Budget.
 - 2026-07-15: Recorded 6E - Team, Infrastructure, and Governance and advanced
