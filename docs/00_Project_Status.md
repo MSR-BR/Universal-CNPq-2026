@@ -26,11 +26,11 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.32
+Version: 2.33
 
 Status: Active
 
-Last update: 2026-07-14
+Last update: 2026-07-15
 
 ## Current phase
 
@@ -455,13 +455,16 @@ the accepted five-task project matrix, the recovered Phase 5.5 response data,
 and the partial R$ 104,250.00 budget baseline. Keep UERJ budget as a carry-over
 item to incorporate when received.
 
-The 6A Master Project Skeleton was accepted and recorded in
-`docs/phase6/6A_MasterProjectSkeleton.md`. The next active checkpoint is 6B -
-Scientific Narrative, to be drafted for project-owner approval before it is
+The 6A Master Project Skeleton was revised into narrative form and recorded in
+`docs/phase6/6A_MasterProjectSkeleton.md`. The 6B Scientific Narrative was
+recorded in `docs/phase6/6B_ScientificNarrative.md`. The next active checkpoint
+is 6C - Objectives, to be drafted for project-owner approval before it is
 recorded.
 
 ## Recent updates
 
+- 2026-07-15: Revised 6A into narrative form, recorded 6B - Scientific
+  Narrative, and advanced the active Phase 6 checkpoint to 6C - Objectives.
 - 2026-07-14: Recovered all currently ingested Phase 5.5 responses; nine latest
   valid participant responses are counted, with Wanisson issue `#13`
   superseding issue `#12`.

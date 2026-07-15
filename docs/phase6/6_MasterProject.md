@@ -17,11 +17,11 @@ Completion criteria: The master project is fully derived from prior controlled
 documents and incorporates the approved budget, schedule, team information, and
 project-owner accepted adjustments from Phase 5.5.
 
-Version: 1.3
+Version: 1.4
 
-Status: 6A accepted and recorded; 6B scientific narrative is next
+Status: 6A and 6B accepted and recorded; 6C objectives are next
 
-Last update: 2026-07-14
+Last update: 2026-07-15
 
 ## Scope guard
 
@@ -76,9 +76,9 @@ The master project will keep metal complexes as the scientific aggregator.
 
 | Subsection | File | Status |
 | --- | --- | --- |
-| `6A` Master Project Skeleton | `docs/phase6/6A_MasterProjectSkeleton.md` | Accepted by project owner and recorded on 2026-07-14. |
-| `6B` Scientific Narrative | To be created after project-owner approval of the 6B draft | Next active checkpoint. |
-| `6C` Objectives | Pending 6B acceptance | Locked. |
+| `6A` Master Project Skeleton | `docs/phase6/6A_MasterProjectSkeleton.md` | Accepted by project owner, recorded on 2026-07-14, and revised into narrative form on 2026-07-15. |
+| `6B` Scientific Narrative | `docs/phase6/6B_ScientificNarrative.md` | Accepted by project owner and recorded on 2026-07-15. |
+| `6C` Objectives | To be created after project-owner review of the 6C draft | Next active checkpoint. |
 | `6D` Methodology and Work Plan | Pending 6C acceptance | Locked. |
 | `6E` Team, Infrastructure, and Governance | Pending 6D acceptance | Locked. |
 | `6F` Schedule and Expected Results | Pending 6E acceptance | Locked. |
@@ -116,9 +116,9 @@ CNPq-form preparation.
 
 ## Next work in Phase 6
 
-1. Develop 6B - Scientific Narrative for project-owner review, not yet the
-   CNPq form text.
-2. After 6B acceptance, convert the five candidate tasks into coherent objectives, methods,
+1. Develop 6C - Objectives for project-owner review, not yet the CNPq form
+   text.
+2. After 6C acceptance, convert the five candidate tasks into coherent methods,
    expected results, and integration logic.
 3. Build a first schedule and team-role map using only active participants.
 4. Keep the budget as provisional until UERJ values arrive.
