@@ -26,7 +26,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.33
+Version: 2.34
 
 Status: Active
 
@@ -457,14 +457,16 @@ item to incorporate when received.
 
 The 6A Master Project Skeleton was revised into narrative form and recorded in
 `docs/phase6/6A_MasterProjectSkeleton.md`. The 6B Scientific Narrative was
-recorded in `docs/phase6/6B_ScientificNarrative.md`. The next active checkpoint
-is 6C - Objectives, to be drafted for project-owner approval before it is
-recorded.
+recorded in `docs/phase6/6B_ScientificNarrative.md`. The 6C Objectives were
+recorded in `docs/phase6/6C_Objectives.md`. The next active checkpoint is 6D -
+Methodology and Work Plan.
 
 ## Recent updates
 
 - 2026-07-15: Revised 6A into narrative form, recorded 6B - Scientific
   Narrative, and advanced the active Phase 6 checkpoint to 6C - Objectives.
+- 2026-07-15: Recorded 6C - Objectives and advanced the active Phase 6
+  checkpoint to 6D - Methodology and Work Plan.
 - 2026-07-14: Recovered all currently ingested Phase 5.5 responses; nine latest
   valid participant responses are counted, with Wanisson issue `#13`
   superseding issue `#12`.

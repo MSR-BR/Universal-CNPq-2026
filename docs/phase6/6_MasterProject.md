@@ -17,9 +17,9 @@ Completion criteria: The master project is fully derived from prior controlled
 documents and incorporates the approved budget, schedule, team information, and
 project-owner accepted adjustments from Phase 5.5.
 
-Version: 1.4
+Version: 1.5
 
-Status: 6A and 6B accepted and recorded; 6C objectives are next
+Status: 6A, 6B, and 6C recorded; 6D methodology and work plan are next
 
 Last update: 2026-07-15
 
@@ -78,8 +78,8 @@ The master project will keep metal complexes as the scientific aggregator.
 | --- | --- | --- |
 | `6A` Master Project Skeleton | `docs/phase6/6A_MasterProjectSkeleton.md` | Accepted by project owner, recorded on 2026-07-14, and revised into narrative form on 2026-07-15. |
 | `6B` Scientific Narrative | `docs/phase6/6B_ScientificNarrative.md` | Accepted by project owner and recorded on 2026-07-15. |
-| `6C` Objectives | To be created after project-owner review of the 6C draft | Next active checkpoint. |
-| `6D` Methodology and Work Plan | Pending 6C acceptance | Locked. |
+| `6C` Objectives | `docs/phase6/6C_Objectives.md` | Recorded on 2026-07-15 after project-owner instruction to develop 6C. |
+| `6D` Methodology and Work Plan | To be created after project-owner review of the 6D draft | Next active checkpoint. |
 | `6E` Team, Infrastructure, and Governance | Pending 6D acceptance | Locked. |
 | `6F` Schedule and Expected Results | Pending 6E acceptance | Locked. |
 | `6G` Provisional Consolidated Budget | Pending 6F acceptance and UERJ budget update if available | Locked. |
@@ -116,10 +116,10 @@ CNPq-form preparation.
 
 ## Next work in Phase 6
 
-1. Develop 6C - Objectives for project-owner review, not yet the CNPq form
-   text.
-2. After 6C acceptance, convert the five candidate tasks into coherent methods,
-   expected results, and integration logic.
+1. Develop 6D - Methodology and Work Plan for project-owner review, not yet
+   the CNPq form text.
+2. Convert the accepted objectives into coherent methods, expected results, and
+   integration logic.
 3. Build a first schedule and team-role map using only active participants.
 4. Keep the budget as provisional until UERJ values arrive.
 5. Prepare the material needed later for Phase 7, where each CNPq form block
