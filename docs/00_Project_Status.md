@@ -26,7 +26,7 @@ Dependencies: `docs/01_Methodology.md`, `docs/02_Project_Roadmap.md`,
 Completion criteria: This document is updated whenever the project phase,
 task list, source inventory, or repository structure changes.
 
-Version: 2.35
+Version: 2.36
 
 Status: Active
 
@@ -261,6 +261,10 @@ operationally sufficient for Phase 6 opening with UERJ budget inputs deferred.
   endpoint.
 - No CPF values from the team page were stored in the repository.
 - Capability domains are now recorded only as factual Phase 2 synthesis.
+- Phase 6E Team, Infrastructure, and Governance was recorded in
+  `docs/phase6/6E_TeamInfrastructureGovernance.md`, using only active
+  participants and active project institutions after the 2026-07-14 withdrawal
+  correction.
 - No final CNPq proposal text, consolidated final PDF, final budget values,
   final schedule, facility-access commitments, or final participant
   responsibility assignments have been created.
@@ -311,7 +315,7 @@ operationally sufficient for Phase 6 opening with UERJ budget inputs deferred.
 
 ## Repository statistics
 
-- Controlled Markdown documents in `docs/`: 26
+- Controlled Markdown documents in `docs/`: 27
 - Source files inventoried from Dropbox: 49
 - Files in Dropbox `CVs/` folder: 18
 - Phase 1A people records: 16
@@ -459,11 +463,15 @@ The 6A Master Project Skeleton was revised into narrative form and recorded in
 `docs/phase6/6A_MasterProjectSkeleton.md`. The 6B Scientific Narrative was
 recorded in `docs/phase6/6B_ScientificNarrative.md`. The 6C Objectives were
 recorded in `docs/phase6/6C_Objectives.md`. The 6D Methodology and Work Plan
-was recorded in `docs/phase6/6D_MethodologyWorkPlan.md`. The next active
-checkpoint is 6E - Team, Infrastructure, and Governance.
+was recorded in `docs/phase6/6D_MethodologyWorkPlan.md`. The 6E Team,
+Infrastructure, and Governance map was recorded in
+`docs/phase6/6E_TeamInfrastructureGovernance.md`. The next active checkpoint
+is 6F - Schedule and Expected Results.
 
 ## Recent updates
 
+- 2026-07-15: Recorded 6E - Team, Infrastructure, and Governance and advanced
+  the active Phase 6 checkpoint to 6F - Schedule and Expected Results.
 - 2026-07-15: Revised 6A into narrative form, recorded 6B - Scientific
   Narrative, and advanced the active Phase 6 checkpoint to 6C - Objectives.
 - 2026-07-15: Recorded 6C - Objectives and advanced the active Phase 6

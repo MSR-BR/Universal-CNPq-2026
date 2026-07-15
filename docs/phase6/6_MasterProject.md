@@ -17,9 +17,9 @@ Completion criteria: The master project is fully derived from prior controlled
 documents and incorporates the approved budget, schedule, team information, and
 project-owner accepted adjustments from Phase 5.5.
 
-Version: 1.6
+Version: 1.7
 
-Status: 6A through 6D recorded; 6E team, infrastructure, and governance are next
+Status: 6A through 6E recorded; 6F schedule and expected results are next
 
 Last update: 2026-07-15
 
@@ -80,8 +80,8 @@ The master project will keep metal complexes as the scientific aggregator.
 | `6B` Scientific Narrative | `docs/phase6/6B_ScientificNarrative.md` | Accepted by project owner and recorded on 2026-07-15. |
 | `6C` Objectives | `docs/phase6/6C_Objectives.md` | Recorded on 2026-07-15 after project-owner instruction to develop 6C. |
 | `6D` Methodology and Work Plan | `docs/phase6/6D_MethodologyWorkPlan.md` | Recorded on 2026-07-15 after project-owner instruction to develop 6D. |
-| `6E` Team, Infrastructure, and Governance | To be created after project-owner review of the 6E draft | Next active checkpoint. |
-| `6F` Schedule and Expected Results | Pending 6E acceptance | Locked. |
+| `6E` Team, Infrastructure, and Governance | `docs/phase6/6E_TeamInfrastructureGovernance.md` | Recorded on 2026-07-15 after project-owner instruction to present and save 6E. |
+| `6F` Schedule and Expected Results | To be created after project-owner review of the 6F draft | Next active checkpoint. |
 | `6G` Provisional Consolidated Budget | Pending 6F acceptance and UERJ budget update if available | Locked. |
 | `6H` Consolidated Master Project | Pending 6A-6G acceptance | Locked. |
 
@@ -116,10 +116,10 @@ CNPq-form preparation.
 
 ## Next work in Phase 6
 
-1. Develop 6E - Team, Infrastructure, and Governance for project-owner review,
-   not yet the CNPq form text.
-2. Build a first team-role and infrastructure map using only active
-   participants and active project institutions.
+1. Develop 6F - Schedule and Expected Results for project-owner review, not
+   yet the CNPq form text.
+2. Convert the methodology and governance maps into a plausible execution
+   sequence, milestones, and expected scientific products.
 3. Keep the budget as provisional until UERJ values arrive.
 4. Prepare the material needed later for Phase 7, where each CNPq form block
    should stay around two thirds of the maximum character limit.
